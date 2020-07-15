@@ -1,0 +1,10 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "817290d95cc525803b5bc8da57c987a76e9a3f28",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mnli/roberta-large/pfeiffer/roberta-large_mnli_pfeiffer.zip"
+    }
+  }
+}

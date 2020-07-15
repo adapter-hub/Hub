@@ -1,5 +1,12 @@
 {
     "nli": {
+        "multinli": {
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-large-multinli_pfeiffer.json"
+                }
+            }
+        },
         "qnli": {
             "b1017368d7a97b11": {
                 "versions": {
