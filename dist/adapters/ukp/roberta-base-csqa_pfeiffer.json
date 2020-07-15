@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "33413a3eb0bdc5686c78590c76d5ac2c26bb3a6c",
+      "sha256": "1b746725ab90f3cdc64fc0045330f3c970d201f58a8633673b1a95575276e884",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/csqa/roberta-base/pfeiffer/csqa_relu_16.zip"
+    }
+  }
+}

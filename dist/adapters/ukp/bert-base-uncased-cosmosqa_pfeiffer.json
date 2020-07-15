@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "d9d8736a8704efdab2b01a5c2fc953b6e766e4d4",
+      "sha256": "01b16d13291b3064aa485e0632622aa1eed3558cbca6a1e8398488d43c1c5004",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cosmosqa/bert-base-uncased/pfeiffer/cosmosqa_relu_16.zip"
+    }
+  }
+}

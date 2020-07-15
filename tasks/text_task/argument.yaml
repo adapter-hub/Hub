@@ -1,0 +1,5 @@
+task: argument
+displayname: Argument Mining
+description: |
+  Argumentation Mining aims at automatically recognizing arguments in written discourse in order to establish new
+  intelligent systems for facilitating information access, writing skills acquisition and text summarization.

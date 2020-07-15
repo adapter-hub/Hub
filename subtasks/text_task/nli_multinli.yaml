@@ -1,0 +1,42 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: nli
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: multinli
+
+# A short description of this subtask (max. 500 chars).
+description: |
+  Multi-Genre Natural Language Inference is a large-scale, crowdsourced entailment classification task.
+  Given a pair of sentences, the goal is to predict whether the second sentence is an entailment, contradiction, or neutral with respect to the first one.
+
+# A bibtex citation of the work related to this subtask.
+citation: |
+  @misc{williams2017broadcoverage,
+    title={A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference},
+    author={Adina Williams and Nikita Nangia and Samuel R. Bowman},
+    year={2017},
+    eprint={1704.05426},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+  }
+
+# The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: MultiNLI
+
+# The identifier of the language of the data in this subtask
+language: english
+
+# The default evaluation metric of this subtask.
+metric:
+  name: accuracy
+  higher_is_better: true
+
+# A URL pointing to more information on this subtask.
+url: "https://github.com/NYU-MLL/multiNLI"

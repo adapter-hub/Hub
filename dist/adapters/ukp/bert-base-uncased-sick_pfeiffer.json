@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "135a256b43a84fb754a937afa699b17bf57c60ba",
+      "sha256": "f31514fd8ae6508d4961b69c6c5f69d0faea12f7fe051b9cbfadc2ca6b42317c",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/sick/bert-base-uncased/pfeiffer/sick_relu_16.zip"
+    }
+  }
+}

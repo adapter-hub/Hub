@@ -1,0 +1,15 @@
+name: Pull Request Labeler
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+
+jobs:
+  label:
+    if: github.repository_owner == 'Adapter-Hub'
+    runs-on: ubuntu-latest
+    steps:
+    - uses: fjeremic/cron-labeler@0.2.0
+      with:
+        repo-token: "${{ secrets.BOT_TOKEN }}"
+        skip-labeled-prs: false

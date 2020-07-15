@@ -1,0 +1,9 @@
+task: my
+subtask: wiki
+description: |
+  Language modeling for the Burmese language on Wikipedia.
+  The Burmese language is a Sino-Tibetan language spoken in Myanmar where it is an official language and the language
+  of the Bamar people, the country's principal ethnic group.
+url: ""
+citation: ""
+ 

@@ -1,0 +1,11 @@
+{
+  "config_id": "87954f0c97a780e3",
+  "default_version": "madx",
+  "files": {
+    "madx": {
+      "sha1": "cfd9b2d6ea4fe6bea6d9758fdd45a82a21c89c2f",
+      "sha256": "074462132ba831dd214b95894aa9be9fce892597c8515cfdd058f7ef7317dcfe",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/tk/xlm-roberta-large/pfeiffer/tk_relu_2.zip"
+    }
+  }
+}

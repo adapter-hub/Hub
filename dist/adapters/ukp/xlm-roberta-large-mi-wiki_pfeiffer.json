@@ -1,0 +1,11 @@
+{
+  "config_id": "87954f0c97a780e3",
+  "default_version": "madx",
+  "files": {
+    "madx": {
+      "sha1": "ab8620432f69a55b912d37ecb4f773d1f02107e6",
+      "sha256": "a61d3e543a151a6348f985105458b5529150410078b182d16fa87ba519b0faff",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/mi/xlm-roberta-large/pfeiffer/mi_relu_2.zip"
+    }
+  }
+}

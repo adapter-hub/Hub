@@ -1,0 +1,18 @@
+# Adapter-Hub architecture entry
+# Defines an adapter architecture for Adapter-Hub.
+# --------------------
+
+# The short identifier of this architecture
+# Example: pfeiffer
+name: "TODO: REQUIRED"
+
+# The full name of the architecture that should be displayed.
+displayname: "TODO: REQUIRED"
+
+# A short description of this architecture (max. 500 chars).
+description: "TODO: REQUIRED"
+
+# The full adapter config dictionary for this architecture.
+config: "TODO: REQUIRED"
+
+citation: ""

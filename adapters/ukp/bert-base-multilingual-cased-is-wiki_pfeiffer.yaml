@@ -1,0 +1,82 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The name of the author(s) of this adapter.
+author: "Jonas Pfeiffer"
+
+# A bibtex citation of the work related to this adapter.
+citation: |
+  @article{pfeiffer20madx,
+    title={{MAD-X}: An {A}dapter-based {F}ramework for {M}ulti-task {C}ross-lingual {T}ransfer},
+    author={Pfeiffer, Jonas and Vuli\'{c}, Ivan and Gurevych, Iryna and Ruder, Sebastian},
+    journal={arXiv preprint},
+    year={2020},
+    url={https://arxiv.org/pdf/2005.00052.pdf},
+  }
+
+# The string identifier of the adapter architecture (must be available in architecture).
+# Describes the adapter architecture used by this adapter
+config: # TODO: REQUIRED
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: pfeiffer
+  # Overrides the default activation function of the specified adapter architecture.
+  # Example: tanh
+  non_linearity: gelu
+  # Overrides the default reduction factor of the specified adapter architecture
+  # Example: 64
+  reduction_factor: 2
+
+# The version to be downloaded if no version is explicitly stated.
+default_version: "nd"
+
+# A short description of this adapter.
+description: |
+  Pfeiffer Adapter trained with Masked Language Modelling on Icelandic Wikipedia Articles for 100k steps and a batch size of 64.
+
+# A contact email of the author(s).
+email: "pfeiffer@ukp.informatik.tu-darmstadt"
+
+# A list of different versions of this adapter available for download.
+files:
+  - sha1: "c7c7475a0174189cb4438995cc17aafab567e2bc"
+    sha256: "43833ebf7b6a876223bed94fb31b5875a949386ae44af603c9869981d5d89994"
+    # Download URL pointing to a zip folder containing the adapter module.
+    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/is/bert-base-multilingual-cased/pfeiffer/is_pfeiffer_gelu_nd.zip"
+    version: "nd"
+  - sha1: "754dca48cf6b10d7aa7968ada8bb91220a63038a"
+    sha256: "a06d5f300fc16e6940746f03e037471ef29bcb58357db8d350c26d2b6a93e652"
+    # Download URL pointing to a zip folder containing the adapter module.
+    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/is/bert-base-multilingual-cased/pfeiffer/is_pfeiffer_gelu.zip"
+    version: "wd"
+#   - ...
+
+# A GitHub handle associated with the author(s).
+github: "jopfeiff"
+
+# The hidden size of the model
+hidden_size: 768
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: "bert-base-multilingual-cased"
+
+# The model type.
+# Example: bert
+model_type: bert
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: wiki
+
+# The string identifier of the task this adapter belongs to.
+task: is
+
+# A Twitter handle associated with the author(s).
+twitter: "@PfeiffJo"
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: "text_lang"
+
+# A URL providing more information on this adapter/ the authors/ the organization.
+url: "https://pfeiffer.ai"

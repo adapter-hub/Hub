@@ -1,0 +1,16 @@
+{
+  "config_id": "2544b31b29c6067d",
+  "default_version": "nd",
+  "files": {
+    "nd": {
+      "sha1": "54a39807b29d14c1c07afca34219150ef1f3d7ff",
+      "sha256": "732b81c541cb941beb236faa30660e0407ab557f034ef0e66188ba23ad92be09",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/mhr/bert-base-multilingual-cased/pfeiffer/mhr_pfeiffer_gelu_nd.zip"
+    },
+    "wd": {
+      "sha1": "e928e35210a67197ced6a08322dedeff579a09aa",
+      "sha256": "e457c2ca6c60411991eb5bda440a636495e0b71a05b2a6cff1e602df84ed0647",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/mhr/bert-base-multilingual-cased/pfeiffer/mhr_pfeiffer_gelu.zip"
+    }
+  }
+}

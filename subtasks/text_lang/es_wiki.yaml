@@ -1,0 +1,9 @@
+task: es
+subtask: wiki
+description: |
+  Language modeling for the Spanish language on Wikipedia.
+  Spanish, or Castilian, is a Romance language that originated in the Iberian Peninsula and today is a global
+  language with more than 483 million native speakers, mainly in Spain and the Americas.
+url: ""
+citation: ""
+ 

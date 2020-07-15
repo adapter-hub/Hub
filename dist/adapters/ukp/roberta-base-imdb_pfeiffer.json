@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "416d80ce6b5a6eb5f21429933881ad6dbef4c33b",
+      "sha256": "812a5698c4ce3d05a6d4b68efbf8a1128a26908e359b2ae6a168b36f82dcb641",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/imdb/roberta-base/pfeiffer/imdb_relu_16.zip"
+    }
+  }
+}

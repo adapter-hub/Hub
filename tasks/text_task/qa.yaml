@@ -1,0 +1,4 @@
+task: qa
+displayname: Question Answering
+description: |
+  Question answering is the task of answering a natural language question.

@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "0354d93baf1327324c22c89c038c58c21d4e9f4d",
+      "sha256": "62c655fd461b75a48991f9818f609c60232a91760f7bd5026fe22bafe5fa0ca5",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/hellaswag/bert-base-uncased/pfeiffer/hellaswag_relu_16.zip"
+    }
+  }
+}

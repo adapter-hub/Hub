@@ -1,0 +1,42 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: comsense
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: siqa
+
+# A short description of this subtask (max. 500 chars).
+description: |
+  Social IQa is the first largescale benchmark for commonsense reasoning about social situations.
+  Social IQa contains 38,000 multiple choice questions for probing emotional and social intelligence in a variety of
+  everyday situations
+
+# A bibtex citation of the work related to this subtask.
+citation: |
+  @inproceedings{sap2019social,
+    title={Social IQa: Commonsense Reasoning about Social Interactions},
+    author={Sap, Maarten and Rashkin, Hannah and Chen, Derek and Le Bras, Ronan and Choi, Yejin},
+    booktitle={Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)},
+    pages={4453--4463},
+    year={2019}
+  }
+
+# The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: Social IQA
+
+# The identifier of the language of the data in this subtask
+language: english
+
+# The default evaluation metric of this subtask.
+metric:
+  name: accuracy
+  higher_is_better: true
+
+# A URL pointing to more information on this subtask.
+url: "https://maartensap.github.io/social-iqa/"

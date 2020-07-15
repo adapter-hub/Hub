@@ -1,0 +1,8 @@
+task: hi
+subtask: wiki
+description: |
+  Language modeling for the Hindi language on Wikipedia.
+  Hindi, or more precisely Modern Standard Hindi, is an Indo-Aryan language spoken in India.
+url: ""
+citation: ""
+ 

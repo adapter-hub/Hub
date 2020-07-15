@@ -1,0 +1,41 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: comsense
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: cosmosqa
+
+# A short description of this subtask (max. 500 chars).
+description: |
+  Cosmos QA is a large-scale dataset of 35,600 problems that require commonsense-based reading comprehension,
+  formulated as multiple-choice questions.
+
+# A bibtex citation of the work related to this subtask.
+citation: |
+  @inproceedings{huang2019cosmos,
+    title={Cosmos QA: Machine Reading Comprehension with Contextual Commonsense Reasoning},
+    author={Huang, Lifu and Le Bras, Ronan and Bhagavatula, Chandra and Choi, Yejin},
+    booktitle={Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)},
+    pages={2391--2401},
+    year={2019}
+  }
+
+# The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: Cosmos QA
+
+# The identifier of the language of the data in this subtask
+language: english
+
+# The default evaluation metric of this subtask.
+metric:
+  name: accuracy
+  higher_is_better: true
+
+# A URL pointing to more information on this subtask.
+url: "https://www.tau-nlp.org/commonsenseqa"

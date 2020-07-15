@@ -1,0 +1,4 @@
+task: sentiment
+displayname: Sentiment Analysis
+description: |
+  Sentiment analysis is the task of classifying the polarity of a given text.

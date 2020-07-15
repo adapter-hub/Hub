@@ -1,0 +1,16 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "bcf053c9d887c2582095553c6fefe2a1e4edfb3e",
+      "sha256": "80838601bc257b3c2568cae21226b907036c8cfbd7123d86c4f15b102621df69",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mrpc/bert-base-uncased/pfeiffer/bert-base-uncased_mrpc_pfeiffer.zip"
+    },
+    "AdapterFusion": {
+      "sha1": "d45ce448b3c83f92b7bfea9339cf11c2e7980be6",
+      "sha256": "9c1f2f56d238170c5ba042fab5077dc8ad5d44585a742d476d935947b1fb1bc0",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mrpc/bert-base-uncased/pfeiffer/mrpc_relu_16.zip"
+    }
+  }
+}

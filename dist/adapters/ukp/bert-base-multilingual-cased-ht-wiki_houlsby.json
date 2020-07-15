@@ -1,0 +1,11 @@
+{
+  "config_id": "f10efa747ae87c60",
+  "default_version": "nd",
+  "files": {
+    "nd": {
+      "sha1": "36cca6d64368de1680e8a633c2fbce50d43bdbdb",
+      "sha256": "1da5c22bfd29240644ebc7613178e2bbd310d22bf134d65f50d15e23c4c70703",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/ht/bert-base-multilingual-cased/houlsby/ht_houlsby_gelu_nd_50k.zip"
+    }
+  }
+}

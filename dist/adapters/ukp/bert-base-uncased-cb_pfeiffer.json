@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "c5a79cc4db0b21ce5cac3cc5b9252c06ba419034",
+      "sha256": "7ae04a83f8f983808773dcfd3ee308116f2fe7f5a9bc576bf6fc4bf2fce286e4",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cb/bert-base-uncased/pfeiffer/cb_relu_16.zip"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+task: qa
+subtask: boolq
+displayname: BoolQ
+description: |
+  We build a reading comprehension dataset, BoolQ, of such questions, and show that they are unexpectedly challenging.
+url: " https://goo.gl/boolq"
+citation: |
+  @inproceedings{clark-etal-2019-boolq,
+      title = "{B}ool{Q}: Exploring the Surprising Difficulty of Natural Yes/No Questions",
+      author = "Clark, Christopher  and
+        Lee, Kenton  and
+        Chang, Ming-Wei  and
+        Kwiatkowski, Tom  and
+        Collins, Michael  and
+        Toutanova, Kristina",
+      booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+      month = jun,
+      year = "2019",
+      address = "Minneapolis, Minnesota",
+      publisher = "Association for Computational Linguistics",
+      url = "https://www.aclweb.org/anthology/N19-1300",
+      doi = "10.18653/v1/N19-1300",
+      pages = "2924--2936",
+  }
+metric: 
+  name: accuracy
+  higher_is_better: true
+language: english

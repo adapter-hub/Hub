@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "7a64fdc14c4edbd943705c208deff462edb842be",
+      "sha256": "7e1273d601de44143ada033e478186095ec4ab3454bd8033fe9388479749b961",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/boolq/bert-base-uncased/pfeiffer/boolq_relu_16.zip"
+    }
+  }
+}

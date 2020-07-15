@@ -1,0 +1,77 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The name of the author(s) of this adapter.
+author: "Clifton Poth"
+
+# A bibtex citation of the work related to this adapter.
+citation: |
+  @article{pfeiffer2020AdapterHub,
+      title={AdapterHub: A Framework for Adapting Transformers},
+      author={Jonas Pfeiffer,
+              Andreas R\"uckl\'{e},
+              Clifton Poth,
+              Aishwarya Kamath,
+              Ivan Vuli\'{c},
+              Sebastian Ruder,
+              Kyunghyun Cho,
+              Iryna Gurevych},
+      journal={ArXiv},
+      year={2020}
+  }
+
+# The string identifier of the adapter architecture (must be available in architecture).
+# Describes the adapter architecture used by this adapter
+config: # TODO: REQUIRED
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: houlsby
+
+# The version to be downloaded if no version is explicitly stated.
+default_version: "1"
+
+# A short description of this adapter.
+description: |
+  Houlsby Adapter trained on the RTE task with the default run_glue.py script.
+
+# A contact email of the author(s).
+email: "poth@ukp.informatik.tu-darmstadt.de"
+
+# A list of different versions of this adapter available for download.
+files:
+  - sha1: "0c57b857e53fe890cd6d9bf3bcb3819d02ad581e"
+    sha256: "166cd37be86faa380ebe8153bd57fa82b59ec98856a501251e9f1e5a96f72207"
+    # Download URL pointing to a zip folder containing the adapter module.
+    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/rte/bert-base-uncased/houlsby/bert-base-uncased_rte_houlsby.zip"
+    version: "1"
+
+
+# A GitHub handle associated with the author(s).
+github: "calpt"
+
+# The hidden size of the model
+hidden_size: 768
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: "bert-base-uncased"
+
+# The model type.
+# Example: bert
+model_type: bert
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: rte
+
+# The string identifier of the task this adapter belongs to.
+task: nli
+
+# A Twitter handle associated with the author(s).
+twitter: ""
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: "text_task"
+
+# A URL providing more information on this adapter/ the authors/ the organization.
+url: "https://www.informatik.tu-darmstadt.de/ukp/ukp_home/index.en.jsp"

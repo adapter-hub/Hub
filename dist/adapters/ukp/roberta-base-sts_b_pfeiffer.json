@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "B80962907ACA970A03048C1D048F47CFAC3A984E",
+      "sha256": "7E4E55A974DF128CB2A8447EE7787B0D8D92098BE31B0C3697337EFBCBADA973",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/sts-b/roberta-base/pfeiffer/roberta-base_sts-b_pfeiffer.zip"
+    }
+  }
+}

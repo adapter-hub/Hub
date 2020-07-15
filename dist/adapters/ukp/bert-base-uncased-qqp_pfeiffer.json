@@ -1,0 +1,16 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "129047d8658d566bc0ce10878fa2c95779fbcdb9",
+      "sha256": "828ba56c7624d6bb9119b50d9e70b1e3109a1d7b10ddb1e4dd2d454b2a70e146",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/qqp/bert-base-uncased/pfeiffer/bert-base-uncased_qqp_pfeiffer.zip"
+    },
+    "AdapterFusion": {
+      "sha1": "d8d6ad2bc11613bca862568e9a5950e27aad9def",
+      "sha256": "c8effd28c333683f2a86575487cd143a543a528bef72a0c0c0017042e5de447a",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/qqp/bert-base-uncased/pfeiffer/qqp_relu_16.zip"
+    }
+  }
+}

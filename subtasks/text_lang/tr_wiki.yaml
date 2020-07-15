@@ -1,0 +1,9 @@
+task: tr
+subtask: wiki
+description: |
+  Language modeling for the Turkish language on Wikipedia.
+  Turkish, also referred to as Istanbul Turkish or Turkey Turkish, is the most widely spoken of the Turkic
+  languages, with around 70 to 80 million speakers, mostly in Turkey.
+url: ""
+citation: ""
+ 

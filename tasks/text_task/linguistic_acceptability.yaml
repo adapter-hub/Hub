@@ -1,0 +1,4 @@
+task: lingaccept
+displayname: Linguistic Acceptability
+description: |
+   Tasks of judging the grammatical acceptability of a sentence, with the goal of testing their linguistic competence.

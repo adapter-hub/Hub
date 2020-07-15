@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "8baf5160687aa5cfe9bbcb5122d0ad780fb66006",
+      "sha256": "b0a2ca37e0d4794aa81b3b2cc50eecfc534f54fa1af4e9a5cb68e6b35edfa496",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/ukpsent/roberta-base/pfeiffer/ukpsent1_relu_16.zip"
+    }
+  }
+}

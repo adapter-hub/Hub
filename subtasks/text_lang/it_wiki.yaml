@@ -1,0 +1,9 @@
+task: it
+subtask: wiki
+description: |
+  Language modeling for the Italian language on Wikipedia.
+  Italian or lingua italiana, is a Romance language of the Indo-European language family. Italian descended from the
+  Vulgar Latin of the Roman Empire and, together with Sardinian, is by most measures the Romance language closest to it.
+url: ""
+citation: ""
+ 

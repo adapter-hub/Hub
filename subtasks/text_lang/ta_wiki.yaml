@@ -1,0 +1,9 @@
+task: ta
+subtask: wiki
+description: |
+  Language modeling for the Tamil language on Wikipedia.
+  Tamil, About this soundpronunciation is a Dravidian language predominantly spoken by the Tamil people of India and
+  Sri Lanka, and by the Tamil diaspora and Sri Lankan Muslims.
+url: ""
+citation: ""
+ 

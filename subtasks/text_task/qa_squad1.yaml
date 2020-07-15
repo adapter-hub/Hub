@@ -1,0 +1,19 @@
+task: qa
+subtask: squad1.1
+displayname: SQuAD 1.1
+description: |
+  Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.
+url: "https://rajpurkar.github.io/SQuAD-explorer/"
+citation: |
+  @misc{rajpurkar2016squad,
+    title={SQuAD: 100,000+ Questions for Machine Comprehension of Text},
+    author={Pranav Rajpurkar and Jian Zhang and Konstantin Lopyrev and Percy Liang},
+    year={2016},
+    eprint={1606.05250},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+  }
+metric: 
+  name: accuracy
+  higher_is_better: true
+language: english

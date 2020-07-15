@@ -1,0 +1,18 @@
+task: comsense
+subtask: hellaswag
+displayname: HellaSwag
+description: |
+  HellaSwag, a new benchmark for commonsense NLI.
+url: "https://rowanzellers.com/hellaswag/"
+citation: |
+  @inproceedings{zellers2019hellaswag,
+    title={HellaSwag: Can a Machine Really Finish Your Sentence?},
+    author={Zellers, Rowan and Holtzman, Ari and Bisk, Yonatan and Farhadi, Ali and Choi, Yejin},
+    booktitle={Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics},
+    pages={4791--4800},
+    year={2019}
+  }
+metric: 
+  name: accuracy
+  higher_is_better: true
+language: english

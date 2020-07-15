@@ -1,0 +1,50 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: nli
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: sick
+
+# A short description of this subtask (max. 500 chars).
+description: |
+  The SICK relatedness (SICK-R) task trains a linear model to output a score from 1 to 5 indicating the relatedness of
+  two sentences. For the same dataset (SICK-E) can be treated as a three-class classification problem using the
+  entailment labels (classes are ‘entailment’, ‘contradiction’, and ‘neutral’).
+
+# A bibtex citation of the work related to this subtask.
+citation: |
+  @inproceedings{marelli-etal-2014-sick,
+      title = "A {SICK} cure for the evaluation of compositional distributional semantic models",
+      author = "Marelli, Marco  and
+        Menini, Stefano  and
+        Baroni, Marco  and
+        Bentivogli, Luisa  and
+        Bernardi, Raffaella  and
+        Zamparelli, Roberto",
+      booktitle = "Proceedings of the Ninth International Conference on Language Resources and Evaluation ({LREC}-2014)",
+      month = may,
+      year = "2014",
+      address = "Reykjavik, Iceland",
+      publisher = "European Languages Resources Association (ELRA)",
+      url = "http://www.lrec-conf.org/proceedings/lrec2014/pdf/363_Paper.pdf",
+      pages = "216--223",
+  }
+
+
+# The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: SICK
+
+# The identifier of the language of the data in this subtask
+language: english
+
+# The default evaluation metric of this subtask.
+metric:
+  name: accuracy
+  higher_is_better: true
+url: "https://allenai.org/data/scitail"

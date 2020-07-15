@@ -1,0 +1,5 @@
+id: text_lang
+displayname: Language
+description: |
+  Adapter module for the text modality that captures language-specific knowledge which can be
+  applied to any downstream task.

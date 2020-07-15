@@ -1,0 +1,71 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://adapterhub.ml/subtask.schema.json",
+    "type": "object",
+    "title": "Adapter-Hub subtask definition",
+    "description": "Defines a specific subtask describing the dataset the corresponding modules where trained on.",
+    "required": [
+        "task",
+        "subtask",
+        "description"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "task": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 30,
+            "description": "The short identifier of the task this subtask belongs to.",
+            "examples": ["nli"]
+        },
+        "subtask": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 30,
+            "description": "The short identifier of this subtask.",
+            "examples": ["multinli"]
+        },
+        "displayname": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 30,
+            "description": "The full name of the subtask that should be displayed e.g. on the website.",
+            "examples": ["MultiNLI"]
+        },
+        "description": {
+            "type": "string",
+            "maxLength": 500,
+            "description": "A short description of this subtask (max. 500 chars)."
+        },
+        "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "A URL pointing to more information on this subtask."
+        },
+        "citation": {
+            "type": "string",
+            "description": "A bibtex citation of the work related to this subtask."
+        },
+        "language": {
+            "type": "string",
+            "description": "The identifier of the language of the data in this subtask"
+        },
+        "metric": {
+            "type": "object",
+            "required": [
+                "name",
+                "higher_is_better"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "higher_is_better": {
+                    "type": "boolean"
+                }
+            },
+            "description": "The default evaluation metric of this subtask."
+        }
+    }
+}

@@ -1,0 +1,9 @@
+task: is
+subtask: wiki
+description: |
+  Language modeling for the Icelandic language on Wikipedia.
+  Icelandic is a North Germanic language spoken by about 314,000 people, the vast majority of whom live in Iceland
+  where it is the national language.
+url: ""
+citation: ""
+ 

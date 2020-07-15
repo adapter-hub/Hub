@@ -1,0 +1,42 @@
+name: Format Checks
+
+on:
+  pull_request:
+    branches: [ master ]
+    paths: [ 'architectures/**', 'tasks/**', 'subtasks/**' ]
+  push:
+    branches: [ master ]
+    paths: [ 'architectures/**', 'tasks/**', 'subtasks/**' ]
+
+jobs:
+  # Check if the file format seems valid
+  check_format:
+    name: File format
+    runs-on: ubuntu-latest
+    # output changed files for the next step
+    outputs:
+      added_modified: ${{ steps.files.outputs.added_modified }}
+    steps:
+      - uses: actions/checkout@v2
+      - id: files
+        uses: calpt/get-changed-files@master
+        with:
+          format: 'space-delimited'
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+      - name: Install
+        run: |
+          pip install -r scripts/requirements.txt
+      - name: Architecture entry format checking
+        run: |
+          python scripts/check_format.py architecture ${{ steps.files.outputs.added_modified }}
+      - name: Task entry format checking
+        run: |
+          python scripts/check_format.py task ${{ steps.files.outputs.added_modified }}
+      - name: Subtask entry format checking
+        run: |
+          python scripts/check_format.py subtask ${{ steps.files.outputs.added_modified }}
+      - name: File generation test
+        run: |
+          python scripts/generate.py

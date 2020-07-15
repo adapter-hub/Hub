@@ -1,0 +1,8 @@
+task: sw
+subtask: wiki
+description: |
+  Language modeling for the Swahili language on Wikipedia.
+  Swahili, also known by its native name Kiswahili, is a Bantu language and the first language of the Swahili people.
+url: ""
+citation: ""
+ 

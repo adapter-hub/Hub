@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "c4658943ca25c7189f15d57cae40683a1adb1093",
+      "sha256": "6d78360979716fb45d82ddff09509504f283fa09321ec64f174ed9b3b3fc2a91",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/ukpsent/bert-base-uncased/pfeiffer/ukpsent1_relu_16.zip"
+    }
+  }
+}

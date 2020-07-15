@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "1cef18b5511d7144fcf4856bdf26ac3e89ef8994",
+      "sha256": "7e0543f4226caf70b9cc9f404b8f7bb519228122b1c8edde233df678fc1dcf03",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/qqp/roberta-base/pfeiffer/qqp_relu_16.zip"
+    }
+  }
+}

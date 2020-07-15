@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "01494406842524a0d8c5605a8c08f67e62b9a884",
+      "sha256": "198031c0f7f136f94ee576a6e3e3aeae094274d9b18b06e97f45618a516753c7",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cb/roberta-base/pfeiffer/cb_relu_16.zip"
+    }
+  }
+}

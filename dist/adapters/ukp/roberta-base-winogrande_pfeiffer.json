@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "7049fe02db5416a99f7037fbd0066e4b7e21bb8d",
+      "sha256": "19f0a269dbd6bdc29555d500b613f24587527da6c6ab3b21bbf90036d4544d83",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/winogrande/roberta-base/pfeiffer/winogrande_relu_16.zip"
+    }
+  }
+}

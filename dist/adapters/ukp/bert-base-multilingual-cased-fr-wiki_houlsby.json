@@ -1,0 +1,16 @@
+{
+  "config_id": "f10efa747ae87c60",
+  "default_version": "nd",
+  "files": {
+    "nd": {
+      "sha1": "5a55936c2b21e48e14b22f9bde6857b3a16a7511",
+      "sha256": "6ce69750eea7c02decd1f2a8df2733dcac363ab0649168f61908c050ccc3c6e0",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/fr/bert-base-multilingual-cased/houlsby/fr_houlsby_gelu_nd.zip"
+    },
+    "wd": {
+      "sha1": "6dc65a60cb8c68f5aec7a80c268383d997363ee6",
+      "sha256": "0db17ecaabcab7ccc7e119b1b15938ed03b007919224dcea72c5c1c39a931517",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/fr/bert-base-multilingual-cased/houlsby/fr_houlsby_gelu.zip"
+    }
+  }
+}

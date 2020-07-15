@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "d39efeadf7e0ba008064542806b66e7f32feda00",
+      "sha256": "1d4a0214eda05bd583a20a3d9e95f9ef9ac460ffe980839c80ddd60d0353b4b7",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/csqa/bert-base-uncased/pfeiffer/csqa_relu_16.zip"
+    }
+  }
+}

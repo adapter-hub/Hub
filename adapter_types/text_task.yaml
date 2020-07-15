@@ -1,0 +1,4 @@
+id: text_task
+displayname: Task
+description: |
+  Adapter module for the text modality that captures knowledge of a specific downsteam task.

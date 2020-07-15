@@ -1,0 +1,9 @@
+task: el
+subtask: wiki
+description: |
+  Language modeling for the Greek language on Wikipedia.
+  Greek is an independent branch of the Indo-European family of languages, native to Greece, Cyprus,
+  Albania and other parts of the Eastern Mediterranean and the Black Sea.
+url: ""
+citation: ""
+ 

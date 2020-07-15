@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "7beb18a3aa1c3eac140b2578bb3c91f632ef590d",
+      "sha256": "bdad69eaee4cf21c98ecc65469dc0e830f9efb526f5b40c2a7c29e0b96519b02",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cola/bert-base-uncased/pfeiffer/bert-base-uncased_cola_pfeiffer.zip"
+    }
+  }
+}

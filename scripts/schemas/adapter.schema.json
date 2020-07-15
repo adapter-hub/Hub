@@ -1,0 +1,210 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://adapterhub.ml/adapter.schema.json",
+    "type": "object",
+    "title": "Adapter-Hub adapter entry",
+    "description": "Defines a single adapter entry in Adapter-Hub",
+    "required": [
+        "type",
+        "task",
+        "subtask",
+        "model_type",
+        "model_name",
+        "author",
+        "config",
+        "default_version",
+        "files"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "model_name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The string identifier of the pre-trained model (by which it is identified at Huggingface).",
+            "examples": [
+                "bert-base-uncased"
+            ]
+        },
+        "model_class": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.",
+            "examples": [
+                "BertModelWithHeads"
+            ]
+        },
+        "config": {
+            "type": "object",
+            "description": "Describes the adapter architecture used by this adapter",
+            "required": [
+                "using"
+            ],
+            "properties": {
+                "using": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "The name of the adapter config used by this adapter (a short name available in the `architectures` folder).",
+                    "examples": [
+                        "pfeiffer"
+                    ]
+                },
+                "non_linearity": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "Overrides the default activation function of the specified adapter architecture.",
+                    "examples": [
+                        "tanh"
+                    ]
+                },
+                "reduction_factor": {
+                    "type": "integer",
+                    "minLength": 1,
+                    "description": "Overrides the default reduction factor of the specified adapter architecture",
+                    "examples": [
+                        64
+                    ]
+                }
+            },
+            "additionalProperties": false
+        },
+        "author": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The name of the author(s) of this adapter."
+        },
+        "email": {
+            "type": "string",
+            "format": "email",
+            "description": "A contact email of the author(s)."
+        },
+        "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "A URL providing more information on this adapter/ the authors/ the organization."
+        },
+        "github": {
+            "type": "string",
+            "description": "A GitHub handle associated with the author(s)."
+        },
+        "twitter": {
+            "type": "string",
+            "description": "A Twitter handle associated with the author(s)."
+        },
+        "citation": {
+            "type": "string",
+            "description": "A bibtex citation of the work related to this adapter."
+        },
+        "description": {
+            "type": "string",
+            "description": "A short description of this adapter."
+        },
+        "default_version": {
+            "type": "string",
+            "description": "The version to be downloaded if no version is explicitly stated."
+        },
+        "files": {
+            "type": "array",
+            "description": "A list of different versions of this adapter available for download.",
+            "minItems": 1,
+            "items": {
+                "type": "object",
+                "anyOf": [
+                    {
+                        "required": [
+                            "version",
+                            "url",
+                            "sha1"
+                        ]
+                    },
+                    {
+                        "required": [
+                            "version",
+                            "url",
+                            "sha256"
+                        ]
+                    }
+                ],
+                "additionalProperties": false,
+                "properties": {
+                    "version": {
+                        "type": "string"
+                    },
+                    "url": {
+                        "type": "string",
+                        "format": "uri",
+                        "description": "Download URL pointing to a zip folder containing the adapter module."
+                    },
+                    "sha1": {
+                        "type": "string"
+                    },
+                    "sha256": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string",
+                        "description": "A short description of this adapter version."
+                    }
+                }
+            }
+        },
+        "task": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The string identifier of the task this adapter belongs to."
+        },
+        "subtask": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The string identifier of the subtask this adapter belongs to."
+        },
+        "score": {
+            "type": "number",
+            "description": "The score this adapter achieves on the dataset."
+        },
+        "hidden_size": {
+            "type": "integer",
+            "description": "The hidden size of the model",
+            "$comment": "$hidden"
+        },
+        "model_type": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The model type.",
+            "examples": [
+                "bert"
+            ]
+        },
+        "name": {
+            "type": "string",
+            "minLength": 1,
+            "$comment": "$hidden"
+        },
+        "type": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The type of adapter (one of the options available in `adapter_type`."
+        },
+        "dependencies": {
+            "type": "array",
+            "description": "A list of adapters this adapter is dependent on.",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "key": {
+                        "type": "string",
+                        "minLength": 1,
+                        "description": "The key (username/filename_without_ext) of the adapter dependency.",
+                        "examples": [
+                            "example-org/text_task-sst-bert"
+                        ]
+                    },
+                    "description": {
+                        "type": "string",
+                        "maxLength": 100
+                    }
+                },
+                "additionalProperties": false
+            }
+        }
+    }
+}

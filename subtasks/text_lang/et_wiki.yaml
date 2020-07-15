@@ -1,0 +1,8 @@
+task: et
+subtask: wiki
+description: |
+  Language modeling for the Estonian language on Wikipedia.
+  Estonian is a Uralic language of the Finnic branch spoken in Estonia.
+url: ""
+citation: ""
+ 

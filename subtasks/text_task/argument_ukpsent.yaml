@@ -1,0 +1,51 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: argument
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: ukpsent
+
+# A short description of this subtask (max. 500 chars).
+description: |
+  The UKP Sentential Argument Mining Corpus includes 25,492 sentences over eight controversial topics. Each sentence
+  was annotated via crowdsourcing as either a supporting argument, an attacking argument, or not an argument with
+  respect to the topic.
+
+# A bibtex citation of the work related to this subtask.
+citation: |
+  @inproceedings{stab-etal-2018-cross,
+      title = "Cross-topic Argument Mining from Heterogeneous Sources",
+      author = "Stab, Christian  and
+        Miller, Tristan  and
+        Schiller, Benjamin  and
+        Rai, Pranav  and
+        Gurevych, Iryna",
+      booktitle = "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+      month = oct # "-" # nov,
+      year = "2018",
+      address = "Brussels, Belgium",
+      publisher = "Association for Computational Linguistics",
+      url = "https://www.aclweb.org/anthology/D18-1402",
+      doi = "10.18653/v1/D18-1402",
+      pages = "3664--3674",
+  }
+
+# The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: UKP Sentential Argument Mining
+
+# The identifier of the language of the data in this subtask
+language: english
+
+# The default evaluation metric of this subtask.
+metric:
+  name: accuracy
+  higher_is_better: true
+
+# A URL pointing to more information on this subtask.
+url: "https://www.informatik.tu-darmstadt.de/ukp/research_6/data/argumentation_mining_1/ukp_sentential_argument_mining_corpus/index.en.jsp"

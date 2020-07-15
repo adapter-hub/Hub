@@ -1,0 +1,81 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The name of the author(s) of this adapter.
+author: "Jonas Pfeiffer"
+
+# A bibtex citation of the work related to this adapter.
+citation: |
+  @article{pfeiffer20madx,
+    title={{MAD-X}: An {A}dapter-based {F}ramework for {M}ulti-task {C}ross-lingual {T}ransfer},
+    author={Pfeiffer, Jonas and Vuli\'{c}, Ivan and Gurevych, Iryna and Ruder, Sebastian},
+    journal={arXiv preprint},
+    year={2020},
+    url={https://arxiv.org/pdf/2005.00052.pdf},
+  }
+
+# Describes the adapter architecture used by this adapter
+config: # TODO: REQUIRED
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: houlsby
+  # Overrides the default activation function of the specified adapter architecture.
+  # Example: tanh
+  non_linearity: gelu
+  # Overrides the default reduction factor of the specified adapter architecture
+  # Example: 64
+  reduction_factor: 2
+
+# The version to be downloaded if no version is explicitly stated.
+default_version: "nd_150k"
+
+# A short description of this adapter.
+description: |
+    Houlsby Adapter trained with Masked Language Modelling on Greek Wikipedia Articles for 250k steps and a batch size of 64.
+
+# A contact email of the author(s).
+email: "pfeiffer@ukp.informatik.tu-darmstadt"
+
+# A list of different versions of this adapter available for download.
+files:
+  - sha1: "69b9c94467aed7e1c11c2c94087d98302a241334"
+    sha256: "bc73f9b48225913df520f15909de3e4569704b3d02ea4a2a5d4f74557d9bb52d"
+    # Download URL pointing to a zip folder containing the adapter module.
+    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/el/bert-base-multilingual-cased/houlsby/el_houlsby_gelu_nd_150k.zip"
+    version: "nd_150k"
+  - sha1: "1037183f8b644b4c2437c21aeba9b9c1d09882fc"
+    sha256: "9fc17b6770f456636e3ae319d5098e5e54aaa7d0805c41a4da0005b305c6ea2e"
+    # Download URL pointing to a zip folder containing the adapter module.
+    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/el/bert-base-multilingual-cased/houlsby/el_houlsby_gelu_150k.zip"
+    version: "wd_150k"
+#   - ...
+
+# A GitHub handle associated with the author(s).
+github: "jopfeiff"
+
+# The hidden size of the model
+hidden_size: 768
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: "bert-base-multilingual-cased"
+
+# The model type.
+# Example: bert
+model_type: bert
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: wiki
+
+# The string identifier of the task this adapter belongs to.
+task: el
+
+# A Twitter handle associated with the author(s).
+twitter: "@PfeiffJo"
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: "text_lang"
+
+# A URL providing more information on this adapter/ the authors/ the organization.
+url: "https://pfeiffer.ai"

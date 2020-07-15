@@ -1,0 +1,11 @@
+{
+  "config_id": "87954f0c97a780e3",
+  "default_version": "madx",
+  "files": {
+    "madx": {
+      "sha1": "a04820b3029269a837da0e16adedabd37eeb9624",
+      "sha256": "75efd64fa08e2f5ee35358b9db55d9a5132b1f93ec7b509301e5484fda7a0e3f",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/xmf/bert-base-multilingual-cased/pfeiffer/xmf_relu_2.zip"
+    }
+  }
+}

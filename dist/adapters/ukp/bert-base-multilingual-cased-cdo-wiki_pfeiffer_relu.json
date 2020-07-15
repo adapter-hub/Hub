@@ -1,0 +1,11 @@
+{
+  "config_id": "87954f0c97a780e3",
+  "default_version": "madx",
+  "files": {
+    "madx": {
+      "sha1": "7b8b94378439d48e8d2732c35b78d9ea63076f3b",
+      "sha256": "8ecd358630e1ead9c7434e5ff75337885a0b46d529aff5f41cfb0e75c4307777",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/cdo/bert-base-multilingual-cased/pfeiffer/cdo_relu_2.zip"
+    }
+  }
+}

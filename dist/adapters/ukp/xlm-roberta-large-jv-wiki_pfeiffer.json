@@ -1,0 +1,11 @@
+{
+  "config_id": "87954f0c97a780e3",
+  "default_version": "madx",
+  "files": {
+    "madx": {
+      "sha1": "63c69a10728eb0f12ee8919762f956ffeec0bcbe",
+      "sha256": "bcd6431ebaab422a7298fc31564504cf0684f759db94ae9d220eea27c65117ea",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/jv/xlm-roberta-large/pfeiffer/jv_relu_2.zip"
+    }
+  }
+}

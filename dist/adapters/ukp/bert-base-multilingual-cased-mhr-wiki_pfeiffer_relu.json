@@ -1,0 +1,11 @@
+{
+  "config_id": "87954f0c97a780e3",
+  "default_version": "madx",
+  "files": {
+    "madx": {
+      "sha1": "7a8a130750fd18c5e960efc062b39febaabb19dd",
+      "sha256": "aeb408f15be2745aca2b1421d8ec28c632b0dd64532cd63e1a8ac9f96ef5d7c7",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/mhr/bert-base-multilingual-cased/pfeiffer/mhr_relu_2.zip"
+    }
+  }
+}

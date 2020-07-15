@@ -1,0 +1,9 @@
+task: xmf
+subtask: wiki
+description: |
+  Language modeling for the Mingrelian language on Wikipedia.
+  Megrelian is a Kartvelian language spoken in Western Georgia (regions of Samegrelo and Abkhazia), primarily by the
+  Megrelians.
+url: ""
+citation: ""
+ 

@@ -1,0 +1,8 @@
+task: ar
+subtask: wiki
+description: |
+  Language modeling for the Arabic language on Wikipedia.
+  Arabic is a Semitic language that first emerged in the 1st to 4th centuries CE.
+  It is now the lingua franca of the Arab world.
+url: ""
+citation: ""

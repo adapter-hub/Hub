@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "b01139973f489682d559b0061ab05c184ae030c8",
+      "sha256": "b711011d490188f4a361684cd609f6ed5a83b134d66b78e746acb4ea3d07b047",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cosmosqa/roberta-base/pfeiffer/cosmosqa_relu_16.zip"
+    }
+  }
+}

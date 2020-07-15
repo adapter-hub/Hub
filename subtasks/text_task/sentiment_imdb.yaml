@@ -1,0 +1,51 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: sentiment
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: imdb
+
+# A short description of this subtask (max. 500 chars).
+description: |
+  MDB dataset having 50K movie reviews for natural language processing or Text analytics.
+  This is a dataset for binary sentiment classification containing substantially more data than previous benchmark
+  datasets. We provide a set of 25,000 highly polar movie reviews for training and 25,000 for testing. So, predict the
+  number of positive and negative reviews using either classification or deep learning algorithms.
+
+# A bibtex citation of the work related to this subtask.
+citation: |
+  @inproceedings{Maas11IMDB,
+    author    = {Andrew L. Maas and
+                 Raymond E. Daly and
+                 Peter T. Pham and
+                 Dan Huang and
+                 Andrew Y. Ng and
+                 Christopher Potts},
+    title     = {Learning Word Vectors for Sentiment Analysis},
+    booktitle = {The 49th Annual Meeting of the Association for Computational Linguistics:
+                 Human Language Technologies, Proceedings of the Conference, 19-24
+                 June, 2011, Portland, Oregon, {USA}},
+    pages     = {142--150},
+    year      = {2011},
+    url       = {https://www.aclweb.org/anthology/P11-1015/},
+  }
+
+# The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: IMDb
+
+# The identifier of the language of the data in this subtask
+language: english
+
+# The default evaluation metric of this subtask.
+metric:
+  name: accuracy
+  higher_is_better: true
+
+# A URL pointing to more information on this subtask.
+url: "http://ai.stanford.edu/~amaas/data/sentiment/"

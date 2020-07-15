@@ -1,0 +1,11 @@
+{
+  "config_id": "87954f0c97a780e3",
+  "default_version": "madx",
+  "files": {
+    "madx": {
+      "sha1": "071c75634a27ffdfb9532e098b24a2c093c2d3a0",
+      "sha256": "01f126b5a2664a49ac605841ea58463dc160de9ac173f32c95d8e050edd7d3bc",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/ilo/bert-base-multilingual-cased/pfeiffer/ilo_relu_2.zip"
+    }
+  }
+}

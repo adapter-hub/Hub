@@ -1,0 +1,28 @@
+name: houlsby
+displayname: Houlsby Architecture
+description: |
+  Task adapter architecture bz Houlsby et al.
+
+citation: |
+  @misc{houlsby2019parameterefficient,
+    title={Parameter-Efficient Transfer Learning for NLP},
+    author={Neil Houlsby and Andrei Giurgiu and Stanislaw Jastrzebski and Bruna Morrone and Quentin de Laroussilhe and Andrea Gesmundo and Mona Attariyan and Sylvain Gelly},
+    year={2019},
+    eprint={1902.00751},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+  }
+
+config:
+  {
+    "ln_after": false,
+    "ln_before": false,
+    "mh_adapter": true,
+    "output_adapter": true,
+    "adapter_residual_before_ln": false,
+    "non_linearity": "swish",
+    "original_ln_after": true,
+    "original_ln_before": false,
+    "reduction_factor": 16,
+    "residual_before_ln": true,
+  }

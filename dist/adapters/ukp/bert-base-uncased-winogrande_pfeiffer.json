@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "ba08b79a95bd3f904c26b6de19e3436fd3abcc2b",
+      "sha256": "76cdfbd0d459e8d3a1fce1dc902a081f6c36430b6f8122910bc74bfa4ead518b",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/winogrande/bert-base-uncased/pfeiffer/winogrande_relu_16.zip"
+    }
+  }
+}

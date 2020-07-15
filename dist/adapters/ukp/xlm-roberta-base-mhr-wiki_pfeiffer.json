@@ -1,0 +1,11 @@
+{
+  "config_id": "87954f0c97a780e3",
+  "default_version": "madx",
+  "files": {
+    "madx": {
+      "sha1": "8e9127dd25670d30e608e2fe4ef0aaf2c1e72f1d",
+      "sha256": "5d6dc63d145063545299309b59415c7005f4c72fe4a8955a0db6d8e46fe662a6",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/mhr/xlm-roberta-base/pfeiffer/mhr_relu_2.zip"
+    }
+  }
+}

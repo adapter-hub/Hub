@@ -1,0 +1,9 @@
+task: mhr
+subtask: wiki
+description: |
+  Language modeling for the Meadow Mari language on Wikipedia.
+  Meadow Mari or Meadow-Eastern Mari or Eastern Mari is a standardised dialect of the Mari language used by about half
+  a million people mostly in the European part of the Russian Federation.
+url: ""
+citation: ""
+ 

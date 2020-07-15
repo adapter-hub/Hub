@@ -1,0 +1,10 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha256": "9EBE530106B368C573A232F6D76AFB877236D79C12C0854E8F29AC54270E96B4",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mrpc/roberta-large/pfeiffer/roberta-large_mrpc_pfeiffer.zip"
+    }
+  }
+}

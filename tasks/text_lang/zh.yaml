@@ -1,0 +1,6 @@
+task: zh
+displayname: Chinese
+description: |
+  Script: Simplified Chinese, Traditional Chinese
+  Language Family: Sino-Tibetan
+  iso: zh

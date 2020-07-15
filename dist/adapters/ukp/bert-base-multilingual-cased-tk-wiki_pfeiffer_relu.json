@@ -1,0 +1,11 @@
+{
+  "config_id": "87954f0c97a780e3",
+  "default_version": "madx",
+  "files": {
+    "madx": {
+      "sha1": "966a458e3cad736036c5d8b3a9f00febbd2efc46",
+      "sha256": "8c0f8019594ad7cf37f65f7c4f1b3bb4302e6d324af20eb52b1644e87afcc16e",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/tk/bert-base-multilingual-cased/pfeiffer/tk_relu_2.zip"
+    }
+  }
+}

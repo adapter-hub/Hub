@@ -1,0 +1,9 @@
+task: qu
+subtask: wiki
+description: |
+  Language modeling for the Quechuan language on Wikipedia.
+  Quechua, usually called Runasimi ("people's language") in Quechuan languages, is an indigenous language family spoken
+  by the Quechua peoples, primarily living in the Peruvian Andes.
+url: ""
+citation: ""
+ 

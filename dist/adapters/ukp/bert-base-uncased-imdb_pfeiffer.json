@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "e2680c286af392733059aa0a85d37a0611ea7bc7",
+      "sha256": "c027c1b78b43d00175d2e00c394f0f2b0a877117cfb5cad95972fe699831f857",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/imdb/bert-base-uncased/pfeiffer/imdb_relu_16.zip"
+    }
+  }
+}

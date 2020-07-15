@@ -1,0 +1,71 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The name of the author(s) of this adapter.
+author: "Jonas Pfeiffer"
+
+# A bibtex citation of the work related to this adapter.
+citation: |
+  @article{Pfeiffer2020AdapterFusion,
+  author = {Pfeiffer, Jonas and Kamath, Aishwarya and R{\"{u}}ckl{\'{e}}, Andreas and Cho, Kyunghyun and Gurevych, Iryna},
+  journal = {arXiv preprint},
+  title = {{AdapterFusion}:  Non-Destructive Task Composition for Transfer Learning},
+   url       = {https://arxiv.org/pdf/2005.00247.pdf},
+  year = {2020}
+  }
+
+# The string identifier of the adapter architecture (must be available in architecture).
+# Describes the adapter architecture used by this adapter
+config: # TODO: REQUIRED
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: pfeiffer
+
+# The version to be downloaded if no version is explicitly stated.
+default_version: "AdapterFusion"
+
+# A short description of this adapter.
+description: |
+  Pfeiffer Adapter trained on RTE.
+
+# A contact email of the author(s).
+email: "pfeiffer@ukp.informatik.tu-darmstadt"
+
+# A list of different versions of this adapter available for download.
+files:
+  - sha1: "e898d5fe47eb7e809bb277819b849d55c0a00640"
+    sha256: "8211a22f7d47b51fb3fadcb9ca5322b3e5f08ee7f7293862825df1e6196332ec"
+    # Download URL pointing to a zip folder containing the adapter module.
+    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/rte/roberta-base/pfeiffer/rte_relu_16.zip"
+    version: "AdapterFusion"
+
+
+# A GitHub handle associated with the author(s).
+github: "JoPfeiff"
+
+# The hidden size of the model
+hidden_size: 768
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: "roberta-base"
+
+# The model type.
+# Example: bert
+model_type: roberta
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: rte
+
+# The string identifier of the task this adapter belongs to.
+task: nli
+
+# A Twitter handle associated with the author(s).
+twitter: "@PfeiffJo"
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: "text_task"
+
+# A URL providing more information on this adapter/ the authors/ the organization.
+url: "https://pfeiffer.ai"

@@ -1,0 +1,9 @@
+task: jv
+subtask: wiki
+description: |
+  Language modeling for the Javanese language on Wikipedia.
+  Javanese is the language of the Javanese people from the central and eastern parts of the island of Java, in
+  Indonesia.
+url: ""
+citation: ""
+ 

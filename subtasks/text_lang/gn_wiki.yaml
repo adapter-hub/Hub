@@ -1,0 +1,9 @@
+task: gn
+subtask: wiki
+description: |
+  Language modeling for the Guarani language on Wikipedia.
+  Guarani specifically the primary variety known as Paraguayan Guarani, is an indigenous language of South America
+  that belongs to the Tupi–Guarani family of the Tupian languages.
+url: ""
+citation: ""
+ 

@@ -1,0 +1,39 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: nli
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: rte
+
+# A short description of this subtask (max. 500 chars).
+description: |
+  Recognizing Textual Entailment is a binary entailment task similar to MNLI, but with much less training data.
+
+# A bibtex citation of the work related to this subtask.
+citation: |
+  @inproceedings{bentivogli2009fifth,
+    title={The Fifth PASCAL Recognizing Textual Entailment Challenge.},
+    author={Bentivogli, Luisa and Clark, Peter and Dagan, Ido and Giampiccolo, Danilo},
+    booktitle={TAC},
+    year={2009}
+  }
+
+# The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: RTE
+
+# The identifier of the language of the data in this subtask
+language: english
+
+# The default evaluation metric of this subtask.
+metric:
+  name: accuracy
+  higher_is_better: true
+
+# A URL pointing to more information on this subtask.
+url: "https://aclweb.org/aclwiki/Recognizing_Textual_Entailment"

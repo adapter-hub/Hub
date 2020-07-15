@@ -1,0 +1,32 @@
+name: Generate Templates
+
+on:
+  push:
+    branches: [ master ]
+    paths: [ 'scripts/schemas/**' ]
+
+jobs:
+  generate:
+    if: github.repository_owner == 'Adapter-Hub'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+      - name: Install
+        run: |
+          pip install -r scripts/requirements.txt
+      - name: Run generation
+        run: |
+          python scripts/templates.py
+      - name: Commit
+        run: |
+          git config user.name "Adapter Hub Bert"
+          git config user.email "65732326+adapter-hub-bert@users.noreply.github.com"
+          git add TEMPLATES
+          if [[ `git status --porcelain` ]]; then
+            git commit -m "Generate templates."
+            git remote set-url origin https://x-access-token:${{ secrets.BOT_TOKEN }}@github.com/${{ github.repository }}
+            git push origin master
+          fi

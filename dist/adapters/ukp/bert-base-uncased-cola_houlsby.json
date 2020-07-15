@@ -1,0 +1,11 @@
+{
+  "config_id": "b1017368d7a97b11",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "304a3b44ea75931bd95e171a4582b6759ad87704",
+      "sha256": "2e1cb1b240043f1c85703d005459828c56ef517c1ac0da78eb35e5068e370c07",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cola/bert-base-uncased/houlsby/bert-base-uncased_cola_houlsby.zip"
+    }
+  }
+}

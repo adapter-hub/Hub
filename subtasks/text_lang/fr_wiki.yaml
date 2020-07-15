@@ -1,0 +1,8 @@
+task: fr
+subtask: wiki
+description: |
+  Language modeling for the French language on Wikipedia.
+  French or la langue française is a Romance language of the Indo-European family.
+url: ""
+citation: ""
+ 

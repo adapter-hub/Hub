@@ -1,0 +1,11 @@
+{
+  "config_id": "87954f0c97a780e3",
+  "default_version": "madx",
+  "files": {
+    "madx": {
+      "sha1": "afb6d22096a0b74fdbf8f240ff14ae72c6d24f22",
+      "sha256": "3cdfc224f55e1622f08fe3ab1a29d4eb21acfcaa2c846bf198e631bb764c9867",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/cdo/xlm-roberta-base/pfeiffer/cdo_relu_2.zip"
+    }
+  }
+}

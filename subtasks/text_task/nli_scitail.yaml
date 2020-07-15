@@ -1,0 +1,47 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: nli
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: scitail
+
+# A short description of this subtask (max. 500 chars).
+description: |
+  The SciTail dataset is an entailment dataset created from multiple-choice science exams and web sentences.
+  Each question and the correct answer choice are converted into an assertive statement to form the hypothesis.
+
+# A bibtex citation of the work related to this subtask.
+citation: |
+  @inproceedings{Khot18SciTail,
+    author    = {Tushar Khot and
+                 Ashish Sabharwal and
+                 Peter Clark},
+    title     = {SciTaiL: {A} Textual Entailment Dataset from Science Question Answering},
+    booktitle = {Proceedings of the Thirty-Second {AAAI} Conference on Artificial Intelligence,
+                 (AAAI-18), the 30th innovative Applications of Artificial Intelligence
+                 (IAAI-18), and the 8th {AAAI} Symposium on Educational Advances in
+                 Artificial Intelligence (EAAI-18), New Orleans, Louisiana, USA, February
+                 2-7, 2018},
+    pages     = {5189--5197},
+    year      = {2018},
+    url       = {https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17368},
+  }
+
+
+# The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: SciTail
+
+# The identifier of the language of the data in this subtask
+language: english
+
+# The default evaluation metric of this subtask.
+metric:
+  name: accuracy
+  higher_is_better: true
+url: "https://allenai.org/data/scitail"

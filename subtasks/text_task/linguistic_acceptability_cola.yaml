@@ -1,0 +1,40 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: lingaccept
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: cola
+
+# A short description of this subtask (max. 500 chars).
+description: |
+  The Corpus of Linguistic Acceptability (CoLA) in its full form consists of 10657 sentences from 23 linguistics publications, expertly annotated for acceptability (grammaticality) by their original authors.
+  The public version provided here contains 9594 sentences belonging to training and development sets, and excludes 1063 sentences belonging to a held out test set.
+
+# A bibtex citation of the work related to this subtask.
+citation: |
+  @article{warstadt2018neural,
+    title={Neural Network Acceptability Judgments},
+    author={Warstadt, Alex and Singh, Amanpreet and Bowman, Samuel R},
+    journal={arXiv preprint arXiv:1805.12471},
+    year={2018}
+  }
+
+# The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: CoLA
+
+# The identifier of the language of the data in this subtask
+language: english
+
+# The default evaluation metric of this subtask.
+metric:
+  name: accuracy
+  higher_is_better: true
+
+# A URL pointing to more information on this subtask.
+url: "https://nyu-mll.github.io/CoLA/"

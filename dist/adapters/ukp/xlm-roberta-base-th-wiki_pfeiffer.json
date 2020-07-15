@@ -1,0 +1,11 @@
+{
+  "config_id": "87954f0c97a780e3",
+  "default_version": "madx",
+  "files": {
+    "madx": {
+      "sha1": "8898a0093fc93bbf38a1ea9c78fd17a13b24cc99",
+      "sha256": "15bf11c96d93cbec48339b2e86bbf02942d2e4a834045a9e7eabd8e48625f22e",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/th/xlm-roberta-base/pfeiffer/th_relu_2.zip"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+task: id
+subtask: wiki
+description: |
+  Language modeling for the Indonesian language on Wikipedia.
+  Indonesian is the official language of Indonesia. It is a standardised
+  variety of Malay, an Austronesian language that has been used as a lingua franca in the multilingual Indonesian
+  archipelago for centuries.
+url: ""
+citation: ""
+ 

@@ -1,0 +1,11 @@
+{
+  "config_id": "87954f0c97a780e3",
+  "default_version": "madx",
+  "files": {
+    "madx": {
+      "sha1": "f37c238fc1e728f7ab59f824d00e30ab7c31d21f",
+      "sha256": "f94039d3873ad92997c072d244a362992c7b2ab12336742215b6599c151d80ce",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/gn/xlm-roberta-base/pfeiffer/gn_relu_2.zip"
+    }
+  }
+}

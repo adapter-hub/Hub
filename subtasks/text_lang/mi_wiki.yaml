@@ -1,0 +1,8 @@
+task: mi
+subtask: wiki
+description: |
+  Language modeling for the Māori language on Wikipedia.
+  Māori, also known as te reo ('the language'), is an Eastern Polynesian language spoken by the Māori people, the
+  indigenous population of New Zealand.
+url: ""
+citation: ""

@@ -1,0 +1,8 @@
+task: de
+subtask: wiki
+description: |
+  Language modeling for the German language on Wikipedia.
+  German is a West Germanic language that is mainly spoken in Central Europe.
+url: ""
+citation: ""
+ 

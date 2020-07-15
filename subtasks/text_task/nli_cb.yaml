@@ -1,0 +1,41 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: nli
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: cb
+
+# A short description of this subtask (max. 500 chars).
+description: |
+  The CommitmentBank is a corpus of naturally occurring discourses whose final sentence contains a clause-embedding
+  predicate under an entailment canceling operator.
+
+# A bibtex citation of the work related to this subtask.
+citation: |
+  @inproceedings{deMarneffe2019commitmentbank,
+    title={The CommitmentBank: Investigating projection in naturally occurring discourse},
+    author={De Marneffe, Marie-Catherine and Simons, Mandy and Tonhauser, Judith},
+    booktitle={proceedings of Sinn und Bedeutung},
+    volume={23},
+    number={2},
+    pages={107--124},
+    year={2019}
+  }
+
+
+# The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: CommitmentBank
+
+# The identifier of the language of the data in this subtask
+language: english
+
+# The default evaluation metric of this subtask.
+metric:
+  name: accuracy
+  higher_is_better: true

@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "afcd1cc23c0327199febe16222efc15d5514741a",
+      "sha256": "0603540b8ca67b8ad3f3de05c125bd60f173bec27fe7b4204865f9b2e4382174",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mrpc/roberta-base/pfeiffer/mrpc_relu_16.zip"
+    }
+  }
+}

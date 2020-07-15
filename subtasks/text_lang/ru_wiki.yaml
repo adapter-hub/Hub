@@ -1,0 +1,9 @@
+task: ru
+subtask: wiki
+description: |
+  Language modeling for the Russian language on Wikipedia.
+  Russian is an East Slavic language, which is an official language in Russia, Belarus, Kazakhstan, Kyrgyzstan, as well
+  as being widely used throughout Eastern Europe, the Baltic states, the Caucasus and Central Asia.
+url: ""
+citation: ""
+ 

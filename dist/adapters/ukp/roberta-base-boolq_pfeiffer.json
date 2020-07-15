@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "ea2f274368a8211eb560f4229366bee386758fd7",
+      "sha256": "d40795c39ec9413a7a4dfdd688c7f1c5cde7785fee976b816b43cfe73ed8d17e",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/boolq/roberta-base/pfeiffer/boolq_relu_16.zip"
+    }
+  }
+}

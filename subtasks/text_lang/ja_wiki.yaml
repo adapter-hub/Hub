@@ -1,0 +1,9 @@
+task: ja
+subtask: wiki
+description: |
+  Language modeling for the Japanese language on Wikipedia.
+  Japanese is an East Asian language spoken by about 128 million people, primarily in Japan, where it is the national
+  language.
+url: ""
+citation: ""
+ 

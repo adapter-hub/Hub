@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "95df637835083fd30ac26ef19aefd6573bdf1c62",
+      "sha256": "87bb1ac0d5738722e8e9e2cfb95b361b795126512f40120555f5668d7e773bc8",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/socialiqa/roberta-base/pfeiffer/socialiqa_relu_16.zip"
+    }
+  }
+}

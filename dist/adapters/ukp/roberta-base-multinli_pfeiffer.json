@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "880b883c79f2fc38220e1c38db834986d1f5382d",
+      "sha256": "647e8d7cd30acfd2df171616170b84a178fb506c91a58fb268066beaab58dba2",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mnli/roberta-base/pfeiffer/multinli_relu_16.zip"
+    }
+  }
+}

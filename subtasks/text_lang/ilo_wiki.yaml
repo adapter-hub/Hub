@@ -1,0 +1,8 @@
+task: ilo
+subtask: wiki
+description: |
+  Language modeling for the Ilocano language on Wikipedia.
+  Ilocano (also Ilokano) is an Austronesian language spoken in the Philippines.
+url: ""
+citation: ""
+ 

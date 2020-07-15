@@ -1,0 +1,9 @@
+task: en
+subtask: wiki
+description: |
+  Language modeling for the English language on Wikipedia.
+  English is a West Germanic language that was first spoken in early medieval England and eventually became a
+  global lingua franca.
+url: ""
+citation: ""
+ 

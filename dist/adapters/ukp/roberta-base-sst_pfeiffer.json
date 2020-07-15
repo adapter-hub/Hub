@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "1dcda5945b88791d9c80b574f31a0ae7446192a5",
+      "sha256": "21b4223e94f9b23d282b3bea17e8bcc0d8e565b415a635aebb6291f794489683",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/sst/roberta-base/pfeiffer/sst-2_relu_16.zip"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+task: th
+subtask: wiki
+description: |
+  Language modeling for the Thai language on Wikipedia.
+  Thai, Central Thai, is the official language of Thailand and the first language of the Central Thai people.
+url: ""
+citation: ""
+ 

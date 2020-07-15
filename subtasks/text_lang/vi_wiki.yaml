@@ -1,0 +1,10 @@
+task: vi
+subtask: wiki
+description: |
+  Language modeling for the Vietnamese language on Wikipedia.
+  Vietnamese is an Austroasiatic language that originated in Vietnam, where it is the national and official language.
+  Spoken natively by an estimated 95 million people (as of 2018), it is the native language of the Vietnamese (Kinh)
+  people, as well as a first or second language for the many ethnic minorities of Vietnam.
+url: ""
+citation: ""
+ 

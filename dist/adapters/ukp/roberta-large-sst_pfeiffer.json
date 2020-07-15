@@ -1,0 +1,10 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "a8a843efce1edb3acf9d0eace9a8cb6fc0b7a47a",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/sst/roberta-large/pfeiffer/roberta-large_sst-2_pfeiffer.zip"
+    }
+  }
+}

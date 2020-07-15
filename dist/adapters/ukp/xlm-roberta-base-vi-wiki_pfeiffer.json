@@ -1,0 +1,11 @@
+{
+  "config_id": "87954f0c97a780e3",
+  "default_version": "madx",
+  "files": {
+    "madx": {
+      "sha1": "dd2be7769319fead4fb6069943310cefa925a94b",
+      "sha256": "2ab0729b29d474882c2949e88bc39ebcb505e0dab3e73a5e38834270aff3a447",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/vi/xlm-roberta-base/pfeiffer/vi_relu_2.zip"
+    }
+  }
+}

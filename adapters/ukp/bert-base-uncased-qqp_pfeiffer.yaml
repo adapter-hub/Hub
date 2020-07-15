@@ -1,0 +1,82 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The name of the author(s) of this adapter.
+author: "Clifton Poth"
+
+# A bibtex citation of the work related to this adapter.
+citation: |
+  @article{pfeiffer2020AdapterHub,
+      title={AdapterHub: A Framework for Adapting Transformers},
+      author={Jonas Pfeiffer,
+              Andreas R\"uckl\'{e},
+              Clifton Poth,
+              Aishwarya Kamath,
+              Ivan Vuli\'{c},
+              Sebastian Ruder,
+              Kyunghyun Cho,
+              Iryna Gurevych},
+      journal={ArXiv},
+      year={2020}
+  }
+
+# The string identifier of the adapter architecture (must be available in architecture).
+# Describes the adapter architecture used by this adapter
+config: # TODO: REQUIRED
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: pfeiffer
+
+# The version to be downloaded if no version is explicitly stated.
+default_version: "1"
+
+# A short description of this adapter.
+description: |
+  Houlsby Adapter trained on the QQP task with the default run_glue.py script.
+
+# A contact email of the author(s).
+email: "poth@ukp.informatik.tu-darmstadt.de"
+
+# A list of different versions of this adapter available for download.
+files:
+  - sha1: "129047d8658d566bc0ce10878fa2c95779fbcdb9"
+    sha256: "828ba56c7624d6bb9119b50d9e70b1e3109a1d7b10ddb1e4dd2d454b2a70e146"
+    # Download URL pointing to a zip folder containing the adapter module.
+    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/qqp/bert-base-uncased/pfeiffer/bert-base-uncased_qqp_pfeiffer.zip"
+    version: "1"
+  - sha1: "d8d6ad2bc11613bca862568e9a5950e27aad9def"
+    sha256: "c8effd28c333683f2a86575487cd143a543a528bef72a0c0c0017042e5de447a"
+    # Download URL pointing to a zip folder containing the adapter module.
+    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/qqp/bert-base-uncased/pfeiffer/qqp_relu_16.zip"
+    version: "AdapterFusion"
+
+
+# A GitHub handle associated with the author(s).
+github: "calpt"
+
+# The hidden size of the model
+hidden_size: 768
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: "bert-base-uncased"
+
+# The model type.
+# Example: bert
+model_type: bert
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: qqp
+
+# The string identifier of the task this adapter belongs to.
+task: sts
+
+# A Twitter handle associated with the author(s).
+twitter: ""
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: "text_task"
+
+# A URL providing more information on this adapter/ the authors/ the organization.
+url: "https://www.informatik.tu-darmstadt.de/ukp/ukp_home/index.en.jsp"

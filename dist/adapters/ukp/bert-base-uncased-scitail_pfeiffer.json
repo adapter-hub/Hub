@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "AdapterFusion",
+  "files": {
+    "AdapterFusion": {
+      "sha1": "e160066a60fd8f6cd1d091e80209d15a488f3a6e",
+      "sha256": "05963ca94fa9d1e882d1b67d135916eca7b0dffbd12f68e944e8258a778aaa95",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/scitail/bert-base-uncased/pfeiffer/scitail_relu_16.zip"
+    }
+  }
+}

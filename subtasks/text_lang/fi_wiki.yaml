@@ -1,0 +1,9 @@
+task: fi
+subtask: wiki
+description: |
+  Language modeling for the Finnish language on Wikipedia.
+  Finnish, whose endonym is suomi or suomen kieli is a Uralic language of the Finnic branch spoken by the majority of
+  the population in Finland and by ethnic Finns outside Finland.
+url: ""
+citation: ""
+ 

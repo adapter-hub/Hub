@@ -1,0 +1,8 @@
+task: zh
+subtask: wiki
+description: |
+  Language modeling for the Chinese language on Wikipedia.
+  Chinese is a family of East Asian analytic languages that form the Sinitic branch of the Sino-Tibetan languages.
+url: ""
+citation: ""
+ 

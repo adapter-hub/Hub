@@ -1,0 +1,9 @@
+task: ht
+subtask: wiki
+description: |
+  Language modeling for the Haitian Creole language on Wikipedia.
+  Haitian Creole is a French-based creole language spoken by 10–12 million people worldwide,
+  and the only language of most Haitians.
+url: ""
+citation: ""
+ 

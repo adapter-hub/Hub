@@ -1,0 +1,4 @@
+task: sts
+displayname: Semantic Textual Similarity
+description: |
+  Semantic textual similarity deals with determining how similar two pieces of texts are. This can take the form of assigning a score from 1 to 5. Related tasks are paraphrase or duplicate identification.
