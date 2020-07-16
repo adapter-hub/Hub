@@ -19,7 +19,7 @@ def generate_adapter_repo(files, config_index, dist_folder="dist"):
                     lambda: defaultdict(dict)))))
     # add all files to index
     for file in files:
-        with open(file, 'r') as f:
+        with open(file, 'r', encoding='utf-8') as f:
             adapter_dict = yaml.load(f, yaml.FullLoader)
         # generate config id
         if adapter_dict['config']['using'] not in config_index:
@@ -64,6 +64,11 @@ def generate_adapter_repo(files, config_index, dist_folder="dist"):
                     )
                 )
         id_dict["versions"][org_name] = relpath(gen_file, dist_folder)
+        # set task default if not set
+        # TODO set default based on score
+        subtask_dict = index[a_type][a_model_name][a_task][a_name]
+        if "default" not in subtask_dict or adapter_dict['config']['using'] == "pfeiffer":
+            subtask_dict["default"] = relpath(gen_file, dist_folder)
         # TODO change default version to something more useful
         # id_dict["default"] = org_name
     # write index files to disc
