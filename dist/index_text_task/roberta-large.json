@@ -5,7 +5,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/roberta-large-multinli_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-large-multinli_pfeiffer.json"
         },
         "qnli": {
             "b1017368d7a97b11": {
@@ -17,7 +18,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/roberta-large-qnli_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-large-qnli_pfeiffer.json"
         }
     },
     "sentiment": {
@@ -31,7 +33,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/roberta-large-sst_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-large-sst_pfeiffer.json"
         }
     },
     "sts": {
@@ -45,7 +48,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/roberta-large-mrpc_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-large-mrpc_pfeiffer.json"
         },
         "sts-b": {
             "b1017368d7a97b11": {
@@ -57,7 +61,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/roberta-large-sts_b_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-large-sts_b_pfeiffer.json"
         }
     }
 }
