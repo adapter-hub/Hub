@@ -1,4 +1,19 @@
 {
+    "lingaccept": {
+        "cola": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-large-cola_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-large-cola_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-large-cola_pfeiffer.json"
+        }
+    },
     "nli": {
         "multinli": {
             "bb1c8efb82510bed": {

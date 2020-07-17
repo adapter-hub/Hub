@@ -51,6 +51,21 @@
             "default": "adapters/ukp/roberta-base-winogrande_pfeiffer.json"
         }
     },
+    "lingaccept": {
+        "cola": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-cola_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-cola_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base-cola_pfeiffer.json"
+        }
+    },
     "nli": {
         "cb": {
             "bb1c8efb82510bed": {
