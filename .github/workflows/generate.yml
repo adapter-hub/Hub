@@ -3,7 +3,7 @@ name: Generate Dist
 on:
   push:
     branches: [ master ]
-    paths: [ 'adapters/**', 'architectures/**' ]
+    paths: [ 'adapters/**', 'architectures/**', 'scripts/generate.py' ]
 
 jobs:
   generate:

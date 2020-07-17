@@ -5,7 +5,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-ar-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-ar-wiki_pfeiffer.json"
         }
     },
     "cdo": {
@@ -14,7 +15,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-cdo-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-cdo-wiki_pfeiffer.json"
         }
     },
     "de": {
@@ -23,7 +25,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-de-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-de-wiki_pfeiffer.json"
         }
     },
     "el": {
@@ -32,7 +35,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-el-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-el-wiki_pfeiffer.json"
         }
     },
     "en": {
@@ -41,7 +45,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-en-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-en-wiki_pfeiffer.json"
         }
     },
     "es": {
@@ -50,7 +55,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-es-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-es-wiki_pfeiffer.json"
         }
     },
     "et": {
@@ -59,7 +65,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-et-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-et-wiki_pfeiffer.json"
         }
     },
     "gn": {
@@ -68,7 +75,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-gn-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-gn-wiki_pfeiffer.json"
         }
     },
     "hi": {
@@ -77,7 +85,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-hi-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-hi-wiki_pfeiffer.json"
         }
     },
     "ht": {
@@ -86,7 +95,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-ht-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-ht-wiki_pfeiffer.json"
         }
     },
     "id": {
@@ -95,7 +105,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-id-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-id-wiki_pfeiffer.json"
         }
     },
     "ilo": {
@@ -104,7 +115,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-ilo-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-ilo-wiki_pfeiffer.json"
         }
     },
     "is": {
@@ -113,7 +125,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-is-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-is-wiki_pfeiffer.json"
         }
     },
     "it": {
@@ -122,7 +135,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-it-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-it-wiki_pfeiffer.json"
         }
     },
     "ja": {
@@ -131,7 +145,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-ja-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-ja-wiki_pfeiffer.json"
         }
     },
     "jv": {
@@ -140,7 +155,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-jv-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-jv-wiki_pfeiffer.json"
         }
     },
     "mhr": {
@@ -149,7 +165,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-mhr-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-mhr-wiki_pfeiffer.json"
         }
     },
     "mi": {
@@ -158,7 +175,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-mi-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-mi-wiki_pfeiffer.json"
         }
     },
     "my": {
@@ -167,7 +185,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-my-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-my-wiki_pfeiffer.json"
         }
     },
     "qu": {
@@ -176,7 +195,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-qu-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-qu-wiki_pfeiffer.json"
         }
     },
     "ru": {
@@ -185,7 +205,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-ru-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-ru-wiki_pfeiffer.json"
         }
     },
     "sw": {
@@ -194,7 +215,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-sw-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-sw-wiki_pfeiffer.json"
         }
     },
     "ta": {
@@ -203,7 +225,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-ta-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-ta-wiki_pfeiffer.json"
         }
     },
     "th": {
@@ -212,7 +235,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-th-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-th-wiki_pfeiffer.json"
         }
     },
     "tk": {
@@ -221,7 +245,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-tk-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-tk-wiki_pfeiffer.json"
         }
     },
     "tr": {
@@ -230,7 +255,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-tr-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-tr-wiki_pfeiffer.json"
         }
     },
     "vi": {
@@ -239,7 +265,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-vi-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-vi-wiki_pfeiffer.json"
         }
     },
     "xmf": {
@@ -248,7 +275,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-xmf-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-xmf-wiki_pfeiffer.json"
         }
     },
     "zh": {
@@ -257,7 +285,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/xlm-roberta-base-zh-wiki_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/xlm-roberta-base-zh-wiki_pfeiffer.json"
         }
     }
 }

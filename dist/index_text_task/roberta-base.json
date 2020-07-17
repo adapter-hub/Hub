@@ -5,7 +5,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/roberta-base-ukpsent1_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-base-ukpsent1_pfeiffer.json"
         }
     },
     "comsense": {
@@ -14,35 +15,40 @@
                 "versions": {
                     "ukp": "adapters/ukp/roberta-base-cosmosqa_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-base-cosmosqa_pfeiffer.json"
         },
         "csqa": {
             "bb1c8efb82510bed": {
                 "versions": {
                     "ukp": "adapters/ukp/roberta-base-csqa_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-base-csqa_pfeiffer.json"
         },
         "hellaswag": {
             "bb1c8efb82510bed": {
                 "versions": {
                     "ukp": "adapters/ukp/roberta-base-hellaswag_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-base-hellaswag_pfeiffer.json"
         },
         "siqa": {
             "bb1c8efb82510bed": {
                 "versions": {
                     "ukp": "adapters/ukp/roberta-base-siqa_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-base-siqa_pfeiffer.json"
         },
         "winogrande": {
             "bb1c8efb82510bed": {
                 "versions": {
                     "ukp": "adapters/ukp/roberta-base-winogrande_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-base-winogrande_pfeiffer.json"
         }
     },
     "nli": {
@@ -51,14 +57,16 @@
                 "versions": {
                     "ukp": "adapters/ukp/roberta-base-cb_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-base-cb_pfeiffer.json"
         },
         "multinli": {
             "bb1c8efb82510bed": {
                 "versions": {
                     "ukp": "adapters/ukp/roberta-base-multinli_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-base-multinli_pfeiffer.json"
         },
         "qnli": {
             "b1017368d7a97b11": {
@@ -70,28 +78,32 @@
                 "versions": {
                     "ukp": "adapters/ukp/roberta-base-qnli_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-base-qnli_pfeiffer.json"
         },
         "rte": {
             "bb1c8efb82510bed": {
                 "versions": {
                     "ukp": "adapters/ukp/roberta-base-rte_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-base-rte_pfeiffer.json"
         },
         "scitail": {
             "bb1c8efb82510bed": {
                 "versions": {
                     "ukp": "adapters/ukp/roberta-base-scitail_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-base-scitail_pfeiffer.json"
         },
         "sick": {
             "bb1c8efb82510bed": {
                 "versions": {
                     "ukp": "adapters/ukp/roberta-base-sick_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-base-sick_pfeiffer.json"
         }
     },
     "qa": {
@@ -100,7 +112,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/roberta-base-boolq_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-base-boolq_pfeiffer.json"
         }
     },
     "sentiment": {
@@ -109,7 +122,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/roberta-base-imdb_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-base-imdb_pfeiffer.json"
         },
         "sst-2": {
             "b1017368d7a97b11": {
@@ -121,7 +135,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/roberta-base-sst_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-base-sst_pfeiffer.json"
         }
     },
     "sts": {
@@ -135,14 +150,16 @@
                 "versions": {
                     "ukp": "adapters/ukp/roberta-base-mrpc_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-base-mrpc_pfeiffer.json"
         },
         "qqp": {
             "bb1c8efb82510bed": {
                 "versions": {
                     "ukp": "adapters/ukp/roberta-base-qqp_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-base-qqp_pfeiffer.json"
         },
         "sts-b": {
             "b1017368d7a97b11": {
@@ -154,7 +171,8 @@
                 "versions": {
                     "ukp": "adapters/ukp/roberta-base-sts_b_pfeiffer.json"
                 }
-            }
+            },
+            "default": "adapters/ukp/roberta-base-sts_b_pfeiffer.json"
         }
     }
 }
