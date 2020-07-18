@@ -42,11 +42,8 @@ jobs:
         with:
           python-version: 3.6
       - name: Install Framework
-        # TODO replace download link after going public
         run: |
           pip install -r scripts/requirements.txt
-          pip install torch
-          pip install http://adapter-hub.webredirect.org/adapter-transformers-master.zip
       - name: Check download files
         run: |
           python scripts/check_download_files.py ${{ needs.check_format.outputs.added_modified }}
