@@ -40,8 +40,8 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "071c75634a27ffdfb9532e098b24a2c093c2d3a0"
-    sha256: "01f126b5a2664a49ac605841ea58463dc160de9ac173f32c95d8e050edd7d3bc"
+  - sha1: "25df227c4c26a69a4a7b95fc5eb12d6ad0a4c069"
+    sha256: "e75f618fdc9eb72aca0d9dbdb2d4c51d37c9c232886bee25d80895e09b36a809"
     # Download URL pointing to a zip folder containing the adapter module.
     url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/ilo/bert-base-multilingual-cased/pfeiffer/ilo_relu_2.zip"
     version: "madx"
