@@ -40,8 +40,8 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "0f161471899c4cc6915277757d36f8781884eabb"
-    sha256: "d59e2345274cd422481d0b0e654999cd4be479ed83f80badafd451a37b011860"
+  - sha1: "c657c63ab06dd712f14803d69343c76ec9d4aa87"
+    sha256: "846709fd0157a7c701c0978509e5acb0cc50f2623d897276913fb60439094d6f"
     # Download URL pointing to a zip folder containing the adapter module.
     url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/it/xlm-roberta-base/pfeiffer/it_relu_2.zip"
     version: "madx"
