@@ -3,8 +3,8 @@
   "default_version": "madx",
   "files": {
     "madx": {
-      "sha1": "afb6d22096a0b74fdbf8f240ff14ae72c6d24f22",
-      "sha256": "3cdfc224f55e1622f08fe3ab1a29d4eb21acfcaa2c846bf198e631bb764c9867",
+      "sha1": "468259c0e3c7d7c9906abfc17b4dc016711b60c7",
+      "sha256": "11e5fd556d4a7979ce0cde4b373f090f2ee279fab889186c01c6f519f953722c",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/cdo/xlm-roberta-base/pfeiffer/cdo_relu_2.zip"
     }
   }

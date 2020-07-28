@@ -3,8 +3,8 @@
   "default_version": "madx",
   "files": {
     "madx": {
-      "sha1": "dd2be7769319fead4fb6069943310cefa925a94b",
-      "sha256": "2ab0729b29d474882c2949e88bc39ebcb505e0dab3e73a5e38834270aff3a447",
+      "sha1": "1bfa980f234a989e7ba8f84681cefbe12763a8c8",
+      "sha256": "a6c9f9a3fbd7773f9f99be3b6ec9db8060a182a9a62de309d39c9de390bea2bb",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/vi/xlm-roberta-base/pfeiffer/vi_relu_2.zip"
     }
   }

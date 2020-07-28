@@ -3,8 +3,8 @@
   "default_version": "madx",
   "files": {
     "madx": {
-      "sha1": "d4362a7d06d8f0fe53c40648e46a89eeb5c537b6",
-      "sha256": "151f96bc93ed734f713037d3eb7be142e9144dc9677307739c87fbb5ef33a661",
+      "sha1": "37f234d526ca87a9bca5f6351d5ae548173a5f5a",
+      "sha256": "84fecf7e2c41d21dc1bad348d60aaf1b15ab814370fcb4e029d2bcd65ce74782",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/hi/xlm-roberta-base/pfeiffer/hi_relu_2.zip"
     }
   }

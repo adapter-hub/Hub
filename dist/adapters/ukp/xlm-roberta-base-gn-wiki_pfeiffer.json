@@ -3,8 +3,8 @@
   "default_version": "madx",
   "files": {
     "madx": {
-      "sha1": "f37c238fc1e728f7ab59f824d00e30ab7c31d21f",
-      "sha256": "f94039d3873ad92997c072d244a362992c7b2ab12336742215b6599c151d80ce",
+      "sha1": "86324dbdcb982c1f3d1bc4d61729325048ea08e4",
+      "sha256": "70b51967bef47a5fbf382362639e12cda917e8e9f1e7ffe4904d3a2383ba8528",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/gn/xlm-roberta-base/pfeiffer/gn_relu_2.zip"
     }
   }

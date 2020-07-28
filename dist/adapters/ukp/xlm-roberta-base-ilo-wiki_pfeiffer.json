@@ -3,8 +3,8 @@
   "default_version": "madx",
   "files": {
     "madx": {
-      "sha1": "4cb096c74c6c4961221dffb5306d8db254fc8c37",
-      "sha256": "d92777d620330ff978be7d525727a62ca82fd6aa4706588bee07dcf19722e85b",
+      "sha1": "e3f53478f34a379b5a737d3661a2aa3f15539e48",
+      "sha256": "c63887a26ebd6550f4b41eeba63a814be34fe550b8f0a3b3e16b691f1d780666",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/ilo/xlm-roberta-base/pfeiffer/ilo_relu_2.zip"
     }
   }
