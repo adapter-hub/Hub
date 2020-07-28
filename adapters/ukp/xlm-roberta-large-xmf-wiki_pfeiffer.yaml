@@ -40,8 +40,8 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "8b051d6e6f9d71c5f55b82fb6a0fcf43bf80b341"
-    sha256: "cdec40c80d82c9bb9fad5b4fec0826dc7a73672c16ffa29be1e3154c3ea22ea4"
+  - sha1: "3764db5eb94b55fc72dd288c5c448fbe34ca8a11"
+    sha256: "e522682d73572248d583f8409814622e2d296ee0b1d200211491674af748fc56"
     # Download URL pointing to a zip folder containing the adapter module.
     url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/xmf/xlm-roberta-large/pfeiffer/xmf_relu_2.zip"
     version: "madx"
