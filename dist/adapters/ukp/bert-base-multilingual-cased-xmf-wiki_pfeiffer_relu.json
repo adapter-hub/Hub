@@ -3,8 +3,8 @@
   "default_version": "madx",
   "files": {
     "madx": {
-      "sha1": "a04820b3029269a837da0e16adedabd37eeb9624",
-      "sha256": "75efd64fa08e2f5ee35358b9db55d9a5132b1f93ec7b509301e5484fda7a0e3f",
+      "sha1": "4534ea44d010c1f3e1caf9ce94c1d2e77a36a5a2",
+      "sha256": "a3566a15ee37884434a2b2cf64165458ce6feab172298cfbf76fccaa4b6e2a89",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/xmf/bert-base-multilingual-cased/pfeiffer/xmf_relu_2.zip"
     }
   }

@@ -3,8 +3,8 @@
   "default_version": "madx",
   "files": {
     "madx": {
-      "sha1": "819872563a5d9b19cd9e2d72238299b365bff945",
-      "sha256": "ef1f71576d22c5d4798c262c29f32056b3437619211e59290c1e1e22fa9ddeda",
+      "sha1": "bf546696b52ba4868c476e8060fe68d56eee0b6a",
+      "sha256": "de83d7fc1f7529670ec8436d554c06f3ae9165e8d9958d3952bdde5428ccde6a",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/jv/bert-base-multilingual-cased/pfeiffer/jv_relu_2.zip"
     }
   }
