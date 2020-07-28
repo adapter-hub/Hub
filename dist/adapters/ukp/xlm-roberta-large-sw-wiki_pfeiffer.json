@@ -3,8 +3,8 @@
   "default_version": "madx",
   "files": {
     "madx": {
-      "sha1": "e63c635611f0a9b269f870d343cb0bc989588401",
-      "sha256": "27b2194ac73df94ff2fa685e52cf967a40ff9c0d36ce4e0fae1e5072e76cca0e",
+      "sha1": "b00cc39c020f1f508938b19998e3ca853988a172",
+      "sha256": "50dafd0795e97fad63c03554aa1ba78a5d49fe6df43a28a4d3029d183d4dfa83",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/sw/xlm-roberta-large/pfeiffer/sw_relu_2.zip"
     }
   }
