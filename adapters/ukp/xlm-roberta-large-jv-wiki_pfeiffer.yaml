@@ -40,8 +40,8 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "63c69a10728eb0f12ee8919762f956ffeec0bcbe"
-    sha256: "bcd6431ebaab422a7298fc31564504cf0684f759db94ae9d220eea27c65117ea"
+  - sha1: "8e7bb0c596291bde47a84c737f8f7d566e31e080"
+    sha256: "0142a810910bf4b73291c9247ab50a5bb07030583b304577f3031bf3db26e703"
     # Download URL pointing to a zip folder containing the adapter module.
     url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/jv/xlm-roberta-large/pfeiffer/jv_relu_2.zip"
     version: "madx"
