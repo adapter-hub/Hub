@@ -3,8 +3,8 @@
   "default_version": "madx",
   "files": {
     "madx": {
-      "sha1": "966a458e3cad736036c5d8b3a9f00febbd2efc46",
-      "sha256": "8c0f8019594ad7cf37f65f7c4f1b3bb4302e6d324af20eb52b1644e87afcc16e",
+      "sha1": "955f504726591d3d91a37512dd70a8fbacdee752",
+      "sha256": "a1ab038e6bc80cf1cff7f39e766aeb6860f49ffa49e1a4627ffee397b82def70",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/tk/bert-base-multilingual-cased/pfeiffer/tk_relu_2.zip"
     }
   }

@@ -3,8 +3,8 @@
   "default_version": "madx",
   "files": {
     "madx": {
-      "sha1": "8566c0387f2da7fce5117972fedd30d51568f140",
-      "sha256": "3dd157ce0da99073e910e1af764537024de26d8d431c547b5f3cc07706b68ac8",
+      "sha1": "40ef6c22c50bb6f8c7725b1c19cf359875368d20",
+      "sha256": "45963fc05c77ae190848342d10f00c22ac28364fe39cc49514d423afafad7bf6",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/gn/bert-base-multilingual-cased/pfeiffer/gn_relu_2.zip"
     }
   }
