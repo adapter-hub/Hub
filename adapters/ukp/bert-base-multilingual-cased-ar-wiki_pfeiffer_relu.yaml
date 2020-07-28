@@ -40,8 +40,8 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "248a8466a5e292e38a1fc56f8a8f16a94e47976d"
-    sha256: "a9ee2cf705694c51645ce1d209ce32957d964969336c39b7e67c3d088cfda9f5"
+  - sha1: "5bd33b4ce89c115eafc75e386607a9d531babbdf"
+    sha256: "75cc6f836047d5a7721f51105e8fa4bb84845d13d52e1e16978b2109a42e101b"
     # Download URL pointing to a zip folder containing the adapter module.
     url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/ar/bert-base-multilingual-cased/pfeiffer/ar_relu_2.zip"
     version: "madx"
