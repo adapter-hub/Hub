@@ -131,6 +131,16 @@
             "default": "adapters/ukp/bert-base-uncased-sick_pfeiffer.json"
         }
     },
+    "pos": {
+        "ldc2012t13": {
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "vblagoje": "adapters/vblagoje/bert-base-uncased-ldc2012t13_pfeiffer.json"
+                }
+            },
+            "default": "adapters/vblagoje/bert-base-uncased-ldc2012t13_pfeiffer.json"
+        }
+    },
     "qa": {
         "boolq": {
             "bb1c8efb82510bed": {
