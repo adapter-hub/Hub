@@ -1,0 +1,12 @@
+task: pos
+subtask: ldc2012t13
+displayname: LDC2012T13
+description: |
+   English Web Treebank was developed by the Linguistic Data Consortium (LDC) with funding through a gift from Google Inc. It consists of over 250,000 words of English weblogs, newsgroups, email, reviews and question-answers manually annotated for for sentence- and word-level tokenization, part-of-speech, and syntactic structure.
+url: "https://github.com/UniversalDependencies/UD_English-EWT/"
+citation: |
+  @inproceedings{silveira14gold,
+  year = {2014}, author = {Natalia Silveira and Timothy Dozat and Marie-Catherine de Marneffe and Samuel Bowman and Miriam Connor and John Bauer and Christopher D. Manning},
+  title = {A Gold Standard Dependency Corpus for {E}nglish}, 
+  booktitle = {Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC-2014)}}
+language: english
