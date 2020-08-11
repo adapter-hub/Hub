@@ -1,0 +1,16 @@
+task: chunker
+subtask: conll2003
+displayname: CONLL2003
+description: |
+   CoNLL-2003 shared task:language-independent named entity recognition is a dataset corpus consisting of the Reuters news stories between August 1996 and August 1997. Each line of the corpus has four fields: the word, its part-of-speech tag, its chunk tag and its named entity tag. We used chunked tag field. 
+url: "https://github.com/davidsbatista/NER-datasets/tree/master/CONLL2003/"
+citation: |
+  @inproceedings{tjong-kim-sang-de-meulder-2003-introduction,
+    title = "Introduction to the {C}o{NLL}-2003 Shared Task: Language-Independent Named Entity Recognition",
+    author = "Tjong Kim Sang, Erik F.  and
+      De Meulder, Fien",
+    booktitle = "Proceedings of the Seventh Conference on Natural Language Learning at {HLT}-{NAACL} 2003",
+    year = "2003",
+    url = "https://www.aclweb.org/anthology/W03-0419",
+    pages = "142--147"}
+language: english
