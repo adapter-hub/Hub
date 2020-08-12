@@ -1,4 +1,4 @@
-task: chunker
+task: chunk
 subtask: conll2003
 displayname: CONLL2003
 description: |

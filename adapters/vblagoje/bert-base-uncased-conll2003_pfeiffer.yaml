@@ -25,10 +25,10 @@ email: "dovlex@gmail.com"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "9cd70582b3746363443ae89fc95948e264461a5f"
-    sha256: "4cc981f2295271ae2f9d6101804280915f3d36e2da1d6913bcea545438a670a7"
+  - sha1: "a0ac6da06986ef349782773f56f4d62f5ade7db5"
+    sha256: "9daa39e253608e1bd84acd549017e6e0ab361de7d0ba86ebb4609a98c2f67100"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://storage.googleapis.com/models_nlp/AdapterHub/text_task/conll2003/bert-base-uncased/pfeiffer/chunker_conll2003.zip"
+    url: "https://storage.googleapis.com/models_nlp/AdapterHub/text_task/conll2003/bert-base-uncased/pfeiffer/chunk_conll2003.zip"
     version: "1"
 
 
@@ -50,7 +50,7 @@ model_type: bert
 subtask: conll2003
 
 # The string identifier of the task this adapter belongs to.
-task: chunker
+task: chunk
 
 # A Twitter handle associated with the author(s).
 twitter: "@vladblagoje"
