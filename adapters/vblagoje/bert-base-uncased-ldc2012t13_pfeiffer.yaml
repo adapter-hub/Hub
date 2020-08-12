@@ -23,7 +23,7 @@ config: # TODO: REQUIRED
   using: pfeiffer
 
 # The version to be downloaded if no version is explicitly stated.
-default_version: "AdapterFusion"
+default_version: "1"
 
 # A short description of this adapter.
 description: |
@@ -38,7 +38,7 @@ files:
     sha256: "a27c2647885266df185792381c3edafa8651ed7c387cd91230b7f633b4106a2b"
     # Download URL pointing to a zip folder containing the adapter module.
     url: "https://storage.googleapis.com/models_nlp/AdapterHub/text_task/ldc2012t13/bert-base-uncased/pfeiffer/pos_ldc2012t13.zip"
-    version: "AdapterFusion"
+    version: "1"
 
 
 # A GitHub handle associated with the author(s).

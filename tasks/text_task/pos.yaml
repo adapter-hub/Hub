@@ -1,4 +1,4 @@
 task: pos
-displayname: Part-Of-Speech Tagger
+displayname: Part-Of-Speech Tagging
 description: |
   POS tagging is the process of marking up a word in a text as corresponding to a particular part of speech such as noun, verb, adjective etc.
