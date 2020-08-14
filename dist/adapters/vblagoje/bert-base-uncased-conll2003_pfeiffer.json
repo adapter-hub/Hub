@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "a0ac6da06986ef349782773f56f4d62f5ade7db5",
+      "sha256": "9daa39e253608e1bd84acd549017e6e0ab361de7d0ba86ebb4609a98c2f67100",
+      "url": "https://storage.googleapis.com/models_nlp/AdapterHub/text_task/conll2003/bert-base-uncased/pfeiffer/chunk_conll2003.zip"
+    }
+  }
+}

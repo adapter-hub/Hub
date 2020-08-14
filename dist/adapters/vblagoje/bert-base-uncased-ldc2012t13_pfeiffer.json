@@ -1,8 +1,8 @@
 {
   "config_id": "bb1c8efb82510bed",
-  "default_version": "AdapterFusion",
+  "default_version": "1",
   "files": {
-    "AdapterFusion": {
+    "1": {
       "sha1": "e5f3961915f85c56091efde1436e90d3f8a29749",
       "sha256": "a27c2647885266df185792381c3edafa8651ed7c387cd91230b7f633b4106a2b",
       "url": "https://storage.googleapis.com/models_nlp/AdapterHub/text_task/ldc2012t13/bert-base-uncased/pfeiffer/pos_ldc2012t13.zip"

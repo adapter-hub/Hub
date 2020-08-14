@@ -9,6 +9,16 @@
             "default": "adapters/ukp/bert-base-uncased-ukpsent1_pfeiffer.json"
         }
     },
+    "chunk": {
+        "conll2003": {
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "vblagoje": "adapters/vblagoje/bert-base-uncased-conll2003_pfeiffer.json"
+                }
+            },
+            "default": "adapters/vblagoje/bert-base-uncased-conll2003_pfeiffer.json"
+        }
+    },
     "comsense": {
         "cosmosqa": {
             "bb1c8efb82510bed": {
