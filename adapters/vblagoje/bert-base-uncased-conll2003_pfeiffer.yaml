@@ -18,17 +18,17 @@ default_version: "1"
 
 # A short description of this adapter.
 description: |
-  Pfeiffer Adapter trained on English Dependency Treebank (LDC2012T13) with F1 score of 95.6. See example notebook at https://bit.ly/3klcxfL
+  Pfeiffer Adapter trained on "Introduction to the CoNLL-2003 Shared Task: Language-Independent Named Entity Recognition" with F1 score of 91.3. See example notebook at https://bit.ly/33Nh84t
 
 # A contact email of the author(s).
 email: "dovlex@gmail.com"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "e5f3961915f85c56091efde1436e90d3f8a29749"
-    sha256: "a27c2647885266df185792381c3edafa8651ed7c387cd91230b7f633b4106a2b"
+  - sha1: "a0ac6da06986ef349782773f56f4d62f5ade7db5"
+    sha256: "9daa39e253608e1bd84acd549017e6e0ab361de7d0ba86ebb4609a98c2f67100"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://storage.googleapis.com/models_nlp/AdapterHub/text_task/ldc2012t13/bert-base-uncased/pfeiffer/pos_ldc2012t13.zip"
+    url: "https://storage.googleapis.com/models_nlp/AdapterHub/text_task/conll2003/bert-base-uncased/pfeiffer/chunk_conll2003.zip"
     version: "1"
 
 
@@ -47,10 +47,10 @@ model_name: "bert-base-uncased"
 model_type: bert
 
 # The string identifier of the subtask this adapter belongs to.
-subtask: ldc2012t13
+subtask: conll2003
 
 # The string identifier of the task this adapter belongs to.
-task: pos
+task: chunk
 
 # A Twitter handle associated with the author(s).
 twitter: "@vladblagoje"

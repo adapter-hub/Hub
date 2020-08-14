@@ -1,0 +1,4 @@
+task: chunk
+displayname: Phrase Chunking
+description: |
+ Phrase chunking is a subtask of information extraction that seeks to locate and extract phrases from given sentences.
