@@ -42,22 +42,25 @@ This repository is divided into the following subfolders:
 
 Refer to [the step-by-step guides in our documentation](https://docs.adapterhub.ml/contributing.html) on how to contribute your adapters to the Hub.
 
+Our [template files](https://github.com/Adapter-Hub/Hub/tree/master/TEMPLATES) are a good way to get started with any contribution to this repo.
+
 ## Citation
 
-You can cite our paper when using _AdapterHub_ for your work:
+Please cite our paper when using _AdapterHub_ for your work:
 
 ```
 @article{pfeiffer2020AdapterHub,
-    title={AdapterHub},
-    author={Jonas Pfeiffer, 
-            Andreas R\"uckl\'{e}, 
-            Clifton Poth, 
-            Aishwarya Kamath,  
-            Ivan Vuli\'{c}, 
-            Sebastian Ruder, 
-            Kyunghyun Cho, 
+    title={AdapterHub: A Framework for Adapting Transformers},
+    author={Jonas Pfeiffer and
+            Andreas R\"uckl\'{e} and
+            Clifton Poth and
+            Aishwarya Kamath and
+            Ivan Vuli\'{c} and
+            Sebastian Ruder and
+            Kyunghyun Cho and
             Iryna Gurevych},
-    journal={ArXiv},
-    year={2020}
+    journal={arXiv preprint},
+    year={2020},
+    url={https://arxiv.org/abs/2007.07779}
 }
 ```
