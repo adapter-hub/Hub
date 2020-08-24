@@ -1,0 +1,74 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: text_task
+
+# The string identifier of the task this adapter belongs to.
+task: sts
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: sts-b
+
+# The model type.
+# Example: bert
+model_type: bert
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: bert-base-uncased
+
+# The name of the author(s) of this adapter.
+author: Clifton Poth
+
+# Describes the adapter architecture used by this adapter
+config: # TODO: REQUIRED
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: houlsby
+default_version: '1'
+
+# A list of different versions of this adapter available for download.
+files: # TODO: REQUIRED
+- version: '1'
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/sts-b/bert-base-uncased/houlsby/bert-base-uncased_sts_sts-b_houlsby.zip"
+  sha1: 305524b0d436442a376747902d9837469bafc334
+  sha256: baebff63ae97779ef5abde4b7b295f9ef9d93a2022b92484744e97a825642925
+
+citation: |
+  @article{pfeiffer2020AdapterHub,
+      title={AdapterHub: A Framework for Adapting Transformers},
+      author={Jonas Pfeiffer and
+              Andreas R\"uckl\'{e} and
+              Clifton Poth and
+              Aishwarya Kamath and
+              Ivan Vuli\'{c} and
+              Sebastian Ruder and
+              Kyunghyun Cho and
+              Iryna Gurevych},
+      journal={arXiv preprint},
+      year={2020},
+      url={https://arxiv.org/abs/2007.07779}
+  }
+
+# A short description of this adapter.
+description: |
+  Adapter in Houlsby architecture trained on the STS-Benchmark task for 20 epochs with early stopping and a learning rate of 1e-4.
+  See https://arxiv.org/pdf/2007.07779.pdf.
+
+# A contact email of the author(s).
+email: poth@ukp.informatik.tu-darmstadt.de
+
+# A GitHub handle associated with the author(s).
+github: calpt
+
+# The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
+model_class: BertForSequenceClassification
+
+# A Twitter handle associated with the author(s).
+twitter: clifapt
+
+# A URL providing more information on this adapter/ the authors/ the organization.
+url: https://www.informatik.tu-darmstadt.de/ukp
