@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "fcf8d1a39235e6ea3bbb40f186ef7cd81712cee2",
+      "sha256": "7c1009209ec99f58efd2c96eb8a211e48c164e4ea9b31fe5d93e11ddb17fd7e7",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/sst/bert-base-uncased/pfeiffer/bert-base-uncased_sentiment_sst-2_pfeiffer.zip"
+    }
+  }
+}
