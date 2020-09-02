@@ -1,0 +1,2 @@
+{count} new Adapters by {twitter} for {task_names}
+Here's one to check out: {explore_url[0]}

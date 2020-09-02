@@ -1,0 +1,30 @@
+name: Tweet
+
+on:
+  push:
+    branches: [ master ]
+    paths: [ 'adapters/**' ]
+
+jobs:
+  tweet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - id: files
+        uses: calpt/get-changed-files@master
+        with:
+          format: 'space-delimited'
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+      - name: Install
+        run: |
+          pip install -r scripts/requirements.txt
+      - name: Tweet
+        env:
+          TW_APP_KEY: ${{ secrets.TW_APP_KEY }}
+          TW_APP_SECRET: ${{ secrets.TW_APP_SECRET }}
+          TW_OAUTH_TOKEN: ${{ secrets.TW_OAUTH_TOKEN }}
+          TW_OAUTH_TOKEN_SECRET: ${{ secrets.TW_OAUTH_TOKEN_SECRET }}
+        run: |
+          python scripts/tweet.py ${{ steps.files.outputs.added }}

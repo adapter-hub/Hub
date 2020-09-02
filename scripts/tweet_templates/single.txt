@@ -1,0 +1,3 @@
+New Adapter for {model_name[0]} by {twitter}:
+{description_trunc[0]}.
+Check it out at {explore_url[0]}
