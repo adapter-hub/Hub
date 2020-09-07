@@ -1,0 +1,5 @@
+task: dialect
+displayname: Dialect Detection
+description: |
+  Dialect detection is a type of classifier which determines the regional origin
+  of text in a language.
