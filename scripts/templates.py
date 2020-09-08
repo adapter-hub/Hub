@@ -3,8 +3,9 @@ import os
 from utils import SCHEMA_FOLDER, TEMPLATE_FOLDER
 
 
-def cmt(s):
-    return f"# {s}"
+def cmt(s, optional=False):
+    opt_text = "(optional) " if optional else ""
+    return f"# {opt_text}{s}"
 
 
 def _keyfunc(required):
@@ -15,16 +16,12 @@ def generate_item(name, schema, lines, required=[], indent=0):
     if '$comment' in schema and schema['$comment'] == '$hidden':
         return
     if 'description' in schema:
-        lines.append(" "*indent+cmt(schema['description']))
+        lines.append(" "*indent+cmt(schema['description'], optional=required and name not in required))
     if 'examples' in schema:
         lines.append(" "*indent+cmt(f"Example: {schema['examples'][0]}"))
     if schema['type'] == 'object' and 'properties' in schema:
         if name:
-            if name in required:
-                comment = " # TODO: REQUIRED"
-            else:
-                comment = ""
-            lines.append(" "*indent+f"{name}:"+comment)
+            lines.append(" "*indent+f"{name}:")
         for name, data in sorted(schema['properties'].items(), key=_keyfunc(schema.get('required', []))):
             generate_item(
                 name, data, lines,
@@ -33,11 +30,7 @@ def generate_item(name, schema, lines, required=[], indent=0):
             )
     elif schema['type'] == 'array':
         if name:
-            if name in required:
-                comment = " # TODO: REQUIRED"
-            else:
-                comment = ""
-            lines.append(" "*indent+f"{name}:"+comment)
+            lines.append(" "*indent+f"{name}:")
         first_i = len(lines)
         generate_item(None, schema['items'], lines, indent=indent+2)
         list_prefix = " "*(indent+2)+"- "

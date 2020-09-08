@@ -143,6 +143,10 @@
                     "description": {
                         "type": "string",
                         "description": "A short description of this adapter version."
+                    },
+                    "score": {
+                        "type": "number",
+                        "description": "The score this adapter version achieves on the dataset (typically the dev split)."
                     }
                 }
             }
@@ -156,10 +160,6 @@
             "type": "string",
             "minLength": 1,
             "description": "The string identifier of the subtask this adapter belongs to."
-        },
-        "score": {
-            "type": "number",
-            "description": "The score this adapter achieves on the dataset."
         },
         "hidden_size": {
             "type": "integer",
@@ -189,6 +189,9 @@
             "description": "A list of adapters this adapter is dependent on.",
             "items": {
                 "type": "object",
+                "required": [
+                    "key"
+                ],
                 "properties": {
                     "key": {
                         "type": "string",
@@ -200,7 +203,8 @@
                     },
                     "description": {
                         "type": "string",
-                        "maxLength": 100
+                        "maxLength": 100,
+                        "description": "A short description how this adapter is dependent."
                     }
                 },
                 "additionalProperties": false
