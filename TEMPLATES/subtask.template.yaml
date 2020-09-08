@@ -13,20 +13,20 @@ subtask: "TODO: REQUIRED"
 # A short description of this subtask (max. 500 chars).
 description: "TODO: REQUIRED"
 
-# A bibtex citation of the work related to this subtask.
+# (optional) A bibtex citation of the work related to this subtask.
 citation: ""
 
-# The full name of the subtask that should be displayed e.g. on the website.
+# (optional) The full name of the subtask that should be displayed e.g. on the website.
 # Example: MultiNLI
 displayname: ""
 
-# The identifier of the language of the data in this subtask
+# (optional) The identifier of the language of the data in this subtask
 language: ""
 
-# The default evaluation metric of this subtask.
+# (optional) The default evaluation metric of this subtask.
 metric:
   name: ""
   higher_is_better: ""
 
-# A URL pointing to more information on this subtask.
+# (optional) A URL pointing to more information on this subtask.
 url: ""

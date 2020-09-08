@@ -23,14 +23,14 @@ model_name: "TODO: REQUIRED"
 author: "TODO: REQUIRED"
 
 # Describes the adapter architecture used by this adapter
-config: # TODO: REQUIRED
+config:
   # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
   # Example: pfeiffer
   using: ""
-  # Overrides the default activation function of the specified adapter architecture.
+  # (optional) Overrides the default activation function of the specified adapter architecture.
   # Example: tanh
   non_linearity: ""
-  # Overrides the default reduction factor of the specified adapter architecture
+  # (optional) Overrides the default reduction factor of the specified adapter architecture
   # Example: 64
   reduction_factor: ""
 
@@ -38,9 +38,11 @@ config: # TODO: REQUIRED
 default_version: "TODO: REQUIRED"
 
 # A list of different versions of this adapter available for download.
-files: # TODO: REQUIRED
+files:
   - # A short description of this adapter version.
     description: ""
+    # The score this adapter version achieves on the dataset (typically the dev split).
+    score: ""
     sha1: ""
     sha256: ""
     # Download URL pointing to a zip folder containing the adapter module.
@@ -48,35 +50,33 @@ files: # TODO: REQUIRED
     version: ""
 #   - ...
 
-# A bibtex citation of the work related to this adapter.
+# (optional) A bibtex citation of the work related to this adapter.
 citation: ""
 
-# A list of adapters this adapter is dependent on.
+# (optional) A list of adapters this adapter is dependent on.
 dependencies:
-  - description: ""
-    # The key (username/filename_without_ext) of the adapter dependency.
+  - # The key (username/filename_without_ext) of the adapter dependency.
     # Example: example-org/text_task-sst-bert
     key: ""
+    # (optional) A short description how this adapter is dependent.
+    description: ""
 #   - ...
 
-# A short description of this adapter.
+# (optional) A short description of this adapter.
 description: ""
 
-# A contact email of the author(s).
+# (optional) A contact email of the author(s).
 email: ""
 
-# A GitHub handle associated with the author(s).
+# (optional) A GitHub handle associated with the author(s).
 github: ""
 
-# The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
 # Example: BertModelWithHeads
 model_class: ""
 
-# The score this adapter achieves on the dataset.
-score: ""
-
-# A Twitter handle associated with the author(s).
+# (optional) A Twitter handle associated with the author(s).
 twitter: ""
 
-# A URL providing more information on this adapter/ the authors/ the organization.
+# (optional) A URL providing more information on this adapter/ the authors/ the organization.
 url: ""
