@@ -1,0 +1,58 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: text_task
+
+# The string identifier of the task this adapter belongs to.
+task: qa
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: squad1
+
+# The model type.
+# Example: bert
+model_type: bert
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: bert-base-uncased
+
+# The name of the author(s) of this adapter.
+author: Clifton Poth
+
+# Describes the adapter architecture used by this adapter
+config:
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: houlsby
+default_version: '1'
+
+# A list of different versions of this adapter available for download.
+files:
+- version: '1'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/squad1/bert-base-uncased/houlsby/bert-base-uncased_qa_squad1_houlsby.zip
+  sha1: ebf214ec9cd8fe389a64cba6ea14809bd19851b4
+  sha256: e925c8ba5473091f5bd3ec3a3d6c8ebda0dc7900fde2375ced86dd53561e5cac
+  score: 87.75
+
+# (optional) A short description of this adapter.
+description: |
+  Adapter for bert-base in Houlsby architecture trained on the SQuAD 1.1 dataset for 15 epochs with early stopping and a learning rate of 3e-4.
+
+# (optional) A contact email of the author(s).
+email: poth@ukp.informatik.tu-darmstadt.de
+
+# (optional) A GitHub handle associated with the author(s).
+github: calpt
+
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
+model_class: BertModelWithHeads
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: '@clifapt'
+
+# (optional) A URL providing more information on this adapter/ the authors/ the organization.
+url: https://www.informatik.tu-darmstadt.de/ukp
