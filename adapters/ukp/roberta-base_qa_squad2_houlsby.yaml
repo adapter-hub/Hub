@@ -1,0 +1,58 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: text_task
+
+# The string identifier of the task this adapter belongs to.
+task: qa
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: squad2
+
+# The model type.
+# Example: bert
+model_type: roberta
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: roberta-base
+
+# The name of the author(s) of this adapter.
+author: Clifton Poth
+
+# Describes the adapter architecture used by this adapter
+config:
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: houlsby
+default_version: '1'
+
+# A list of different versions of this adapter available for download.
+files:
+- version: '1'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/squad2/roberta-base/houlsby/roberta-base_qa_squad2_houlsby.zip
+  sha1: 9334aeebec9104bfc2231014da465d8b5c75ba38
+  sha256: 5fd7da871d8036c46e79c31cb4ea19a918d927762de423026e514386b6741462
+  score: 81.0
+
+# (optional) A short description of this adapter.
+description: |
+  Adapter for roberta-base in Houlsby architecture trained on the SQuAD 2.0 dataset for 15 epochs with early stopping and a learning rate of 1e-4.
+
+# (optional) A contact email of the author(s).
+email: poth@ukp.informatik.tu-darmstadt.de
+
+# (optional) A GitHub handle associated with the author(s).
+github: calpt
+
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
+model_class: RobertaModelWithHeads
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: '@clifapt'
+
+# (optional) A URL providing more information on this adapter/ the authors/ the organization.
+url: https://www.informatik.tu-darmstadt.de/ukp
