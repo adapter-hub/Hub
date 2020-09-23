@@ -1,0 +1,12 @@
+{
+    "dialect": {
+        "arabic": {
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "mapmeld": "adapters/mapmeld/bert-base-arabert-ar-dialect.json"
+                }
+            },
+            "default": "adapters/mapmeld/bert-base-arabert-ar-dialect.json"
+        }
+    }
+}
