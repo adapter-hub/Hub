@@ -1,0 +1,29 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: dialect
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: arabic
+
+# A short description of this subtask (max. 500 chars).
+description: |
+  Arabic Dialect Detection classifies text into Modern Standard Arabic (MSA),
+  Egyptian, Maghrebi (northwest Africa), Gulf, and Levantine
+
+
+# The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: ArabicDialect
+
+# The identifier of the language of the data in this subtask
+language: arabic
+
+# The default evaluation metric of this subtask.
+metric:
+  name: accuracy
+  higher_is_better: true

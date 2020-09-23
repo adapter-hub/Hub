@@ -1,0 +1,57 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: text_task
+
+# The string identifier of the task this adapter belongs to.
+task: dialect
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: arabic
+
+# The model type.
+# Example: bert
+model_type: bert
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: aubmindlab/bert-base-arabert
+
+# The name of the author(s) of this adapter.
+author: Nick Doiron
+
+# Describes the adapter architecture used by this adapter
+config:
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: pfeiffer
+default_version: '1'
+
+# A list of different versions of this adapter available for download.
+files:
+- version: '1'
+  url: https://github.com/MonsoonNLP/sanaa-dialect/raw/main/dialect-adapter.zip
+  sha1: 4cdb1891d0e26495422b5408ab921cec559e8d31
+  sha256: 9f974b690fc4df5dfa1cf0cacc4eea46d4912de1b6b057642654a989b15959b0
+
+# (optional) A short description of this adapter.
+description: |
+  Adapter for AraBERT (aubmindlab/bert-base-arabert) trained to classify Arabic by dialect, trained for 3 epochs on samples from University of British Columbia and John Hopkins University.
+
+# (optional) A contact email of the author(s).
+email: ndoiron@mapmeld.com
+
+# (optional) A GitHub handle associated with the author(s).
+github: mapmeld
+
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
+model_class: BertModelWithHeads
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: '@mapmeld'
+
+# (optional) A URL providing more information on this adapter/ the authors/ the organization.
+url: https://github.com/MonsoonNLP/sanaa-dialect
