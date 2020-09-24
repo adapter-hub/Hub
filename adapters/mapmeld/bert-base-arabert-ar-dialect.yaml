@@ -27,7 +27,7 @@ config:
   # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
   # Example: pfeiffer
   using: pfeiffer
-default_version: '1'
+default_version: '2'
 
 # A list of different versions of this adapter available for download.
 files:
@@ -35,10 +35,15 @@ files:
   url: https://github.com/MonsoonNLP/sanaa-dialect/raw/main/dialect-adapter.zip
   sha1: 4cdb1891d0e26495422b5408ab921cec559e8d31
   sha256: 9f974b690fc4df5dfa1cf0cacc4eea46d4912de1b6b057642654a989b15959b0
+- version: '2'
+  url: https://github.com/MonsoonNLP/sanaa-dialect/raw/main/dialect-adapter-2.zip
+  sha1: 62abe146560f732886b711db048e7a9d1fff2370
+  sha256: db078a3a2e7a3b3813a45d01848ab6ae0512a00a1481703dbe9cf0883ac4ae4a
 
 # (optional) A short description of this adapter.
 description: |
-  Adapter for AraBERT (aubmindlab/bert-base-arabert) trained to classify Arabic by dialect, trained for 3 epochs on samples from University of British Columbia and John Hopkins University.
+  Adapter for AraBERT (aubmindlab/bert-base-arabert) trained to classify Arabic by dialect {0=Egyptian, 1=Gulf, 2=Levantine, 3=Maghrebi, 4=MSA}
+  Trained for 3 epochs on 85k samples (+ 28k test set) from University of British Columbia and John Hopkins University. 
 
 # (optional) A contact email of the author(s).
 email: ndoiron@mapmeld.com
