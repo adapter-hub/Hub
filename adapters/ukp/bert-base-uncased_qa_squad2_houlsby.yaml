@@ -1,0 +1,58 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: text_task
+
+# The string identifier of the task this adapter belongs to.
+task: qa
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: squad2
+
+# The model type.
+# Example: bert
+model_type: bert
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: bert-base-uncased
+
+# The name of the author(s) of this adapter.
+author: Clifton Poth
+
+# Describes the adapter architecture used by this adapter
+config:
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: houlsby
+default_version: '1'
+
+# A list of different versions of this adapter available for download.
+files:
+- version: '1'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/squad2/bert-base-uncased/houlsby/bert-base-uncased_qa_squad2_houlsby.zip
+  sha1: 584e7ead6841da5887c7b09f06018bbee9865dda
+  sha256: 47b869b1d28cbf51645baf242debdbc1855c80bef6ea7237ee358a43ff3d6333
+  score: 76.5
+
+# (optional) A short description of this adapter.
+description: |
+  Adapter for bert-base-uncased in Pfeiffer architecture trained on the SQuAD 2.0 dataset for 15 epochs with early stopping and a learning rate of 1e-4.
+
+# (optional) A contact email of the author(s).
+email: poth@ukp.informatik.tu-darmstadt.de
+
+# (optional) A GitHub handle associated with the author(s).
+github: calpt
+
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
+model_class: BertModelWithHeads
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: '@clifapt'
+
+# (optional) A URL providing more information on this adapter/ the authors/ the organization.
+url: https://www.informatik.tu-darmstadt.de/ukp
