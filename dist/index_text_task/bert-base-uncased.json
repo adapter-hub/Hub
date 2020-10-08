@@ -172,6 +172,19 @@
                 }
             },
             "default": "adapters/ukp/bert-base-uncased_qa_squad1_pfeiffer.json"
+        },
+        "squad2": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/bert-base-uncased_qa_squad2_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/bert-base-uncased_qa_squad2_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/bert-base-uncased_qa_squad2_pfeiffer.json"
         }
     },
     "sentiment": {
