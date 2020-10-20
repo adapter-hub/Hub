@@ -35,7 +35,7 @@ email: "nirant.kasliwal@gmail.com"
 files:
   - sha1: "4e058d2bd9dbcbe204eb04c15e201900ba5dd4c9"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://github.com/NirantK/Hinglish/releases/download/adapter.v.1/hinglish-bert-base-multilingual-uncased-20201019T062947Z-001.zip"
+    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/contrib/nirantk/hinglish-bert-base-multilingual-uncased-20201019T062947Z-001.zip"
     version: "1"
     description: ""
 
