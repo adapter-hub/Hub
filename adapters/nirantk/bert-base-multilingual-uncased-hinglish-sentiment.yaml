@@ -54,7 +54,7 @@ model_name: "bert-base-multilingual-uncased"
 model_type: bert
 
 # The string identifier of the subtask this adapter belongs to.
-subtask: Hinglish
+subtask: hinglish-twitter-sentiment
 
 # The string identifier of the task this adapter belongs to.
 task: sentiment

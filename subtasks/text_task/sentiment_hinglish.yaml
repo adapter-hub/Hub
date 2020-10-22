@@ -8,7 +8,7 @@ task: "sentiment"
 
 # The short identifier of this subtask.
 # Example: multinli
-subtask: "hinglish-sentence-sentiment"
+subtask: "hinglish-twitter-sentiment"
 
 # A short description of this subtask (max. 500 chars).
 description: "This dataset was released as part of SemEval 2020, Task 9 on Sentiment Analysis in Code Mixed Social Media (Twitter) text. It tags positive, neutral and negative sentiment. There are 17,000 tweets, of which 14,000 are marked for training."
