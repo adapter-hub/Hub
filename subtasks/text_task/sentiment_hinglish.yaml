@@ -1,0 +1,40 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: "sentiment"
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: "hinglish-sentence-sentiment"
+
+# A short description of this subtask (max. 500 chars).
+description: "This dataset was released as part of SemEval 2020, Task 9 on Sentiment Analysis in Code Mixed Social Media (Twitter) text. It tags positive, neutral and negative sentiment. There are 17,000 tweets, of which 14,000 are marked for training."
+
+
+# (optional) A bibtex citation of the work related to this subtask.
+citation: |
+  @article{Hinglish,
+      title={HinglishNLP: Fine-tuned Language Models for Hinglish Sentiment Detection},
+      author={Meghana Bhange,
+              Nirant Kasliwal,
+      journal={ArXiv},
+      year={2020}
+  }
+
+# (optional) The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: "Hinglish Sentences Sentiment Analysis"
+
+# (optional) The identifier of the language of the data in this subtask
+language: "Hinglish"
+
+# (optional) The default evaluation metric of this subtask.
+metric:
+  name: "F1"
+  higher_is_better: true
+
+# (optional) A URL pointing to more information on this subtask.
+url: https://ritual-uh.github.io/sentimix2020/hinglish_res
