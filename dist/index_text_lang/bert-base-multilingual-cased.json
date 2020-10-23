@@ -231,7 +231,7 @@
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-is-wiki_pfeiffer_relu.json"
                 }
             },
-            "default": "adapters/ukp/bert-base-multilingual-cased-is-wiki_pfeiffer_relu.json",
+            "default": "adapters/ukp/bert-base-multilingual-cased-is-wiki_pfeiffer.json",
             "f10efa747ae87c60": {
                 "versions": {
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-is-wiki_houlsby.json"
@@ -306,7 +306,7 @@
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-mhr-wiki_pfeiffer_relu.json"
                 }
             },
-            "default": "adapters/ukp/bert-base-multilingual-cased-mhr-wiki_pfeiffer_relu.json",
+            "default": "adapters/ukp/bert-base-multilingual-cased-mhr-wiki_pfeiffer.json",
             "f10efa747ae87c60": {
                 "versions": {
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-mhr-wiki_houlsby.json"
@@ -326,7 +326,7 @@
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-mi-wiki_pfeiffer_relu.json"
                 }
             },
-            "default": "adapters/ukp/bert-base-multilingual-cased-mi-wiki_pfeiffer_relu.json",
+            "default": "adapters/ukp/bert-base-multilingual-cased-mi-wiki_pfeiffer.json",
             "f10efa747ae87c60": {
                 "versions": {
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-mi-wiki_houlsby.json"
@@ -401,7 +401,7 @@
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-sw-wiki_pfeiffer_relu.json"
                 }
             },
-            "default": "adapters/ukp/bert-base-multilingual-cased-sw-wiki_pfeiffer_relu.json",
+            "default": "adapters/ukp/bert-base-multilingual-cased-sw-wiki_pfeiffer.json",
             "f10efa747ae87c60": {
                 "versions": {
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-sw-wiki_houlsby.json"
@@ -421,7 +421,7 @@
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-tk-wiki_pfeiffer_relu.json"
                 }
             },
-            "default": "adapters/ukp/bert-base-multilingual-cased-tk-wiki_pfeiffer_relu.json",
+            "default": "adapters/ukp/bert-base-multilingual-cased-tk-wiki_pfeiffer.json",
             "f10efa747ae87c60": {
                 "versions": {
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-tk-wiki_houlsby.json"
@@ -461,7 +461,7 @@
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-zh-wiki_pfeiffer_relu.json"
                 }
             },
-            "default": "adapters/ukp/bert-base-multilingual-cased-zh-wiki_pfeiffer_relu.json",
+            "default": "adapters/ukp/bert-base-multilingual-cased-zh-wiki_pfeiffer.json",
             "f10efa747ae87c60": {
                 "versions": {
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-zh-wiki_houlsby.json"

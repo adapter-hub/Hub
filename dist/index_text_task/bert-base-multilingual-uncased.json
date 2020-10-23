@@ -1,0 +1,12 @@
+{
+    "sentiment": {
+        "hinglish-twitter-sentiment": {
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "nirantk": "adapters/nirantk/bert-base-multilingual-uncased-hinglish-sentiment.json"
+                }
+            },
+            "default": "adapters/nirantk/bert-base-multilingual-uncased-hinglish-sentiment.json"
+        }
+    }
+}
