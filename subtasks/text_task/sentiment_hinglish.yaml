@@ -16,13 +16,23 @@ description: "This dataset was released as part of SemEval 2020, Task 9 on Senti
 
 # (optional) A bibtex citation of the work related to this subtask.
 citation: |
-  @article{Hinglish,
-      title={HinglishNLP: Fine-tuned Language Models for Hinglish Sentiment Detection},
-      author={Meghana Bhange,
-              Nirant Kasliwal,
-      journal={ArXiv},
-      year={2020}
-  }
+  @inproceedings{patwa2020sentimix,
+  title={SemEval-2020 Task 9: Overview of Sentiment Analysis of Code-Mixed Tweets},
+  author={Patwa, Parth and
+          Aguilar, Gustavo and
+          Kar, Sudipta and
+          Pandey, Suraj and
+          PYKL, Srinivas and
+          Gamb{\"a}ck, Bj{\"o}rn and
+          Chakraborty, Tanmoy and
+          Solorio, Thamar and  
+          Das, Amitava},
+  booktitle = {Proceedings of the 14th International Workshop on Semantic Evaluation ({S}em{E}val-2020)},
+  year = {2020},
+  month = {December},
+  address = {Barcelona, Spain},
+  publisher = {Association for Computational Linguistics}
+}
 
 # (optional) The full name of the subtask that should be displayed e.g. on the website.
 # Example: MultiNLI
