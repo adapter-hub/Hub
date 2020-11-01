@@ -28,7 +28,6 @@ config: # TODO: REQUIRED
   # Example: pfeiffer
   using: pfeiffer
   reduction_factor: 12
-  invertible_adapter: null
 
 default_version: 'cooking_stackexchange_com'
 
