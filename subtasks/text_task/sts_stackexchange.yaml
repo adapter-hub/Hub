@@ -1,0 +1,43 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: sts
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: stackexchange
+
+# A short description of this subtask (max. 500 chars).
+description: |
+  StackExchange QA similarity determines whether two questions or a question-answer pair in StackExchange forums are related or not (e.g., to find duplicate questions or relevant answers).
+
+# A bibtex citation of the work related to this subtask.
+citation: |
+  @inproceedings{rueckle-etal-2020-multicqa,
+    title = "{MultiCQA}: Zero-Shot Transfer of Self-Supervised Text Matching Models on a Massive Scale",
+    author = {R{\"u}ckl{\'e}, Andreas  and
+      Pfeiffer, Jonas and
+      Gurevych, Iryna},
+    booktitle = "Proceedings of The 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP-2020)",
+    year = "2020",
+    address = "Virtual Conference",
+    url = "https://arxiv.org/abs/2010.00980",
+  }
+
+# The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: StackExchange QA Similarity
+
+# The identifier of the language of the data in this subtask
+language: english
+
+# The default evaluation metric of this subtask.
+metric:
+  name: accuracy
+  higher_is_better: true
+
+# A URL pointing to more information on this subtask.
+url: "https://arxiv.org/abs/2010.00980"
