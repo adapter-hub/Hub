@@ -1,0 +1,570 @@
+{
+  "config_id": "e12af4d77ed17a6b",
+  "default_version": "cooking_stackexchange_com",
+  "files": {
+    "3dprinting_stackexchange_com": {
+      "sha1": "3cc881aa51fb42317b2ce483bb2d81fa2ccd744d",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/3dprinting_stackexchange_com.zip"
+    },
+    "academia_stackexchange_com": {
+      "sha1": "fb71ed74654e0c51926d3b6f931fb6a176ad03ed",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/academia_stackexchange_com.zip"
+    },
+    "ai_stackexchange_com": {
+      "sha1": "93508454a57b0d9e2e0d93fb8d8897c0e9a8a1c3",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/ai_stackexchange_com.zip"
+    },
+    "android_stackexchange_com": {
+      "sha1": "553bda0bc579c3030689762daf617ad57600bca2",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/android_stackexchange_com.zip"
+    },
+    "anime_stackexchange_com": {
+      "sha1": "ff49832516d30cf975d6eea92d12c3ccdea1a336",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/anime_stackexchange_com.zip"
+    },
+    "apple_stackexchange_com": {
+      "sha1": "3e197c6e829b59d379928983381eefeed181748a",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/apple_stackexchange_com.zip"
+    },
+    "arduino_stackexchange_com": {
+      "sha1": "05b1244177adecfe6b603ddb87cba1d7317e5c15",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/arduino_stackexchange_com.zip"
+    },
+    "askubuntu_com": {
+      "sha1": "eef71582d3429a79c7b142c0f628616ff6d4bcd6",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/askubuntu_com.zip"
+    },
+    "astronomy_stackexchange_com": {
+      "sha1": "79b911fa75478ce016ac4a2c118cc29e9239e7e5",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/astronomy_stackexchange_com.zip"
+    },
+    "aviation_stackexchange_com": {
+      "sha1": "38728ee55d9c35b3bda3e06963d2de84ff565b41",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/aviation_stackexchange_com.zip"
+    },
+    "avp_stackexchange_com": {
+      "sha1": "a9a3d3eb602d739d0d38098f5eaf65e24354e878",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/avp_stackexchange_com.zip"
+    },
+    "bicycles_stackexchange_com": {
+      "sha1": "d1fcc1296f7887b4416a56bcb2a5edb3dce9ef2a",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/bicycles_stackexchange_com.zip"
+    },
+    "bioinformatics_stackexchange_com": {
+      "sha1": "2f76aad29931ba11da4a69c15583378c87155e63",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/bioinformatics_stackexchange_com.zip"
+    },
+    "biology_stackexchange_com": {
+      "sha1": "269f143c47d393bc7593c471929d744e398bf523",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/biology_stackexchange_com.zip"
+    },
+    "bitcoin_stackexchange_com": {
+      "sha1": "13520418daa99f995affffa5ee32a65ff8c4bc07",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/bitcoin_stackexchange_com.zip"
+    },
+    "blender_stackexchange_com": {
+      "sha1": "35ade62ad31d3d4c19b5106c62c7ff0481db0770",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/blender_stackexchange_com.zip"
+    },
+    "boardgames_stackexchange_com": {
+      "sha1": "25c11bdc26d7f5a850b97a736e24d5f5e317ca50",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/boardgames_stackexchange_com.zip"
+    },
+    "bricks_stackexchange_com": {
+      "sha1": "86af4b0bfa845a3d2305752e1e72d80fcac3acef",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/bricks_stackexchange_com.zip"
+    },
+    "buddhism_stackexchange_com": {
+      "sha1": "3822c6d6a9f6f34ef54c82e5a89a1a4c925d4412",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/buddhism_stackexchange_com.zip"
+    },
+    "chemistry_stackexchange_com": {
+      "sha1": "4fa2d012046ba641a4b014dd05b7734d3fc7c36b",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/chemistry_stackexchange_com.zip"
+    },
+    "chess_stackexchange_com": {
+      "sha1": "7a5849234c60204560048faeb3f369c5f19b5ff4",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/chess_stackexchange_com.zip"
+    },
+    "christianity_stackexchange_com": {
+      "sha1": "bced55c55ee9855928b1a250d819acb412a19e42",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/christianity_stackexchange_com.zip"
+    },
+    "civicrm_stackexchange_com": {
+      "sha1": "0b5b042e84306c59fede78004d49ea1450a2e090",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/civicrm_stackexchange_com.zip"
+    },
+    "codegolf_stackexchange_com": {
+      "sha1": "dbe808c58af68bfdfe737dbcc97a5906ae3ffbfa",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/codegolf_stackexchange_com.zip"
+    },
+    "codereview_stackexchange_com": {
+      "sha1": "589d0c08f8532b0379302aa59073680c4332cf0a",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/codereview_stackexchange_com.zip"
+    },
+    "cogsci_stackexchange_com": {
+      "sha1": "2abbce558f68f6c3197b4e401915eddb4190204a",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/cogsci_stackexchange_com.zip"
+    },
+    "computergraphics_stackexchange_com": {
+      "sha1": "29959d681a28640336257a0b74101e790795860d",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/computergraphics_stackexchange_com.zip"
+    },
+    "cooking_stackexchange_com": {
+      "sha1": "f30f929186487706c7acf600a10d350689f21764",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/cooking_stackexchange_com.zip"
+    },
+    "craftcms_stackexchange_com": {
+      "sha1": "03e8a293dc62b37fd0b13ceac304e10d905ef7ff",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/craftcms_stackexchange_com.zip"
+    },
+    "crypto_stackexchange_com": {
+      "sha1": "67a0ea53e56755d398a3edb4d7cf2fbc6675adb2",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/crypto_stackexchange_com.zip"
+    },
+    "cs_stackexchange_com": {
+      "sha1": "6ee1cf4e92039d666f2eb8fe0c4f27ffaebac4a5",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/cs_stackexchange_com.zip"
+    },
+    "cstheory_stackexchange_com": {
+      "sha1": "4a1ccf52c78765925445337c28233c34a5535881",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/cstheory_stackexchange_com.zip"
+    },
+    "datascience_stackexchange_com": {
+      "sha1": "af48e0a986f6e78ad2095447086b9ba5e999eaa9",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/datascience_stackexchange_com.zip"
+    },
+    "dba_stackexchange_com": {
+      "sha1": "92174c56dc9a3c64689463b7607039443a75bf5f",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/dba_stackexchange_com.zip"
+    },
+    "devops_stackexchange_com": {
+      "sha1": "32b7c23ca0e0cff160d855fbf0b95e5e7c329289",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/devops_stackexchange_com.zip"
+    },
+    "diy_stackexchange_com": {
+      "sha1": "44f622715ddec1c0012ab2f2dc351dd46c12aee4",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/diy_stackexchange_com.zip"
+    },
+    "drupal_stackexchange_com": {
+      "sha1": "8646c947008bb7bd63f643fd1b213f4995b3dc12",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/drupal_stackexchange_com.zip"
+    },
+    "dsp_stackexchange_com": {
+      "sha1": "bb8a5d3c274188b1cbd933083075362ccdeb7b24",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/dsp_stackexchange_com.zip"
+    },
+    "earthscience_stackexchange_com": {
+      "sha1": "e6df00543c0e9b902c09c54ebb5a92488e1d8cca",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/earthscience_stackexchange_com.zip"
+    },
+    "economics_stackexchange_com": {
+      "sha1": "ae6ba8a7a992e79cb7f058062fd306b48a02662d",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/economics_stackexchange_com.zip"
+    },
+    "electronics_stackexchange_com": {
+      "sha1": "30d66f6c17ed883c3162fd56600974965677087b",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/electronics_stackexchange_com.zip"
+    },
+    "elementaryos_stackexchange_com": {
+      "sha1": "e21c368396068334a21aee4134b471098da723dc",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/elementaryos_stackexchange_com.zip"
+    },
+    "ell_stackexchange_com": {
+      "sha1": "8c6e089d03a31372369f255719e2d09862fe29b6",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/ell_stackexchange_com.zip"
+    },
+    "emacs_stackexchange_com": {
+      "sha1": "0fcec590ce1d5c4d92b00db97fe04a7878ed9e9d",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/emacs_stackexchange_com.zip"
+    },
+    "engineering_stackexchange_com": {
+      "sha1": "17f0ce57cbb97515f2339cb71ae834ecb55b0888",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/engineering_stackexchange_com.zip"
+    },
+    "english_stackexchange_com": {
+      "sha1": "06fc69e93e1e60a1a64bba1ae9f0f0880da1aec8",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/english_stackexchange_com.zip"
+    },
+    "eosio_stackexchange_com": {
+      "sha1": "48b67c6da689b1d5ccc0b2d3ffdd3b51e26bf5fa",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/eosio_stackexchange_com.zip"
+    },
+    "ethereum_stackexchange_com": {
+      "sha1": "8f2519019dddf3954533dae1aacec942609f64aa",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/ethereum_stackexchange_com.zip"
+    },
+    "expatriates_stackexchange_com": {
+      "sha1": "999eb12872fac3fc0cbd5643504cb0cbd26c426f",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/expatriates_stackexchange_com.zip"
+    },
+    "expressionengine_stackexchange_com": {
+      "sha1": "d84a2d9fc399675d8a7daa32f2b873868ed04704",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/expressionengine_stackexchange_com.zip"
+    },
+    "fitness_stackexchange_com": {
+      "sha1": "15240f3b352a65901bdf80b15b1926b3082588fa",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/fitness_stackexchange_com.zip"
+    },
+    "freelancing_stackexchange_com": {
+      "sha1": "2b2a97deac5a1d5d49570803d6ba36a376b0be0c",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/freelancing_stackexchange_com.zip"
+    },
+    "gamedev_stackexchange_com": {
+      "sha1": "488cb9e994b5ba87b993adfb940e7db3a989d552",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/gamedev_stackexchange_com.zip"
+    },
+    "gaming_stackexchange_com": {
+      "sha1": "9e9027732f36eaa19263e29e5dd5e787d760f4f8",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/gaming_stackexchange_com.zip"
+    },
+    "gardening_stackexchange_com": {
+      "sha1": "e1f70fbb51db2dd85c71175cdbb11176608b6790",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/gardening_stackexchange_com.zip"
+    },
+    "genealogy_stackexchange_com": {
+      "sha1": "5d91fff4b948fa80f0ae990978a3ed2444161034",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/genealogy_stackexchange_com.zip"
+    },
+    "gis_stackexchange_com": {
+      "sha1": "4dd79879d655fc4f687f1428ff973729be7e22bd",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/gis_stackexchange_com.zip"
+    },
+    "graphicdesign_stackexchange_com": {
+      "sha1": "1ab90723645df853edd7b0b2c9bf572e1b892579",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/graphicdesign_stackexchange_com.zip"
+    },
+    "ham_stackexchange_com": {
+      "sha1": "ff827e650bc5ea18c52fe4c353fce0da836f6e6c",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/ham_stackexchange_com.zip"
+    },
+    "hardwarerecs_stackexchange_com": {
+      "sha1": "49eefd833a8b9b023964dd647a1a8c6fec3cfcc2",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/hardwarerecs_stackexchange_com.zip"
+    },
+    "health_stackexchange_com": {
+      "sha1": "4644315f03c929f133e009eee24ff679dd15e16b",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/health_stackexchange_com.zip"
+    },
+    "hermeneutics_stackexchange_com": {
+      "sha1": "45e2e57016b90eb8d7b95026afaf40b53b795df5",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/hermeneutics_stackexchange_com.zip"
+    },
+    "hinduism_stackexchange_com": {
+      "sha1": "1f76b1a2f7169d2ad3519f23fa3e953a7878762d",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/hinduism_stackexchange_com.zip"
+    },
+    "history_stackexchange_com": {
+      "sha1": "bde4c74b6055b01c4f0dd6c891fa245962b19a54",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/history_stackexchange_com.zip"
+    },
+    "homebrew_stackexchange_com": {
+      "sha1": "73636ba0cca8529f4e73a820c8303c729efd3a58",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/homebrew_stackexchange_com.zip"
+    },
+    "hsm_stackexchange_com": {
+      "sha1": "9ec6442e522a3031650f780774d4067eaecb87f5",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/hsm_stackexchange_com.zip"
+    },
+    "interpersonal_stackexchange_com": {
+      "sha1": "b01d3173921eba3d6c4dc2406878a81bc844ea2b",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/interpersonal_stackexchange_com.zip"
+    },
+    "islam_stackexchange_com": {
+      "sha1": "8537417d192ca693ef983a44443e2df51dd98d3c",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/islam_stackexchange_com.zip"
+    },
+    "joomla_stackexchange_com": {
+      "sha1": "5b71b85198e9a1a247ffe100a19b9d100bde947f",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/joomla_stackexchange_com.zip"
+    },
+    "judaism_stackexchange_com": {
+      "sha1": "829358280067a0518b0bb4258cee43d3a16fd7d9",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/judaism_stackexchange_com.zip"
+    },
+    "law_stackexchange_com": {
+      "sha1": "725a8af3ca5d1feb92f9d8a5303a58e82d68b40a",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/law_stackexchange_com.zip"
+    },
+    "lifehacks_stackexchange_com": {
+      "sha1": "09b9f026cf81661816e3774e1d0ad85a55232d0c",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/lifehacks_stackexchange_com.zip"
+    },
+    "linguistics_stackexchange_com": {
+      "sha1": "8060f93c02d65d33cd6d3be640abaad27a7050f5",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/linguistics_stackexchange_com.zip"
+    },
+    "literature_stackexchange_com": {
+      "sha1": "346b72249f07de077a124f4884415489b0afa5af",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/literature_stackexchange_com.zip"
+    },
+    "magento_stackexchange_com": {
+      "sha1": "d81eef67516da9960ef8741d2f6dee1a2f95dae5",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/magento_stackexchange_com.zip"
+    },
+    "martialarts_stackexchange_com": {
+      "sha1": "e2efae8fc6469ea461093ae9e3d777ca0dd50f1e",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/martialarts_stackexchange_com.zip"
+    },
+    "math_stackexchange_com": {
+      "sha1": "acac9b1c374d9423190059745186bf0fb029569b",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/math_stackexchange_com.zip"
+    },
+    "matheducators_stackexchange_com": {
+      "sha1": "261eb6383222a06b3c149e70978403318cbbd0d1",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/matheducators_stackexchange_com.zip"
+    },
+    "mathematica_stackexchange_com": {
+      "sha1": "5ab5f0506382729d99013fd2293003d243e223b1",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/mathematica_stackexchange_com.zip"
+    },
+    "mechanics_stackexchange_com": {
+      "sha1": "7f707c9d0f5e6e857c371d888a76ac3f37ed6fb7",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/mechanics_stackexchange_com.zip"
+    },
+    "monero_stackexchange_com": {
+      "sha1": "f4999faefab2109392f8f6601dfa0fcf1564504a",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/monero_stackexchange_com.zip"
+    },
+    "money_stackexchange_com": {
+      "sha1": "f00a73fe1e7638406b044faa6f6b0cc8284f7816",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/money_stackexchange_com.zip"
+    },
+    "movies_stackexchange_com": {
+      "sha1": "e8556f85096dc8c72d4509920cdaa758e998ac6e",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/movies_stackexchange_com.zip"
+    },
+    "music_stackexchange_com": {
+      "sha1": "6b8250efca4c6837b12867f4b24c41c50e4241a5",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/music_stackexchange_com.zip"
+    },
+    "musicfans_stackexchange_com": {
+      "sha1": "d756eee3f0c3633b4925248cb3a8ff78bbea0f64",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/musicfans_stackexchange_com.zip"
+    },
+    "mythology_stackexchange_com": {
+      "sha1": "c81a635f5e6391c55e6d9a0a521cb7b6c6ca3975",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/mythology_stackexchange_com.zip"
+    },
+    "networkengineering_stackexchange_com": {
+      "sha1": "f9a0286503fb5503d60bd94cb9d68244ed78a88a",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/networkengineering_stackexchange_com.zip"
+    },
+    "opendata_stackexchange_com": {
+      "sha1": "fc5ef61fababc2508c440bc1d1acf85084c782ab",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/opendata_stackexchange_com.zip"
+    },
+    "opensource_stackexchange_com": {
+      "sha1": "c6f1df71e00855209c904cca3f019d1466354816",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/opensource_stackexchange_com.zip"
+    },
+    "outdoors_stackexchange_com": {
+      "sha1": "f7e10815d59eb1aebec71376c3d2c38a9ed2ad35",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/outdoors_stackexchange_com.zip"
+    },
+    "parenting_stackexchange_com": {
+      "sha1": "524494bbd0028d756befcf76070fbcac64d36402",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/parenting_stackexchange_com.zip"
+    },
+    "patents_stackexchange_com": {
+      "sha1": "86df24a1bf8c1783c6462ecec009bed58fbca534",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/patents_stackexchange_com.zip"
+    },
+    "pets_stackexchange_com": {
+      "sha1": "11f27ea1b97d78f072d199e3f3129e353ccf3533",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/pets_stackexchange_com.zip"
+    },
+    "philosophy_stackexchange_com": {
+      "sha1": "02bd63922110f2f7a0ba8c99adb3b7369b27780b",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/philosophy_stackexchange_com.zip"
+    },
+    "photo_stackexchange_com": {
+      "sha1": "4e2f0d64893bde9b6978718e647b19bc98ce65c3",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/photo_stackexchange_com.zip"
+    },
+    "physics_stackexchange_com": {
+      "sha1": "fc05e722ac8af4216efec4deff55aa9faa445c86",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/physics_stackexchange_com.zip"
+    },
+    "pm_stackexchange_com": {
+      "sha1": "d4d9acd3e188a90e8ba36db7a769884fe2699953",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/pm_stackexchange_com.zip"
+    },
+    "poker_stackexchange_com": {
+      "sha1": "b0f1c53f9168fad3c240ac9f4d7e08784f6df97e",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/poker_stackexchange_com.zip"
+    },
+    "politics_stackexchange_com": {
+      "sha1": "78fe545bd286e17a7f3770cadf1cd97e3b908bdf",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/politics_stackexchange_com.zip"
+    },
+    "puzzling_stackexchange_com": {
+      "sha1": "d508e91a649b8976c98608ee2e25c1379247df20",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/puzzling_stackexchange_com.zip"
+    },
+    "quant_stackexchange_com": {
+      "sha1": "39581f084e3f26012c48fe8095cb3b6920e20195",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/quant_stackexchange_com.zip"
+    },
+    "quantumcomputing_stackexchange_com": {
+      "sha1": "3a3839ddde5a7305168315713d8ff17d8f5ba542",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/quantumcomputing_stackexchange_com.zip"
+    },
+    "raspberrypi_stackexchange_com": {
+      "sha1": "18d826426979e497ed877ad350521ad1dd0401e4",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/raspberrypi_stackexchange_com.zip"
+    },
+    "retrocomputing_stackexchange_com": {
+      "sha1": "42fb1ba52901520fd917945c8d5d2d6cfce5d4af",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/retrocomputing_stackexchange_com.zip"
+    },
+    "reverseengineering_stackexchange_com": {
+      "sha1": "99c9d8c23236407122cd5bdb2d8ca62729259edb",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/reverseengineering_stackexchange_com.zip"
+    },
+    "robotics_stackexchange_com": {
+      "sha1": "1aa56f572e56a2607f3e79c862ddd37510c3f60f",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/robotics_stackexchange_com.zip"
+    },
+    "rpg_stackexchange_com": {
+      "sha1": "49e188d962b58e67e733dc006b3f38954ffe25eb",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/rpg_stackexchange_com.zip"
+    },
+    "salesforce_stackexchange_com": {
+      "sha1": "b8a4a6765b5476ee0222cb7f53479c812a9082db",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/salesforce_stackexchange_com.zip"
+    },
+    "scicomp_stackexchange_com": {
+      "sha1": "64c5bc44302dc830303412960a912723181af595",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/scicomp_stackexchange_com.zip"
+    },
+    "scifi_stackexchange_com": {
+      "sha1": "a842560a1fa38a3d4be6a2d1efb81b9aead722be",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/scifi_stackexchange_com.zip"
+    },
+    "security_stackexchange_com": {
+      "sha1": "e03b687eebc7fc9e0c3ee99cf1be900eeba44d99",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/security_stackexchange_com.zip"
+    },
+    "serverfault_com": {
+      "sha1": "5bfa43b14d50c0fc021c39aa7d5f07ada1a11bb9",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/serverfault_com.zip"
+    },
+    "sharepoint_stackexchange_com": {
+      "sha1": "53686f5153f9bb28070cc8508d06be292a2c8fc8",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/sharepoint_stackexchange_com.zip"
+    },
+    "sitecore_stackexchange_com": {
+      "sha1": "4a83bd7467ed18d3e93b44b123f7bddda5556a64",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/sitecore_stackexchange_com.zip"
+    },
+    "skeptics_stackexchange_com": {
+      "sha1": "cae305a73a4bc2fc73c102cf4a7155e45ee731df",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/skeptics_stackexchange_com.zip"
+    },
+    "softwareengineering_stackexchange_com": {
+      "sha1": "f64d18cc4456b7f2aafa186a55412aa5749adb50",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/softwareengineering_stackexchange_com.zip"
+    },
+    "softwarerecs_stackexchange_com": {
+      "sha1": "d53f439f1f2ab3ca19e01a5c7293dec2cc59aa7c",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/softwarerecs_stackexchange_com.zip"
+    },
+    "sound_stackexchange_com": {
+      "sha1": "15eda00d635e0e21caeead76835c0e2b18411644",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/sound_stackexchange_com.zip"
+    },
+    "space_stackexchange_com": {
+      "sha1": "e0b09894722d7622c64d9b1a8fc88827b83b4df9",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/space_stackexchange_com.zip"
+    },
+    "sports_stackexchange_com": {
+      "sha1": "2743209c0eeb92df3b721b3a1ac31e9ad8da1991",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/sports_stackexchange_com.zip"
+    },
+    "sqa_stackexchange_com": {
+      "sha1": "124e9eb2a4b5613ce48ef721b6fc862d1700dd7d",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/sqa_stackexchange_com.zip"
+    },
+    "stackapps_com": {
+      "sha1": "efe4d9a1601675380f98e5a8443cfb99f05d6665",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/stackapps_com.zip"
+    },
+    "stackoverflow_com": {
+      "sha1": "e160c5f5fff6c7918e65959d0cd44b2ec00d256c",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/stackoverflow_com.zip"
+    },
+    "stats_stackexchange_com": {
+      "sha1": "f70927968316afa8b095d5ba8550f69285ece602",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/stats_stackexchange_com.zip"
+    },
+    "superuser_com": {
+      "sha1": "a81e8d70f58c9a6a66438880f1a41de9253a1dfb",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/superuser_com.zip"
+    },
+    "sustainability_stackexchange_com": {
+      "sha1": "383ee5e76da927930a746e747cdaf6eebeec783d",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/sustainability_stackexchange_com.zip"
+    },
+    "tex_stackexchange_com": {
+      "sha1": "82f71d94b67202475f3e6789ea62eaa6cfc58197",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/tex_stackexchange_com.zip"
+    },
+    "tor_stackexchange_com": {
+      "sha1": "8d60f67b4e6717dc34e24702ad8da0eb5c42d54f",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/tor_stackexchange_com.zip"
+    },
+    "travel_stackexchange_com": {
+      "sha1": "a5d4e0f492301d6d5e116e8f93cccb07d8b563ab",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/travel_stackexchange_com.zip"
+    },
+    "tridion_stackexchange_com": {
+      "sha1": "785b3ef34a6282f4acc0eadc10928009193c7f60",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/tridion_stackexchange_com.zip"
+    },
+    "unix_stackexchange_com": {
+      "sha1": "0fb2c60f4c66bad400b71e54c344c45776633103",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/unix_stackexchange_com.zip"
+    },
+    "ux_stackexchange_com": {
+      "sha1": "632d5fb58c8e8c2870111375d762dff856264452",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/ux_stackexchange_com.zip"
+    },
+    "vi_stackexchange_com": {
+      "sha1": "8062d15b644d847d2871689b42a156cdc98f29c5",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/vi_stackexchange_com.zip"
+    },
+    "webapps_stackexchange_com": {
+      "sha1": "35a20222648b8305c97a514e35c23dda4d727970",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/webapps_stackexchange_com.zip"
+    },
+    "webmasters_stackexchange_com": {
+      "sha1": "3d43fbbd141f38b932f7a1b6c16491081f4d6074",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/webmasters_stackexchange_com.zip"
+    },
+    "windowsphone_stackexchange_com": {
+      "sha1": "da28190cadbcd7239f52dba838528aa8a14c1453",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/windowsphone_stackexchange_com.zip"
+    },
+    "woodworking_stackexchange_com": {
+      "sha1": "7d8da90f975ee1f6eaf40adcb77e9357c753e3e3",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/woodworking_stackexchange_com.zip"
+    },
+    "wordpress_stackexchange_com": {
+      "sha1": "e36d85f33addcf3c97983824ed1f85849b2f41e0",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/wordpress_stackexchange_com.zip"
+    },
+    "workplace_stackexchange_com": {
+      "sha1": "cd2b205f59ba03ad37fa62c3746c4692a093b83e",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/workplace_stackexchange_com.zip"
+    },
+    "worldbuilding_stackexchange_com": {
+      "sha1": "b0f54e136475043e48da90246859c9f2e16a306d",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/worldbuilding_stackexchange_com.zip"
+    },
+    "writers_stackexchange_com": {
+      "sha1": "088084cd985ef902d456a15fde0f4497fdb67f85",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/rueckle/multicqa/adapters/writers_stackexchange_com.zip"
+    }
+  }
+}

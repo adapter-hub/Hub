@@ -237,6 +237,14 @@
             },
             "default": "adapters/ukp/bert-base-uncased_sts_qqp_pfeiffer.json"
         },
+        "stackexchange": {
+            "default": "adapters/ukp/bert-base-uncased_sts_stackexchange_pfeiffer.json",
+            "e12af4d77ed17a6b": {
+                "versions": {
+                    "ukp": "adapters/ukp/bert-base-uncased_sts_stackexchange_pfeiffer.json"
+                }
+            }
+        },
         "sts-b": {
             "b1017368d7a97b11": {
                 "versions": {
