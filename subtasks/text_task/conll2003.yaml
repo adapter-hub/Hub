@@ -1,0 +1,26 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: ner
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: conll2003
+
+# A short description of this subtask (max. 500 chars).
+description: |
+    The CoNLL 2003 Task is a language independent Named Entity Recognition. In the dataset are englich and german training, development and test sets. The english data is from the Reuter corpus and the german data from the ECI Multilingual Text Corpus.
+
+# (optional) A bibtex citation of the work related to this subtask.
+citation: |
+    @article{sang2003introduction,
+      title={Introduction to the CoNLL-2003 shared task: Language-independent named entity recognition},
+      author={Sang, Erik F and De Meulder, Fien},
+      journal={arXiv preprint cs/0306050},
+      year={2003}
+    }
+
+

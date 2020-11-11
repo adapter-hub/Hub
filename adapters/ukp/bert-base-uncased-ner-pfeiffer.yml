@@ -1,0 +1,50 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: text_task
+
+# The string identifier of the task this adapter belongs to.
+task: ner
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: conll2003
+
+# The model type.
+# Example: bert
+model_type: bert
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: bert-base-uncased
+
+# The name of the author(s) of this adapter.
+author: Hannah Sterz
+
+# Describes the adapter architecture used by this adapter
+config:
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: "pfeiffer"
+  
+
+# The version to be downloaded if no version is explicitly stated.
+default_version: "NER"
+
+# A list of different versions of this adapter available for download.
+files:
+    sha1: "36C374C9A317B594F82973554608BF0F6FDB814B"
+    sha256: "AD26A4422F01DDE6ABDF072B84A803BBD0DC0E0A6BB350593C6083FCC02DEF2A"
+    # Download URL pointing to a zip folder containing the adapter module.
+    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/conll2003/bert-base-uncased/pfeiffer/bert-base-uncased_conll2003_pfeiffer.zip"
+    version: "NER"
+#   - ...
+
+
+# (optional) A contact email of the author(s).
+email: "sterz@ukp.informatik.tu-darmstadt.de"
+
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: "@Hannah70676760"
