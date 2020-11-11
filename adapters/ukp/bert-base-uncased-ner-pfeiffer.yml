@@ -17,7 +17,7 @@ model_type: bert
 
 # The string identifier of the pre-trained model (by which it is identified at Huggingface).
 # Example: bert-base-uncased
-model_name: bert-base-uncased
+model_name: "bert-base-uncased"
 
 # The name of the author(s) of this adapter.
 author: "Hannah Sterz"
@@ -31,6 +31,9 @@ config:
 
 # The version to be downloaded if no version is explicitly stated.
 default_version: "NER"
+
+description: |
+    Adapter trained on the CoNLL2003 dataset for named entity recognition
 
 # A list of different versions of this adapter available for download.
 files:
