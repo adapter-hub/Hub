@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "NER",
+  "files": {
+    "NER": {
+      "sha1": "36C374C9A317B594F82973554608BF0F6FDB814B",
+      "sha256": "AD26A4422F01DDE6ABDF072B84A803BBD0DC0E0A6BB350593C6083FCC02DEF2A",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/conll2003/bert-base-uncased/pfeiffer/bert-base-uncased_conll2003_pfeiffer.zip"
+    }
+  }
+}
