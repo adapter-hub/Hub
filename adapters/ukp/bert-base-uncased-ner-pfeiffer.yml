@@ -20,13 +20,13 @@ model_type: bert
 model_name: bert-base-uncased
 
 # The name of the author(s) of this adapter.
-author: Hannah Sterz
+author: "Hannah Sterz"
 
 # Describes the adapter architecture used by this adapter
 config:
   # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
   # Example: pfeiffer
-  using: "pfeiffer"
+  using: pfeiffer
   
 
 # The version to be downloaded if no version is explicitly stated.
