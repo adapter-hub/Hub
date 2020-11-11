@@ -12,5 +12,5 @@ displayname: |
     Named Entity Recognition
 
 # A short description of this task (max. 500 chars).
-description:|
+description: |
     Named Entity Recognition identifies named entities in a text. It classifies the found named entities as people, locations, organisations, ...
