@@ -1,0 +1,57 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: text_task
+
+# The string identifier of the task this adapter belongs to.
+task: comsense
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: hellaswag
+
+# The model type.
+# Example: bert
+model_type: distilbert
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: distilbert-base-uncased
+
+# The name of the author(s) of this adapter.
+author: Clifton Poth
+
+# Describes the adapter architecture used by this adapter
+config:
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: pfeiffer
+default_version: '1'
+
+# A list of different versions of this adapter available for download.
+files:
+- version: '1'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/hellaswag/distilbert-base-uncased/pfeiffer/distilbert-base-uncased_comsense_hellaswag_pfeiffer.zip
+  sha1: c60e122a16e6fac732b76134af1186696298c0ea
+  sha256: d77465f481912c03847f64818982bc0edf7e27d69fb19ab61ff8c8d38881b50e
+
+# (optional) A short description of this adapter.
+description: |
+  Adapter for distilbert-base-uncased in Pfeiffer architecture trained on the Hellaswag dataset for 15 epochs with early stopping and a learning rate of 1e-4.
+
+# (optional) A contact email of the author(s).
+email: poth@ukp.informatik.tu-darmstadt.de
+
+# (optional) A GitHub handle associated with the author(s).
+github: calpt
+
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
+model_class: DistilBertModelWithHeads
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: '@clifapt'
+
+# (optional) A URL providing more information on this adapter/ the authors/ the organization.
+url: https://www.informatik.tu-darmstadt.de/ukp

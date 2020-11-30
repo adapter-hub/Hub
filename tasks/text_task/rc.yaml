@@ -1,0 +1,4 @@
+task: rc
+displayname: Machine Reading Comprehension
+description: |
+  Machine Reading Comprehension is one of the key problems in Natural Language Understanding, where the task is to read and comprehend a given text passage.
