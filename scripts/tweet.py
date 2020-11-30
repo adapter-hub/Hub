@@ -40,9 +40,9 @@ def _create_explore_url(file):
     return f"https://adapterhub.ml/adapters/{org}/{name}/"
 
 
-def _create_names(tasks):
+def _create_names(tasks, label="task"):
     tasks = list(set(tasks))
-    s = "task"
+    s = label
     if len(tasks) > 1:
         s+= "s"
     s += " "
@@ -68,6 +68,7 @@ def create_message(files):
     config["description_trunc"] = [s.split(".")[0] for s in config["description"]]
     config["explore_url"] = [_create_explore_url(file) for file in files]
     config["task_names"] = _create_names([t+"/"+st for t,st in zip(config["task"], config["subtask"])])
+    config["model_names"] = _create_names([m for m in config["model_name"]], label="model")
     # we have different msgs for the case of one adapter and mult. adapters
     if len(files) == 1:
         tweet_file = SINGLE_TWEET
