@@ -1,0 +1,11 @@
+{
+  "config_id": "b1017368d7a97b11",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "624172c7b7bde0ab73e4f37791b6eabebb03d1c7",
+      "sha256": "48dd3adcad091187b540382f546c84d9c9e3c5641a6749d0bebef742b5060b43",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/qnli/distilbert-base-uncased/houlsby/distilbert-base-uncased_nli_qnli_houlsby.zip"
+    }
+  }
+}
