@@ -32,18 +32,18 @@ default_version: "nd"
 
 # A short description of this adapter.
 description: |
-    Houlsby Adapter trained with Masked Language Modelling on Haitian Creole Wikipedia Articles for 50k steps and a batch size of 64.
+  Houlsby Adapter trained with Masked Language Modelling on Haitian Creole Wikipedia Articles for 50k steps and a batch size of 64.
 
 # A contact email of the author(s).
 email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "36cca6d64368de1680e8a633c2fbce50d43bdbdb"
-    sha256: "1da5c22bfd29240644ebc7613178e2bbd310d22bf134d65f50d15e23c4c70703"
+- sha1: "0c99985711ba024346a2a8675a8b3ccb9df21822"
+  sha256: "0df265bdcdf6cf28f7ea5d47f9748791e6dfe286f85d164c90fab04cc44cbe4f"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/ht/bert-base-multilingual-cased/houlsby/ht_houlsby_gelu_nd_50k.zip"
-    version: "nd"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/ht/bert-base-multilingual-cased/houlsby/ht_houlsby_gelu_nd_50k.zip"
+  version: "nd"
 #   - ...
 
 # A GitHub handle associated with the author(s).
@@ -74,3 +74,4 @@ type: "text_lang"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://pfeiffer.ai"
+prediction_head: false

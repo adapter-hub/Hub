@@ -40,11 +40,12 @@ email: "rueckle@ukp.informatik.tu-darmstadt.de"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: ""
+- sha256: 382e41a5e3cdf3ace13e9ddd823ef2cb36f8f5f64c81a9e1fcb5de70c8f31ef6
+  sha1: "ed21edfb52646eb414b14c58110fcd71c7dc5bae"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cola/roberta-large/houlsby/roberta-large_cola_houlsby.zip"
-    version: "1"
-    description: "Achieves 67.38 Matthew's corr on the CoLA devset"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cola/roberta-large/houlsby/roberta-large_cola_houlsby.zip"
+  version: "1"
+  description: "Achieves 67.38 Matthew's corr on the CoLA devset"
 
 
 # A GitHub handle associated with the author(s).
@@ -75,3 +76,5 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "http://rueckle.net"
+model_class: RobertaModelWithHeads
+prediction_head: true

@@ -25,11 +25,11 @@ email: "dovlex@gmail.com"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "a0ac6da06986ef349782773f56f4d62f5ade7db5"
-    sha256: "9daa39e253608e1bd84acd549017e6e0ab361de7d0ba86ebb4609a98c2f67100"
+- sha1: "a0ac6da06986ef349782773f56f4d62f5ade7db5"
+  sha256: "9daa39e253608e1bd84acd549017e6e0ab361de7d0ba86ebb4609a98c2f67100"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://storage.googleapis.com/models_nlp/AdapterHub/text_task/conll2003/bert-base-uncased/pfeiffer/chunk_conll2003.zip"
-    version: "1"
+  url: "https://storage.googleapis.com/models_nlp/AdapterHub/text_task/conll2003/bert-base-uncased/pfeiffer/chunk_conll2003.zip"
+  version: "1"
 
 
 # A GitHub handle associated with the author(s).
@@ -60,3 +60,5 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://github.com/vblagoje"
+model_class: BertForTokenClassification
+prediction_head: true

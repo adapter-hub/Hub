@@ -32,23 +32,23 @@ default_version: "nd_200k"
 
 # A short description of this adapter.
 description: |
-    Houlsby Adapter trained with Masked Language Modelling on German Wikipedia Articles for 250k steps and a batch size of 64.
+  Houlsby Adapter trained with Masked Language Modelling on German Wikipedia Articles for 250k steps and a batch size of 64.
 
 # A contact email of the author(s).
 email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "c81cce139264d1c5ca97256557e1f6db8a57a7d2"
-    sha256: "0023596909c671ba2baf886b53eabf1321658b4098f3f7110cd9eb9fb04578c7"
+- sha1: "ef86eaba212e9210a20bf6aaaf233f5b1c485d4c"
+  sha256: "c2f57b1cf1da67871779f0777ca50541d19dbaa679279cfb23c67a2f3352d71c"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/de/bert-base-multilingual-cased/houlsby/de_houlsby_gelu_nd_200k.zip"
-    version: "nd_200k"
-  - sha1: "3da364edbfc21bb35f43d75f2042c8ab27db050d"
-    sha256: "f6a4cb3e366a57f6a84d3c87ed7640dab36b1dbb251c858c4b0d8f0daa128c26"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/de/bert-base-multilingual-cased/houlsby/de_houlsby_gelu_nd_200k.zip"
+  version: "nd_200k"
+- sha1: "8bd54d863ced28961d44f9a584a62042774f495b"
+  sha256: "4ea06e7032f9019019d1469e6649f5a2e5abf3b2f0cfd7a13036f2080f5c43bd"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/de/bert-base-multilingual-cased/houlsby/de_houlsby_gelu_200k.zip"
-    version: "wd_200k"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/de/bert-base-multilingual-cased/houlsby/de_houlsby_gelu_200k.zip"
+  version: "wd_200k"
 #   - ...
 
 # A GitHub handle associated with the author(s).
@@ -79,3 +79,4 @@ type: "text_lang"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://pfeiffer.ai"
+prediction_head: false

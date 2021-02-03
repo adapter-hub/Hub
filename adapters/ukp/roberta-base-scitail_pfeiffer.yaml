@@ -34,11 +34,11 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "216daf114efe16b487981493c7f78de0c6288de2"
-    sha256: "6d7273608a987fb6ee01c0c53169da7a8cbdb25bc670bce27e42806e6056deae"
+- sha1: "216daf114efe16b487981493c7f78de0c6288de2"
+  sha256: "6d7273608a987fb6ee01c0c53169da7a8cbdb25bc670bce27e42806e6056deae"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/scitail/roberta-base/pfeiffer/scitail_relu_16.zip"
-    version: "AdapterFusion"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/scitail/roberta-base/pfeiffer/scitail_relu_16.zip"
+  version: "AdapterFusion"
 
 
 # A GitHub handle associated with the author(s).
@@ -69,3 +69,4 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://pfeiffer.ai"
+prediction_head: false

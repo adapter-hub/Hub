@@ -40,12 +40,12 @@ email: "rueckle@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "83C55AD76F8F933022D452F8CEE17C277035276B"
-    sha256: "45548B85B8A08B2FFE1ACC3529684ADE7216F4A9AF5E8CBEFBDA3B3DD9E6A338"
+- sha1: "83c55ad76f8f933022d452f8cee17c277035276b"
+  sha256: "45548b85b8a08b2ffe1acc3529684ade7216f4a9af5e8cbefbda3b3dd9e6a338"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/sts-b/roberta-base/houlsby/roberta-base_sts-b_houlsby.zip"
-    version: "1"
-    description: Achieves 90.59 Spearman rank correlation on the STS-Benchmark (devset)
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/sts-b/roberta-base/houlsby/roberta-base_sts-b_houlsby.zip"
+  version: "1"
+  description: Achieves 90.59 Spearman rank correlation on the STS-Benchmark (devset)
 
 
 # A GitHub handle associated with the author(s).
@@ -76,3 +76,5 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "http://rueckle.net"
+model_class: RobertaModelWithHeads
+prediction_head: true

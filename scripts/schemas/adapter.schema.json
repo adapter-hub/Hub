@@ -33,6 +33,10 @@
                 "BertModelWithHeads"
             ]
         },
+        "prediction_head": {
+            "type": "boolean",
+            "description": "If the adapter has a pre-trained prediction head included."
+        },
         "config": {
             "type": "object",
             "description": "Describes the adapter architecture used by this adapter",

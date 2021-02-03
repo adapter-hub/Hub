@@ -34,11 +34,11 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "33413a3eb0bdc5686c78590c76d5ac2c26bb3a6c"
-    sha256: "1b746725ab90f3cdc64fc0045330f3c970d201f58a8633673b1a95575276e884"
+- sha1: "33413a3eb0bdc5686c78590c76d5ac2c26bb3a6c"
+  sha256: "1b746725ab90f3cdc64fc0045330f3c970d201f58a8633673b1a95575276e884"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/csqa/roberta-base/pfeiffer/csqa_relu_16.zip"
-    version: "AdapterFusion"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/csqa/roberta-base/pfeiffer/csqa_relu_16.zip"
+  version: "AdapterFusion"
 
 
 # A GitHub handle associated with the author(s).
@@ -69,3 +69,4 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://pfeiffer.ai"
+prediction_head: false

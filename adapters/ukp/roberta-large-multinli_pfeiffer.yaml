@@ -40,11 +40,12 @@ email: "rueckle@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "817290d95cc525803b5bc8da57c987a76e9a3f28"
+- sha256: ba4c5d3b3fdcc6a80d9e4569e020247372bdd3d1519921675e0f1e30943f3a02
+  sha1: "817290d95cc525803b5bc8da57c987a76e9a3f28"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mnli/roberta-large/pfeiffer/roberta-large_mnli_pfeiffer.zip"
-    version: "1"
-    description: "Achieves 90.42 Accuracy on the MNLI devset"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mnli/roberta-large/pfeiffer/roberta-large_mnli_pfeiffer.zip"
+  version: "1"
+  description: "Achieves 90.42 Accuracy on the MNLI devset"
 
 
 # A GitHub handle associated with the author(s).
@@ -75,3 +76,5 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "http://rueckle.net"
+model_class: RobertaModelWithHeads
+prediction_head: true

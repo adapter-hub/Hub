@@ -40,11 +40,12 @@ email: "rueckle@ukp.informatik.tu-darmstadt.de"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "b96f2f422e0f1a1914fd66f153649afda2ffb69e"
+- sha256: 5e9dce02e6f1c62ba67a945076ef0620bfa2c7289f7deb3f29e5ec64f8a46969
+  sha1: "b96f2f422e0f1a1914fd66f153649afda2ffb69e"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cola/roberta-base/pfeiffer/roberta-base_cola_pfeiffer.zip"
-    version: "1"
-    description: "Achieves 62.12 Matthew's corr on the CoLA devset"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cola/roberta-base/pfeiffer/roberta-base_cola_pfeiffer.zip"
+  version: "1"
+  description: "Achieves 62.12 Matthew's corr on the CoLA devset"
 
 
 # A GitHub handle associated with the author(s).
@@ -75,3 +76,5 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "http://rueckle.net"
+model_class: RobertaModelWithHeads
+prediction_head: true

@@ -34,11 +34,11 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "8baf5160687aa5cfe9bbcb5122d0ad780fb66006"
-    sha256: "b0a2ca37e0d4794aa81b3b2cc50eecfc534f54fa1af4e9a5cb68e6b35edfa496"
+- sha1: "8baf5160687aa5cfe9bbcb5122d0ad780fb66006"
+  sha256: "b0a2ca37e0d4794aa81b3b2cc50eecfc534f54fa1af4e9a5cb68e6b35edfa496"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/ukpsent/roberta-base/pfeiffer/ukpsent1_relu_16.zip"
-    version: "AdapterFusion"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/ukpsent/roberta-base/pfeiffer/ukpsent1_relu_16.zip"
+  version: "AdapterFusion"
 
 
 # A GitHub handle associated with the author(s).
@@ -69,3 +69,4 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://pfeiffer.ai"
+prediction_head: false

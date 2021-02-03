@@ -34,11 +34,11 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "a743c454454e96659839c0a22ea23f5c08dd8c54"
-    sha256: "5bf3754c5fadd6f90ea828dffc86341e5c8e32e40391d5d4ae61ae1b7e2800f7"
+- sha1: "a743c454454e96659839c0a22ea23f5c08dd8c54"
+  sha256: "5bf3754c5fadd6f90ea828dffc86341e5c8e32e40391d5d4ae61ae1b7e2800f7"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/sick/roberta-base/pfeiffer/sick_relu_16.zip"
-    version: "AdapterFusion"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/sick/roberta-base/pfeiffer/sick_relu_16.zip"
+  version: "AdapterFusion"
 
 
 # A GitHub handle associated with the author(s).
@@ -69,3 +69,4 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://pfeiffer.ai"
+prediction_head: false

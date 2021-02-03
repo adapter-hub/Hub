@@ -40,16 +40,16 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "5e95ad33217a428e6b4a3ed4714ec38873304d51"
-    sha256: "51869a9f391fc2d421e0e591ae1cb94e20cab44a5f4af7c5baf3e1ed6a95b690"
+- sha1: "c4f9090523259a70369be1a885687d6bff44ba2d"
+  sha256: "cc4726e1fa4ba88ff9ef692c0fe8549741121a4340b298591f4f50160ae8b4ab"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/cdo/bert-base-multilingual-cased/houlsby/cdo_houlsby_gelu_nd.zip"
-    version: "nd"
-  - sha1: "1fe9b90cc248529ab343cb92bd9b8c9d33f69fdf"
-    sha256: "bfc3bba27d5fb5bdda1ee7c75873b143f86a143356359f974fb903258f15d8b7"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/cdo/bert-base-multilingual-cased/houlsby/cdo_houlsby_gelu_nd.zip"
+  version: "nd"
+- sha1: "554f0c110967be058fe0d460043779992b6bd880"
+  sha256: "26059f4f97a745f17526197881dc90dc38879c919e8f859fd1f6ff0e66cf7718"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/cdo/bert-base-multilingual-cased/houlsby/cdo_houlsby_gelu.zip"
-    version: "wd"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/cdo/bert-base-multilingual-cased/houlsby/cdo_houlsby_gelu.zip"
+  version: "wd"
 #   - ...
 
 # A GitHub handle associated with the author(s).
@@ -80,3 +80,4 @@ type: "text_lang"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://pfeiffer.ai"
+prediction_head: false
