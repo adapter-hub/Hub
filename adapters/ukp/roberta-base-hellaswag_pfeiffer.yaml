@@ -34,11 +34,11 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "728c859884b8d9fdd82995fcb0bdd1a80e74c1d1"
-    sha256: "e1b1a3c805445338933e6a894b42d01c085300dfb77f8821ea8ee6e2dc6b5180"
+- sha1: "728c859884b8d9fdd82995fcb0bdd1a80e74c1d1"
+  sha256: "e1b1a3c805445338933e6a894b42d01c085300dfb77f8821ea8ee6e2dc6b5180"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/hellaswag/roberta-base/pfeiffer/hellaswag_relu_16.zip"
-    version: "AdapterFusion"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/hellaswag/roberta-base/pfeiffer/hellaswag_relu_16.zip"
+  version: "AdapterFusion"
 
 
 # A GitHub handle associated with the author(s).
@@ -69,3 +69,4 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://pfeiffer.ai"
+prediction_head: false

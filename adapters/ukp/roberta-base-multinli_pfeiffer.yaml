@@ -34,11 +34,11 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "880b883c79f2fc38220e1c38db834986d1f5382d"
-    sha256: "647e8d7cd30acfd2df171616170b84a178fb506c91a58fb268066beaab58dba2"
+- sha1: "880b883c79f2fc38220e1c38db834986d1f5382d"
+  sha256: "647e8d7cd30acfd2df171616170b84a178fb506c91a58fb268066beaab58dba2"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mnli/roberta-base/pfeiffer/multinli_relu_16.zip"
-    version: "AdapterFusion"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mnli/roberta-base/pfeiffer/multinli_relu_16.zip"
+  version: "AdapterFusion"
 
 
 # A GitHub handle associated with the author(s).
@@ -69,3 +69,4 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://pfeiffer.ai"
+prediction_head: false

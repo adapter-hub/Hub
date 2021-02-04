@@ -23,7 +23,7 @@ model_name: bert-base-uncased
 author: Clifton Poth
 
 # Describes the adapter architecture used by this adapter
-config: 
+config:
   using: pfeiffer
 default_version: '1'
 
@@ -70,3 +70,4 @@ twitter: clifapt
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: https://www.informatik.tu-darmstadt.de/ukp
+prediction_head: true

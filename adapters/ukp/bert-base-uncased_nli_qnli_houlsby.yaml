@@ -72,3 +72,4 @@ twitter: clifapt
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: https://www.informatik.tu-darmstadt.de/ukp
+prediction_head: true

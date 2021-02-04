@@ -40,11 +40,11 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "40ef6c22c50bb6f8c7725b1c19cf359875368d20"
-    sha256: "45963fc05c77ae190848342d10f00c22ac28364fe39cc49514d423afafad7bf6"
+- sha1: "40ef6c22c50bb6f8c7725b1c19cf359875368d20"
+  sha256: "45963fc05c77ae190848342d10f00c22ac28364fe39cc49514d423afafad7bf6"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/gn/bert-base-multilingual-cased/pfeiffer/gn_relu_2.zip"
-    version: "madx"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/gn/bert-base-multilingual-cased/pfeiffer/gn_relu_2.zip"
+  version: "madx"
 
 
 # A GitHub handle associated with the author(s).
@@ -75,3 +75,4 @@ type: "text_lang"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://pfeiffer.ai"
+prediction_head: false

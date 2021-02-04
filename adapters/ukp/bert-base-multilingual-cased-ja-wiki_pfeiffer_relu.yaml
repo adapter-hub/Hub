@@ -40,11 +40,11 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "9f9f181c43fb7d9baa2bd12268023b955d5631d5"
-    sha256: "4ca99f377bd1728c8b166b82bfba135a9697ac723989eae8c15ef583d6ee9395"
+- sha1: "9f9f181c43fb7d9baa2bd12268023b955d5631d5"
+  sha256: "4ca99f377bd1728c8b166b82bfba135a9697ac723989eae8c15ef583d6ee9395"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/ja/bert-base-multilingual-cased/pfeiffer/ja_relu_2.zip"
-    version: "madx"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/ja/bert-base-multilingual-cased/pfeiffer/ja_relu_2.zip"
+  version: "madx"
 
 
 # A GitHub handle associated with the author(s).
@@ -75,3 +75,4 @@ type: "text_lang"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://pfeiffer.ai"
+prediction_head: false

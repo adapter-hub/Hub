@@ -40,12 +40,12 @@ email: "rueckle@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "162D50581260DFB0D2EFCFC60D3D070953F8012C"
-    sha256: "A24A54D2D5F250F09E0780DF52D16687901F364A082E53967D8FAA8C2F4DA12A"
+- sha1: "162d50581260dfb0d2efcfc60d3d070953f8012c"
+  sha256: "a24a54d2d5f250f09e0780df52d16687901f364a082e53967d8faa8c2f4da12a"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/qnli/roberta-base/houlsby/roberta-base_qnli_houlsby.zip"
-    version: "1"
-    description: Achieves 93.33 Accuracy on the QNLI devset
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/qnli/roberta-base/houlsby/roberta-base_qnli_houlsby.zip"
+  version: "1"
+  description: Achieves 93.33 Accuracy on the QNLI devset
 
 
 # A GitHub handle associated with the author(s).
@@ -76,3 +76,5 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "http://rueckle.net"
+model_class: RobertaModelWithHeads
+prediction_head: true

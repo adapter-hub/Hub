@@ -40,11 +40,12 @@ email: "rueckle@ukp.informatik.tu-darmstadt.de"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "a8a843efce1edb3acf9d0eace9a8cb6fc0b7a47a"
+- sha256: 0337d6dea2f543fb290bfb35f73efb5bca28354fc4e7ce5da6bff011e4eab6de
+  sha1: "a8a843efce1edb3acf9d0eace9a8cb6fc0b7a47a"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/sst/roberta-large/pfeiffer/roberta-large_sst-2_pfeiffer.zip"
-    version: "1"
-    description: "Achieves 96.33 Accuracy on the SST-2 devset"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/sst/roberta-large/pfeiffer/roberta-large_sst-2_pfeiffer.zip"
+  version: "1"
+  description: "Achieves 96.33 Accuracy on the SST-2 devset"
 
 
 # A GitHub handle associated with the author(s).
@@ -75,3 +76,5 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "http://rueckle.net"
+model_class: RobertaModelWithHeads
+prediction_head: true

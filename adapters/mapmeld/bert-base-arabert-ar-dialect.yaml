@@ -32,11 +32,11 @@ default_version: '2'
 # A list of different versions of this adapter available for download.
 files:
 - version: '1'
-  url: https://github.com/MonsoonNLP/sanaa-dialect/raw/main/dialect-adapter.zip
+  url: https://raw.githubusercontent.com/MonsoonNLP/sanaa-dialect/main/dialect-adapter.zip
   sha1: 4cdb1891d0e26495422b5408ab921cec559e8d31
   sha256: 9f974b690fc4df5dfa1cf0cacc4eea46d4912de1b6b057642654a989b15959b0
 - version: '2'
-  url: https://github.com/MonsoonNLP/sanaa-dialect/raw/main/dialect-adapter-2.zip
+  url: https://raw.githubusercontent.com/MonsoonNLP/sanaa-dialect/main/dialect-adapter-2.zip
   sha1: 62abe146560f732886b711db048e7a9d1fff2370
   sha256: db078a3a2e7a3b3813a45d01848ab6ae0512a00a1481703dbe9cf0883ac4ae4a
 
@@ -60,3 +60,4 @@ twitter: '@mapmeld'
 
 # (optional) A URL providing more information on this adapter/ the authors/ the organization.
 url: https://github.com/MonsoonNLP/sanaa-dialect
+prediction_head: true

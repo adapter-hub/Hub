@@ -40,11 +40,11 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "b4852d00661bcca588f41df2dd07291ad359066f"
-    sha256: "d39bf2187311312dd3f04cc9ee8f3a128c7290bc8b96db8584c59ab6f8087314"
+- sha1: "b4852d00661bcca588f41df2dd07291ad359066f"
+  sha256: "d39bf2187311312dd3f04cc9ee8f3a128c7290bc8b96db8584c59ab6f8087314"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/qu/xlm-roberta-large/pfeiffer/qu_relu_2.zip"
-    version: "madx"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/qu/xlm-roberta-large/pfeiffer/qu_relu_2.zip"
+  version: "madx"
 
 
 # A GitHub handle associated with the author(s).
@@ -75,3 +75,4 @@ type: "text_lang"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://pfeiffer.ai"
+prediction_head: false
