@@ -4,6 +4,7 @@
   "files": {
     "1": {
       "sha1": "c568c8523945de5392aaee9145768cd90dd61472",
+      "sha256": "ab5d274ad64208676f3e313cd40297f9fb10b9518f3a34a72e73fcdc85c39768",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cola/roberta-base/houlsby/roberta-base_cola_houlsby.zip"
     }
   }

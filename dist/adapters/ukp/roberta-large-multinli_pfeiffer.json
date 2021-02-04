@@ -4,6 +4,7 @@
   "files": {
     "1": {
       "sha1": "817290d95cc525803b5bc8da57c987a76e9a3f28",
+      "sha256": "ba4c5d3b3fdcc6a80d9e4569e020247372bdd3d1519921675e0f1e30943f3a02",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mnli/roberta-large/pfeiffer/roberta-large_mnli_pfeiffer.zip"
     }
   }

@@ -3,7 +3,8 @@
   "default_version": "1",
   "files": {
     "1": {
-      "sha1": "",
+      "sha1": "ed21edfb52646eb414b14c58110fcd71c7dc5bae",
+      "sha256": "382e41a5e3cdf3ace13e9ddd823ef2cb36f8f5f64c81a9e1fcb5de70c8f31ef6",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cola/roberta-large/houlsby/roberta-large_cola_houlsby.zip"
     }
   }

@@ -3,8 +3,8 @@
   "default_version": "NER",
   "files": {
     "NER": {
-      "sha1": "36C374C9A317B594F82973554608BF0F6FDB814B",
-      "sha256": "AD26A4422F01DDE6ABDF072B84A803BBD0DC0E0A6BB350593C6083FCC02DEF2A",
+      "sha1": "36c374c9a317b594f82973554608bf0f6fdb814b",
+      "sha256": "ad26a4422f01dde6abdf072b84a803bbd0dc0e0a6bb350593c6083fcc02def2a",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/conll2003/bert-base-uncased/pfeiffer/bert-base-uncased_conll2003_pfeiffer.zip"
     }
   }

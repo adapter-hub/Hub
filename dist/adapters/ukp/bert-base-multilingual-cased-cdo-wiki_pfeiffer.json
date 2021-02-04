@@ -3,13 +3,13 @@
   "default_version": "nd",
   "files": {
     "nd": {
-      "sha1": "812122f278e61cc77462b76707ee692a6c590d38",
-      "sha256": "60d70a169148412ae66a1d2fcbe0da151692a1ad0450ee959f743575253f3cc1",
+      "sha1": "c4deba6321c5c7e721abb83e83754bac2373e51c",
+      "sha256": "df43c8ebd986847e3e945b27405b492c7464c49d8403772b1500a8fc84c286b9",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/cdo/bert-base-multilingual-cased/pfeiffer/cdo_pfeiffer_gelu_nd.zip"
     },
     "wd": {
-      "sha1": "7a35cb1f9cc3d191bc3d50dd7ff10107d132e8ec",
-      "sha256": "c8a7c38b0ae400214173b3c61f0ee1f426e21e5fa9b11cd101803223c3d177b2",
+      "sha1": "a5a7a3166275f4b9d4ac7fccc18f85e8f87e73ba",
+      "sha256": "35cbfef64fe13867dfcb85703b2d6afda2d13cc23ee003fc3ffd280315c6b5e9",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/cdo/bert-base-multilingual-cased/pfeiffer/cdo_pfeiffer_gelu.zip"
     }
   }

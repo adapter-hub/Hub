@@ -3,8 +3,8 @@
   "default_version": "1",
   "files": {
     "1": {
-      "sha1": "1927548A8F517FC68523E6E1F66B47931B46A7CE",
-      "sha256": "F763D6F0A72752FD76A3FA865011B2F0758A33FA6D32EAAC913937481CB0E4C4",
+      "sha1": "1927548a8f517fc68523e6e1f66b47931b46a7ce",
+      "sha256": "f763d6f0a72752fd76a3fa865011b2f0758a33fa6d32eaac913937481cb0e4c4",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/sts-b/roberta-large/houlsby/roberta-large_sts-b_houlsby.zip"
     }
   }

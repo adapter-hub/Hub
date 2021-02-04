@@ -3,8 +3,8 @@
   "default_version": "1",
   "files": {
     "1": {
-      "sha1": "0311A2512F5907E6A981D0212CA86F055102FEA9",
-      "sha256": "65C69842E5A8B90F8D90035FDA864836E17501B48DD92EE75C893F1D9DBD15D7",
+      "sha1": "0311a2512f5907e6a981d0212ca86f055102fea9",
+      "sha256": "65c69842e5a8b90f8d90035fda864836e17501b48dd92ee75c893f1d9dbd15d7",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/qnli/roberta-large/houlsby/roberta-large_qnli_houlsby.zip"
     }
   }

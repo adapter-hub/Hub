@@ -3,7 +3,8 @@
   "default_version": "1",
   "files": {
     "1": {
-      "sha256": "1A4CC54A137844429DB90BFC1442FA12B7931CA0F1E91B06FA329E0B6A4B3D4A",
+      "sha1": "851633e066da97b02fd56c0b20587a7829edefac",
+      "sha256": "1a4cc54a137844429db90bfc1442fa12b7931ca0f1e91b06fa329e0b6a4b3d4a",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mrpc/roberta-large/houlsby/roberta-large_mrpc_houlsby.zip"
     }
   }

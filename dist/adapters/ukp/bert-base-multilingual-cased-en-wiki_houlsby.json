@@ -3,8 +3,8 @@
   "default_version": "nd",
   "files": {
     "nd": {
-      "sha1": "f9053b8bef00ecf9bcbdacbd7b27497a40d12308",
-      "sha256": "e288df87a90238991a23855bc4e20cd3394d3ad24a85673d9b0b1f99163c0013",
+      "sha1": "21966a1c78a6a46e5ff069d7f6b6b2da664761d2",
+      "sha256": "51d916d8d923b8dbab5eecf1b9d011655177795b84b6258c8e311c3512ceab6f",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/en/bert-base-multilingual-cased/houlsby/en_houlsby_nd.zip"
     },
     "wd": {

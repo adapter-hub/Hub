@@ -3,13 +3,13 @@
   "default_version": "nd",
   "files": {
     "nd": {
-      "sha1": "715443673005a465f220b57813db5968ef3b74fc",
-      "sha256": "59ab25e41cf895eb6e0e961e6bf853bfb7803c0a5488ac7c4084129bdd9e6278",
+      "sha1": "f5cbaf26b97fd5edd6b3ec2f8e14e21057c22b81",
+      "sha256": "e890f10d5cb280e2ac0f05d96fe661fe874fef39d3ffb49f8ebba9245c6450df",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/tk/bert-base-multilingual-cased/houlsby/tk_houlsby_gelu_nd.zip"
     },
     "wd": {
-      "sha1": "c6176b3ef0fc9c4b3aa283226be069a3bbab57c2",
-      "sha256": "d9911b533cf5ea1d6dbc4e6487178e4d42607d6e0ecabb73e54f53dea6a82c50",
+      "sha1": "eb47a42f0d1cb98addaedbeb0ff35507130399d6",
+      "sha256": "3029e5aceee2d4967a911744b102d54bddb46751b70112d3f072b94bd3b8933f",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/tk/bert-base-multilingual-cased/houlsby/tk_houlsby_gelu.zip"
     }
   }
