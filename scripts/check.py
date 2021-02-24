@@ -4,9 +4,7 @@ import glob
 import json
 from os.path import join, dirname, realpath
 import sys
-from check_format import check_against_schema
-from check_download_files import check_download
-from utils import REPO_FOLDER
+from utils import REPO_FOLDER, check_against_schema, check_download
 
 
 dir_path = dirname(realpath(__file__))
