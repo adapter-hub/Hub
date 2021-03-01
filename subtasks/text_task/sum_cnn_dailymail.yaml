@@ -1,0 +1,35 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: sum
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: cnn_dailymail
+
+# A short description of this subtask (max. 500 chars).
+description: "CNN/ DailyMail summarization dataset."
+
+# (optional) A bibtex citation of the work related to this subtask.
+citation: |
+  @inproceedings{Hermann2015TeachingMT,
+    title={Teaching Machines to Read and Comprehend},
+    author={K. Hermann and Tom{\'a}s Kocisk{\'y} and Edward Grefenstette and Lasse Espeholt and W. Kay and Mustafa Suleyman and P. Blunsom},
+    booktitle={NIPS},
+    year={2015}
+  }
+
+# (optional) The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: CNN/ DailyMail
+
+# (optional) The identifier of the language of the data in this subtask
+language: English
+
+# (optional) The default evaluation metric of this subtask.
+metric:
+  name: "ROUGE-2"
+  higher_is_better: true

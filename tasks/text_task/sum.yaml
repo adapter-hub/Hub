@@ -1,0 +1,4 @@
+task: sum
+displayname: Summarization
+description: |
+  Shortening a set of data computationally, to create a subset (a summary) that represents the most important or relevant information within the original content. 
