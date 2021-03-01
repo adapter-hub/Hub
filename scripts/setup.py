@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name="adapter-hub-cli",
-    version="1.0.0",
+    version="0.1.0",
     author="The AdapterHub Team",
     author_email="calpt@mail.de",
     description="Command-line tools for checking and packaging adapters for the AdapterHub",

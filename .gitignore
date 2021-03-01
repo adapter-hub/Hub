@@ -4,3 +4,4 @@ env
 .DS_Store
 *.egg-info
 *.zip
+/.PACK_OUTPUT
