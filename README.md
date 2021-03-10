@@ -44,6 +44,28 @@ Refer to [the step-by-step guides in our documentation](https://docs.adapterhub.
 
 Our [template files](https://github.com/Adapter-Hub/Hub/tree/master/TEMPLATES) are a good way to get started with any contribution to this repo.
 
+### AdapterHub CLI
+
+The AdapterHub CLI provides command-line tools to help you contributing to the Hub, such as packaging adapters or validating filled-out yaml files.
+
+To install the CLI, you can run the following in this folder:
+```
+pip install ./scripts/.
+```
+
+Now you can use the pack `pack` command to interactively prepare your adapters for upload and submission to the Hub:
+```
+adapter-hub-cli pack <folder_with_models_or_adapters>
+```
+
+To validate yaml files, run:
+```
+adapter-hub-cli check path/to/adapter.yaml
+```
+
+Read more about the AdapterHub CLI [in the documentation](https://docs.adapterhub.ml/contributing.html).
+
+
 ## Citation
 
 Please cite our paper when using _AdapterHub_ for your work:
