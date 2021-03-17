@@ -48,9 +48,13 @@ Our [template files](https://github.com/Adapter-Hub/Hub/tree/master/TEMPLATES) a
 
 The AdapterHub CLI provides command-line tools to help you contributing to the Hub, such as packaging adapters or validating filled-out yaml files.
 
-To install the CLI, you can run the following in this folder:
+To install the CLI from the cloned repository, you can run the following in this folder:
 ```
-pip install ./scripts/.
+pip install -U ./scripts/.
+```
+Alternatively, you can install the CLI using:
+```
+pip install -U git+https://github.com/adapter-hub/hub.git#subdirectory=scripts
 ```
 
 Now you can use the pack `pack` command to interactively prepare your adapters for upload and submission to the Hub:
