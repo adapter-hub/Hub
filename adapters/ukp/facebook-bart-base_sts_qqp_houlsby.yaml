@@ -1,0 +1,62 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: text_task
+
+# The string identifier of the task this adapter belongs to.
+task: sts
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: qqp
+
+# The model type.
+# Example: bert
+model_type: bart
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: facebook/bart-base
+
+# The name of the author(s) of this adapter.
+author: Clifton Poth
+
+# Describes the adapter architecture used by this adapter
+config:
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: houlsby
+  non_linearity: swish
+  reduction_factor: 16
+default_version: '1'
+
+# A list of different versions of this adapter available for download.
+files:
+- version: '1'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/qqp/facebook/bart-base/facebook-bart-base_sts_qqp_houlsby.zip
+  sha1: 4b82e229dd6a4023c54b3e857ee4040724ed6fca
+  sha256: 20dcde238fa7e0ab4a5077ae3678d4c1ae12fd0ad93883cd834877cde7469a8e
+
+# (optional) A short description of this adapter.
+description: |
+  Adapter for bart-base in Houlsby architecture trained on the QQP dataset for 15 epochs with early stopping and a learning rate of 1e-4.
+
+# (optional) A contact email of the author(s).
+email: calpt@mail.de
+
+# (optional) A GitHub handle associated with the author(s).
+github: calpt
+
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
+model_class: BartModelWithHeads
+
+# (optional) If the adapter has a pre-trained prediction head included.
+prediction_head: true
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: '@clifapt'
+
+# (optional) A URL providing more information on this adapter/ the authors/ the organization.
+url: https://adapterhub.ml
