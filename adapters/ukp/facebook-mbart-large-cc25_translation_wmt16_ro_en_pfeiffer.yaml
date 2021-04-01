@@ -1,0 +1,64 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: text_task
+
+# The string identifier of the task this adapter belongs to.
+task: translation
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: wmt16_en_ro
+
+# The model type.
+# Example: bert
+model_type: mbart
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: facebook/mbart-large-cc25
+
+# The name of the author(s) of this adapter.
+author: Clifton Poth
+
+# Describes the adapter architecture used by this adapter
+config:
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: pfeiffer
+  non_linearity: relu
+  reduction_factor: 2
+default_version: '1'
+
+# A list of different versions of this adapter available for download.
+files:
+- version: '1'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/wmt16_en_ro/facebook/mbart-large-cc25/facebook-mbart-large-cc25_translation_wmt16_en_ro_pfeiffer.zip
+  sha1: d8d0c5bbcd5a120e932ead23b4ed270ca20d6306
+  sha256: cfbf5224523350219c7cd4b8cf07f4895dec561f6ab33998b5fa5002fd02e519
+  score: 36.3
+
+description: |
+  Adapter for mbart-large-cc25 in Pfeiffer architecture with reduction factor 2 trained on the WMT16 Romanian-English translation task.
+  Training for 10 epochs with early stopping and a learning rate of 1e-4.
+  After post-processing following https://github.com/huggingface/transformers/blob/master/examples/legacy/seq2seq/romanian_postprocessing.md, it achieves a BLEU score of 36.3.
+
+# (optional) A contact email of the author(s).
+email: calpt@mail.de
+
+# (optional) A GitHub handle associated with the author(s).
+github: calpt
+
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
+model_class: MBartForConditionalGeneration
+
+# (optional) If the adapter has a pre-trained prediction head included.
+prediction_head: true
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: '@clifapt'
+
+# (optional) A URL providing more information on this adapter/ the authors/ the organization.
+url: https://adapterhub.ml
