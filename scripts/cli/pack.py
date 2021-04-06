@@ -44,7 +44,7 @@ class AdapterPackCommand(BaseTransformersCLICommand):
             "-o",
             "--output_path",
             type=str,
-            help="Path to a directory where the packed adapters will be saved. By default, the root of the input path is used.",
+            help="Path to a directory where the packed adapters will be saved. Will save to .PACK_OUTPUT folder by default.",
         )
         extract_parser.add_argument(
             "--template", type=str, help="Path to a YAML file to be used as template for the adapter info cards."
@@ -298,6 +298,7 @@ class AdapterPackCommand(BaseTransformersCLICommand):
         # ask for metadata
         print("[i] Before we start packing your adapters, we first need some meta information.")
         print("This information will be added to every adapter info card.")
+        print("Prompts starting with '[opt.]' are optional. Skip them if not applicable.")
         metadata = self.ask_for_metadata()
         url_template = metadata.pop("adapter_url_template")
         print("Thanks! Now let's start...")
