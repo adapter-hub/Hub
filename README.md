@@ -22,7 +22,7 @@ You have just found _"the Hub"_, the central GitHub repository collecting all ad
 
 This repository is divided into the following subfolders:
 
-- `TEMPLATES` contains templates for all different YAML info cards in this repository. We highly recommend you to use one of the available templates when adding your adapter, architecture, task etc. **DO NOT MODIFY ANYTHING HERE!**
+- `TEMPLATES` contains templates for all different YAML info cards in this repository. We highly recommend you to use one of the available templates when adding your adapter, architecture, task etc. _Auto-generated, do not modify anything here!_
 
 - `adapter_types` contains info cards for all types of adapters supported by our framework
 
@@ -30,7 +30,7 @@ This repository is divided into the following subfolders:
 
 - `architectures` contains info cards for all available adapter architectures. Add your own architecture here!
 
-- `dist` contains generated files for adapters and architectures. **DO NOT MODIFY ANYTHING HERE!**
+- `dist` contains generated files for adapters and architectures. _Auto-generated, do not modify anything here!_
 
 - `scripts` contains script for validating the submitted adapters and info cards
 
