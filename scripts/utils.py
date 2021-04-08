@@ -2,11 +2,11 @@ import hashlib
 import json
 import os
 from typing import Mapping
+
 import yaml
 from jsonschema import validate
 from jsonschema.exceptions import ValidationError
-
-from transformers import AutoModel, AutoConfig
+from transformers import AutoConfig, AutoModel
 
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -20,7 +20,6 @@ TASK_FOLDER = "tasks"
 SUBTASK_FOLDER = "subtasks"
 
 # generated/ pre-defined
-INDEX_FOLDER = "index_{}"
 SCHEMA_FOLDER = os.path.join(dir_path, "schemas")
 TEMPLATE_FOLDER = "TEMPLATES"
 
@@ -45,10 +44,12 @@ def get_adapter_config_hash(config, length=16):
     return h.hexdigest()[:length]
 
 
-def build_config_from_yaml(config_yaml):
+def build_config_from_yaml(config_yaml, version=2):
     adapter_config_file = os.path.join(ARCHITECTURE_FOLDER, config_yaml["using"] + ".yaml")
     with open(adapter_config_file, "r") as f:
-        adapter_config = yaml.load(f, yaml.FullLoader)["config"]
+        data = yaml.load(f, yaml.FullLoader)
+    version_config_key = f"config_v{version}"
+    adapter_config = data.get(version_config_key if version_config_key in data else "config")
     for k, v in config_yaml.items():
         if k != "using":
             adapter_config[k] = v

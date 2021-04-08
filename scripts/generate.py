@@ -1,15 +1,17 @@
-from collections import defaultdict
-from glob import glob
 import json
 import os
-from os.path import join, basename, dirname, relpath, splitext
-import sys
 import shutil
+import sys
+from collections import defaultdict
+from glob import glob
+from os.path import basename, dirname, join, relpath, splitext
+
 import yaml
+
 from utils import *
 
 
-def generate_adapter_repo(files, config_index, dist_folder="dist"):
+def generate_adapter_repo(files, config_index, dist_folder="dist", hub_version=2):
     """Generates adapter repo and index files.
     """
     index = defaultdict(
@@ -26,7 +28,7 @@ def generate_adapter_repo(files, config_index, dist_folder="dist"):
             raise ValueError(
                     "Unknown adapter config identifier '{}'.".format(adapter_dict['config'])
                 )
-        a_id = get_adapter_config_hash(build_config_from_yaml(adapter_dict['config']))
+        a_id = get_adapter_config_hash(build_config_from_yaml(adapter_dict['config'], version=hub_version))
         path_split = file.split(os.sep)
         a_model_name = adapter_dict['model_name']
         a_type = adapter_dict['type']
@@ -76,7 +78,7 @@ def generate_adapter_repo(files, config_index, dist_folder="dist"):
         for a_model_name, adapters in adapters.items():
             index_file = join(
                 dist_folder,
-                INDEX_FOLDER.format(a_type),
+                "index_{}".format(a_type) if hub_version <= 1 else "index",
                 "{}.json".format(a_model_name)
             )
             os.makedirs(dirname(index_file), exist_ok=True)
@@ -85,7 +87,7 @@ def generate_adapter_repo(files, config_index, dist_folder="dist"):
     return index
 
 
-def generate_architecture_index(files, dist_folder="dist"):
+def generate_architecture_index(files, dist_folder="dist", hub_version=2):
     index = {}
     valid_ids = []
     for file in files:
@@ -93,10 +95,12 @@ def generate_architecture_index(files, dist_folder="dist"):
             config = yaml.load(f, yaml.FullLoader)
         if config['name'] in index:
             raise ValueError("Duplicate adapter architecture name '{}'".format(config['name']))
-        config_id = get_adapter_config_hash(config['config'])
+        version_config_key = f"config_v{hub_version}"
+        adapter_config = config.get(version_config_key if version_config_key in config else "config")
+        config_id = get_adapter_config_hash(adapter_config)
         if config_id in valid_ids:
             raise ValueError("Duplicate adapter architecture with id '{}'".format(config_id))
-        index[config['name']] = config['config']
+        index[config['name']] = adapter_config
         valid_ids.append(config_id)
     with open(join(dist_folder, "{}.json".format(ARCHITECTURE_FOLDER)), 'x') as f:
         json.dump(index, f, indent=4, sort_keys=True)
@@ -104,16 +108,21 @@ def generate_architecture_index(files, dist_folder="dist"):
 
 
 if __name__ == "__main__":
-    dist_folder = sys.argv[1] if len(sys.argv) > 1 else "dist"
-    # clean up
-    if os.path.isdir(dist_folder):
-        shutil.rmtree(dist_folder)
-    os.makedirs(dist_folder)
-    # generate config files
-    config_glob = join(ARCHITECTURE_FOLDER, "*")
-    files = glob(config_glob)
-    config_index = generate_architecture_index(files, dist_folder=dist_folder)
-    # generate adapter files
-    repo_glob = join(REPO_FOLDER, "**", "*")
-    files = glob(repo_glob)
-    generate_adapter_repo(files, config_index, dist_folder=dist_folder)
+    version_map = {
+        1: "dist",
+        2: "dist/v2",
+    }
+    for hub_version, dist_folder in version_map.items():
+        print(f"Generating index for version {hub_version} ...")
+        # clean up
+        if os.path.isdir(dist_folder):
+            shutil.rmtree(dist_folder)
+        os.makedirs(dist_folder)
+        # generate config files
+        config_glob = join(ARCHITECTURE_FOLDER, "*")
+        files = glob(config_glob)
+        config_index = generate_architecture_index(files, dist_folder=dist_folder, hub_version=hub_version)
+        # generate adapter files
+        repo_glob = join(REPO_FOLDER, "**", "*")
+        files = glob(repo_glob)
+        generate_adapter_repo(files, config_index, dist_folder=dist_folder, hub_version=hub_version)
