@@ -1,0 +1,11 @@
+{
+  "config_id": "9076f36a74755ac4",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "cc0ec03d84e58cd6e3f90f094dfa038ad4deb17c",
+      "sha256": "61c694451c209cdef17670221fdb3736360688c9daa5884f0393b444b1f6b9f4",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/imdb/distilbert-base-uncased/pfeiffer/distilbert-base-uncased_sentiment_imdb_pfeiffer.zip"
+    }
+  }
+}

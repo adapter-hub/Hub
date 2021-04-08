@@ -1,0 +1,11 @@
+{
+  "config_id": "e15331acc3f0a5c0",
+  "default_version": "madx",
+  "files": {
+    "madx": {
+      "sha1": "bf546696b52ba4868c476e8060fe68d56eee0b6a",
+      "sha256": "de83d7fc1f7529670ec8436d554c06f3ae9165e8d9958d3952bdde5428ccde6a",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/jv/bert-base-multilingual-cased/pfeiffer/jv_relu_2.zip"
+    }
+  }
+}

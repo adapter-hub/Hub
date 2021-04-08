@@ -1,0 +1,11 @@
+{
+  "config_id": "e15331acc3f0a5c0",
+  "default_version": "madx",
+  "files": {
+    "madx": {
+      "sha1": "7ad570421ac6db7c936788981248eae6067f5572",
+      "sha256": "25a148bddd4da01cb922e725d4b37b118e2e1f8d7bc9bfabf302c4a5bce075ed",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/ilo/xlm-roberta-large/pfeiffer/ilo_relu_2.zip"
+    }
+  }
+}

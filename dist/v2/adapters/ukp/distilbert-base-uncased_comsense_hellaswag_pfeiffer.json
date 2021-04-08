@@ -1,0 +1,11 @@
+{
+  "config_id": "9076f36a74755ac4",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "c60e122a16e6fac732b76134af1186696298c0ea",
+      "sha256": "d77465f481912c03847f64818982bc0edf7e27d69fb19ab61ff8c8d38881b50e",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/hellaswag/distilbert-base-uncased/pfeiffer/distilbert-base-uncased_comsense_hellaswag_pfeiffer.zip"
+    }
+  }
+}

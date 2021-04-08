@@ -27,11 +27,6 @@
     },
     "pfeiffer": {
         "adapter_residual_before_ln": false,
-        "invertible_adapter": {
-            "block_type": "nice",
-            "non_linearity": "relu",
-            "reduction_factor": 2
-        },
         "ln_after": false,
         "ln_before": false,
         "mh_adapter": false,

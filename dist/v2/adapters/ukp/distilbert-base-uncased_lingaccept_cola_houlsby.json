@@ -1,0 +1,11 @@
+{
+  "config_id": "b1017368d7a97b11",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "5f47d476e735e0486c05f1576fe945b3d3615b3f",
+      "sha256": "eb0f0d3ee1b21d9a7c9d01f76adc590a3e677ee9b5e6dd3167f88bb54471bc9f",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cola/distilbert-base-uncased/houlsby/distilbert-base-uncased_lingaccept_cola_houlsby.zip"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "config_id": "9076f36a74755ac4",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "e071644f745975c23a2f1be6588751067d800b18",
+      "sha256": "ae8efbbcfdce2c83e97e10293ee77e24e032a509e8955a13dba3c97190b990b9",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/boolq/distilbert-base-uncased/pfeiffer/distilbert-base-uncased_qa_boolq_pfeiffer.zip"
+    }
+  }
+}

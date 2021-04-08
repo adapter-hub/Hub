@@ -1,0 +1,219 @@
+{
+    "argument": {
+        "ukpsent": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-ukpsent1_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base-ukpsent1_pfeiffer.json"
+        }
+    },
+    "comsense": {
+        "cosmosqa": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-cosmosqa_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base-cosmosqa_pfeiffer.json"
+        },
+        "csqa": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-csqa_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base-csqa_pfeiffer.json"
+        },
+        "hellaswag": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-hellaswag_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base-hellaswag_pfeiffer.json"
+        },
+        "siqa": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-siqa_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base-siqa_pfeiffer.json"
+        },
+        "winogrande": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-winogrande_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base-winogrande_pfeiffer.json"
+        }
+    },
+    "lingaccept": {
+        "cola": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-cola_pfeiffer.json"
+                }
+            },
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-cola_houlsby.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base-cola_pfeiffer.json"
+        }
+    },
+    "nli": {
+        "cb": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-cb_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base-cb_pfeiffer.json"
+        },
+        "multinli": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-multinli_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base-multinli_pfeiffer.json"
+        },
+        "qnli": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-qnli_pfeiffer.json"
+                }
+            },
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-qnli_houlsby.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base-qnli_pfeiffer.json"
+        },
+        "rte": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-rte_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base-rte_pfeiffer.json"
+        },
+        "scitail": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-scitail_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base-scitail_pfeiffer.json"
+        },
+        "sick": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-sick_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base-sick_pfeiffer.json"
+        }
+    },
+    "qa": {
+        "boolq": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-boolq_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base-boolq_pfeiffer.json"
+        },
+        "squad1": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base_qa_squad1_pfeiffer.json"
+                }
+            },
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base_qa_squad1_houlsby.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base_qa_squad1_pfeiffer.json"
+        },
+        "squad2": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base_qa_squad2_pfeiffer.json"
+                }
+            },
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base_qa_squad2_houlsby.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base_qa_squad2_pfeiffer.json"
+        }
+    },
+    "sentiment": {
+        "imdb": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-imdb_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base-imdb_pfeiffer.json"
+        },
+        "sst-2": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-sst_pfeiffer.json"
+                }
+            },
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-sst_houlsby.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base-sst_pfeiffer.json"
+        }
+    },
+    "sts": {
+        "mrpc": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-mrpc_pfeiffer.json"
+                }
+            },
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-mrpc_houlsby.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base-mrpc_pfeiffer.json"
+        },
+        "qqp": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-qqp_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base-qqp_pfeiffer.json"
+        },
+        "sts-b": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-sts_b_pfeiffer.json"
+                }
+            },
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/roberta-base-sts_b_houlsby.json"
+                }
+            },
+            "default": "adapters/ukp/roberta-base-sts_b_pfeiffer.json"
+        }
+    }
+}

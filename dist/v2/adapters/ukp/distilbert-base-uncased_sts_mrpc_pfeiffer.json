@@ -1,0 +1,11 @@
+{
+  "config_id": "9076f36a74755ac4",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "0bdd9e6405cea46d8c58b889e0f2a502dbfcb03c",
+      "sha256": "50a7092b94bb990a87f121f48db12a4b5f6aef60683b9beb40b22073724157d8",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mrpc/distilbert-base-uncased/pfeiffer/distilbert-base-uncased_sts_mrpc_pfeiffer.zip"
+    }
+  }
+}

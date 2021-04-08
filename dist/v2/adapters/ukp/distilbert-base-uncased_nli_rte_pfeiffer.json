@@ -1,0 +1,11 @@
+{
+  "config_id": "9076f36a74755ac4",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "bc0f52ccab6d34e0024fa3843be8d05835c51ed9",
+      "sha256": "4029391eb5db090a2b3932e89d91810808c4199ae2bcb4be744d7340a7c93d7f",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/rte/distilbert-base-uncased/pfeiffer/distilbert-base-uncased_nli_rte_pfeiffer.zip"
+    }
+  }
+}
