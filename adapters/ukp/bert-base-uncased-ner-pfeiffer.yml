@@ -27,27 +27,11 @@ config:
   # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
   # Example: pfeiffer
   using: pfeiffer
-<<<<<<< HEAD
-  
-=======
-
->>>>>>> update
 
 # The version to be downloaded if no version is explicitly stated.
 default_version: "NER"
 
 description: |
-<<<<<<< HEAD
-    Adapter trained on the CoNLL2003 dataset for named entity recognition
-
-# A list of different versions of this adapter available for download.
-files:
-  - sha1: "36C374C9A317B594F82973554608BF0F6FDB814B"
-    sha256: "AD26A4422F01DDE6ABDF072B84A803BBD0DC0E0A6BB350593C6083FCC02DEF2A"
-    # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/conll2003/bert-base-uncased/pfeiffer/bert-base-uncased_conll2003_pfeiffer.zip"
-    version: "NER"
-=======
   Adapter trained on the CoNLL2003 dataset for named entity recognition
 
 # A list of different versions of this adapter available for download.
@@ -57,7 +41,6 @@ files:
     # Download URL pointing to a zip folder containing the adapter module.
   url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/conll2003/bert-base-uncased/pfeiffer/bert-base-uncased_conll2003_pfeiffer.zip"
   version: "NER"
->>>>>>> update
 #   - ...
 
 
@@ -66,10 +49,6 @@ email: "sterz@ukp.informatik.tu-darmstadt.de"
 
 
 # (optional) A Twitter handle associated with the author(s).
-<<<<<<< HEAD
-twitter: "@Hannah70676760"
-=======
 twitter: "@Hannah70676760"
 model_class: BertModelWithHeads
 prediction_head: true
->>>>>>> update

@@ -4,11 +4,11 @@
 
 # The short identifier of this task.
 # Example: sentiment
-task: "TODO: REQUIRED"
+task: "lm"
 
 # The full name of the task that should be displayed e.g. on the website.
 # Example: Sentiment Analysis
-displayname: "TODO: REQUIRED"
+displayname: "Lamguage Modelling"
 
 # A short description of this task (max. 500 chars).
-description: "TODO: REQUIRED"
+description: "The model learns which words appear in which contexts and is able to produce texts."
