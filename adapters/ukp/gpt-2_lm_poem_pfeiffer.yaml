@@ -1,0 +1,85 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: "TODO: REQUIRED"
+
+# The string identifier of the task this adapter belongs to.
+task: "TODO: REQUIRED"
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: "TODO: REQUIRED"
+
+# The model type.
+# Example: bert
+model_type: "TODO: REQUIRED"
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: "TODO: REQUIRED"
+
+# The name of the author(s) of this adapter.
+author: "TODO: REQUIRED"
+
+# Describes the adapter architecture used by this adapter
+config:
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: ""
+  # (optional) Overrides the default activation function of the specified adapter architecture.
+  # Example: tanh
+  non_linearity: ""
+  # (optional) Overrides the default reduction factor of the specified adapter architecture
+  # Example: 64
+  reduction_factor: ""
+
+# The version to be downloaded if no version is explicitly stated.
+default_version: "TODO: REQUIRED"
+
+# A list of different versions of this adapter available for download.
+files:
+  - # A short description of this adapter version.
+    description: ""
+    # The score this adapter version achieves on the dataset (typically the dev split).
+    score: ""
+    sha1: ""
+    sha256: ""
+    # Download URL pointing to a zip folder containing the adapter module.
+    url: ""
+    version: ""
+#   - ...
+
+# (optional) A bibtex citation of the work related to this adapter.
+citation: ""
+
+# (optional) A list of adapters this adapter is dependent on.
+dependencies:
+  - # The key (username/filename_without_ext) of the adapter dependency.
+    # Example: example-org/text_task-sst-bert
+    key: ""
+    # (optional) A short description how this adapter is dependent.
+    description: ""
+#   - ...
+
+# (optional) A short description of this adapter.
+description: ""
+
+# (optional) A contact email of the author(s).
+email: ""
+
+# (optional) A GitHub handle associated with the author(s).
+github: ""
+
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
+model_class: ""
+
+# (optional) If the adapter has a pre-trained prediction head included.
+prediction_head: ""
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: ""
+
+# (optional) A URL providing more information on this adapter/ the authors/ the organization.
+url: ""
