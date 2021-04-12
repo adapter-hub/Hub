@@ -13,7 +13,7 @@ subtask: poem
 
 # The model type.
 # Example: bert
-model_type: "GPT2"
+model_type: "gpt2"
 
 # The string identifier of the pre-trained model (by which it is identified at Huggingface).
 # Example: bert-base-uncased
@@ -34,7 +34,7 @@ default_version: "lm_poem"
 # A list of different versions of this adapter available for download.
 files:
     
-    sha1: "0059F5C3B88957D6C8103A1841116066BBED65D8"
+-   sha1: "0059F5C3B88957D6C8103A1841116066BBED65D8"
     sha256: "8B4A0AC2A79DA445E7B0E5D178D948F75A170AFA18B0244046432C38C77420A1"
     # Download URL pointing to a zip folder containing the adapter module.
     url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/poem/gpt2/adapter_poem.zip"

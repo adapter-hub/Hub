@@ -13,20 +13,9 @@ subtask: "poem"
 # A short description of this subtask (max. 500 chars).
 description: "The model is trained to learn the language of poems."
 
-# (optional) A bibtex citation of the work related to this subtask.
-citation: ""
-
 # (optional) The full name of the subtask that should be displayed e.g. on the website.
 # Example: MultiNLI
 displayname: "Language Modelling for poems"
 
 # (optional) The identifier of the language of the data in this subtask
 language: "english"
-
-# (optional) The default evaluation metric of this subtask.
-metric:
-  name: ""
-  higher_is_better: ""
-
-# (optional) A URL pointing to more information on this subtask.
-url: ""
