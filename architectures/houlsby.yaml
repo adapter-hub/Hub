@@ -1,7 +1,7 @@
 name: houlsby
 displayname: Houlsby Architecture
 description: |
-  Task adapter architecture bz Houlsby et al.
+  Adapter architecture proposed by Houlsby et al. (2019), using reduction factor 16.
 
 citation: |
   @misc{houlsby2019parameterefficient,

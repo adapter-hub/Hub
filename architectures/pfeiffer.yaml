@@ -1,7 +1,7 @@
 name: pfeiffer
 displayname: Pfeiffer Architecture
 description: |
-  Original Pfeiffer adapter architecture for task and language adapters with reduction factor 16.
+  Pfeiffer adapter architecture for task and language adapters with reduction factor 16.
 
 citation: |
   @misc{pfeiffer2020adapterfusion,
@@ -11,6 +11,22 @@ citation: |
     eprint={2005.00247},
     archivePrefix={arXiv},
     primaryClass={cs.CL}
+  }
+
+config_v1:
+  {
+    "ln_after": false,
+    "ln_before": false,
+    "mh_adapter": false,
+    "output_adapter": true,
+    "adapter_residual_before_ln": false,
+    "non_linearity": "relu",
+    "original_ln_after": true,
+    "original_ln_before": true,
+    "reduction_factor": 16,
+    "residual_before_ln": true,
+    "invertible_adapter":
+      { "block_type": "nice", "non_linearity": "relu", "reduction_factor": 2 },
   }
 
 config:
@@ -25,6 +41,4 @@ config:
     "original_ln_before": true,
     "reduction_factor": 16,
     "residual_before_ln": true,
-    "invertible_adapter":
-      { "block_type": "nice", "non_linearity": "relu", "reduction_factor": 2 },
   }

@@ -3,13 +3,13 @@
   "default_version": "nd_200k",
   "files": {
     "nd_200k": {
-      "sha1": "fcb94cf7c0bdd46fdf8817ab01922356c084f5b4",
-      "sha256": "525e7e4039b06d14fd321c6134b0bc21d7ea17334f2f36f4de608b0b0c7efc7c",
+      "sha1": "2ad842e243c7da227291c4c6fef4ddcd83ddcd32",
+      "sha256": "f04b7d2f7c072c1698f3d1f848cc7a82a1b676bcf1ec1eaa9d9646c3431d5ad2",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/hi/bert-base-multilingual-cased/pfeiffer/hi_pfeiffer_gelu_nd_200k.zip"
     },
     "wd_150k": {
-      "sha1": "51d6f5ef6634e3c99f2dc8ec61bdb7a7d02db7be",
-      "sha256": "1acc276cfdb769905c63d2fe2c0fc0986add45c67a11a80e81dc548a82f527f3",
+      "sha1": "5f12fa4130be5294dcc6a2f3f1c502cf36221289",
+      "sha256": "15dac4d31d88e2e870ae3b08b88414d8f2f16764d30204c15c48fe5933b80c89",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/hi/bert-base-multilingual-cased/pfeiffer/hi_pfeiffer_gelu_150k.zip"
     }
   }

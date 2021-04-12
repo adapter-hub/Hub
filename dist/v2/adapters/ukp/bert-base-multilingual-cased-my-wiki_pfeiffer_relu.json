@@ -1,0 +1,11 @@
+{
+  "config_id": "e15331acc3f0a5c0",
+  "default_version": "madx",
+  "files": {
+    "madx": {
+      "sha1": "f227c48f945048a2c6c193b23a5a21f77f7b339d",
+      "sha256": "ed590f9c48b104740c345b4f88bbd1f91ba60cee44c699f402248ac820032b57",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/my/bert-base-multilingual-cased/pfeiffer/my_relu_2.zip"
+    }
+  }
+}

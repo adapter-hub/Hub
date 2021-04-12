@@ -1,0 +1,12 @@
+{
+  "config_id": "9076f36a74755ac4",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "score": 83.18,
+      "sha1": "aaf793bc7ea95eda5616e4bb8d86c893309492a6",
+      "sha256": "4d3f04379bd25c5f21baf1aa0ec272e9f290ad9cf5ee9853c0dca47747e21ad9",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/squad1/distilbert-base-uncased/pfeiffer/distilbert-base-uncased_qa_squad1_pfeiffer.zip"
+    }
+  }
+}

@@ -33,11 +33,12 @@ email: "hinglish@nirantk.com"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "4e058d2bd9dbcbe204eb04c15e201900ba5dd4c9"
+- sha256: 57699299da736742b237c89eeb8384685c0471ef430dcadf492f61107a2f0164
+  sha1: "4e058d2bd9dbcbe204eb04c15e201900ba5dd4c9"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/contrib/nirantk/hinglish-bert-base-multilingual-uncased-20201019T062947Z-001.zip"
-    version: "1"
-    description: "3 class, sentiment analysis adapter finetuned on Tweets data annotated by crowdsouring via SemEval 2020 Task 9"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/contrib/nirantk/hinglish-bert-base-multilingual-uncased-20201019T062947Z-001.zip"
+  version: "1"
+  description: "3 class, sentiment analysis adapter finetuned on Tweets data annotated by crowdsouring via SemEval 2020 Task 9"
 
 # A GitHub handle associated with the author(s).
 github: "NirantK"
@@ -67,3 +68,5 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://github.com/NirantK"
+model_class: BertModelWithHeads
+prediction_head: true

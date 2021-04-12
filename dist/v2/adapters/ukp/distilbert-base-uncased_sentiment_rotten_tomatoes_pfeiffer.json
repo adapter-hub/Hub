@@ -1,0 +1,11 @@
+{
+  "config_id": "9076f36a74755ac4",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "b6cdf1beab12f238ac3e3bf878f2a2c6cdfa2898",
+      "sha256": "3fb000f06840c5df97331c8ba101576941cd7156dba57e20311026c79b4b634d",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/rotten_tomatoes/distilbert-base-uncased/pfeiffer/distilbert-base-uncased_sentiment_rotten_tomatoes_pfeiffer.zip"
+    }
+  }
+}

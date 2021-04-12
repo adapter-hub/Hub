@@ -1,0 +1,41 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: rc
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: race
+
+# A short description of this subtask (max. 500 chars).
+description: |
+  Race is a large-scale reading comprehension dataset with more than 28,000 passages and nearly 100,000 questions.
+  The dataset is collected from English examinations in China, which are designed for middle school and high school students.
+  The dataset can be served as the training and test sets for machine comprehension.
+
+# (optional) A bibtex citation of the work related to this subtask.
+citation: |
+  @article{lai2017large,
+      title={RACE: Large-scale ReAding Comprehension Dataset From Examinations},
+      author={Lai, Guokun and Xie, Qizhe and Liu, Hanxiao and Yang, Yiming and Hovy, Eduard},
+      journal={arXiv preprint arXiv:1704.04683},  
+      year={2017}
+  }
+
+# (optional) The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: "RACE"
+
+# (optional) The identifier of the language of the data in this subtask
+language: "en"
+
+# (optional) The default evaluation metric of this subtask.
+metric:
+  name: "accuracy"
+  higher_is_better: true
+
+# (optional) A URL pointing to more information on this subtask.
+url: "https://www.cs.cmu.edu/~glai1/data/race/"

@@ -1,0 +1,58 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: text_task
+
+# The string identifier of the task this adapter belongs to.
+task: nli
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: multinli
+
+# The model type.
+# Example: bert
+model_type: distilbert
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: distilbert-base-uncased
+
+# The name of the author(s) of this adapter.
+author: Clifton Poth
+
+# Describes the adapter architecture used by this adapter
+config:
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: pfeiffer
+default_version: '1'
+
+# A list of different versions of this adapter available for download.
+files:
+- version: '1'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/multinli/distilbert-base-uncased/pfeiffer/distilbert-base-uncased_nli_multinli_pfeiffer.zip
+  sha1: ed1fce4611930ad7a6ee4054aef56aff68828a10
+  sha256: 0a4d2ba6b818a75033faf21ef197066dfda99e449d9000e8bdeea6a603926ba1
+
+# (optional) A short description of this adapter.
+description: |
+  Adapter for distilbert-base-uncased in Pfeiffer architecture trained on the MultiNLI dataset for 15 epochs with early stopping and a learning rate of 1e-4.
+
+# (optional) A contact email of the author(s).
+email: poth@ukp.informatik.tu-darmstadt.de
+
+# (optional) A GitHub handle associated with the author(s).
+github: calpt
+
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
+model_class: DistilBertModelWithHeads
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: '@clifapt'
+
+# (optional) A URL providing more information on this adapter/ the authors/ the organization.
+url: https://www.informatik.tu-darmstadt.de/ukp
+prediction_head: true

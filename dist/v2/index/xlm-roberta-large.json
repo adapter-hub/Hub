@@ -1,0 +1,162 @@
+{
+    "ar": {
+        "wiki": {
+            "default": "adapters/ukp/xlm-roberta-large-ar-wiki_pfeiffer.json",
+            "e15331acc3f0a5c0": {
+                "versions": {
+                    "ukp": "adapters/ukp/xlm-roberta-large-ar-wiki_pfeiffer.json"
+                }
+            }
+        }
+    },
+    "cdo": {
+        "wiki": {
+            "default": "adapters/ukp/xlm-roberta-large-cdo-wiki_pfeiffer.json",
+            "e15331acc3f0a5c0": {
+                "versions": {
+                    "ukp": "adapters/ukp/xlm-roberta-large-cdo-wiki_pfeiffer.json"
+                }
+            }
+        }
+    },
+    "en": {
+        "wiki": {
+            "default": "adapters/ukp/xlm-roberta-large-en-wiki_pfeiffer.json",
+            "e15331acc3f0a5c0": {
+                "versions": {
+                    "ukp": "adapters/ukp/xlm-roberta-large-en-wiki_pfeiffer.json"
+                }
+            }
+        }
+    },
+    "gn": {
+        "wiki": {
+            "default": "adapters/ukp/xlm-roberta-large-gn-wiki_pfeiffer.json",
+            "e15331acc3f0a5c0": {
+                "versions": {
+                    "ukp": "adapters/ukp/xlm-roberta-large-gn-wiki_pfeiffer.json"
+                }
+            }
+        }
+    },
+    "ilo": {
+        "wiki": {
+            "default": "adapters/ukp/xlm-roberta-large-ilo-wiki_pfeiffer.json",
+            "e15331acc3f0a5c0": {
+                "versions": {
+                    "ukp": "adapters/ukp/xlm-roberta-large-ilo-wiki_pfeiffer.json"
+                }
+            }
+        }
+    },
+    "is": {
+        "wiki": {
+            "default": "adapters/ukp/xlm-roberta-large-is-wiki_pfeiffer.json",
+            "e15331acc3f0a5c0": {
+                "versions": {
+                    "ukp": "adapters/ukp/xlm-roberta-large-is-wiki_pfeiffer.json"
+                }
+            }
+        }
+    },
+    "ja": {
+        "wiki": {
+            "default": "adapters/ukp/xlm-roberta-large-ja-wiki_pfeiffer.json",
+            "e15331acc3f0a5c0": {
+                "versions": {
+                    "ukp": "adapters/ukp/xlm-roberta-large-ja-wiki_pfeiffer.json"
+                }
+            }
+        }
+    },
+    "jv": {
+        "wiki": {
+            "default": "adapters/ukp/xlm-roberta-large-jv-wiki_pfeiffer.json",
+            "e15331acc3f0a5c0": {
+                "versions": {
+                    "ukp": "adapters/ukp/xlm-roberta-large-jv-wiki_pfeiffer.json"
+                }
+            }
+        }
+    },
+    "mhr": {
+        "wiki": {
+            "default": "adapters/ukp/xlm-roberta-large-mhr-wiki_pfeiffer.json",
+            "e15331acc3f0a5c0": {
+                "versions": {
+                    "ukp": "adapters/ukp/xlm-roberta-large-mhr-wiki_pfeiffer.json"
+                }
+            }
+        }
+    },
+    "mi": {
+        "wiki": {
+            "default": "adapters/ukp/xlm-roberta-large-mi-wiki_pfeiffer.json",
+            "e15331acc3f0a5c0": {
+                "versions": {
+                    "ukp": "adapters/ukp/xlm-roberta-large-mi-wiki_pfeiffer.json"
+                }
+            }
+        }
+    },
+    "my": {
+        "wiki": {
+            "default": "adapters/ukp/xlm-roberta-large-my-wiki_pfeiffer.json",
+            "e15331acc3f0a5c0": {
+                "versions": {
+                    "ukp": "adapters/ukp/xlm-roberta-large-my-wiki_pfeiffer.json"
+                }
+            }
+        }
+    },
+    "qu": {
+        "wiki": {
+            "default": "adapters/ukp/xlm-roberta-large-qu-wiki_pfeiffer.json",
+            "e15331acc3f0a5c0": {
+                "versions": {
+                    "ukp": "adapters/ukp/xlm-roberta-large-qu-wiki_pfeiffer.json"
+                }
+            }
+        }
+    },
+    "sw": {
+        "wiki": {
+            "default": "adapters/ukp/xlm-roberta-large-sw-wiki_pfeiffer.json",
+            "e15331acc3f0a5c0": {
+                "versions": {
+                    "ukp": "adapters/ukp/xlm-roberta-large-sw-wiki_pfeiffer.json"
+                }
+            }
+        }
+    },
+    "tk": {
+        "wiki": {
+            "default": "adapters/ukp/xlm-roberta-large-tk-wiki_pfeiffer.json",
+            "e15331acc3f0a5c0": {
+                "versions": {
+                    "ukp": "adapters/ukp/xlm-roberta-large-tk-wiki_pfeiffer.json"
+                }
+            }
+        }
+    },
+    "xmf": {
+        "wiki": {
+            "default": "adapters/ukp/xlm-roberta-large-xmf-wiki_pfeiffer.json",
+            "e15331acc3f0a5c0": {
+                "versions": {
+                    "ukp": "adapters/ukp/xlm-roberta-large-xmf-wiki_pfeiffer.json"
+                }
+            }
+        }
+    },
+    "zh": {
+        "wiki": {
+            "default": "adapters/ukp/xlm-roberta-large-zh-wiki_pfeiffer.json",
+            "e15331acc3f0a5c0": {
+                "versions": {
+                    "ukp": "adapters/ukp/xlm-roberta-large-zh-wiki_pfeiffer.json"
+                }
+            }
+        }
+    }
+}

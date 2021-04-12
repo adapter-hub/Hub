@@ -1,0 +1,11 @@
+{
+  "config_id": "b1017368d7a97b11",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "626bc97886f76751974c8bf8a81f2e7c337375e9",
+      "sha256": "3732aa099b9a994b7701b1033fdd1ae517a0f4f93b8198998efdf420d266dcd0",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mnli/bert-base-uncased/houlsby/bert-base-uncased_nli_multinli_houlsby.zip"
+    }
+  }
+}

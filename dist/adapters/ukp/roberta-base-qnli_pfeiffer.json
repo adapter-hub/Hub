@@ -3,8 +3,8 @@
   "default_version": "1",
   "files": {
     "1": {
-      "sha1": "D8C2C6D6402C45BD13156C15CE09897CDCB143F7",
-      "sha256": "C3B511E30E1999773946BF6BCE0A964578D97DDF18268C57CE23BD692D0CE956",
+      "sha1": "d8c2c6d6402c45bd13156c15ce09897cdcb143f7",
+      "sha256": "c3b511e30e1999773946bf6bce0a964578d97ddf18268c57ce23bd692d0ce956",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/qnli/roberta-base/pfeiffer/roberta-base_qnli_pfeiffer.zip"
     }
   }

@@ -34,11 +34,11 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "afcd1cc23c0327199febe16222efc15d5514741a"
-    sha256: "0603540b8ca67b8ad3f3de05c125bd60f173bec27fe7b4204865f9b2e4382174"
+- sha1: "afcd1cc23c0327199febe16222efc15d5514741a"
+  sha256: "0603540b8ca67b8ad3f3de05c125bd60f173bec27fe7b4204865f9b2e4382174"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mrpc/roberta-base/pfeiffer/mrpc_relu_16.zip"
-    version: "AdapterFusion"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mrpc/roberta-base/pfeiffer/mrpc_relu_16.zip"
+  version: "AdapterFusion"
 
 
 # A GitHub handle associated with the author(s).
@@ -69,3 +69,4 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://pfeiffer.ai"
+prediction_head: false

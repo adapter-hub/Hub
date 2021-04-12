@@ -40,16 +40,16 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "8aca18e3571c21ebe2740bcf845c75380bffe005"
-    sha256: "86eccbc64a8ae27d7e1666c5cf6699de9bacf0fe28ebf25cf45832512ee4567b"
+- sha1: "784156fbce65d8fc91590ff8d6a6e7582e134ce0"
+  sha256: "c72bf0c4d469a696e5c44861c9e984dd7df6a1ba60c46dae6dcc6b42b4d68c9d"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/qu/bert-base-multilingual-cased/pfeiffer/qu_pfeiffer_gelu_nd.zip"
-    version: "nd"
-  - sha1: "a63c69edab7823caf0990c76d429451a2d891a47"
-    sha256: "889e3212da5c9027b8e09960c940a7862d73e941d1ea3a06caf19b5fe5a1004b"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/qu/bert-base-multilingual-cased/pfeiffer/qu_pfeiffer_gelu_nd.zip"
+  version: "nd"
+- sha1: "b8d0aeb23fd1207b820da3cb6e4802f2652d0274"
+  sha256: "d2ca74e68075d1497c5cbff83a1865e5ac1d49692b391e8862ba02427a227076"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/qu/bert-base-multilingual-cased/pfeiffer/qu_pfeiffer_gelu.zip"
-    version: "wd"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/qu/bert-base-multilingual-cased/pfeiffer/qu_pfeiffer_gelu.zip"
+  version: "wd"
 #   - ...
 
 # A GitHub handle associated with the author(s).
@@ -80,3 +80,4 @@ type: "text_lang"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://pfeiffer.ai"
+prediction_head: false

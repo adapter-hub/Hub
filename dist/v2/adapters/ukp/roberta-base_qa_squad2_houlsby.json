@@ -1,0 +1,12 @@
+{
+  "config_id": "b1017368d7a97b11",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "score": 81.0,
+      "sha1": "9334aeebec9104bfc2231014da465d8b5c75ba38",
+      "sha256": "5fd7da871d8036c46e79c31cb4ea19a918d927762de423026e514386b6741462",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/squad2/roberta-base/houlsby/roberta-base_qa_squad2_houlsby.zip"
+    }
+  }
+}

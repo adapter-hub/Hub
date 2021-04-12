@@ -1,37 +1,8 @@
 import json
-from json.decoder import JSONDecodeError
 import os
 from os.path import join
 import sys
-from jsonschema import validate
-from jsonschema.exceptions import ValidationError
-import yaml
 from utils import *
-
-
-def _violation(s):
-    print("VIOLATION:", s)
-
-
-def check_against_schema(file, schema):
-    print("-"*5, f"Checking format of {file}", "-"*5)
-    # 1. load to dict
-    with open(file, 'r') as f:
-        try:
-            file_dict = yaml.load(f, Loader=yaml.FullLoader)
-        except yaml.YAMLError as e:
-            _violation("[{}]: {}".format(e.__class__.__name__, e))
-            print(f"FAILED: {file}!\n")
-            return True
-    # 2. validate against schema
-    try:
-        validate(file_dict, schema)
-    except ValidationError as e:
-        _violation("[{}]: {}".format(e.__class__.__name__, e.message))
-        print(f"FAILED: {file}!\n")
-        return True
-    print(f"PASSED: {file}.\n")
-    return False
 
 
 if __name__ == "__main__":

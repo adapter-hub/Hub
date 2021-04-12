@@ -34,11 +34,11 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "0354d93baf1327324c22c89c038c58c21d4e9f4d"
-    sha256: "62c655fd461b75a48991f9818f609c60232a91760f7bd5026fe22bafe5fa0ca5"
+- sha1: "0354d93baf1327324c22c89c038c58c21d4e9f4d"
+  sha256: "62c655fd461b75a48991f9818f609c60232a91760f7bd5026fe22bafe5fa0ca5"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/hellaswag/bert-base-uncased/pfeiffer/hellaswag_relu_16.zip"
-    version: "AdapterFusion"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/hellaswag/bert-base-uncased/pfeiffer/hellaswag_relu_16.zip"
+  version: "AdapterFusion"
 
 
 # A GitHub handle associated with the author(s).
@@ -69,3 +69,4 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://pfeiffer.ai"
+prediction_head: false

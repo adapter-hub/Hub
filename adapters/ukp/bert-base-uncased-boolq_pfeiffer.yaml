@@ -34,11 +34,11 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "7a64fdc14c4edbd943705c208deff462edb842be"
-    sha256: "7e1273d601de44143ada033e478186095ec4ab3454bd8033fe9388479749b961"
+- sha1: "7a64fdc14c4edbd943705c208deff462edb842be"
+  sha256: "7e1273d601de44143ada033e478186095ec4ab3454bd8033fe9388479749b961"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/boolq/bert-base-uncased/pfeiffer/boolq_relu_16.zip"
-    version: "AdapterFusion"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/boolq/bert-base-uncased/pfeiffer/boolq_relu_16.zip"
+  version: "AdapterFusion"
 
 
 # A GitHub handle associated with the author(s).
@@ -69,3 +69,4 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://pfeiffer.ai"
+prediction_head: false

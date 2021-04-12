@@ -40,11 +40,12 @@ email: "rueckle@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha256: "1A4CC54A137844429DB90BFC1442FA12B7931CA0F1E91B06FA329E0B6A4B3D4A"
+- sha1: 851633e066da97b02fd56c0b20587a7829edefac
+  sha256: "1a4cc54a137844429db90bfc1442fa12b7931ca0f1e91b06fa329e0b6a4b3d4a"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mrpc/roberta-large/houlsby/roberta-large_mrpc_houlsby.zip"
-    version: "1"
-    description: Achieves 92.88 F1 on the MRPC devset
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mrpc/roberta-large/houlsby/roberta-large_mrpc_houlsby.zip"
+  version: "1"
+  description: Achieves 92.88 F1 on the MRPC devset
 
 
 # A GitHub handle associated with the author(s).
@@ -75,3 +76,5 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "http://rueckle.net"
+model_class: RobertaModelWithHeads
+prediction_head: true

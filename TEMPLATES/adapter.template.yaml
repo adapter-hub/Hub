@@ -75,6 +75,9 @@ github: ""
 # Example: BertModelWithHeads
 model_class: ""
 
+# (optional) If the adapter has a pre-trained prediction head included.
+prediction_head: ""
+
 # (optional) A Twitter handle associated with the author(s).
 twitter: ""
 

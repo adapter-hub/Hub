@@ -22,7 +22,7 @@ You have just found _"the Hub"_, the central GitHub repository collecting all ad
 
 This repository is divided into the following subfolders:
 
-- `TEMPLATES` contains templates for all different YAML info cards in this repository. We highly recommend you to use one of the available templates when adding your adapter, architecture, task etc. **DO NOT MODIFY ANYTHING HERE!**
+- `TEMPLATES` contains templates for all different YAML info cards in this repository. We highly recommend you to use one of the available templates when adding your adapter, architecture, task etc. _Auto-generated, do not modify anything here!_
 
 - `adapter_types` contains info cards for all types of adapters supported by our framework
 
@@ -30,7 +30,7 @@ This repository is divided into the following subfolders:
 
 - `architectures` contains info cards for all available adapter architectures. Add your own architecture here!
 
-- `dist` contains generated files for adapters and architectures. **DO NOT MODIFY ANYTHING HERE!**
+- `dist` contains generated files for adapters and architectures. _Auto-generated, do not modify anything here!_
 
 - `scripts` contains script for validating the submitted adapters and info cards
 
@@ -44,13 +44,39 @@ Refer to [the step-by-step guides in our documentation](https://docs.adapterhub.
 
 Our [template files](https://github.com/Adapter-Hub/Hub/tree/master/TEMPLATES) are a good way to get started with any contribution to this repo.
 
+### AdapterHub CLI
+
+The AdapterHub CLI provides command-line tools to help you contributing to the Hub, such as packaging adapters or validating filled-out yaml files.
+
+To install the CLI from the cloned repository, you can run the following in this folder:
+```
+pip install -U ./scripts/.
+```
+Alternatively, you can install the CLI using:
+```
+pip install -U git+https://github.com/adapter-hub/hub.git#subdirectory=scripts
+```
+
+Now you can use the pack `pack` command to interactively prepare your adapters for upload and submission to the Hub:
+```
+adapter-hub-cli pack <folder_with_models_or_adapters>
+```
+
+To validate yaml files, run:
+```
+adapter-hub-cli check path/to/adapter.yaml
+```
+
+Read more about the AdapterHub CLI [in the documentation](https://docs.adapterhub.ml/contributing.html).
+
+
 ## Citation
 
 Please cite our paper when using _AdapterHub_ for your work:
 
 ```
-@article{pfeiffer2020AdapterHub,
-    title={AdapterHub: A Framework for Adapting Transformers},
+@inproceedings{pfeiffer2020AdapterHub,
+    title={{AdapterHub: A Framework for Adapting Transformers}},
     author={Jonas Pfeiffer and
             Andreas R\"uckl\'{e} and
             Clifton Poth and
@@ -59,8 +85,11 @@ Please cite our paper when using _AdapterHub_ for your work:
             Sebastian Ruder and
             Kyunghyun Cho and
             Iryna Gurevych},
-    journal={arXiv preprint},
+    booktitle={Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP 2020): Systems Demonstrations},
     year={2020},
-    url={https://arxiv.org/abs/2007.07779}
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.emnlp-demos.7",
+    pages = "46--54",
 }
 ```

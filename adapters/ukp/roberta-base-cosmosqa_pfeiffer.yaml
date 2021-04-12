@@ -34,11 +34,11 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "b01139973f489682d559b0061ab05c184ae030c8"
-    sha256: "b711011d490188f4a361684cd609f6ed5a83b134d66b78e746acb4ea3d07b047"
+- sha1: "b01139973f489682d559b0061ab05c184ae030c8"
+  sha256: "b711011d490188f4a361684cd609f6ed5a83b134d66b78e746acb4ea3d07b047"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cosmosqa/roberta-base/pfeiffer/cosmosqa_relu_16.zip"
-    version: "AdapterFusion"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cosmosqa/roberta-base/pfeiffer/cosmosqa_relu_16.zip"
+  version: "AdapterFusion"
 
 
 # A GitHub handle associated with the author(s).
@@ -69,3 +69,4 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://pfeiffer.ai"
+prediction_head: false

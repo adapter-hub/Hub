@@ -1,0 +1,189 @@
+{
+    "comsense": {
+        "hellaswag": {
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_comsense_hellaswag_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/distilbert-base-uncased_comsense_hellaswag_pfeiffer.json"
+        }
+    },
+    "lingaccept": {
+        "cola": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_lingaccept_cola_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_lingaccept_cola_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/distilbert-base-uncased_lingaccept_cola_pfeiffer.json"
+        }
+    },
+    "nli": {
+        "cb": {
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_nli_cb_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/distilbert-base-uncased_nli_cb_pfeiffer.json"
+        },
+        "multinli": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_nli_multinli_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_nli_multinli_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/distilbert-base-uncased_nli_multinli_pfeiffer.json"
+        },
+        "qnli": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_nli_qnli_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_nli_qnli_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/distilbert-base-uncased_nli_qnli_pfeiffer.json"
+        },
+        "rte": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_nli_rte_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_nli_rte_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/distilbert-base-uncased_nli_rte_pfeiffer.json"
+        }
+    },
+    "qa": {
+        "boolq": {
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_qa_boolq_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/distilbert-base-uncased_qa_boolq_pfeiffer.json"
+        },
+        "squad1": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_qa_squad1_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_qa_squad1_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/distilbert-base-uncased_qa_squad1_pfeiffer.json"
+        }
+    },
+    "rc": {
+        "multirc": {
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_rc_multirc_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/distilbert-base-uncased_rc_multirc_pfeiffer.json"
+        },
+        "race": {
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_rc_race_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/distilbert-base-uncased_rc_race_pfeiffer.json"
+        }
+    },
+    "sentiment": {
+        "imdb": {
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_sentiment_imdb_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/distilbert-base-uncased_sentiment_imdb_pfeiffer.json"
+        },
+        "rotten_tomatoes": {
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_sentiment_rotten_tomatoes_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/distilbert-base-uncased_sentiment_rotten_tomatoes_pfeiffer.json"
+        },
+        "sst-2": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_sentiment_sst-2_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_sentiment_sst-2_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/distilbert-base-uncased_sentiment_sst-2_pfeiffer.json"
+        }
+    },
+    "sts": {
+        "mrpc": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_sts_mrpc_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_sts_mrpc_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/distilbert-base-uncased_sts_mrpc_pfeiffer.json"
+        },
+        "qqp": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_sts_qqp_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_sts_qqp_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/distilbert-base-uncased_sts_qqp_pfeiffer.json"
+        },
+        "sts-b": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_sts_sts-b_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/distilbert-base-uncased_sts_sts-b_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/distilbert-base-uncased_sts_sts-b_pfeiffer.json"
+        }
+    }
+}

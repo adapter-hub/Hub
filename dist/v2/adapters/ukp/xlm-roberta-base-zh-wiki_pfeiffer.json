@@ -1,0 +1,11 @@
+{
+  "config_id": "e15331acc3f0a5c0",
+  "default_version": "madx",
+  "files": {
+    "madx": {
+      "sha1": "96a82173853b812740a1ad90fdec85c357f5fcf4",
+      "sha256": "00a6c7b9b13d3c990e363e3b3ebb25548c19ee38e920ee8bf331622c79c460a5",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/zh/xlm-roberta-base/pfeiffer/zh_relu_2.zip"
+    }
+  }
+}

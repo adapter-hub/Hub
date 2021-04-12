@@ -25,11 +25,11 @@ email: "dovlex@gmail.com"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "e5f3961915f85c56091efde1436e90d3f8a29749"
-    sha256: "a27c2647885266df185792381c3edafa8651ed7c387cd91230b7f633b4106a2b"
+- sha1: "e5f3961915f85c56091efde1436e90d3f8a29749"
+  sha256: "a27c2647885266df185792381c3edafa8651ed7c387cd91230b7f633b4106a2b"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://storage.googleapis.com/models_nlp/AdapterHub/text_task/ldc2012t13/bert-base-uncased/pfeiffer/pos_ldc2012t13.zip"
-    version: "1"
+  url: "https://storage.googleapis.com/models_nlp/AdapterHub/text_task/ldc2012t13/bert-base-uncased/pfeiffer/pos_ldc2012t13.zip"
+  version: "1"
 
 
 # A GitHub handle associated with the author(s).
@@ -60,3 +60,5 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://github.com/vblagoje"
+model_class: BertForTokenClassification
+prediction_head: true

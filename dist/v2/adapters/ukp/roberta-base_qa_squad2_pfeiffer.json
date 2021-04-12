@@ -1,0 +1,12 @@
+{
+  "config_id": "9076f36a74755ac4",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "score": 80.35,
+      "sha1": "613711b48b651dd10e8c1e69af0f40b48e0c6dfb",
+      "sha256": "83a3eb224c18e926d90346b21938c50c3fb3af60a14c7acb94242c28a14d582d",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/squad2/roberta-base/pfeiffer/roberta-base_qa_squad2_pfeiffer.zip"
+    }
+  }
+}

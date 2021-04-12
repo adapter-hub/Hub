@@ -3,7 +3,8 @@
   "default_version": "1",
   "files": {
     "1": {
-      "sha1": "",
+      "sha1": "4bf11371f97e4ac9f8da1704bb316c0d3e8c4e29",
+      "sha256": "3a2f3727137b2c78e532193a4839a2f0a71378aaf21bcd00589e164050b76191",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cola/roberta-large/pfeiffer/roberta-large_cola_pfeiffer.zip"
     }
   }

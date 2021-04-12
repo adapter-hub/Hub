@@ -36,6 +36,9 @@
             "additionalProperties": true,
             "minProperties": 1,
             "description": "The full adapter config dictionary for this architecture."
+        },
+        "config_v1": {
+            "type": "object"
         }
     }
 }

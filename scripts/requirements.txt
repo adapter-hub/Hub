@@ -2,4 +2,4 @@ jsonschema
 pyyaml
 torch
 twython
-git+https://github.com/adapter-hub/adapter-transformers.git
+git+https://github.com/adapter-hub/adapter-transformers.git@v2

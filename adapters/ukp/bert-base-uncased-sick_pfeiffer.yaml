@@ -34,11 +34,11 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "135a256b43a84fb754a937afa699b17bf57c60ba"
-    sha256: "f31514fd8ae6508d4961b69c6c5f69d0faea12f7fe051b9cbfadc2ca6b42317c"
+- sha1: "135a256b43a84fb754a937afa699b17bf57c60ba"
+  sha256: "f31514fd8ae6508d4961b69c6c5f69d0faea12f7fe051b9cbfadc2ca6b42317c"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/sick/bert-base-uncased/pfeiffer/sick_relu_16.zip"
-    version: "AdapterFusion"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/sick/bert-base-uncased/pfeiffer/sick_relu_16.zip"
+  version: "AdapterFusion"
 
 
 # A GitHub handle associated with the author(s).
@@ -69,3 +69,4 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://pfeiffer.ai"
+prediction_head: false

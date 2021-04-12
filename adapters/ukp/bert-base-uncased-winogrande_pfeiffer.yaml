@@ -34,11 +34,11 @@ email: "pfeiffer@ukp.informatik.tu-darmstadt"
 
 # A list of different versions of this adapter available for download.
 files:
-  - sha1: "ba08b79a95bd3f904c26b6de19e3436fd3abcc2b"
-    sha256: "76cdfbd0d459e8d3a1fce1dc902a081f6c36430b6f8122910bc74bfa4ead518b"
+- sha1: "ba08b79a95bd3f904c26b6de19e3436fd3abcc2b"
+  sha256: "76cdfbd0d459e8d3a1fce1dc902a081f6c36430b6f8122910bc74bfa4ead518b"
     # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/winogrande/bert-base-uncased/pfeiffer/winogrande_relu_16.zip"
-    version: "AdapterFusion"
+  url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/winogrande/bert-base-uncased/pfeiffer/winogrande_relu_16.zip"
+  version: "AdapterFusion"
 
 
 # A GitHub handle associated with the author(s).
@@ -69,3 +69,4 @@ type: "text_task"
 
 # A URL providing more information on this adapter/ the authors/ the organization.
 url: "https://pfeiffer.ai"
+prediction_head: false

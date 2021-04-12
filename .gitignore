@@ -2,3 +2,6 @@ __pycache__
 env
 .vscode
 .DS_Store
+*.egg-info
+*.zip
+/.PACK_OUTPUT

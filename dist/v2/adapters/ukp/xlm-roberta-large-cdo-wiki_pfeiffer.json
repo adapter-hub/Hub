@@ -1,0 +1,11 @@
+{
+  "config_id": "e15331acc3f0a5c0",
+  "default_version": "madx",
+  "files": {
+    "madx": {
+      "sha1": "07e0da41f357067ec948c3f55d6c6d4100777e37",
+      "sha256": "7d66ce773f2772e15aa318e542ccd21e3e1348522a704999c098b9f5f02bef75",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/cdo/xlm-roberta-large/pfeiffer/cdo_relu_2.zip"
+    }
+  }
+}

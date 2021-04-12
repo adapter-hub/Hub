@@ -1,0 +1,54 @@
+{
+    "houlsby": {
+        "adapter_residual_before_ln": false,
+        "ln_after": false,
+        "ln_before": false,
+        "mh_adapter": true,
+        "non_linearity": "swish",
+        "original_ln_after": true,
+        "original_ln_before": false,
+        "output_adapter": true,
+        "reduction_factor": 16,
+        "residual_before_ln": true
+    },
+    "houlsby+inv": {
+        "adapter_residual_before_ln": false,
+        "inv_adapter": "nice",
+        "inv_adapter_reduction_factor": 2,
+        "ln_after": false,
+        "ln_before": false,
+        "mh_adapter": true,
+        "non_linearity": "swish",
+        "original_ln_after": true,
+        "original_ln_before": false,
+        "output_adapter": true,
+        "reduction_factor": 16,
+        "residual_before_ln": true
+    },
+    "pfeiffer": {
+        "adapter_residual_before_ln": false,
+        "ln_after": false,
+        "ln_before": false,
+        "mh_adapter": false,
+        "non_linearity": "relu",
+        "original_ln_after": true,
+        "original_ln_before": true,
+        "output_adapter": true,
+        "reduction_factor": 16,
+        "residual_before_ln": true
+    },
+    "pfeiffer+inv": {
+        "adapter_residual_before_ln": false,
+        "inv_adapter": "nice",
+        "inv_adapter_reduction_factor": 2,
+        "ln_after": false,
+        "ln_before": false,
+        "mh_adapter": false,
+        "non_linearity": "relu",
+        "original_ln_after": true,
+        "original_ln_before": true,
+        "output_adapter": true,
+        "reduction_factor": 16,
+        "residual_before_ln": true
+    }
+}

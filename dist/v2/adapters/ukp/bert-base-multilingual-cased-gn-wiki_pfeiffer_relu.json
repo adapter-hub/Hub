@@ -1,0 +1,11 @@
+{
+  "config_id": "e15331acc3f0a5c0",
+  "default_version": "madx",
+  "files": {
+    "madx": {
+      "sha1": "40ef6c22c50bb6f8c7725b1c19cf359875368d20",
+      "sha256": "45963fc05c77ae190848342d10f00c22ac28364fe39cc49514d423afafad7bf6",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/gn/bert-base-multilingual-cased/pfeiffer/gn_relu_2.zip"
+    }
+  }
+}
