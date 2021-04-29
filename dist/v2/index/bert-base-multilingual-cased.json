@@ -76,7 +76,7 @@
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-en-wiki_pfeiffer.json"
                 }
             },
-            "default": "adapters/ukp/bert-base-multilingual-cased-en-wiki_pfeiffer_relu.json",
+            "default": "adapters/ukp/bert-base-multilingual-cased-en-wiki_pfeiffer.json",
             "e15331acc3f0a5c0": {
                 "versions": {
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-en-wiki_pfeiffer_relu.json"
@@ -156,7 +156,7 @@
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-gn-wiki_pfeiffer.json"
                 }
             },
-            "default": "adapters/ukp/bert-base-multilingual-cased-gn-wiki_pfeiffer_relu.json",
+            "default": "adapters/ukp/bert-base-multilingual-cased-gn-wiki_pfeiffer.json",
             "e15331acc3f0a5c0": {
                 "versions": {
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-gn-wiki_pfeiffer_relu.json"
@@ -246,7 +246,7 @@
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-ja-wiki_pfeiffer.json"
                 }
             },
-            "default": "adapters/ukp/bert-base-multilingual-cased-ja-wiki_pfeiffer.json",
+            "default": "adapters/ukp/bert-base-multilingual-cased-ja-wiki_pfeiffer_relu.json",
             "e15331acc3f0a5c0": {
                 "versions": {
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-ja-wiki_pfeiffer_relu.json"
@@ -341,7 +341,7 @@
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-my-wiki_pfeiffer.json"
                 }
             },
-            "default": "adapters/ukp/bert-base-multilingual-cased-my-wiki_pfeiffer_relu.json",
+            "default": "adapters/ukp/bert-base-multilingual-cased-my-wiki_pfeiffer.json",
             "e15331acc3f0a5c0": {
                 "versions": {
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-my-wiki_pfeiffer_relu.json"
@@ -436,7 +436,7 @@
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-xmf-wiki_pfeiffer.json"
                 }
             },
-            "default": "adapters/ukp/bert-base-multilingual-cased-xmf-wiki_pfeiffer.json",
+            "default": "adapters/ukp/bert-base-multilingual-cased-xmf-wiki_pfeiffer_relu.json",
             "e15331acc3f0a5c0": {
                 "versions": {
                     "ukp": "adapters/ukp/bert-base-multilingual-cased-xmf-wiki_pfeiffer_relu.json"
