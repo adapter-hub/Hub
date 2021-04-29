@@ -1,0 +1,62 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: text_task
+
+# The string identifier of the task this adapter belongs to.
+task: nli
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: qnli
+
+# The model type.
+# Example: bert
+model_type: bart
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: facebook/bart-base
+
+# The name of the author(s) of this adapter.
+author: Clifton Poth
+
+# Describes the adapter architecture used by this adapter
+config:
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: houlsby
+  non_linearity: swish
+  reduction_factor: 16
+default_version: '1'
+
+# A list of different versions of this adapter available for download.
+files:
+- version: '1'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/qnli/facebook/bart-base/facebook-bart-base_nli_qnli_houlsby.zip
+  sha1: 87f63aa33f20ece9f30d0d2dd4a1fbdb2a2a4fda
+  sha256: 01b43ef3827201657a1516ae819cf23089dd6f384580ea5a6613da7e1ead15a5
+
+# (optional) A short description of this adapter.
+description: |
+  Adapter for bart-base in Houlsby architecture trained on the QNLI dataset for 15 epochs with early stopping and a learning rate of 1e-4.
+
+# (optional) A contact email of the author(s).
+email: calpt@mail.de
+
+# (optional) A GitHub handle associated with the author(s).
+github: calpt
+
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
+model_class: BartModelWithHeads
+
+# (optional) If the adapter has a pre-trained prediction head included.
+prediction_head: true
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: '@clifapt'
+
+# (optional) A URL providing more information on this adapter/ the authors/ the organization.
+url: https://adapterhub.ml
