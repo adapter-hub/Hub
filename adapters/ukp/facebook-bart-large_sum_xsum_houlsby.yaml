@@ -1,0 +1,63 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: text_task
+
+# The string identifier of the task this adapter belongs to.
+task: sum
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: xsum
+
+# The model type.
+# Example: bert
+model_type: bart
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: facebook/bart-large
+
+# The name of the author(s) of this adapter.
+author: Clifton Poth
+
+# Describes the adapter architecture used by this adapter
+config:
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: houlsby
+  non_linearity: swish
+  reduction_factor: 2
+default_version: '1'
+
+# A list of different versions of this adapter available for download.
+files:
+- version: '1'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/xsum/facebook/bart-large/facebook-bart-large_sum_xsum_houlsby.zip
+  sha1: 5e746a8d9f70f78ac282d93b7d880310b958109e
+  sha256: e3a52181ab83d2a957a885287f88b761c74b5786b10306798847fd7466169f52
+  score: 20.9
+
+# (optional) A short description of this adapter.
+description: |
+  Adapter for bart-large in Pfeiffer architecture trained on the XSum dataset for 10 epochs with early stopping and a learning rate of 1e-4.
+
+# (optional) A contact email of the author(s).
+email: calpt@mail.de
+
+# (optional) A GitHub handle associated with the author(s).
+github: calpt
+
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
+model_class: BartForConditionalGeneration
+
+# (optional) If the adapter has a pre-trained prediction head included.
+prediction_head: true
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: '@clifapt'
+
+# (optional) A URL providing more information on this adapter/ the authors/ the organization.
+url: https://adapterhub.ml
