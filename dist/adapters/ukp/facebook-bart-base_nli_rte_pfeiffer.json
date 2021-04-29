@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "d4e0d4c091e9608b20de4ca320de46e04b05bc79",
+      "sha256": "a7f184a4976bc4f2468c865ddb7c6d1eeb1981553630d2ce4fc0ac896e984164",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/rte/facebook/bart-base/facebook-bart-base_nli_rte_pfeiffer.zip"
+    }
+  }
+}
