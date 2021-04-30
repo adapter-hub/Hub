@@ -11,9 +11,9 @@ import ruamel.yaml
 from colorama import Fore, init
 from PyInquirer import prompt
 from transformers import ADAPTER_CONFIG_MAP, WEIGHTS_NAME, AutoModel
-from transformers.adapter_utils import ADAPTER_CACHE
-from transformers.adapter_utils import WEIGHTS_NAME as ADAPTER_WEIGHTS_NAME
-from transformers.adapter_utils import download_cached, get_adapter_config_hash
+from transformers.adapters.utils import ADAPTER_CACHE
+from transformers.adapters.utils import WEIGHTS_NAME as ADAPTER_WEIGHTS_NAME
+from transformers.adapters.utils import download_cached, get_adapter_config_hash
 from transformers.commands import BaseTransformersCLICommand
 
 

@@ -1,11 +1,12 @@
-from argparse import ArgumentParser, Namespace
 import glob
 import json
-from os.path import join, dirname, realpath
 import sys
+from argparse import ArgumentParser, Namespace
+from os.path import dirname, join, realpath
 
-from transformers.adapter_utils import download_cached
+from transformers.adapters.utils import download_cached
 from transformers.commands import BaseTransformersCLICommand
+
 from .utils import check_against_schema, check_download
 
 

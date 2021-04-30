@@ -107,7 +107,6 @@ def check_download(adapter_file):
         try:
             model.load_adapter(
                 file["url"],
-                adapter_dict["type"],
                 config=adapter_config,
                 load_as=file["version"],
                 checksum_algo=checksum_algo,

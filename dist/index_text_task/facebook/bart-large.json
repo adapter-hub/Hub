@@ -1,0 +1,30 @@
+{
+    "sum": {
+        "cnn_dailymail": {
+            "87954f0c97a780e3": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-bart-large_sum_cnn_dailymail_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/facebook-bart-large_sum_cnn_dailymail_pfeiffer.json",
+            "ec8c0cba5e6454ec": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-bart-large_sum_cnn_dailymail_houlsby.json"
+                }
+            }
+        },
+        "xsum": {
+            "87954f0c97a780e3": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-bart-large_sum_xsum_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/facebook-bart-large_sum_xsum_pfeiffer.json",
+            "ec8c0cba5e6454ec": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-bart-large_sum_xsum_houlsby.json"
+                }
+            }
+        }
+    }
+}

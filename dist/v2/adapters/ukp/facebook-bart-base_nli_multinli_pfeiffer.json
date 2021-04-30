@@ -1,0 +1,11 @@
+{
+  "config_id": "9076f36a74755ac4",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "e2ad4dcb9d51cefb25aebfb4f86f44fdec7f2b4e",
+      "sha256": "484e8c61bc3cc6af8b743ec22adcbf973e7920fc94b62d24dcbe2e8d6bc03b92",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/multinli/facebook/bart-base/facebook-bart-base_nli_multinli_pfeiffer.zip"
+    }
+  }
+}

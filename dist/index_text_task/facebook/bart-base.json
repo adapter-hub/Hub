@@ -1,0 +1,114 @@
+{
+    "lingaccept": {
+        "cola": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-bart-base_lingaccept_cola_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-bart-base_lingaccept_cola_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/facebook-bart-base_lingaccept_cola_pfeiffer.json"
+        }
+    },
+    "nli": {
+        "multinli": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-bart-base_nli_multinli_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-bart-base_nli_multinli_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/facebook-bart-base_nli_multinli_pfeiffer.json"
+        },
+        "qnli": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-bart-base_nli_qnli_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-bart-base_nli_qnli_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/facebook-bart-base_nli_qnli_pfeiffer.json"
+        },
+        "rte": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-bart-base_nli_rte_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-bart-base_nli_rte_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/facebook-bart-base_nli_rte_pfeiffer.json"
+        }
+    },
+    "sentiment": {
+        "sst-2": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-bart-base_sentiment_sst-2_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-bart-base_sentiment_sst-2_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/facebook-bart-base_sentiment_sst-2_pfeiffer.json"
+        }
+    },
+    "sts": {
+        "mrpc": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-bart-base_sts_mrpc_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-bart-base_sts_mrpc_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/facebook-bart-base_sts_mrpc_pfeiffer.json"
+        },
+        "qqp": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-bart-base_sts_qqp_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-bart-base_sts_qqp_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/facebook-bart-base_sts_qqp_pfeiffer.json"
+        },
+        "sts-b": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-bart-base_sts_sts-b_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-bart-base_sts_sts-b_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/facebook-bart-base_sts_sts-b_pfeiffer.json"
+        }
+    }
+}

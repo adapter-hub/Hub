@@ -1,0 +1,12 @@
+{
+  "config_id": "87954f0c97a780e3",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "score": 20.86,
+      "sha1": "aa5c120e8dff99322c81254d3769a8cfa80fcf06",
+      "sha256": "30de8dd91180f760fb511088c3d5b5a515aef82ccd0e444802d0f61d6e37c14b",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/cnn_dailymail/facebook/bart-large/facebook-bart-large_sum_cnn_dailymail_pfeiffer.zip"
+    }
+  }
+}

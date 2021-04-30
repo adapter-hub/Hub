@@ -1,0 +1,11 @@
+{
+  "config_id": "9076f36a74755ac4",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "4c80282e51a2f144ead695f5bc57f80cfd3b7c87",
+      "sha256": "19c250c8e5a786f8d533651f5fe8f84b659e199f6fa33f61affe85909cba45a8",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/sts-b/facebook/bart-base/facebook-bart-base_sts_sts-b_pfeiffer.zip"
+    }
+  }
+}
