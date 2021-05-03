@@ -1,4 +1,0 @@
-task: lm
-displayname: Lamguage Modelling
-description: |
-The model learns which words appear in which contexts and is able to produce text.
