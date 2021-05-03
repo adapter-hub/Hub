@@ -13,34 +13,41 @@ subtask: poem
 
 # The model type.
 # Example: bert
-model_type: "gpt2"
+model_type: gpt2
 
 # The string identifier of the pre-trained model (by which it is identified at Huggingface).
 # Example: bert-base-uncased
-model_name: "gpt2"
+model_name: gpt2
 
 # The name of the author(s) of this adapter.
-author: "Hannah Sterz"
+author: Hannah Sterz
 
 # Describes the adapter architecture used by this adapter
 config:
   # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
   # Example: pfeiffer
   using: pfeiffer
-
-# The version to be downloaded if no version is explicitly stated.
-default_version: "lm_poem"
+  non_linearity: relu
+  reduction_factor: 16
+default_version: '1'
 
 # A list of different versions of this adapter available for download.
 files:
-    
--   sha1: "0059F5C3B88957D6C8103A1841116066BBED65D8"
-    sha256: "8B4A0AC2A79DA445E7B0E5D178D948F75A170AFA18B0244046432C38C77420A1"
-    # Download URL pointing to a zip folder containing the adapter module.
-    url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/poem/gpt2/adapter_poem.zip"
-    version: "lm_poem"
+- version: '1'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/poem/gpt2/gpt2_en_poem_pfeiffer.zip
+  sha1: 521ca8f6cca8ac132937466bd7d4eb84a11ca6d7
+  sha256: 38d8e1a53cda778cfa7d3374b68e3992fabc87fc613192f2f1e7f892d5d8d7cf
 #   - ...
 
+# (optional) A contact email of the author(s).
+email: hannah.sterz@stud.tu-darmstadt.de
 
-twitter: "@Hannah70676760"
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
 model_class: GPT2LMHeadModel
+
+# (optional) If the adapter has a pre-trained prediction head included.
+prediction_head: false
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: '@h_sterz'

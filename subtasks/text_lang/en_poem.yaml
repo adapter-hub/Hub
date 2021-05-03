@@ -1,0 +1,14 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: "en"
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: "poem"
+
+# A short description of this subtask (max. 500 chars).
+description: "The model is trained to learn the structure of poems in the english language."

@@ -1,0 +1,55 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: text_task
+
+# The string identifier of the task this adapter belongs to.
+task: sts
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: mrpc
+
+# The model type.
+# Example: bert
+model_type: gpt2
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: gpt2
+
+# The name of the author(s) of this adapter.
+author: Hannah Sterz
+
+# Describes the adapter architecture used by this adapter
+config:
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: pfeiffer
+  non_linearity: relu
+  reduction_factor: 16
+default_version: '1'
+
+# A list of different versions of this adapter available for download.
+files:
+- version: '1'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/mrpc/gpt2/gpt2_sts_mrpc_pfeiffer.zip
+  sha1: fbaae07264f0e2c37fee34740e3ce613d7b68f00
+  sha256: 5720a7a3ce52ce02a91c56d2c4600ce800aae4cf17e3b26d5fcdf12b3a942a26
+
+# (optional) A short description of this adapter.
+description: 'Adapter for gpt2 in Pfeiffer architecture trained on the MRPC dataset for 10 epochs with a learning rate of 1e-4.'
+
+# (optional) A contact email of the author(s).
+email: hannah.sterz@stud.tu-darmstadt.de
+
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
+model_class: GPT2ForSequenceClassification
+
+# (optional) If the adapter has a pre-trained prediction head included.
+prediction_head: true
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: '@h_sterz'
