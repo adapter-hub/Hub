@@ -35,8 +35,8 @@ default_version: '1'
 files:
 - version: '1'
   url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/rte/gpt2/gpt2_nli_rte_pfeiffer.zip
-  sha1: 2ed8fe04db7aa620700d07d624f57829e8e2781d
-  sha256: bc2967a3a5c1c501b0c6bc12404d545f4dbb30708e1b25c85deac6416fd709da
+  sha1: 6c2f8fc0420860a86de9b3b9bb59489550397820
+  sha256: f05ec9c003402e72093164ea73f328aba69d217a47dd97e44f2b0678d1e95e88
 
 # (optional) A short description of this adapter.
 description: 'Adapter for gpt2 in Pfeiffer architecture trained on the RTE dataset for 10 epochs with a learning rate of 1e-4.'

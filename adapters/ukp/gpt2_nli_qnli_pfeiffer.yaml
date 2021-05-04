@@ -35,8 +35,8 @@ default_version: '1'
 files:
 - version: '1'
   url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/qnli/gpt2/gpt2_nli_qnli_pfeiffer.zip
-  sha1: 6c2f8fc0420860a86de9b3b9bb59489550397820
-  sha256: f05ec9c003402e72093164ea73f328aba69d217a47dd97e44f2b0678d1e95e88
+  sha1: 45ee9e2ac593a62b884a777cc7e0ba1b26b278fa
+  sha256: 3bfe3c4fa41555a9cea3b3919b8f038b91e2f24672092bae620433608f645bfb
 
 # (optional) A short description of this adapter.
 description: 'Adapter for gpt2 in Pfeiffer architecture trained on the QNLI dataset for 10 epochs with a learning rate of 1e-4.'
