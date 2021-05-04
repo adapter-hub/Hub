@@ -68,9 +68,17 @@ def generate_adapter_repo(files, config_index, dist_folder="dist", hub_version=2
             index_file = join(
                 dist_folder, "index_{}".format(a_type) if hub_version <= 1 else "index", "{}.json".format(a_model_name)
             )
-            os.makedirs(dirname(index_file), exist_ok=True)
-            with open(index_file, "x") as f:
-                json.dump(adapters, f, indent=4, sort_keys=True)
+            # For v2, the index might already exist as text_task & text_lang are put into the same file but handled separately.
+            if os.path.exists(index_file):
+                with open(index_file, "r") as f:
+                    index = json.load(f)
+                index = {**index, **adapters}
+                with open(index_file, "w") as f:
+                    json.dump(index, f, indent=4, sort_keys=True)
+            else:
+                os.makedirs(dirname(index_file), exist_ok=True)
+                with open(index_file, "x") as f:
+                    json.dump(adapters, f, indent=4, sort_keys=True)
     return index
 
 
