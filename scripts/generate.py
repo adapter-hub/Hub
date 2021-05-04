@@ -68,7 +68,11 @@ def generate_adapter_repo(files, config_index, dist_folder="dist", hub_version=2
             index_file = join(
                 dist_folder, "index_{}".format(a_type) if hub_version <= 1 else "index", "{}.json".format(a_model_name)
             )
+<<<<<<< HEAD
                        # For v2, the index might already exist as text_task & text_lang are put into the same file but handled separately.
+=======
+            # For v2, the index might already exist as text_task & text_lang are put into the same file but handled separately.
+>>>>>>> update
             if os.path.exists(index_file):
                 with open(index_file, "r") as f:
                     index = json.load(f)
