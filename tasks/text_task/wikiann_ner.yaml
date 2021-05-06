@@ -4,7 +4,7 @@
 
 # The short identifier of this task.
 # Example: sentiment
-task: wikiann_ner
+task: wikiann
 
 # The full name of the task that should be displayed e.g. on the website.
 # Example: Sentiment Analysis

@@ -6,7 +6,7 @@
 type: text_task
 
 # The string identifier of the task this adapter belongs to.
-task: wikiann_ner
+task: wikiann
 
 # The string identifier of the subtask this adapter belongs to.
 subtask: en
