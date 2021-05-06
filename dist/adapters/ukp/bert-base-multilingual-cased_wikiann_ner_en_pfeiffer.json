@@ -1,0 +1,36 @@
+{
+  "config_id": "db892fcf700e3f23",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "43bd231407ef77871dc49a7b80c906428499301c",
+      "sha256": "d286e2dae8b4fed745ba2f52a501e3daba7a7ee0098bb7f4d5a24fd674043d74",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/en/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_en_pfeiffer.zip"
+    },
+    "2": {
+      "sha1": "cfec5e33c7152c75201c1bc485347f941b47bce0",
+      "sha256": "5b4c22c786b250a4e3c0316cfca5509667363c23ffc7fbec5031dab749b67dec",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/en/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_en1_pfeiffer.zip"
+    },
+    "3": {
+      "sha1": "1291e3446c5a8793dd6533e606ff61b6f7559073",
+      "sha256": "6dca67f2cb67150d324faaf01156bb8c8e5e0e2ce8646bbb2c25aee2f4aab93b",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/en/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_en2_pfeiffer.zip"
+    },
+    "4": {
+      "sha1": "a08f754ace1110634689fd7c4e78a599447662aa",
+      "sha256": "681966b694d6e8adeab138f40f3c56ca352c0500dd5f052f55db6f049e11f840",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/en/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_en3_pfeiffer.zip"
+    },
+    "5": {
+      "sha1": "a59c6fcdebf36ff279e1b4613a68a8376fc6bf5c",
+      "sha256": "f416897183c6ece4e499d875f0d95c8abaacfcf5ecd6df951275b19299ec5177",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/en/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_en42_pfeiffer.zip"
+    },
+    "6": {
+      "sha1": "20b0b2baf4515699f14675c6ac663029208a0c13",
+      "sha256": "d515ceabc8e73893b02b124816f1ecd59c142d6a988041687f9e594a6b5cc77c",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/en/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_en4_pfeiffer.zip"
+    }
+  }
+}

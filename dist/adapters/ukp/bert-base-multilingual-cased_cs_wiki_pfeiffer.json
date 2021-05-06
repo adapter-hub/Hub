@@ -1,0 +1,11 @@
+{
+  "config_id": "2544b31b29c6067d",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "93f885122ff163ddd7a5e5c77c078d3443c5be4d",
+      "sha256": "667a3cc33f5f7072e39cb2ea8b1289d7972d5f00b219fc09bed5299ec98790ef",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/cs/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_cs_wiki_pfeiffer.zip"
+    }
+  }
+}
