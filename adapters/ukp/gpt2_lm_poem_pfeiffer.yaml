@@ -3,10 +3,10 @@
 # --------------------
 
 # The type of adapter (one of the options available in `adapter_type`.
-type: text_lang
+type: text_task
 
 # The string identifier of the task this adapter belongs to.
-task: en
+task: lm
 
 # The string identifier of the subtask this adapter belongs to.
 subtask: poem
