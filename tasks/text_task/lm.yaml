@@ -1,0 +1,14 @@
+# Adapter-Hub task definition
+# Defines a broader task/ category that is divided into specific subtasks.
+# --------------------
+
+# The short identifier of this task.
+# Example: sentiment
+task: Language Modeling
+
+# The full name of the task that should be displayed e.g. on the website.
+# Example: Sentiment Analysis
+displayname: lm
+
+# A short description of this task (max. 500 chars).
+description: "The model is trained to learn the structure of the given text by trying to predict the next token in a sequence."
