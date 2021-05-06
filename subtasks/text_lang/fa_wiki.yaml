@@ -1,0 +1,7 @@
+task: fa
+subtask: wiki
+description: |
+  Language modeling for the Persian language on Wikipedia.
+url: ""
+citation: ""
+ 

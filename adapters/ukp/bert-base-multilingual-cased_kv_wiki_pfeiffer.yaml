@@ -1,0 +1,84 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: text_lang
+
+# The string identifier of the task this adapter belongs to.
+task: kv
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: wiki
+
+# The model type.
+# Example: bert
+model_type: bert
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: bert-base-multilingual-cased
+
+# The name of the author(s) of this adapter.
+author: Jonas Pfeiffer
+
+# Describes the adapter architecture used by this adapter
+config:
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: pfeiffer
+  non_linearity: gelu
+  reduction_factor: 2
+default_version: '1'
+
+# A list of different versions of this adapter available for download.
+files:
+- version: '1'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/kv/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_kv_wiki_pfeiffer.zip
+  sha1: fd6bf58d1a6d31df8c216a6e147b4cfa0a480fac
+  sha256: a144f6393391b8521cda0b8400a63a0fcb0dc1cccf41123fcc273cb7cd6ea03d
+citation: |
+  @inproceedings{pfeiffer20madx,
+    title = "{MAD-X}: {A}n {A}dapter-{B}ased {F}ramework for {M}ulti-{T}ask {C}ross-{L}ingual {T}ransfer",
+    author = "Pfeiffer, Jonas  and
+      Vuli{\'c}, Ivan  and
+      Gurevych, Iryna  and
+      Ruder, Sebastian",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.emnlp-main.617",
+    pages = "7654--7673",
+  }
+
+# (optional) A list of adapters this adapter is dependent on.
+dependencies:
+    # The key (username/filename_without_ext) of the adapter dependency.
+    # Example: example-org/text_task-sst-bert
+- key: ''
+    # (optional) A short description how this adapter is dependent.
+  description: ''
+#   - ...
+
+# (optional) A short description of this adapter.
+description: ''
+
+# (optional) A contact email of the author(s).
+email: Jonas@Pfeiffer.ai
+
+# (optional) A GitHub handle associated with the author(s).
+github: JoPfeiff
+
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
+model_class: BertForMaskedLM
+
+# (optional) If the adapter has a pre-trained prediction head included.
+prediction_head: true
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: '@PfeiffJo'
+
+# (optional) A URL providing more information on this adapter/ the authors/ the organization.
+url: https://pfeiffer.ai

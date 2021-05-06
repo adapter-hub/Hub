@@ -1,0 +1,59 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: wikiann_ner
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: ar
+
+# A short description of this subtask (max. 500 chars).
+description: |
+    NER on Wikipedia Documents.
+
+# (optional) The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: Arabic
+
+# (optional) The identifier of the language of the data in this subtask
+language: Arabic
+
+# (optional) The default evaluation metric of this subtask.
+metric:
+  name: "F1"
+  higher_is_better: true
+
+# (optional) A bibtex citation of the work related to this subtask.
+citation: |
+    @inproceedings{Pan2017wikiann,
+      author    = {Xiaoman Pan and
+                   Boliang Zhang and
+                   Jonathan May and
+                   Joel Nothman and
+                   Kevin Knight and
+                   Heng Ji},
+      title     = {Cross-lingual Name Tagging and Linking for 282 Languages},
+      booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational
+                   Linguistics, {ACL} 2017, Vancouver, Canada, July 30 - August 4, Volume
+                   1: Long Papers},
+      pages     = {1946--1958},
+      year      = {2017},
+      url       = {https://doi.org/10.18653/v1/P17-1178},
+    }
+    @inproceedings{Rahimi2019massively,
+      author    = {Afshin Rahimi and
+                   Yuan Li and
+                   Trevor Cohn},
+      title     = {Massively Multilingual Transfer for {NER}},
+      booktitle = {Proceedings of the 57th Conference of the Association for Computational
+                   Linguistics, {ACL} 2019, Florence, Italy, July 28- August 2, 2019,
+                   Volume 1: Long Papers},
+      pages     = {151--164},
+      year      = {2019},
+      url       = {https://doi.org/10.18653/v1/p19-1015},
+    }
+
+

@@ -1,0 +1,97 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: text_task
+
+# The string identifier of the task this adapter belongs to.
+task: wikiann_ner
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: ja
+
+# The model type.
+# Example: bert
+model_type: bert
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: bert-base-multilingual-cased
+
+# The name of the author(s) of this adapter.
+author: Jonas Pfeiffer
+
+# Describes the adapter architecture used by this adapter
+config:
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: pfeiffer
+  non_linearity: gelu
+  reduction_factor: 16
+default_version: '1'
+
+# A list of different versions of this adapter available for download.
+files:
+- version: '1'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/ja/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_ja_pfeiffer.zip
+  sha1: 5dd1ba7e75da7b58cdecf6e16ded6265efb3289f
+  sha256: 5f03ba731fa6258d0816ba34c3ac473a66be0a78f3816aa1da5bd57e235f175c
+- version: '2'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/ja/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_ja2_pfeiffer.zip
+  sha1: 3780bb433251f33057f44ea1bd8cb94a6873e28e
+  sha256: 8c6091b306d7d35004460d2ae8029fe55ad99436b45e8d04297da6f4c16fa433
+- version: '3'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/ja/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_ja3_pfeiffer.zip
+  sha1: d362814ef9131b5c04a48b8737cb3cf7aff9048c
+  sha256: ed6c6a994750741503985c319415076c1066816cf1b734a4f8e1a04b5739aca3
+- version: '4'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/ja/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_ja4_pfeiffer.zip
+  sha1: 94f108fbeda3f19d3d8140b57b9aa110bd1fbc73
+  sha256: c4830b350917f7bc7d077ed241af246f16829ab76a522432140385394f8e86d6
+- version: '5'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/ja/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_ja5_pfeiffer.zip
+  sha1: df05eba7eeaa657f9a8826ff928c6c53162a191b
+  sha256: f7dabc4ff35e0349b746b44277d8239400c21892b27a25f66e749ef18f033ea5
+citation: |
+  @article{Pfeiffer21UNKs,
+    author    = {Jonas Pfeiffer and
+                 Ivan Vuli\'{c} and
+                  Iryna Gurevych and
+                  Sebastian Ruder},
+    title     = {{UNKs Everywhere: Adapting Multilingual Language Models to New Scripts}},
+    journal   = {arXiv preprint},
+    year      = {2021} ,
+    url = {https://arxiv.org/abs/2012.15562}
+  }
+
+# (optional) A list of adapters this adapter is dependent on.
+dependencies:
+    # The key (username/filename_without_ext) of the adapter dependency.
+    # Example: example-org/text_task-sst-bert
+- key: ''
+    # (optional) A short description how this adapter is dependent.
+  description: ''
+#   - ...
+
+# (optional) A short description of this adapter.
+description: ''
+
+# (optional) A contact email of the author(s).
+email: Jonas@Pfeiffer.ai
+
+# (optional) A GitHub handle associated with the author(s).
+github: JoPfeiff
+
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
+model_class: BertForTokenClassification
+
+# (optional) If the adapter has a pre-trained prediction head included.
+prediction_head: true
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: '@PfeiffJo'
+
+# (optional) A URL providing more information on this adapter/ the authors/ the organization.
+url: https://pfeiffer.ai

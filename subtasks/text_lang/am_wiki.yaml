@@ -1,0 +1,6 @@
+task: am
+subtask: wiki
+description: |
+  Language modeling for the Amharic language on Wikipedia.
+url: ""
+citation: ""

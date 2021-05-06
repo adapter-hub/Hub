@@ -1,0 +1,101 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: text_task
+
+# The string identifier of the task this adapter belongs to.
+task: wikiann_ner
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: en
+
+# The model type.
+# Example: bert
+model_type: bert
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: bert-base-multilingual-cased
+
+# The name of the author(s) of this adapter.
+author: Jonas Pfeiffer
+
+# Describes the adapter architecture used by this adapter
+config:
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: pfeiffer
+  non_linearity: gelu
+  reduction_factor: 16
+default_version: '1'
+
+# A list of different versions of this adapter available for download.
+files:
+- version: '1'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/en/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_en_pfeiffer.zip
+  sha1: 43bd231407ef77871dc49a7b80c906428499301c
+  sha256: d286e2dae8b4fed745ba2f52a501e3daba7a7ee0098bb7f4d5a24fd674043d74
+- version: '2'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/en/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_en1_pfeiffer.zip
+  sha1: cfec5e33c7152c75201c1bc485347f941b47bce0
+  sha256: 5b4c22c786b250a4e3c0316cfca5509667363c23ffc7fbec5031dab749b67dec
+- version: '3'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/en/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_en2_pfeiffer.zip
+  sha1: 1291e3446c5a8793dd6533e606ff61b6f7559073
+  sha256: 6dca67f2cb67150d324faaf01156bb8c8e5e0e2ce8646bbb2c25aee2f4aab93b
+- version: '4'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/en/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_en3_pfeiffer.zip
+  sha1: a08f754ace1110634689fd7c4e78a599447662aa
+  sha256: 681966b694d6e8adeab138f40f3c56ca352c0500dd5f052f55db6f049e11f840
+- version: '5'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/en/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_en42_pfeiffer.zip
+  sha1: a59c6fcdebf36ff279e1b4613a68a8376fc6bf5c
+  sha256: f416897183c6ece4e499d875f0d95c8abaacfcf5ecd6df951275b19299ec5177
+- version: '6'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/en/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_en4_pfeiffer.zip
+  sha1: 20b0b2baf4515699f14675c6ac663029208a0c13
+  sha256: d515ceabc8e73893b02b124816f1ecd59c142d6a988041687f9e594a6b5cc77c
+citation: |
+  @article{Pfeiffer21UNKs,
+    author    = {Jonas Pfeiffer and
+                 Ivan Vuli\'{c} and
+                  Iryna Gurevych and
+                  Sebastian Ruder},
+    title     = {{UNKs Everywhere: Adapting Multilingual Language Models to New Scripts}},
+    journal   = {arXiv preprint},
+    year      = {2021} ,
+    url = {https://arxiv.org/abs/2012.15562}
+  }
+
+# (optional) A list of adapters this adapter is dependent on.
+dependencies:
+    # The key (username/filename_without_ext) of the adapter dependency.
+    # Example: example-org/text_task-sst-bert
+- key: ''
+    # (optional) A short description how this adapter is dependent.
+  description: ''
+#   - ...
+
+# (optional) A short description of this adapter.
+description: ''
+
+# (optional) A contact email of the author(s).
+email: Jonas@Pfeiffer.ai
+
+# (optional) A GitHub handle associated with the author(s).
+github: JoPfeiff
+
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
+model_class: BertForTokenClassification
+
+# (optional) If the adapter has a pre-trained prediction head included.
+prediction_head: true
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: '@PfeiffJo'
+
+# (optional) A URL providing more information on this adapter/ the authors/ the organization.
+url: https://pfeiffer.ai
