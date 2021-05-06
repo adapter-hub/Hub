@@ -34,7 +34,7 @@ default_version: '1'
 # A list of different versions of this adapter available for download.
 files:
 - version: '1'
-  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/zh/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_zh_pfeiffer.zip
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/zh/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_zh1_pfeiffer.zip
   sha1: 0c32610bc88cdba0b4308c45f5c31bb85ed8175b
   sha256: dcef604e008c190d63e6434cb5adef7234d1dea9729a3f55483084b5b527fc71
 - version: '2'
