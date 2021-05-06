@@ -1,0 +1,7 @@
+task: hu
+subtask: wiki
+description: |
+  Language modeling for the Hungarian language on Wikipedia.
+url: ""
+citation: ""
+ 

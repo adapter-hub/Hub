@@ -1,0 +1,7 @@
+task: lv
+subtask: wiki
+description: |
+  Language modeling for the Latvian language on Wikipedia.
+url: ""
+citation: ""
+ 

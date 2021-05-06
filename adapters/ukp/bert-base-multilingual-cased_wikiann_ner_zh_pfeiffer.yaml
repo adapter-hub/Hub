@@ -1,0 +1,97 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: text_task
+
+# The string identifier of the task this adapter belongs to.
+task: wikiann
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: zh1
+
+# The model type.
+# Example: bert
+model_type: bert
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: bert-base-multilingual-cased
+
+# The name of the author(s) of this adapter.
+author: Jonas Pfeiffer
+
+# Describes the adapter architecture used by this adapter
+config:
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: pfeiffer
+  non_linearity: gelu
+  reduction_factor: 16
+default_version: '1'
+
+# A list of different versions of this adapter available for download.
+files:
+- version: '1'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/zh/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_zh1_pfeiffer.zip
+  sha1: 0c32610bc88cdba0b4308c45f5c31bb85ed8175b
+  sha256: dcef604e008c190d63e6434cb5adef7234d1dea9729a3f55483084b5b527fc71
+- version: '2'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/zh/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_zh2_pfeiffer.zip
+  sha1: 4ed4951eff55e3603b802f16601b4acd043ecfe4
+  sha256: 48e9eef986c6b91ef22ae7fcfa7441c1f6c9d0e8a000ea9a0a5d03999956dce9
+- version: '3'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/zh/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_zh3_pfeiffer.zip
+  sha1: 918ee0f0f18c1a750d82ab45b62b54061a6de291
+  sha256: 89e8c49bb9e9b29ddb7026377eda1c8b42163914ceeaefc837e87829d4ed593d
+- version: '4'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/zh/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_zh4_pfeiffer.zip
+  sha1: 64a39eae25b2f90362930cd9cec1304075aa546b
+  sha256: 20d0fa4b3675dbb6b5d3d551b8808d50c5e43cabb23f2c46779cb5db498ee06a
+- version: '5'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/wikiann_ner/zh/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_wikiann_ner_zh5_pfeiffer.zip
+  sha1: 3e0001fa87d951428be15d892eb653e721ad2502
+  sha256: d3eab6fd85abecba91dd8d65e92c064a7cc24e437858fa26255a47d21ea08acd
+citation: |
+  @article{Pfeiffer21UNKs,
+    author    = {Jonas Pfeiffer and
+                 Ivan Vuli\'{c} and
+                  Iryna Gurevych and
+                  Sebastian Ruder},
+    title     = {{UNKs Everywhere: Adapting Multilingual Language Models to New Scripts}},
+    journal   = {arXiv preprint},
+    year      = {2021} ,
+    url = {https://arxiv.org/abs/2012.15562}
+  }
+
+# (optional) A list of adapters this adapter is dependent on.
+dependencies:
+    # The key (username/filename_without_ext) of the adapter dependency.
+    # Example: example-org/text_task-sst-bert
+- key: 'zh/wiki@ukp'
+    # (optional) A short description how this adapter is dependent.
+  description: 'Adapter stacked on top of language adapter. Pre-trained with Japanese language adapter'
+#   - ...
+
+# (optional) A short description of this adapter.
+description: 'Stacked adapter on top of Language adapter. MAD-X 2.0 style. The language adapters in the last layer (layer 11) are deleted.'
+
+# (optional) A contact email of the author(s).
+email: Jonas@Pfeiffer.ai
+
+# (optional) A GitHub handle associated with the author(s).
+github: JoPfeiff
+
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
+model_class: BertForTokenClassification
+
+# (optional) If the adapter has a pre-trained prediction head included.
+prediction_head: true
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: '@PfeiffJo'
+
+# (optional) A URL providing more information on this adapter/ the authors/ the organization.
+url: https://pfeiffer.ai

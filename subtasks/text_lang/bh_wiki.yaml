@@ -1,0 +1,7 @@
+task: bh
+subtask: wiki
+description: |
+  Language modeling for the Bhojpuri language on Wikipedia.
+url: ""
+citation: ""
+ 
