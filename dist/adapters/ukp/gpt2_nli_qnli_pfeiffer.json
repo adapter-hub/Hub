@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "45ee9e2ac593a62b884a777cc7e0ba1b26b278fa",
+      "sha256": "3bfe3c4fa41555a9cea3b3919b8f038b91e2f24672092bae620433608f645bfb",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/qnli/gpt2/gpt2_nli_qnli_pfeiffer.zip"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "config_id": "b1017368d7a97b11",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "4202f74b28efaef881163158c5368da22ba5d802",
+      "sha256": "96469bf23546e71b86d80f3ead43512521225fd2f764c3c1946d1e5eaa611c01",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/qqp/gpt2/gpt2_sts_qqp_houlsby.zip"
+    }
+  }
+}

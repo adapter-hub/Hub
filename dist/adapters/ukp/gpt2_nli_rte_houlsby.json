@@ -1,0 +1,11 @@
+{
+  "config_id": "b1017368d7a97b11",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "550fc634e1674e81443758ce90624342d9b10b6c",
+      "sha256": "3279a610359e844aab53e1d804e5ff18473834c9d2f2d51c8f3a8a26cb29849b",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/rte/gpt2/gpt2_nli_rte_houlsby.zip"
+    }
+  }
+}

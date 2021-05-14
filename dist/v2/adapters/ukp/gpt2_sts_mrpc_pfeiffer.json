@@ -1,0 +1,11 @@
+{
+  "config_id": "9076f36a74755ac4",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "fbaae07264f0e2c37fee34740e3ce613d7b68f00",
+      "sha256": "5720a7a3ce52ce02a91c56d2c4600ce800aae4cf17e3b26d5fcdf12b3a942a26",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/mrpc/gpt2/gpt2_sts_mrpc_pfeiffer.zip"
+    }
+  }
+}

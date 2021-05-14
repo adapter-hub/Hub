@@ -1,0 +1,124 @@
+{
+    "lingaccept": {
+        "cola": {
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/gpt2_lingaccept_cola_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/gpt2_lingaccept_cola_pfeiffer.json"
+        }
+    },
+    "lm": {
+        "poem": {
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/gpt2_lm_poem_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/gpt2_lm_poem_pfeiffer.json"
+        }
+    },
+    "nli": {
+        "multinli": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/gpt2_nli_multinli_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/gpt2_nli_multinli_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/gpt2_nli_multinli_pfeiffer.json"
+        },
+        "qnli": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/gpt2_nli_qnli_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/gpt2_nli_qnli_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/gpt2_nli_qnli_pfeiffer.json"
+        },
+        "rte": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/gpt2_nli_rte_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/gpt2_nli_rte_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/gpt2_nli_rte_pfeiffer.json"
+        }
+    },
+    "sentiment": {
+        "sst-2": {
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/gpt2_sentiment_sst-2_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/gpt2_sentiment_sst-2_pfeiffer.json"
+        }
+    },
+    "sentiment ": {
+        "sst-2": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/gpt2_sentiment_sst-2_houlsby.json"
+                }
+            },
+            "default": "adapters/ukp/gpt2_sentiment_sst-2_houlsby.json"
+        }
+    },
+    "sts": {
+        "mrpc": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/gpt2_sts_mrpc_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/gpt2_sts_mrpc_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/gpt2_sts_mrpc_pfeiffer.json"
+        },
+        "qqp": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/gpt2_sts_qqp_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/gpt2_sts_qqp_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/gpt2_sts_qqp_pfeiffer.json"
+        },
+        "sts-b": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/gpt2_sts_sts-b_houlsby.json"
+                }
+            },
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "ukp": "adapters/ukp/gpt2_sts_sts-b_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/gpt2_sts_sts-b_pfeiffer.json"
+        }
+    }
+}

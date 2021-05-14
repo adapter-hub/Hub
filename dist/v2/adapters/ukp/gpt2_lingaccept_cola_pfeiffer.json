@@ -1,0 +1,11 @@
+{
+  "config_id": "9076f36a74755ac4",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "c2b0104e026f1474cd2973d6caa4dbd4b9cbd5e5",
+      "sha256": "d3f5165783222057447f2263e6635c236152306913303ae4ba42b79088d8fba8",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/cola/gpt2/gpt2_lingaccept_cola_pfeiffer.zip"
+    }
+  }
+}

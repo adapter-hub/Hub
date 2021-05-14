@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "e82819e04b06b3060406460053665dfda1ff9163",
+      "sha256": "4b18332107aa4100644494871cc4b3dc1956c90cad67fc9f7677289c8d3cad2b",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/qqp/gpt2/gpt2_sts_qqp_pfeiffer.zip"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "9350edba30b3319308cfe41f7122f00d9310e332",
+      "sha256": "2681564d55cdfb39856a2ab3895107f50582b12103dede7e0247311740e1ddf1",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/sst-2/gpt2/gpt2_sentiment_sst-2_pfeiffer.zip"
+    }
+  }
+}
