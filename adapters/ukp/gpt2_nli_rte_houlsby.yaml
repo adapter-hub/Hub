@@ -1,0 +1,56 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: text_task
+
+# The string identifier of the task this adapter belongs to.
+task: nli
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: rte
+
+# The model type.
+# Example: bert
+model_type: gpt2
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: gpt2
+
+# The name of the author(s) of this adapter.
+author: Hannah Sterz
+
+# Describes the adapter architecture used by this adapter
+config:
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: houlsby
+  non_linearity: swish
+  reduction_factor: 16
+default_version: '1'
+
+# A list of different versions of this adapter available for download.
+files:
+- version: '1'
+  url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/rte/gpt2/gpt2_nli_rte_houlsby.zip
+  sha1: 550fc634e1674e81443758ce90624342d9b10b6c
+  sha256: 3279a610359e844aab53e1d804e5ff18473834c9d2f2d51c8f3a8a26cb29849b
+
+# (optional) A short description of this adapter.
+description: 'Adapter for gpt2 in Houlsby architecture trained on the RTE dataset for 10 epochs with a learning rate of 1e-4.'
+
+# (optional) A contact email of the author(s).
+email: hannah.sterz@stud.tu-darmstadt.de
+
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
+model_class: GPT2ForSequenceClassification
+
+# (optional) If the adapter has a pre-trained prediction head included.
+prediction_head: true
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: '@h_sterz'
+
