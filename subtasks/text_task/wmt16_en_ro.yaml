@@ -4,7 +4,7 @@
 
 # The short identifier of the task this subtask belongs to.
 # Example: nli
-task: translation
+task: mt
 
 # The short identifier of this subtask.
 # Example: multinli
