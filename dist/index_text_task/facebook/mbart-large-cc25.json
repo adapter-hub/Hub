@@ -1,0 +1,12 @@
+{
+    "mt": {
+        "wmt16_en_ro": {
+            "87954f0c97a780e3": {
+                "versions": {
+                    "ukp": "adapters/ukp/facebook-mbart-large-cc25_translation_wmt16_ro_en_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/facebook-mbart-large-cc25_translation_wmt16_ro_en_pfeiffer.json"
+        }
+    }
+}

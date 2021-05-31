@@ -1,0 +1,12 @@
+{
+  "config_id": "87954f0c97a780e3",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "score": 36.3,
+      "sha1": "d8d0c5bbcd5a120e932ead23b4ed270ca20d6306",
+      "sha256": "cfbf5224523350219c7cd4b8cf07f4895dec561f6ab33998b5fa5002fd02e519",
+      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/wmt16_en_ro/facebook/mbart-large-cc25/facebook-mbart-large-cc25_translation_wmt16_en_ro_pfeiffer.zip"
+    }
+  }
+}
