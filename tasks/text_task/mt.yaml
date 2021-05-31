@@ -1,0 +1,14 @@
+# Adapter-Hub task definition
+# Defines a broader task/ category that is divided into specific subtasks.
+# --------------------
+
+# The short identifier of this task.
+# Example: sentiment
+task: mt
+
+# The full name of the task that should be displayed e.g. on the website.
+# Example: Sentiment Analysis
+displayname: Machine Translation
+
+# A short description of this task (max. 500 chars).
+description: Machine translation is the task of translating a sentence in a source language to a different target language.
