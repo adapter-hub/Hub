@@ -6,10 +6,10 @@
 type: text_lang
 
 # The string identifier of the task this adapter belongs to.
-task: wiki
+task: id
 
 # The string identifier of the subtask this adapter belongs to.
-subtask: id
+subtask: wiki
 
 # The model type.
 # Example: bert
