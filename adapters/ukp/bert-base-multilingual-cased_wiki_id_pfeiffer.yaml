@@ -39,18 +39,6 @@ files:
   sha256: 393ec0a0b4a6be4e626f01c66e090a55619bdcb8af3c93561a93a462c4bc6365
 citation: ''
 
-# (optional) A list of adapters this adapter is dependent on.
-dependencies:
-    # The key (username/filename_without_ext) of the adapter dependency.
-    # Example: example-org/text_task-sst-bert
-- key: ''
-    # (optional) A short description how this adapter is dependent.
-  description: ''
-#   - ...
-
-# (optional) A short description of this adapter.
-description: ''
-
 # (optional) A contact email of the author(s).
 email: jonas@pfeiffer.ai
 
