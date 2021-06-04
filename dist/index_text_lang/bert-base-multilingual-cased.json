@@ -39,6 +39,16 @@
             "default": "adapters/ukp/bert-base-multilingual-cased_bh_wiki_pfeiffer.json"
         }
     },
+    "bn": {
+        "wiki": {
+            "2544b31b29c6067d": {
+                "versions": {
+                    "ukp": "adapters/ukp/bert-base-multilingual-cased_wiki_bn_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/bert-base-multilingual-cased_wiki_bn_pfeiffer.json"
+        }
+    },
     "bxr": {
         "wiki": {
             "2544b31b29c6067d": {
@@ -279,6 +289,16 @@
             "default": "adapters/ukp/bert-base-multilingual-cased_hy_wiki_pfeiffer.json"
         }
     },
+    "id": {
+        "wiki": {
+            "2544b31b29c6067d": {
+                "versions": {
+                    "ukp": "adapters/ukp/bert-base-multilingual-cased_wiki_id_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/bert-base-multilingual-cased_wiki_id_pfeiffer.json"
+        }
+    },
     "ilo": {
         "wiki": {
             "2544b31b29c6067d": {
@@ -484,6 +504,16 @@
             "default": "adapters/ukp/bert-base-multilingual-cased_myv_wiki_pfeiffer.json"
         }
     },
+    "pt": {
+        "wiki": {
+            "2544b31b29c6067d": {
+                "versions": {
+                    "ukp": "adapters/ukp/bert-base-multilingual-cased_pt_wiki_pfeiffer.json"
+                }
+            },
+            "default": "adapters/ukp/bert-base-multilingual-cased_pt_wiki_pfeiffer.json"
+        }
+    },
     "qu": {
         "wiki": {
             "2544b31b29c6067d": {
@@ -587,32 +617,6 @@
                 }
             },
             "default": "adapters/ukp/bert-base-multilingual-cased_vi_wiki_pfeiffer.json"
-        }
-    },
-    "wiki": {
-        "bn": {
-            "2544b31b29c6067d": {
-                "versions": {
-                    "ukp": "adapters/ukp/bert-base-multilingual-cased_wiki_bn_pfeiffer.json"
-                }
-            },
-            "default": "adapters/ukp/bert-base-multilingual-cased_wiki_bn_pfeiffer.json"
-        },
-        "id": {
-            "2544b31b29c6067d": {
-                "versions": {
-                    "ukp": "adapters/ukp/bert-base-multilingual-cased_wiki_id_pfeiffer.json"
-                }
-            },
-            "default": "adapters/ukp/bert-base-multilingual-cased_wiki_id_pfeiffer.json"
-        },
-        "pt": {
-            "2544b31b29c6067d": {
-                "versions": {
-                    "ukp": "adapters/ukp/bert-base-multilingual-cased_pt_wiki_pfeiffer.json"
-                }
-            },
-            "default": "adapters/ukp/bert-base-multilingual-cased_pt_wiki_pfeiffer.json"
         }
     },
     "wo": {
