@@ -1,9 +1,11 @@
 
 import os
 import sys
-from twython import Twython
-from utils import REPO_FOLDER
+
 import yaml
+from twython import Twython
+
+from utils import REPO_FOLDER
 
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -65,12 +67,15 @@ def create_message(files):
     config["twitter"] = " ".join(set(map(lambda s: "@"+s if not s.startswith("@") else s, config["twitter"])))
     # add new config items
     config["count"] = len(files)
-    config["description_trunc"] = [s.split(".")[0] for s in config["description"]]
+    if "description" in config:
+        config["description_trunc"] = [s.split(".")[0] for s in config["description"]]
+    else:
+        config["description_trunc"] = None
     config["explore_url"] = [_create_explore_url(file) for file in files]
     config["task_names"] = _create_names([t+"/"+st for t,st in zip(config["task"], config["subtask"])])
     config["model_names"] = _create_names([m for m in config["model_name"]], label="model")
     # we have different msgs for the case of one adapter and mult. adapters
-    if len(files) == 1:
+    if len(files) == 1 and config["description_trunc"]:
         tweet_file = SINGLE_TWEET
     else:
         tweet_file = MULTI_TWEET
