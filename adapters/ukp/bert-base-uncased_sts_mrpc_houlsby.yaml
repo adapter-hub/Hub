@@ -33,8 +33,8 @@ default_version: '1'
 files: # TODO: REQUIRED
 - version: '1'
   url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mrpc/bert-base-uncased/houlsby/bert-base-uncased_sts_mrpc_houlsby.zip"
-  sha1: b30a50a5d2ba3be2bf619faffa8674a75c786012
-  sha256: 38c0c922601a4b801869bf0715545bae315b7093fe56a7edd96417d3e68f5696
+  sha1: 22aab9b1ed206d3ed27e3a0d33981ba283f70edc
+  sha256: 39e5ed7f56a1281ea1d1df3337ea5bcf4ada23c1b3236fa63499dd45c1e2d761
 
 citation: |
   @article{pfeiffer2020AdapterHub,

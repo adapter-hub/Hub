@@ -35,8 +35,8 @@ default_version: '1'
 files:
 - version: '1'
   url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/qqp/gpt2/gpt2_sts_qqp_houlsby.zip
-  sha1: 4202f74b28efaef881163158c5368da22ba5d802
-  sha256: 96469bf23546e71b86d80f3ead43512521225fd2f764c3c1946d1e5eaa611c01
+  sha1: e0f765282ce7d4869b43ddd35993acb09a60db3a
+  sha256: 38e2c3020d2d0ad79c12d372e33d256f52be72d5fd7ef730a2e97d9b21bef4ce
 
 # (optional) A short description of this adapter.
 description: 'Adapter for gpt2 in Houlsby architecture trained on the QQP dataset for 10 epochs with a learning rate of 1e-4.'

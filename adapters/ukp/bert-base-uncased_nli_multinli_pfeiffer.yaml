@@ -33,8 +33,8 @@ default_version: '1'
 files: # TODO: REQUIRED
 - version: '1'
   url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mnli/bert-base-uncased/pfeiffer/bert-base-uncased_nli_multinli_pfeiffer.zip"
-  sha1: 0f3c758463a375164b6606c7ae4a933f16008683
-  sha256: d111e46b00806e4e87e11da4ceaaf0f95371d728b29d0133db598a5e726db0e1
+  sha1: 440cd0e5619726085a211709ea002954d3010af1
+  sha256: 3724d547a459a962f3370cccb58403cddc0b0cd77fb76ae75b43cc9b8c4c9104
 
 citation: |
   @article{pfeiffer2020AdapterHub,

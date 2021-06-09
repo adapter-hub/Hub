@@ -31,8 +31,8 @@ default_version: '1'
 files:
 - version: '1'
   url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cola/bert-base-uncased/houlsby/bert-base-uncased_lingaccept_cola_houlsby.zip"
-  sha1: 94e1ba4578beacc589e67e7316a900189cfaa07a
-  sha256: 80e29c30b051d427e6f81af17c3e914a372cf59637df020738f09c5fe80a0c37
+  sha1: b0ee24d16d6d7d43d55f2f9f45a5fd2deca21b4c
+  sha256: 8f53cc9ed5cc3f1da141452edf89ac529e8de4eea6f59daa34933a0c5c7cc68d
 
 citation: |
   @article{pfeiffer2020AdapterHub,

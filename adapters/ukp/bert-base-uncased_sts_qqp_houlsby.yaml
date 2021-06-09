@@ -33,8 +33,8 @@ default_version: '1'
 files: # TODO: REQUIRED
 - version: '1'
   url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/qqp/bert-base-uncased/houlsby/bert-base-uncased_sts_qqp_houlsby.zip"
-  sha1: 4421b75a30a2301192a2e4c7dd186014849d6a1f
-  sha256: dc059a7c6c929c4da41bedb14a1e017f1b94e71e5676d51ca05458a474d7bd37
+  sha1: fb33a5ba3cd0579374f0d8712e5af2170fef55f3
+  sha256: 76c83f8a4422b065bde58a0558851e4aa338ae34a9f9e05d7d5e5b4d46087961
 
 citation: |
   @article{pfeiffer2020AdapterHub,

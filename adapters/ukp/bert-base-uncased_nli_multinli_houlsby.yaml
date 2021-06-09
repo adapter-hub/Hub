@@ -33,8 +33,8 @@ default_version: '1'
 files: # TODO: REQUIRED
 - version: '1'
   url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mnli/bert-base-uncased/houlsby/bert-base-uncased_nli_multinli_houlsby.zip"
-  sha1: 626bc97886f76751974c8bf8a81f2e7c337375e9
-  sha256: 3732aa099b9a994b7701b1033fdd1ae517a0f4f93b8198998efdf420d266dcd0
+  sha1: 3284471b39dcdfff63ee240a896994788641760e
+  sha256: ec926f4f3dd5208cd1bda6eb1cd851136cb789e5e3a364d0b4d7874a9c18f6fe
 
 citation: |
   @article{pfeiffer2020AdapterHub,
