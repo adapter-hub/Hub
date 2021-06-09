@@ -3,8 +3,8 @@
   "default_version": "1",
   "files": {
     "1": {
-      "sha1": "c2b0104e026f1474cd2973d6caa4dbd4b9cbd5e5",
-      "sha256": "d3f5165783222057447f2263e6635c236152306913303ae4ba42b79088d8fba8",
+      "sha1": "9b33c5b6ca1f8a02341b8df0eb8110e678373aac",
+      "sha256": "8c973f03b244c801f62080766dabb010ff5e1877e7a3e9a2a4488d56700c700c",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/cola/gpt2/gpt2_lingaccept_cola_pfeiffer.zip"
     }
   }

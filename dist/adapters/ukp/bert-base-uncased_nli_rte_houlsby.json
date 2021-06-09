@@ -3,8 +3,8 @@
   "default_version": "1",
   "files": {
     "1": {
-      "sha1": "08f18ec074f2b6438c7b57f07a546529f87a3f00",
-      "sha256": "4365a5bc296817054289e76e27386d9f3cf867ff0b77484b19a7f4dd59a1bbd3",
+      "sha1": "7da001429c3c3f7e3d2e4b5ea6feffcbfd923b21",
+      "sha256": "a54bb5905f94212af9db62382efe0afdc0c5b07b0eaaee4c313380bb2dc7b14b",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/rte/bert-base-uncased/houlsby/bert-base-uncased_nli_rte_houlsby.zip"
     }
   }

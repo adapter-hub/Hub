@@ -3,8 +3,8 @@
   "default_version": "1",
   "files": {
     "1": {
-      "sha1": "6c2f8fc0420860a86de9b3b9bb59489550397820",
-      "sha256": "f05ec9c003402e72093164ea73f328aba69d217a47dd97e44f2b0678d1e95e88",
+      "sha1": "8078688bc7f29e639256f4d93ad0a26934f3d509",
+      "sha256": "1f9de887d23021368021fd8b92a167b3fcfae846e6076176caa4f4a2bf40395e",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/rte/gpt2/gpt2_nli_rte_pfeiffer.zip"
     }
   }

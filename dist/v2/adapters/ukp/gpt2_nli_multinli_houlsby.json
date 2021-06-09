@@ -3,8 +3,8 @@
   "default_version": "1",
   "files": {
     "1": {
-      "sha1": "92da6f6056d2c1595ed2d4e6ade717e7dfea1d5e",
-      "sha256": "6a31ad9a300ee726e26689fb50eb3265baf5630fb76693962fe0acc934c52627",
+      "sha1": "3f420c87cc33113f6aae8f85e59fb3f616eb1148",
+      "sha256": "2c515c6aaeb5ec8ad486509088bb776a0c2bed6ec3587797bdcce59182446665",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/multinli/gpt2/gpt2_nli_multinli_houlsby.zip"
     }
   }

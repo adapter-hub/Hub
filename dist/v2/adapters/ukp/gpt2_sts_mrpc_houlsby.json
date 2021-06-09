@@ -3,8 +3,8 @@
   "default_version": "1",
   "files": {
     "1": {
-      "sha1": "2b7836ff4fceb090ba356ee36aa3b4b6bb2e3ceb",
-      "sha256": "2f244620325bb207b87631d2ec2893f4222e24d3a4e45c32a00563d118dc78a4",
+      "sha1": "4ef6556184e084e9ce5fcca9a257d04140dac6ca",
+      "sha256": "fae1ed222ee756bbc4ce53376317fade139d378a9c0015519fe07cef8183f3e0",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/mrpc/gpt2/gpt2_sts_mrpc_houlsby.zip"
     }
   }

@@ -3,8 +3,8 @@
   "default_version": "1",
   "files": {
     "1": {
-      "sha1": "51a1f251402876c7952038441e9dde7985ad27b4",
-      "sha256": "59768fc279a90cb69b3df60b3b44f60f9922aeecc167a3ef90702a1e0ed8c318",
+      "sha1": "194d83d4d5c4fb55973fd228d9a8245ebfaa0713",
+      "sha256": "dedeacbe553f0281bbea2e0961611d07388c8264e04843db1b8215f73000acd6",
       "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/qqp/bert-base-uncased/pfeiffer/bert-base-uncased_sts_qqp_pfeiffer.zip"
     }
   }
