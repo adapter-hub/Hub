@@ -33,8 +33,8 @@ default_version: '1'
 files: # TODO: REQUIRED
 - version: '1'
   url: "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/qnli/bert-base-uncased/pfeiffer/bert-base-uncased_nli_qnli_pfeiffer.zip"
-  sha1: 84fe4660bcd14ea36e7d74cdaa39931a943f0fd6
-  sha256: e03282f10cdbfa1163d68bd13e4518e5305b6d3903c35efe7959e6ea121397fc
+  sha1: 44af4408eec576b11046b540f7f38b01ba36873e
+  sha256: 9e3514e489432a3a37c24cceeda5dd6a9c479b51500a5543305c5aea3b19e693
 
 citation: |
   @article{pfeiffer2020AdapterHub,

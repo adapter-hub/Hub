@@ -35,8 +35,8 @@ default_version: '1'
 files:
 - version: '1'
   url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/multinli/gpt2/gpt2_nli_multinli_pfeiffer.zip
-  sha1: bf69bd7cde9b7c80f2b8bfcd3b05bf9e4ade4f53
-  sha256: 14b676cf412bbbbe1251632235fef89a5e6addaba4acb527922846c5fc18a003
+  sha1: b046b3f5ca0053a62c0c727b88e92fa43d2538bd
+  sha256: 6fae3ef3e9f9f75bb25c68c1524a9afce41da7c3221e6193038ad83fbbb5d341
 
 # (optional) A short description of this adapter.
 description: 'Adapter for gpt2 in Pfeiffer architecture trained on the MNLI dataset for 10 epochs with a learning rate of 1e-4.'

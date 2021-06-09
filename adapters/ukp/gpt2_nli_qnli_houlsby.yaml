@@ -35,8 +35,8 @@ default_version: '1'
 files:
 - version: '1'
   url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/qnli/gpt2/gpt2_nli_qnli_houlsby.zip
-  sha1: e96ea561dadfdb8e441412c2c7876f15e907ac5c
-  sha256: 1b20bcf1501a8a7200d0b3c0101384ff211bf2bdb409cdf99d8fd5fa0efd8d5c
+  sha1: 7c643af2bf6aec69fb44010b2b2329d5cbfd4368
+  sha256: 1424e64a495a05029758a170f118176c16d6def5d65611f90a7efbb047c956da
 
 # (optional) A short description of this adapter.
 description: 'Adapter for gpt2 in Houlsby architecture trained on the QNLI dataset for 10 epochs with a learning rate of 1e-4.'

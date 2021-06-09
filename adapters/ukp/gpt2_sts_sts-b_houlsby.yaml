@@ -35,8 +35,8 @@ default_version: '1'
 files:
 - version: '1'
   url: https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/sts-b/gpt2/gpt2_sts_sts-b_houlsby.zip
-  sha1: 614b9e645ef6ae9efbb34023b25773831b0778f0
-  sha256: a9ec1ea46fcd085c5ef25fc653c1c3f5d94c25ae4fbb8d95dcc6d332ed083eb1
+  sha1: 5260427b3f0b6918c90974c3cc787059e66bd7ad
+  sha256: f068ceed96c06048f2af45d1f3fe6100f1294e56470b9847728243335257735b
 
 # (optional) A short description of this adapter.
 description: 'Adapter for gpt2 in Houlsby architecture trained on the STS-B dataset for 10 epochs with a learning rate of 1e-4.'
