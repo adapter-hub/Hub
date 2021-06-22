@@ -10,6 +10,8 @@ task: sum
 # Example: multinli
 subtask: xsum
 
+hf_datasets_id: xsum
+
 # A short description of this subtask (max. 500 chars).
 description: "Extreme Summarization (XSum) Dataset."
 

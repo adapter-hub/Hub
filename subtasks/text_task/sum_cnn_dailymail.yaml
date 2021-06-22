@@ -10,6 +10,8 @@ task: sum
 # Example: multinli
 subtask: cnn_dailymail
 
+hf_datasets_id: cnn_dailymail
+
 # A short description of this subtask (max. 500 chars).
 description: "CNN/ DailyMail summarization dataset."
 

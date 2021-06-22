@@ -1,6 +1,7 @@
 task: qa
 subtask: boolq
 displayname: BoolQ
+hf_datasets_id: boolq
 description: |
   We build a reading comprehension dataset, BoolQ, of such questions, and show that they are unexpectedly challenging.
 url: " https://goo.gl/boolq"

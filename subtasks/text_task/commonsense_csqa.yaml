@@ -11,6 +11,8 @@ task: comsense
 # Example: multinli
 subtask: csqa
 
+hf_datasets_id: commonsense_qa
+
 # A short description of this subtask (max. 500 chars).
 description: |
    To investigate question answering with prior knowledge, we present CommonsenseQA: a challenging new dataset for

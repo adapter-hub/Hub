@@ -32,6 +32,10 @@
             "description": "The full name of the subtask that should be displayed e.g. on the website.",
             "examples": ["MultiNLI"]
         },
+        "hf_datasets_id": {
+            "type": "string",
+            "description": "The identifier of this subtask on HuggingFace Datasets (https://huggingface.co/datasets) if available."
+        },
         "description": {
             "type": "string",
             "maxLength": 500,

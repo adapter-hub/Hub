@@ -10,6 +10,8 @@ task: comsense
 # Example: multinli
 subtask: cosmosqa
 
+hf_datasets_id: cosmos_qa
+
 # A short description of this subtask (max. 500 chars).
 description: |
   Cosmos QA is a large-scale dataset of 35,600 problems that require commonsense-based reading comprehension,

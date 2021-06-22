@@ -1,6 +1,7 @@
 task: qa
 subtask: squad2
 displayname: SQuAD 2.0
+hf_datasets_id: squad_v2
 description: |
   SQuAD2.0 combines the 100,000 questions in SQuAD1.1 with over 50,000 unanswerable questions written adversarially by crowdworkers to look similar to answerable ones. To do well on SQuAD2.0, systems must not only answer questions when possible, but also determine when no answer is supported by the paragraph and abstain from answering.
 url: "https://rajpurkar.github.io/SQuAD-explorer/"

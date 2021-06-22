@@ -10,6 +10,8 @@ task: ner
 # Example: multinli
 subtask: conll2003
 
+hf_datasets_id: conll2003
+
 # A short description of this subtask (max. 500 chars).
 description: |
     The CoNLL 2003 Task is a language independent Named Entity Recognition. In the dataset are englich and german training, development and test sets. The english data is from the Reuter corpus and the german data from the ECI Multilingual Text Corpus.

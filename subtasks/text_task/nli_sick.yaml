@@ -10,6 +10,8 @@ task: nli
 # Example: multinli
 subtask: sick
 
+hf_datasets_id: sick
+
 # A short description of this subtask (max. 500 chars).
 description: |
   The SICK relatedness (SICK-R) task trains a linear model to output a score from 1 to 5 indicating the relatedness of

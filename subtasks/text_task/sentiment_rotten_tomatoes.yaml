@@ -10,6 +10,8 @@ task: sentiment
 # Example: multinli
 subtask: rotten_tomatoes
 
+hf_datasets_id: rotten_tomatoes
+
 # A short description of this subtask (max. 500 chars).
 description: |
   Movie Review Dataset.

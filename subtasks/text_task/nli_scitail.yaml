@@ -10,6 +10,8 @@ task: nli
 # Example: multinli
 subtask: scitail
 
+hf_datasets_id: scitail
+
 # A short description of this subtask (max. 500 chars).
 description: |
   The SciTail dataset is an entailment dataset created from multiple-choice science exams and web sentences.

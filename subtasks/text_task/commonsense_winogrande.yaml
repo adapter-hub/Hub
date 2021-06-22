@@ -10,6 +10,8 @@ task: comsense
 # Example: multinli
 subtask: winogrande
 
+hf_datasets_id: winogrande
+
 # A short description of this subtask (max. 500 chars).
 description: |
   WinoGrande is a new collection of 44k problems, inspired by Winograd Schema Challenge (Levesque, Davis, and

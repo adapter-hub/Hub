@@ -1,6 +1,7 @@
 task: comsense
 subtask: hellaswag
 displayname: HellaSwag
+hf_datasets_id: hellaswag
 description: |
   HellaSwag, a new benchmark for commonsense NLI.
 url: "https://rowanzellers.com/hellaswag/"
