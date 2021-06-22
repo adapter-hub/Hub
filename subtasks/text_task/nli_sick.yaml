@@ -49,4 +49,4 @@ language: english
 metric:
   name: accuracy
   higher_is_better: true
-url: "https://allenai.org/data/scitail"
+url: "http://marcobaroni.org/composes/sick.html"
