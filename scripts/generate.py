@@ -14,6 +14,7 @@ from utils import *
 def generate_adapter_repo(files, config_index, dist_folder="dist", hub_version=2):
     """Generates adapter repo and index files."""
     index = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(dict)))))
+    full_list = []
     # add all files to index
     for file in files:
         with open(file, "r", encoding="utf-8") as f:
@@ -21,7 +22,8 @@ def generate_adapter_repo(files, config_index, dist_folder="dist", hub_version=2
         # generate config id
         if adapter_dict["config"]["using"] not in config_index:
             raise ValueError("Unknown adapter config identifier '{}'.".format(adapter_dict["config"]))
-        a_id = get_adapter_config_hash(build_config_from_yaml(adapter_dict["config"], version=hub_version))
+        full_config = build_config_from_yaml(adapter_dict["config"], version=hub_version)
+        a_id = get_adapter_config_hash(full_config)
         path_split = file.split(os.sep)
         a_model_name = adapter_dict["model_name"]
         a_type = adapter_dict["type"]
@@ -31,7 +33,8 @@ def generate_adapter_repo(files, config_index, dist_folder="dist", hub_version=2
         if a_type not in AVAILABLE_TYPES:
             raise ValueError("Invalid type '{}'.".format(a_type))
         ### Create generated json file
-        gen_file = join(dist_folder, REPO_FOLDER, org_name, splitext(basename(file))[0] + ".json")
+        file_base = splitext(basename(file))[0]
+        gen_file = join(dist_folder, REPO_FOLDER, org_name, file_base + ".json")
         os.makedirs(dirname(gen_file), exist_ok=True)
         # create dict entry with download files
         if not adapter_dict["default_version"] in [file["version"] for file in adapter_dict["files"]]:
@@ -62,6 +65,19 @@ def generate_adapter_repo(files, config_index, dist_folder="dist", hub_version=2
             subtask_dict["default"] = relpath(gen_file, dist_folder)
         # TODO change default version to something more useful
         # id_dict["default"] = org_name
+
+        ### Append to full list of adapters
+        full_list.append({
+            "source": "ah",
+            "adapter_id": f"@{org_name}/{file_base}",
+            "model_name": a_model_name,
+            "task": a_task,
+            "subtask": a_name,
+            "username": org_name,
+            "adapter_config": full_config,
+            "sha1_checksum": files[adapter_dict["default_version"]].get("sha1"),
+        })
+
     # write index files to disc
     for a_type, adapters in index.items():
         for a_model_name, adapters in adapters.items():
@@ -79,6 +95,10 @@ def generate_adapter_repo(files, config_index, dist_folder="dist", hub_version=2
                 os.makedirs(dirname(index_file), exist_ok=True)
                 with open(index_file, "x") as f:
                     json.dump(adapters, f, indent=4, sort_keys=True)
+    # write full list
+    if hub_version >= 2:
+        with open(join(dist_folder, "all.json"), "w") as f:
+            json.dump(full_list, f)
     return index
 
 
