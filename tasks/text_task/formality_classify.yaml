@@ -1,0 +1,9 @@
+task: formality_classify
+displayname: Formality Classification
+description: |
+  The goal of this task is to identify whether a sentence is informal or formal. Informal text
+  tends to use simpler words, compromise spelling (short forms). It is generally spoken between
+  close friends, often on mediums like online chat. Formal text is more common in literary articles,
+  journalism, legal text, educational material. In conversational text it is more common between
+  strangers, and tends to be polite. Formality classifiers are also used to evaluate formality transfer
+  models.

@@ -1,0 +1,90 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: text_task
+
+# The string identifier of the task this adapter belongs to.
+task: formality_classify
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: gyafc
+
+# The model type.
+# Example: bert
+model_type: xlm-roberta
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: xlm-roberta-base
+
+# The name of the author(s) of this adapter.
+author: Kalpesh Krishna
+
+# Describes the adapter architecture used by this adapter
+config:
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: pfeiffer
+  non_linearity: relu
+  reduction_factor: 16
+default_version: '1'
+
+# A list of different versions of this adapter available for download.
+files:
+- version: '1'
+  url: http://style.cs.umass.edu/xlm-roberta-base_formality_classify_gyafc_pfeiffer.zip
+  sha1: 074f68696c820fe0dea06cd4fc895ae3c6dc40bc
+  sha256: c0c609aa6cc22520fdcaa560636ca7a36bd716c0593464db945a02367c7cf99f
+citation: |
+  @inproceedings{krishna-etal-2020-reformulating,
+      title = "Reformulating Unsupervised Style Transfer as Paraphrase Generation",
+      author = "Krishna, Kalpesh  and
+        Wieting, John  and
+        Iyyer, Mohit",
+      booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      month = nov,
+      year = "2020",
+      address = "Online",
+      publisher = "Association for Computational Linguistics",
+      url = "https://aclanthology.org/2020.emnlp-main.55",
+      doi = "10.18653/v1/2020.emnlp-main.55",
+      pages = "737--762",
+  }
+
+
+# (optional) A list of adapters this adapter is dependent on.
+dependencies:
+    # The key (username/filename_without_ext) of the adapter dependency.
+    # Example: example-org/text_task-sst-bert
+- key: 'en/wiki@ukp'
+    # (optional) A short description how this adapter is dependent.
+  description: 'Trained with this language adapter active, using Stack("en", "gyafc").'
+#   - ...
+
+# (optional) A short description of this adapter.
+description: >
+  This adapter has been trained on the English formality classification GYAFC dataset
+  and tested with other language adapters (like hindi) for zero-shot transfer.
+  Make sure to remove tokenization, lowercase and remove trailing punctuation for
+  best results.
+
+# (optional) A contact email of the author(s).
+email: kalpesh@cs.umass.edu
+
+# (optional) A GitHub handle associated with the author(s).
+github: martiansideofthemoon
+
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
+model_class: XLMRobertaModelWithHeads
+
+# (optional) If the adapter has a pre-trained prediction head included.
+prediction_head: true
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: '@kalpeshk2011'
+
+# (optional) A URL providing more information on this adapter/ the authors/ the organization.
+url: https://martiansideofthemoon.github.io/

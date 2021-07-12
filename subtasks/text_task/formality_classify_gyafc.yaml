@@ -1,0 +1,49 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: formality_classify
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: gyafc
+
+hf_datasets_id: gyafc
+
+# A short description of this subtask (max. 500 chars).
+description: |
+  The Grammarly’s Yahoo Answers Formality Corpus (GYAFC) is the largest dataset for formality
+  classification which contains a total of 110K informal / formal sentence pairs. This is a common
+  benchmark for the text generation task of formality style transfer, and classifiers trained on
+  this benchmark can be used an automatic evaluation for style transfer.
+
+# A bibtex citation of the work related to this subtask.
+citation: |
+  @inproceedings{rao-tetreault-2018-dear,
+      title = "Dear Sir or Madam, May {I} Introduce the {GYAFC} Dataset: Corpus, Benchmarks and Metrics for Formality Style Transfer",
+      author = "Rao, Sudha  and
+        Tetreault, Joel",
+      booktitle = "Proceedings of the 2018 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)",
+      month = jun,
+      year = "2018",
+      address = "New Orleans, Louisiana",
+      publisher = "Association for Computational Linguistics",
+      url = "https://aclanthology.org/N18-1012",
+      doi = "10.18653/v1/N18-1012",
+      pages = "129--140",
+  }
+
+# The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: Grammarly's Yahoo Answers Formality Corpus (GYAFC)
+
+# The identifier of the language of the data in this subtask
+language: english
+
+# The default evaluation metric of this subtask.
+metric:
+  name: accuracy
+  higher_is_better: true
+url: "https://github.com/raosudha89/GYAFC-corpus"
