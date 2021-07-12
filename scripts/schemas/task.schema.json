@@ -14,7 +14,7 @@
         "task": {
             "type": "string",
             "minLength": 1,
-            "maxLength": 10,
+            "maxLength": 30,
             "description": "The short identifier of this task.",
             "examples": ["sentiment"]
         },
