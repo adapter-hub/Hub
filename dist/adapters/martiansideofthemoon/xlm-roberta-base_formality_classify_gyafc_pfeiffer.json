@@ -1,0 +1,11 @@
+{
+  "config_id": "bb1c8efb82510bed",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "sha1": "074f68696c820fe0dea06cd4fc895ae3c6dc40bc",
+      "sha256": "c0c609aa6cc22520fdcaa560636ca7a36bd716c0593464db945a02367c7cf99f",
+      "url": "http://style.cs.umass.edu/xlm-roberta-base_formality_classify_gyafc_pfeiffer.zip"
+    }
+  }
+}

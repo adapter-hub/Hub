@@ -69,6 +69,16 @@
             }
         }
     },
+    "formality_classify": {
+        "gyafc": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "martiansideofthemoon": "adapters/martiansideofthemoon/xlm-roberta-base_formality_classify_gyafc_pfeiffer.json"
+                }
+            },
+            "default": "adapters/martiansideofthemoon/xlm-roberta-base_formality_classify_gyafc_pfeiffer.json"
+        }
+    },
     "gn": {
         "wiki": {
             "default": "adapters/ukp/xlm-roberta-base-gn-wiki_pfeiffer.json",

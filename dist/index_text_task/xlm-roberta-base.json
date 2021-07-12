@@ -1,0 +1,12 @@
+{
+    "formality_classify": {
+        "gyafc": {
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "martiansideofthemoon": "adapters/martiansideofthemoon/xlm-roberta-base_formality_classify_gyafc_pfeiffer.json"
+                }
+            },
+            "default": "adapters/martiansideofthemoon/xlm-roberta-base_formality_classify_gyafc_pfeiffer.json"
+        }
+    }
+}
