@@ -28,7 +28,7 @@
         "displayname": {
             "type": "string",
             "minLength": 1,
-            "maxLength": 30,
+            "maxLength": 80,
             "description": "The full name of the subtask that should be displayed e.g. on the website.",
             "examples": ["MultiNLI"]
         },
