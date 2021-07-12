@@ -1,4 +1,4 @@
-task: formality_clasify
+task: formality_classify
 displayname: Formality Classification
 description: |
   The goal of this task is to identify whether a sentence is informal or formal. Informal text
