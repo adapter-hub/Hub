@@ -1,0 +1,35 @@
+# Adapter-Hub architecture entry
+# Defines an adapter architecture for Adapter-Hub.
+# --------------------
+
+# The short identifier of this architecture
+# Example: pfeiffer
+name: lohfink-rossi-leaveout
+
+# The full name of the architecture that should be displayed.
+displayname: Lohfink-Rossi-Leaveout Architecture
+
+# A short description of this architecture (max. 500 chars).
+description: Specialized adapter architecture for question-answering with bart-large.
+
+
+# The full adapter config dictionary for this architecture.
+config:
+  {
+    "ln_after": false,
+    "ln_before": false,
+    "mh_adapter": true,
+    "output_adapter": true,
+    "adapter_residual_before_ln": true,
+    "non_linearity": "relu",
+    "original_ln_after": true,
+    "original_ln_before": true,
+    "reduction_factor": 16,
+    "residual_before_ln": true,
+    "leave_out": [0,1,2,3,11,12,13,14],
+  }
+
+
+citation: ""
+
+config_v1: ""
