@@ -38,25 +38,13 @@ files:
   sha1: 1a87a0457b21805e4a24b3349c16aa2f81a1b8ea
   sha256: 8d0df64cf9ddf8afdbd1849641876ee39d487d05e7465bfd017bc51751e34105
   score: 84.93
-citation: ''
 
-# (optional) A list of adapters this adapter is dependent on.
-dependencies:
-    # The key (username/filename_without_ext) of the adapter dependency.
-    # Example: example-org/text_task-sst-bert
-- key: 'probably-should-be-optional'
-    # (optional) A short description how this adapter is dependent.
-  description: ''
-#   - ...
 
 # (optional) A short description of this adapter.
 description: 'Adapter for bart-large using a custom architecture (Lohfink-Rossi-Leaveout) trained on the SQuAD 2.0 dataset for 15 epochs with a Cosine with Restarts learning rate scheduler ans learning rate 0.001.'
 
 # (optional) A contact email of the author(s).
 email: tlohfink3@gatech.edu;mrossi7@gatech.edu
-
-# (optional) A GitHub handle associated with the author(s).
-github: ''
 
 # (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
 # Example: BertModelWithHeads
@@ -65,8 +53,3 @@ model_class: BartForQuestionAnswering
 # (optional) If the adapter has a pre-trained prediction head included.
 prediction_head: true
 
-# (optional) A Twitter handle associated with the author(s).
-twitter: ''
-
-# (optional) A URL providing more information on this adapter/ the authors/ the organization.
-url: ''

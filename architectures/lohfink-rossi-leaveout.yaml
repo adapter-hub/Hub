@@ -28,8 +28,3 @@ config:
     "residual_before_ln": true,
     "leave_out": [0,1,2,3,11,12,13,14],
   }
-
-
-citation: ""
-
-config_v1: ""
