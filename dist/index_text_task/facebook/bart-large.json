@@ -1,4 +1,14 @@
 {
+    "qa": {
+        "squad2": {
+            "default": "adapters/lohfink-rossi/facebook-bart-large_qa_squad2_lohfink-rossi-leaveout.json",
+            "e36ab9a116654f61": {
+                "versions": {
+                    "lohfink-rossi": "adapters/lohfink-rossi/facebook-bart-large_qa_squad2_lohfink-rossi-leaveout.json"
+                }
+            }
+        }
+    },
     "sum": {
         "cnn_dailymail": {
             "87954f0c97a780e3": {

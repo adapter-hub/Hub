@@ -25,6 +25,28 @@
         "reduction_factor": 16,
         "residual_before_ln": true
     },
+    "lohfink-rossi-leaveout": {
+        "adapter_residual_before_ln": true,
+        "leave_out": [
+            0,
+            1,
+            2,
+            3,
+            11,
+            12,
+            13,
+            14
+        ],
+        "ln_after": false,
+        "ln_before": false,
+        "mh_adapter": true,
+        "non_linearity": "relu",
+        "original_ln_after": true,
+        "original_ln_before": true,
+        "output_adapter": true,
+        "reduction_factor": 16,
+        "residual_before_ln": true
+    },
     "pfeiffer": {
         "adapter_residual_before_ln": false,
         "ln_after": false,

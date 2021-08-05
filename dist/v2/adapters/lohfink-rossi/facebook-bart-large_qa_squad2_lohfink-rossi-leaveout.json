@@ -1,0 +1,12 @@
+{
+  "config_id": "e36ab9a116654f61",
+  "default_version": "1",
+  "files": {
+    "1": {
+      "score": 84.93,
+      "sha1": "1a87a0457b21805e4a24b3349c16aa2f81a1b8ea",
+      "sha256": "8d0df64cf9ddf8afdbd1849641876ee39d487d05e7465bfd017bc51751e34105",
+      "url": "http://adapter.till-lohfink.de/facebook-bart-large_qa_squad2_lohfink-rossi-leaveout.zip"
+    }
+  }
+}
