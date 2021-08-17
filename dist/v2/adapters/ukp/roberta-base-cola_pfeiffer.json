@@ -1,11 +1,1 @@
-{
-  "config_id": "9076f36a74755ac4",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "sha1": "b96f2f422e0f1a1914fd66f153649afda2ffb69e",
-      "sha256": "5e9dce02e6f1c62ba67a945076ef0620bfa2c7289f7deb3f29e5ec64f8a46969",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cola/roberta-base/pfeiffer/roberta-base_cola_pfeiffer.zip"
-    }
-  }
-}
+{"config_id": "9076f36a74755ac4", "default_version": "1", "files": {"1": {"sha1": "b96f2f422e0f1a1914fd66f153649afda2ffb69e", "sha256": "5e9dce02e6f1c62ba67a945076ef0620bfa2c7289f7deb3f29e5ec64f8a46969", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cola/roberta-base/pfeiffer/roberta-base_cola_pfeiffer.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": false, "non_linearity": "relu", "original_ln_after": true, "original_ln_before": true, "output_adapter": true, "reduction_factor": 16, "residual_before_ln": true}, "adapter_id": "@ukp/roberta-base-cola_pfeiffer", "model_name": "roberta-base", "sha1_checksum": "b96f2f422e0f1a1914fd66f153649afda2ffb69e", "source": "ah", "subtask": "cola", "task": "lingaccept", "username": "ukp"}}

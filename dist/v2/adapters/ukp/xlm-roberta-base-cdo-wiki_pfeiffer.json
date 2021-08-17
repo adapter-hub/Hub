@@ -1,11 +1,1 @@
-{
-  "config_id": "e15331acc3f0a5c0",
-  "default_version": "madx",
-  "files": {
-    "madx": {
-      "sha1": "468259c0e3c7d7c9906abfc17b4dc016711b60c7",
-      "sha256": "11e5fd556d4a7979ce0cde4b373f090f2ee279fab889186c01c6f519f953722c",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/cdo/xlm-roberta-base/pfeiffer/cdo_relu_2.zip"
-    }
-  }
-}
+{"config_id": "e15331acc3f0a5c0", "default_version": "madx", "files": {"madx": {"sha1": "468259c0e3c7d7c9906abfc17b4dc016711b60c7", "sha256": "11e5fd556d4a7979ce0cde4b373f090f2ee279fab889186c01c6f519f953722c", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/cdo/xlm-roberta-base/pfeiffer/cdo_relu_2.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": false, "non_linearity": "relu", "original_ln_after": true, "original_ln_before": true, "output_adapter": true, "reduction_factor": 2, "residual_before_ln": true}, "adapter_id": "@ukp/xlm-roberta-base-cdo-wiki_pfeiffer", "model_name": "xlm-roberta-base", "sha1_checksum": "468259c0e3c7d7c9906abfc17b4dc016711b60c7", "source": "ah", "subtask": "wiki", "task": "cdo", "username": "ukp"}}

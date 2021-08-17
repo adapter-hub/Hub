@@ -1,11 +1,1 @@
-{
-  "config_id": "9076f36a74755ac4",
-  "default_version": "AdapterFusion",
-  "files": {
-    "AdapterFusion": {
-      "sha1": "c4658943ca25c7189f15d57cae40683a1adb1093",
-      "sha256": "6d78360979716fb45d82ddff09509504f283fa09321ec64f174ed9b3b3fc2a91",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/ukpsent/bert-base-uncased/pfeiffer/ukpsent1_relu_16.zip"
-    }
-  }
-}
+{"config_id": "9076f36a74755ac4", "default_version": "AdapterFusion", "files": {"AdapterFusion": {"sha1": "c4658943ca25c7189f15d57cae40683a1adb1093", "sha256": "6d78360979716fb45d82ddff09509504f283fa09321ec64f174ed9b3b3fc2a91", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/ukpsent/bert-base-uncased/pfeiffer/ukpsent1_relu_16.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": false, "non_linearity": "relu", "original_ln_after": true, "original_ln_before": true, "output_adapter": true, "reduction_factor": 16, "residual_before_ln": true}, "adapter_id": "@ukp/bert-base-uncased-ukpsent1_pfeiffer", "model_name": "bert-base-uncased", "sha1_checksum": "c4658943ca25c7189f15d57cae40683a1adb1093", "source": "ah", "subtask": "ukpsent", "task": "argument", "username": "ukp"}}

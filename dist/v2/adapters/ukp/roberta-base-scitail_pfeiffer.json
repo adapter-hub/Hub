@@ -1,11 +1,1 @@
-{
-  "config_id": "9076f36a74755ac4",
-  "default_version": "AdapterFusion",
-  "files": {
-    "AdapterFusion": {
-      "sha1": "216daf114efe16b487981493c7f78de0c6288de2",
-      "sha256": "6d7273608a987fb6ee01c0c53169da7a8cbdb25bc670bce27e42806e6056deae",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/scitail/roberta-base/pfeiffer/scitail_relu_16.zip"
-    }
-  }
-}
+{"config_id": "9076f36a74755ac4", "default_version": "AdapterFusion", "files": {"AdapterFusion": {"sha1": "216daf114efe16b487981493c7f78de0c6288de2", "sha256": "6d7273608a987fb6ee01c0c53169da7a8cbdb25bc670bce27e42806e6056deae", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/scitail/roberta-base/pfeiffer/scitail_relu_16.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": false, "non_linearity": "relu", "original_ln_after": true, "original_ln_before": true, "output_adapter": true, "reduction_factor": 16, "residual_before_ln": true}, "adapter_id": "@ukp/roberta-base-scitail_pfeiffer", "model_name": "roberta-base", "sha1_checksum": "216daf114efe16b487981493c7f78de0c6288de2", "source": "ah", "subtask": "scitail", "task": "nli", "username": "ukp"}}

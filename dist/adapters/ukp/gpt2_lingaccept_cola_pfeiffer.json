@@ -1,11 +1,1 @@
-{
-  "config_id": "bb1c8efb82510bed",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "sha1": "9b33c5b6ca1f8a02341b8df0eb8110e678373aac",
-      "sha256": "8c973f03b244c801f62080766dabb010ff5e1877e7a3e9a2a4488d56700c700c",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/cola/gpt2/gpt2_lingaccept_cola_pfeiffer.zip"
-    }
-  }
-}
+{"config_id": "bb1c8efb82510bed", "default_version": "1", "files": {"1": {"sha1": "9b33c5b6ca1f8a02341b8df0eb8110e678373aac", "sha256": "8c973f03b244c801f62080766dabb010ff5e1877e7a3e9a2a4488d56700c700c", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/cola/gpt2/gpt2_lingaccept_cola_pfeiffer.zip"}}}

@@ -1,12 +1,1 @@
-{
-  "config_id": "bb1c8efb82510bed",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "score": 87.66,
-      "sha1": "ebdba1900d0152bedf8ab4ac7d5fa9aaf04afd79",
-      "sha256": "01cde7ad970d2643c25a560f0e3d64777607b2605e72574926f29d0bc90ab8c0",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/squad1/roberta-base/pfeiffer/roberta-base_qa_squad1_pfeiffer.zip"
-    }
-  }
-}
+{"config_id": "bb1c8efb82510bed", "default_version": "1", "files": {"1": {"score": 87.66, "sha1": "ebdba1900d0152bedf8ab4ac7d5fa9aaf04afd79", "sha256": "01cde7ad970d2643c25a560f0e3d64777607b2605e72574926f29d0bc90ab8c0", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/squad1/roberta-base/pfeiffer/roberta-base_qa_squad1_pfeiffer.zip"}}}

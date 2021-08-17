@@ -1,11 +1,1 @@
-{
-  "config_id": "87954f0c97a780e3",
-  "default_version": "madx",
-  "files": {
-    "madx": {
-      "sha1": "5bd33b4ce89c115eafc75e386607a9d531babbdf",
-      "sha256": "75cc6f836047d5a7721f51105e8fa4bb84845d13d52e1e16978b2109a42e101b",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/ar/bert-base-multilingual-cased/pfeiffer/ar_relu_2.zip"
-    }
-  }
-}
+{"config_id": "87954f0c97a780e3", "default_version": "madx", "files": {"madx": {"sha1": "5bd33b4ce89c115eafc75e386607a9d531babbdf", "sha256": "75cc6f836047d5a7721f51105e8fa4bb84845d13d52e1e16978b2109a42e101b", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/ar/bert-base-multilingual-cased/pfeiffer/ar_relu_2.zip"}}}

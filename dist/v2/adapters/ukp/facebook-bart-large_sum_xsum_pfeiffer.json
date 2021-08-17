@@ -1,12 +1,1 @@
-{
-  "config_id": "e15331acc3f0a5c0",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "score": 20.56,
-      "sha1": "9e805900db03674e8e83b22a5c998fa771bb59ba",
-      "sha256": "e6cff7dd99c1b308cda8514a1fddc78d326df359ced80d3d55a5189f9aa8e1f6",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/xsum/facebook/bart-large/facebook-bart-large_sum_xsum_pfeiffer.zip"
-    }
-  }
-}
+{"config_id": "e15331acc3f0a5c0", "default_version": "1", "files": {"1": {"score": 20.56, "sha1": "9e805900db03674e8e83b22a5c998fa771bb59ba", "sha256": "e6cff7dd99c1b308cda8514a1fddc78d326df359ced80d3d55a5189f9aa8e1f6", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/xsum/facebook/bart-large/facebook-bart-large_sum_xsum_pfeiffer.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": false, "non_linearity": "relu", "original_ln_after": true, "original_ln_before": true, "output_adapter": true, "reduction_factor": 2, "residual_before_ln": true}, "adapter_id": "@ukp/facebook-bart-large_sum_xsum_pfeiffer", "model_name": "facebook/bart-large", "sha1_checksum": "9e805900db03674e8e83b22a5c998fa771bb59ba", "source": "ah", "subtask": "xsum", "task": "sum", "username": "ukp"}}

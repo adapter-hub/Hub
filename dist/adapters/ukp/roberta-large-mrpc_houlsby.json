@@ -1,11 +1,1 @@
-{
-  "config_id": "b1017368d7a97b11",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "sha1": "851633e066da97b02fd56c0b20587a7829edefac",
-      "sha256": "1a4cc54a137844429db90bfc1442fa12b7931ca0f1e91b06fa329e0b6a4b3d4a",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mrpc/roberta-large/houlsby/roberta-large_mrpc_houlsby.zip"
-    }
-  }
-}
+{"config_id": "b1017368d7a97b11", "default_version": "1", "files": {"1": {"sha1": "851633e066da97b02fd56c0b20587a7829edefac", "sha256": "1a4cc54a137844429db90bfc1442fa12b7931ca0f1e91b06fa329e0b6a4b3d4a", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mrpc/roberta-large/houlsby/roberta-large_mrpc_houlsby.zip"}}}

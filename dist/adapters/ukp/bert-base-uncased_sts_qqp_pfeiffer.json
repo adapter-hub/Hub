@@ -1,11 +1,1 @@
-{
-  "config_id": "bb1c8efb82510bed",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "sha1": "194d83d4d5c4fb55973fd228d9a8245ebfaa0713",
-      "sha256": "dedeacbe553f0281bbea2e0961611d07388c8264e04843db1b8215f73000acd6",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/qqp/bert-base-uncased/pfeiffer/bert-base-uncased_sts_qqp_pfeiffer.zip"
-    }
-  }
-}
+{"config_id": "bb1c8efb82510bed", "default_version": "1", "files": {"1": {"sha1": "194d83d4d5c4fb55973fd228d9a8245ebfaa0713", "sha256": "dedeacbe553f0281bbea2e0961611d07388c8264e04843db1b8215f73000acd6", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/qqp/bert-base-uncased/pfeiffer/bert-base-uncased_sts_qqp_pfeiffer.zip"}}}

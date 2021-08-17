@@ -1,11 +1,1 @@
-{
-  "config_id": "b1017368d7a97b11",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "sha1": "07a8588e34e3626c11711ef01c5de5a7f25a14a0",
-      "sha256": "7543f9c44b29adddaa3e112110f3931621930a4f3cee84c365e33ed4baea36be",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/mrpc/facebook/bart-base/facebook-bart-base_sts_mrpc_houlsby.zip"
-    }
-  }
-}
+{"config_id": "b1017368d7a97b11", "default_version": "1", "files": {"1": {"sha1": "07a8588e34e3626c11711ef01c5de5a7f25a14a0", "sha256": "7543f9c44b29adddaa3e112110f3931621930a4f3cee84c365e33ed4baea36be", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/mrpc/facebook/bart-base/facebook-bart-base_sts_mrpc_houlsby.zip"}}}

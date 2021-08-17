@@ -1,11 +1,1 @@
-{
-  "config_id": "9076f36a74755ac4",
-  "default_version": "AdapterFusion",
-  "files": {
-    "AdapterFusion": {
-      "sha1": "ea2f274368a8211eb560f4229366bee386758fd7",
-      "sha256": "d40795c39ec9413a7a4dfdd688c7f1c5cde7785fee976b816b43cfe73ed8d17e",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/boolq/roberta-base/pfeiffer/boolq_relu_16.zip"
-    }
-  }
-}
+{"config_id": "9076f36a74755ac4", "default_version": "AdapterFusion", "files": {"AdapterFusion": {"sha1": "ea2f274368a8211eb560f4229366bee386758fd7", "sha256": "d40795c39ec9413a7a4dfdd688c7f1c5cde7785fee976b816b43cfe73ed8d17e", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/boolq/roberta-base/pfeiffer/boolq_relu_16.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": false, "non_linearity": "relu", "original_ln_after": true, "original_ln_before": true, "output_adapter": true, "reduction_factor": 16, "residual_before_ln": true}, "adapter_id": "@ukp/roberta-base-boolq_pfeiffer", "model_name": "roberta-base", "sha1_checksum": "ea2f274368a8211eb560f4229366bee386758fd7", "source": "ah", "subtask": "boolq", "task": "qa", "username": "ukp"}}

@@ -1,11 +1,1 @@
-{
-  "config_id": "9076f36a74755ac4",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "sha1": "8078688bc7f29e639256f4d93ad0a26934f3d509",
-      "sha256": "1f9de887d23021368021fd8b92a167b3fcfae846e6076176caa4f4a2bf40395e",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/rte/gpt2/gpt2_nli_rte_pfeiffer.zip"
-    }
-  }
-}
+{"config_id": "9076f36a74755ac4", "default_version": "1", "files": {"1": {"sha1": "8078688bc7f29e639256f4d93ad0a26934f3d509", "sha256": "1f9de887d23021368021fd8b92a167b3fcfae846e6076176caa4f4a2bf40395e", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/rte/gpt2/gpt2_nli_rte_pfeiffer.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": false, "non_linearity": "relu", "original_ln_after": true, "original_ln_before": true, "output_adapter": true, "reduction_factor": 16, "residual_before_ln": true}, "adapter_id": "@ukp/gpt2_nli_rte_pfeiffer", "model_name": "gpt2", "sha1_checksum": "8078688bc7f29e639256f4d93ad0a26934f3d509", "source": "ah", "subtask": "rte", "task": "nli", "username": "ukp"}}

@@ -1,11 +1,1 @@
-{
-  "config_id": "b1017368d7a97b11",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "sha1": "13810cfcc6a43a28a05f7e0bf0243e8465243ff1",
-      "sha256": "df95e43093fd1ff5c40d83c4dff6fb947c07193594d2473b26f8cffd65878b27",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/rte/gpt2/gpt2_nli_rte_houlsby.zip"
-    }
-  }
-}
+{"config_id": "b1017368d7a97b11", "default_version": "1", "files": {"1": {"sha1": "13810cfcc6a43a28a05f7e0bf0243e8465243ff1", "sha256": "df95e43093fd1ff5c40d83c4dff6fb947c07193594d2473b26f8cffd65878b27", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/rte/gpt2/gpt2_nli_rte_houlsby.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": true, "non_linearity": "swish", "original_ln_after": true, "original_ln_before": false, "output_adapter": true, "reduction_factor": 16, "residual_before_ln": true}, "adapter_id": "@ukp/gpt2_nli_rte_houlsby", "model_name": "gpt2", "sha1_checksum": "13810cfcc6a43a28a05f7e0bf0243e8465243ff1", "source": "ah", "subtask": "rte", "task": "nli", "username": "ukp"}}

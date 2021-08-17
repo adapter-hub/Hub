@@ -1,11 +1,1 @@
-{
-  "config_id": "9076f36a74755ac4",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "sha1": "b6cdf1beab12f238ac3e3bf878f2a2c6cdfa2898",
-      "sha256": "3fb000f06840c5df97331c8ba101576941cd7156dba57e20311026c79b4b634d",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/rotten_tomatoes/distilbert-base-uncased/pfeiffer/distilbert-base-uncased_sentiment_rotten_tomatoes_pfeiffer.zip"
-    }
-  }
-}
+{"config_id": "9076f36a74755ac4", "default_version": "1", "files": {"1": {"sha1": "b6cdf1beab12f238ac3e3bf878f2a2c6cdfa2898", "sha256": "3fb000f06840c5df97331c8ba101576941cd7156dba57e20311026c79b4b634d", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/rotten_tomatoes/distilbert-base-uncased/pfeiffer/distilbert-base-uncased_sentiment_rotten_tomatoes_pfeiffer.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": false, "non_linearity": "relu", "original_ln_after": true, "original_ln_before": true, "output_adapter": true, "reduction_factor": 16, "residual_before_ln": true}, "adapter_id": "@ukp/distilbert-base-uncased_sentiment_rotten_tomatoes_pfeiffer", "model_name": "distilbert-base-uncased", "sha1_checksum": "b6cdf1beab12f238ac3e3bf878f2a2c6cdfa2898", "source": "ah", "subtask": "rotten_tomatoes", "task": "sentiment", "username": "ukp"}}

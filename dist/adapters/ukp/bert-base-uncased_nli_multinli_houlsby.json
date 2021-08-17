@@ -1,11 +1,1 @@
-{
-  "config_id": "b1017368d7a97b11",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "sha1": "3284471b39dcdfff63ee240a896994788641760e",
-      "sha256": "ec926f4f3dd5208cd1bda6eb1cd851136cb789e5e3a364d0b4d7874a9c18f6fe",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mnli/bert-base-uncased/houlsby/bert-base-uncased_nli_multinli_houlsby.zip"
-    }
-  }
-}
+{"config_id": "b1017368d7a97b11", "default_version": "1", "files": {"1": {"sha1": "3284471b39dcdfff63ee240a896994788641760e", "sha256": "ec926f4f3dd5208cd1bda6eb1cd851136cb789e5e3a364d0b4d7874a9c18f6fe", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mnli/bert-base-uncased/houlsby/bert-base-uncased_nli_multinli_houlsby.zip"}}}

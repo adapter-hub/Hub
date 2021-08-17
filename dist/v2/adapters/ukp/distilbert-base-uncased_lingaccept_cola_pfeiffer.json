@@ -1,11 +1,1 @@
-{
-  "config_id": "9076f36a74755ac4",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "sha1": "ea6702bbaeecb70beb012923a5cd066b3a30255b",
-      "sha256": "b8a032bd81c0cbf6a7ce10c9c419d6c1208d417a40247b7c6e4f9ff9a8dd5dd1",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cola/distilbert-base-uncased/pfeiffer/distilbert-base-uncased_lingaccept_cola_pfeiffer.zip"
-    }
-  }
-}
+{"config_id": "9076f36a74755ac4", "default_version": "1", "files": {"1": {"sha1": "ea6702bbaeecb70beb012923a5cd066b3a30255b", "sha256": "b8a032bd81c0cbf6a7ce10c9c419d6c1208d417a40247b7c6e4f9ff9a8dd5dd1", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cola/distilbert-base-uncased/pfeiffer/distilbert-base-uncased_lingaccept_cola_pfeiffer.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": false, "non_linearity": "relu", "original_ln_after": true, "original_ln_before": true, "output_adapter": true, "reduction_factor": 16, "residual_before_ln": true}, "adapter_id": "@ukp/distilbert-base-uncased_lingaccept_cola_pfeiffer", "model_name": "distilbert-base-uncased", "sha1_checksum": "ea6702bbaeecb70beb012923a5cd066b3a30255b", "source": "ah", "subtask": "cola", "task": "lingaccept", "username": "ukp"}}

@@ -1,11 +1,1 @@
-{
-  "config_id": "d345095bcb01e325",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "sha1": "fd6bf58d1a6d31df8c216a6e147b4cfa0a480fac",
-      "sha256": "a144f6393391b8521cda0b8400a63a0fcb0dc1cccf41123fcc273cb7cd6ea03d",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/kv/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_kv_wiki_pfeiffer.zip"
-    }
-  }
-}
+{"config_id": "d345095bcb01e325", "default_version": "1", "files": {"1": {"sha1": "fd6bf58d1a6d31df8c216a6e147b4cfa0a480fac", "sha256": "a144f6393391b8521cda0b8400a63a0fcb0dc1cccf41123fcc273cb7cd6ea03d", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/kv/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_kv_wiki_pfeiffer.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": false, "non_linearity": "gelu", "original_ln_after": true, "original_ln_before": true, "output_adapter": true, "reduction_factor": 2, "residual_before_ln": true}, "adapter_id": "@ukp/bert-base-multilingual-cased_kv_wiki_pfeiffer", "model_name": "bert-base-multilingual-cased", "sha1_checksum": "fd6bf58d1a6d31df8c216a6e147b4cfa0a480fac", "source": "ah", "subtask": "wiki", "task": "kv", "username": "ukp"}}

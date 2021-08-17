@@ -1,12 +1,1 @@
-{
-  "config_id": "ec8c0cba5e6454ec",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "score": 20.51,
-      "sha1": "8e48fd0ff2962dc6121b35dcb15c9076c790e072",
-      "sha256": "684f3b0b1de796d4d800e71580a34b840a2a0721d20048855d05688a78479675",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/cnn_dailymail/facebook/bart-large/facebook-bart-large_sum_cnn_dailymail_houlsby.zip"
-    }
-  }
-}
+{"config_id": "ec8c0cba5e6454ec", "default_version": "1", "files": {"1": {"score": 20.51, "sha1": "8e48fd0ff2962dc6121b35dcb15c9076c790e072", "sha256": "684f3b0b1de796d4d800e71580a34b840a2a0721d20048855d05688a78479675", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/cnn_dailymail/facebook/bart-large/facebook-bart-large_sum_cnn_dailymail_houlsby.zip"}}}

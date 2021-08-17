@@ -1,11 +1,1 @@
-{
-  "config_id": "87954f0c97a780e3",
-  "default_version": "madx",
-  "files": {
-    "madx": {
-      "sha1": "468259c0e3c7d7c9906abfc17b4dc016711b60c7",
-      "sha256": "11e5fd556d4a7979ce0cde4b373f090f2ee279fab889186c01c6f519f953722c",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/cdo/xlm-roberta-base/pfeiffer/cdo_relu_2.zip"
-    }
-  }
-}
+{"config_id": "87954f0c97a780e3", "default_version": "madx", "files": {"madx": {"sha1": "468259c0e3c7d7c9906abfc17b4dc016711b60c7", "sha256": "11e5fd556d4a7979ce0cde4b373f090f2ee279fab889186c01c6f519f953722c", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/cdo/xlm-roberta-base/pfeiffer/cdo_relu_2.zip"}}}

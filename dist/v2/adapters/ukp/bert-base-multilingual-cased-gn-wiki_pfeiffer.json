@@ -1,16 +1,1 @@
-{
-  "config_id": "d345095bcb01e325",
-  "default_version": "nd",
-  "files": {
-    "nd": {
-      "sha1": "19a196ea9f8fcdc8dbffac0206b0e581483fac7f",
-      "sha256": "11658b7e37cc509a26dfb3836791f598a6101f969082fa8771bf367381246971",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/gn/bert-base-multilingual-cased/pfeiffer/gn_pfeiffer_gelu_nd.zip"
-    },
-    "wd": {
-      "sha1": "f922cdec2884b815df326ee9772d5940bea6677a",
-      "sha256": "a5bfac95e2c32807aaedee2a9a64b93988d1b56fe582b72c66070b4ef069ccbb",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/gn/bert-base-multilingual-cased/pfeiffer/gn_pfeiffer_gelu.zip"
-    }
-  }
-}
+{"config_id": "d345095bcb01e325", "default_version": "nd", "files": {"nd": {"sha1": "19a196ea9f8fcdc8dbffac0206b0e581483fac7f", "sha256": "11658b7e37cc509a26dfb3836791f598a6101f969082fa8771bf367381246971", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/gn/bert-base-multilingual-cased/pfeiffer/gn_pfeiffer_gelu_nd.zip"}, "wd": {"sha1": "f922cdec2884b815df326ee9772d5940bea6677a", "sha256": "a5bfac95e2c32807aaedee2a9a64b93988d1b56fe582b72c66070b4ef069ccbb", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/gn/bert-base-multilingual-cased/pfeiffer/gn_pfeiffer_gelu.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": false, "non_linearity": "gelu", "original_ln_after": true, "original_ln_before": true, "output_adapter": true, "reduction_factor": 2, "residual_before_ln": true}, "adapter_id": "@ukp/bert-base-multilingual-cased-gn-wiki_pfeiffer", "model_name": "bert-base-multilingual-cased", "sha1_checksum": "19a196ea9f8fcdc8dbffac0206b0e581483fac7f", "source": "ah", "subtask": "wiki", "task": "gn", "username": "ukp"}}

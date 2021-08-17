@@ -1,11 +1,1 @@
-{
-  "config_id": "bb1c8efb82510bed",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "sha1": "1e51da6c51d7923d770e926aad748b4c67702949",
-      "sha256": "9ebe530106b368c573a232f6d76afb877236d79c12c0854e8f29ac54270e96b4",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mrpc/roberta-large/pfeiffer/roberta-large_mrpc_pfeiffer.zip"
-    }
-  }
-}
+{"config_id": "bb1c8efb82510bed", "default_version": "1", "files": {"1": {"sha1": "1e51da6c51d7923d770e926aad748b4c67702949", "sha256": "9ebe530106b368c573a232f6d76afb877236d79c12c0854e8f29ac54270e96b4", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/mrpc/roberta-large/pfeiffer/roberta-large_mrpc_pfeiffer.zip"}}}

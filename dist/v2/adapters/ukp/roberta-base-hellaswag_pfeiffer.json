@@ -1,11 +1,1 @@
-{
-  "config_id": "9076f36a74755ac4",
-  "default_version": "AdapterFusion",
-  "files": {
-    "AdapterFusion": {
-      "sha1": "728c859884b8d9fdd82995fcb0bdd1a80e74c1d1",
-      "sha256": "e1b1a3c805445338933e6a894b42d01c085300dfb77f8821ea8ee6e2dc6b5180",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/hellaswag/roberta-base/pfeiffer/hellaswag_relu_16.zip"
-    }
-  }
-}
+{"config_id": "9076f36a74755ac4", "default_version": "AdapterFusion", "files": {"AdapterFusion": {"sha1": "728c859884b8d9fdd82995fcb0bdd1a80e74c1d1", "sha256": "e1b1a3c805445338933e6a894b42d01c085300dfb77f8821ea8ee6e2dc6b5180", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/hellaswag/roberta-base/pfeiffer/hellaswag_relu_16.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": false, "non_linearity": "relu", "original_ln_after": true, "original_ln_before": true, "output_adapter": true, "reduction_factor": 16, "residual_before_ln": true}, "adapter_id": "@ukp/roberta-base-hellaswag_pfeiffer", "model_name": "roberta-base", "sha1_checksum": "728c859884b8d9fdd82995fcb0bdd1a80e74c1d1", "source": "ah", "subtask": "hellaswag", "task": "comsense", "username": "ukp"}}

@@ -1,12 +1,1 @@
-{
-  "config_id": "e15331acc3f0a5c0",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "score": 20.86,
-      "sha1": "aa5c120e8dff99322c81254d3769a8cfa80fcf06",
-      "sha256": "30de8dd91180f760fb511088c3d5b5a515aef82ccd0e444802d0f61d6e37c14b",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/cnn_dailymail/facebook/bart-large/facebook-bart-large_sum_cnn_dailymail_pfeiffer.zip"
-    }
-  }
-}
+{"config_id": "e15331acc3f0a5c0", "default_version": "1", "files": {"1": {"score": 20.86, "sha1": "aa5c120e8dff99322c81254d3769a8cfa80fcf06", "sha256": "30de8dd91180f760fb511088c3d5b5a515aef82ccd0e444802d0f61d6e37c14b", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/cnn_dailymail/facebook/bart-large/facebook-bart-large_sum_cnn_dailymail_pfeiffer.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": false, "non_linearity": "relu", "original_ln_after": true, "original_ln_before": true, "output_adapter": true, "reduction_factor": 2, "residual_before_ln": true}, "adapter_id": "@ukp/facebook-bart-large_sum_cnn_dailymail_pfeiffer", "model_name": "facebook/bart-large", "sha1_checksum": "aa5c120e8dff99322c81254d3769a8cfa80fcf06", "source": "ah", "subtask": "cnn_dailymail", "task": "sum", "username": "ukp"}}

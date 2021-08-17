@@ -1,11 +1,1 @@
-{
-  "config_id": "9076f36a74755ac4",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "sha1": "b80962907aca970a03048c1d048f47cfac3a984e",
-      "sha256": "7e4e55a974df128cb2a8447ee7787b0d8d92098be31b0c3697337efbcbada973",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/sts-b/roberta-base/pfeiffer/roberta-base_sts-b_pfeiffer.zip"
-    }
-  }
-}
+{"config_id": "9076f36a74755ac4", "default_version": "1", "files": {"1": {"sha1": "b80962907aca970a03048c1d048f47cfac3a984e", "sha256": "7e4e55a974df128cb2a8447ee7787b0d8d92098be31b0c3697337efbcbada973", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/sts-b/roberta-base/pfeiffer/roberta-base_sts-b_pfeiffer.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": false, "non_linearity": "relu", "original_ln_after": true, "original_ln_before": true, "output_adapter": true, "reduction_factor": 16, "residual_before_ln": true}, "adapter_id": "@ukp/roberta-base-sts_b_pfeiffer", "model_name": "roberta-base", "sha1_checksum": "b80962907aca970a03048c1d048f47cfac3a984e", "source": "ah", "subtask": "sts-b", "task": "sts", "username": "ukp"}}

@@ -1,16 +1,1 @@
-{
-  "config_id": "f10efa747ae87c60",
-  "default_version": "nd",
-  "files": {
-    "nd": {
-      "sha1": "c4f9090523259a70369be1a885687d6bff44ba2d",
-      "sha256": "cc4726e1fa4ba88ff9ef692c0fe8549741121a4340b298591f4f50160ae8b4ab",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/cdo/bert-base-multilingual-cased/houlsby/cdo_houlsby_gelu_nd.zip"
-    },
-    "wd": {
-      "sha1": "554f0c110967be058fe0d460043779992b6bd880",
-      "sha256": "26059f4f97a745f17526197881dc90dc38879c919e8f859fd1f6ff0e66cf7718",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/cdo/bert-base-multilingual-cased/houlsby/cdo_houlsby_gelu.zip"
-    }
-  }
-}
+{"config_id": "f10efa747ae87c60", "default_version": "nd", "files": {"nd": {"sha1": "c4f9090523259a70369be1a885687d6bff44ba2d", "sha256": "cc4726e1fa4ba88ff9ef692c0fe8549741121a4340b298591f4f50160ae8b4ab", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/cdo/bert-base-multilingual-cased/houlsby/cdo_houlsby_gelu_nd.zip"}, "wd": {"sha1": "554f0c110967be058fe0d460043779992b6bd880", "sha256": "26059f4f97a745f17526197881dc90dc38879c919e8f859fd1f6ff0e66cf7718", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/cdo/bert-base-multilingual-cased/houlsby/cdo_houlsby_gelu.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": true, "non_linearity": "gelu", "original_ln_after": true, "original_ln_before": false, "output_adapter": true, "reduction_factor": 2, "residual_before_ln": true}, "adapter_id": "@ukp/bert-base-multilingual-cased-cdo-wiki_houlsby", "model_name": "bert-base-multilingual-cased", "sha1_checksum": "c4f9090523259a70369be1a885687d6bff44ba2d", "source": "ah", "subtask": "wiki", "task": "cdo", "username": "ukp"}}

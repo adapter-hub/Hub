@@ -1,11 +1,1 @@
-{
-  "config_id": "e15331acc3f0a5c0",
-  "default_version": "madx",
-  "files": {
-    "madx": {
-      "sha1": "62e4ca38dc10c58c17f83558bd79df1b19b939de",
-      "sha256": "acd765b94931fdf27d73e9804deefbeccdf740344c8d3e1d1c76a8e0f4105536",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/mhr/bert-base-multilingual-cased/pfeiffer/mhr_relu_2.zip"
-    }
-  }
-}
+{"config_id": "e15331acc3f0a5c0", "default_version": "madx", "files": {"madx": {"sha1": "62e4ca38dc10c58c17f83558bd79df1b19b939de", "sha256": "acd765b94931fdf27d73e9804deefbeccdf740344c8d3e1d1c76a8e0f4105536", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/mhr/bert-base-multilingual-cased/pfeiffer/mhr_relu_2.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": false, "non_linearity": "relu", "original_ln_after": true, "original_ln_before": true, "output_adapter": true, "reduction_factor": 2, "residual_before_ln": true}, "adapter_id": "@ukp/bert-base-multilingual-cased-mhr-wiki_pfeiffer_relu", "model_name": "bert-base-multilingual-cased", "sha1_checksum": "62e4ca38dc10c58c17f83558bd79df1b19b939de", "source": "ah", "subtask": "wiki", "task": "mhr", "username": "ukp"}}

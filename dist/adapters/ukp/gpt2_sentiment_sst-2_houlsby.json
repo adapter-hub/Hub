@@ -1,11 +1,1 @@
-{
-  "config_id": "b1017368d7a97b11",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "sha1": "a4ffdc36ae8620ac6a5231aa7de78f1c1b3f423d",
-      "sha256": "2ab7abb9e5f0421c1225daf512cb16a8a7ee7c79a62ba5a221cfa4526b66ed45",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/sst-2/gpt2/gpt2_sentiment_sst-2_houlsby.zip"
-    }
-  }
-}
+{"config_id": "b1017368d7a97b11", "default_version": "1", "files": {"1": {"sha1": "a4ffdc36ae8620ac6a5231aa7de78f1c1b3f423d", "sha256": "2ab7abb9e5f0421c1225daf512cb16a8a7ee7c79a62ba5a221cfa4526b66ed45", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/sst-2/gpt2/gpt2_sentiment_sst-2_houlsby.zip"}}}

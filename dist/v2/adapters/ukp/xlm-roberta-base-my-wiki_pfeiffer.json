@@ -1,11 +1,1 @@
-{
-  "config_id": "e15331acc3f0a5c0",
-  "default_version": "madx",
-  "files": {
-    "madx": {
-      "sha1": "89e9339be0d16d3441b93103652993bb13d29fe9",
-      "sha256": "304bdddfc0bea7a8140f69a31ccd26b0ff5873ca38a3d217814919edc1f7b03a",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/my/xlm-roberta-base/pfeiffer/my_relu_2.zip"
-    }
-  }
-}
+{"config_id": "e15331acc3f0a5c0", "default_version": "madx", "files": {"madx": {"sha1": "89e9339be0d16d3441b93103652993bb13d29fe9", "sha256": "304bdddfc0bea7a8140f69a31ccd26b0ff5873ca38a3d217814919edc1f7b03a", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/my/xlm-roberta-base/pfeiffer/my_relu_2.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": false, "non_linearity": "relu", "original_ln_after": true, "original_ln_before": true, "output_adapter": true, "reduction_factor": 2, "residual_before_ln": true}, "adapter_id": "@ukp/xlm-roberta-base-my-wiki_pfeiffer", "model_name": "xlm-roberta-base", "sha1_checksum": "89e9339be0d16d3441b93103652993bb13d29fe9", "source": "ah", "subtask": "wiki", "task": "my", "username": "ukp"}}

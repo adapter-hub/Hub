@@ -1,11 +1,1 @@
-{
-  "config_id": "bb1c8efb82510bed",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "sha1": "8b94d0b29dafccc2906c91e47d1dcb7e1accd7a2",
-      "sha256": "f279d5ab99609afefea1e11bf08d5a8d9eb174315b69d6ad7e4a6d21c6655dde",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/qnli/distilbert-base-uncased/pfeiffer/distilbert-base-uncased_nli_qnli_pfeiffer.zip"
-    }
-  }
-}
+{"config_id": "bb1c8efb82510bed", "default_version": "1", "files": {"1": {"sha1": "8b94d0b29dafccc2906c91e47d1dcb7e1accd7a2", "sha256": "f279d5ab99609afefea1e11bf08d5a8d9eb174315b69d6ad7e4a6d21c6655dde", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/qnli/distilbert-base-uncased/pfeiffer/distilbert-base-uncased_nli_qnli_pfeiffer.zip"}}}

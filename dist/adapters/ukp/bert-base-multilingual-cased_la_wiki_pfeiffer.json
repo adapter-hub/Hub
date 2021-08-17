@@ -1,11 +1,1 @@
-{
-  "config_id": "2544b31b29c6067d",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "sha1": "6cf31dc7bcfe5260522ccf5e0504d9a6389852a6",
-      "sha256": "54c5c0ce91800b4bab047d5ef797392a959f32230b6544e6a4cce3f832be7f2f",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/la/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_la_wiki_pfeiffer.zip"
-    }
-  }
-}
+{"config_id": "2544b31b29c6067d", "default_version": "1", "files": {"1": {"sha1": "6cf31dc7bcfe5260522ccf5e0504d9a6389852a6", "sha256": "54c5c0ce91800b4bab047d5ef797392a959f32230b6544e6a4cce3f832be7f2f", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_lang/la/bert-base-multilingual-cased/pfeiffer/bert-base-multilingual-cased_la_wiki_pfeiffer.zip"}}}

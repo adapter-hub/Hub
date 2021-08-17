@@ -1,11 +1,1 @@
-{
-  "config_id": "9076f36a74755ac4",
-  "default_version": "AdapterFusion",
-  "files": {
-    "AdapterFusion": {
-      "sha1": "33413a3eb0bdc5686c78590c76d5ac2c26bb3a6c",
-      "sha256": "1b746725ab90f3cdc64fc0045330f3c970d201f58a8633673b1a95575276e884",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/csqa/roberta-base/pfeiffer/csqa_relu_16.zip"
-    }
-  }
-}
+{"config_id": "9076f36a74755ac4", "default_version": "AdapterFusion", "files": {"AdapterFusion": {"sha1": "33413a3eb0bdc5686c78590c76d5ac2c26bb3a6c", "sha256": "1b746725ab90f3cdc64fc0045330f3c970d201f58a8633673b1a95575276e884", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/csqa/roberta-base/pfeiffer/csqa_relu_16.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": false, "non_linearity": "relu", "original_ln_after": true, "original_ln_before": true, "output_adapter": true, "reduction_factor": 16, "residual_before_ln": true}, "adapter_id": "@ukp/roberta-base-csqa_pfeiffer", "model_name": "roberta-base", "sha1_checksum": "33413a3eb0bdc5686c78590c76d5ac2c26bb3a6c", "source": "ah", "subtask": "csqa", "task": "comsense", "username": "ukp"}}

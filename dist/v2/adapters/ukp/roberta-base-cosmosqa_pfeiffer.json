@@ -1,11 +1,1 @@
-{
-  "config_id": "9076f36a74755ac4",
-  "default_version": "AdapterFusion",
-  "files": {
-    "AdapterFusion": {
-      "sha1": "b01139973f489682d559b0061ab05c184ae030c8",
-      "sha256": "b711011d490188f4a361684cd609f6ed5a83b134d66b78e746acb4ea3d07b047",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cosmosqa/roberta-base/pfeiffer/cosmosqa_relu_16.zip"
-    }
-  }
-}
+{"config_id": "9076f36a74755ac4", "default_version": "AdapterFusion", "files": {"AdapterFusion": {"sha1": "b01139973f489682d559b0061ab05c184ae030c8", "sha256": "b711011d490188f4a361684cd609f6ed5a83b134d66b78e746acb4ea3d07b047", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/text_task/cosmosqa/roberta-base/pfeiffer/cosmosqa_relu_16.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": false, "non_linearity": "relu", "original_ln_after": true, "original_ln_before": true, "output_adapter": true, "reduction_factor": 16, "residual_before_ln": true}, "adapter_id": "@ukp/roberta-base-cosmosqa_pfeiffer", "model_name": "roberta-base", "sha1_checksum": "b01139973f489682d559b0061ab05c184ae030c8", "source": "ah", "subtask": "cosmosqa", "task": "comsense", "username": "ukp"}}

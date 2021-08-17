@@ -1,11 +1,1 @@
-{
-  "config_id": "9076f36a74755ac4",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "sha1": "ac7e3acfcc56dbe63da0d8bc9c48e91def71eef8",
-      "sha256": "5e4624d1b92024606e62c5a1e1119f3e584c08202f01a9edcfecb0f0684d57d8",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/sst-2/facebook/bart-base/facebook-bart-base_sentiment_sst-2_pfeiffer.zip"
-    }
-  }
-}
+{"config_id": "9076f36a74755ac4", "default_version": "1", "files": {"1": {"sha1": "ac7e3acfcc56dbe63da0d8bc9c48e91def71eef8", "sha256": "5e4624d1b92024606e62c5a1e1119f3e584c08202f01a9edcfecb0f0684d57d8", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/sst-2/facebook/bart-base/facebook-bart-base_sentiment_sst-2_pfeiffer.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": false, "non_linearity": "relu", "original_ln_after": true, "original_ln_before": true, "output_adapter": true, "reduction_factor": 16, "residual_before_ln": true}, "adapter_id": "@ukp/facebook-bart-base_sentiment_sst-2_pfeiffer", "model_name": "facebook/bart-base", "sha1_checksum": "ac7e3acfcc56dbe63da0d8bc9c48e91def71eef8", "source": "ah", "subtask": "sst-2", "task": "sentiment", "username": "ukp"}}

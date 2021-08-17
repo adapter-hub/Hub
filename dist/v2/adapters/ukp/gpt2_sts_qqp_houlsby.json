@@ -1,11 +1,1 @@
-{
-  "config_id": "b1017368d7a97b11",
-  "default_version": "1",
-  "files": {
-    "1": {
-      "sha1": "e0f765282ce7d4869b43ddd35993acb09a60db3a",
-      "sha256": "38e2c3020d2d0ad79c12d372e33d256f52be72d5fd7ef730a2e97d9b21bef4ce",
-      "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/qqp/gpt2/gpt2_sts_qqp_houlsby.zip"
-    }
-  }
-}
+{"config_id": "b1017368d7a97b11", "default_version": "1", "files": {"1": {"sha1": "e0f765282ce7d4869b43ddd35993acb09a60db3a", "sha256": "38e2c3020d2d0ad79c12d372e33d256f52be72d5fd7ef730a2e97d9b21bef4ce", "url": "https://public.ukp.informatik.tu-darmstadt.de/AdapterHub/v2/qqp/gpt2/gpt2_sts_qqp_houlsby.zip"}}, "info": {"adapter_config": {"adapter_residual_before_ln": false, "ln_after": false, "ln_before": false, "mh_adapter": true, "non_linearity": "swish", "original_ln_after": true, "original_ln_before": false, "output_adapter": true, "reduction_factor": 16, "residual_before_ln": true}, "adapter_id": "@ukp/gpt2_sts_qqp_houlsby", "model_name": "gpt2", "sha1_checksum": "e0f765282ce7d4869b43ddd35993acb09a60db3a", "source": "ah", "subtask": "qqp", "task": "sts", "username": "ukp"}}
