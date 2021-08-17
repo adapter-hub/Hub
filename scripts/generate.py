@@ -32,6 +32,7 @@ def generate_adapter_repo(files, config_index, dist_folder="dist", hub_version=2
         org_name = path_split[-2]
         if a_type not in AVAILABLE_TYPES:
             raise ValueError("Invalid type '{}'.".format(a_type))
+
         ### Create generated json file
         file_base = splitext(basename(file))[0]
         gen_file = join(dist_folder, REPO_FOLDER, org_name, file_base + ".json")
@@ -45,8 +46,25 @@ def generate_adapter_repo(files, config_index, dist_folder="dist", hub_version=2
             file.pop("description", None)
             files[version] = file
         gen_dict = {"config_id": a_id, "default_version": adapter_dict["default_version"], "files": files}
+
+        ### Create & append adapter info
+        adapter_info = {
+            "source": "ah",
+            "adapter_id": f"@{org_name}/{file_base}",
+            "model_name": a_model_name,
+            "task": a_task,
+            "subtask": a_name,
+            "username": org_name,
+            "adapter_config": full_config,
+            "sha1_checksum": files[adapter_dict["default_version"]].get("sha1"),
+        }
+        if hub_version >= 2:
+            gen_dict["info"] = adapter_info
+        full_list.append(adapter_info)
+
         with open(gen_file, "w") as f:
-            json.dump(gen_dict, f, indent=2, sort_keys=True)
+            json.dump(gen_dict, f, sort_keys=True)
+        
         ### Create index entry
         id_dict = index[a_type][a_model_name][a_task][a_name][a_id]
         if "versions" not in id_dict:
@@ -65,18 +83,6 @@ def generate_adapter_repo(files, config_index, dist_folder="dist", hub_version=2
             subtask_dict["default"] = relpath(gen_file, dist_folder)
         # TODO change default version to something more useful
         # id_dict["default"] = org_name
-
-        ### Append to full list of adapters
-        full_list.append({
-            "source": "ah",
-            "adapter_id": f"@{org_name}/{file_base}",
-            "model_name": a_model_name,
-            "task": a_task,
-            "subtask": a_name,
-            "username": org_name,
-            "adapter_config": full_config,
-            "sha1_checksum": files[adapter_dict["default_version"]].get("sha1"),
-        })
 
     # write index files to disc
     for a_type, adapters in index.items():
