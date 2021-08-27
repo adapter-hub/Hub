@@ -1,0 +1,40 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: comsense
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: copa
+
+# A short description of this subtask (max. 500 chars).
+description: |
+  COPA (Gordon et al., 2012) is a causal commonsense reasoning task with the goal to select the more plausible sentence of two alternatives, given a premise sentence.
+
+# (optional) A bibtex citation of the work related to this subtask.
+citation: |
+  @inproceedings{gordonSemEval2012TaskChoice2012,
+    title = {{{SemEval}}-2012 Task 7: {{Choice}} of Plausible Alternatives: {{An}} Evaluation of Commonsense Causal Reasoning},
+    booktitle = {Proceedings of the 6th International Workshop on Semantic Evaluation, {{SemEval}}@{{NAACL}}-{{HLT}} 2012, Montr\'eal, Canada, June 7-8, 2012},
+    author = {Gordon, Andrew S. and Kozareva, Zornitsa and Roemmele, Melissa},
+    editor = {Agirre, Eneko and Bos, Johan and Diab, Mona T.},
+    year = {2012},
+    pages = {394--398},
+    publisher = {{The Association for Computer Linguistics}},
+    bibsource = {dblp computer science bibliography, https://dblp.org},
+    biburl = {https://dblp.org/rec/conf/semeval/GordonKR12.bib},
+    timestamp = {Mon, 16 Sep 2019 17:08:53 +0200}
+  }
+
+# (optional) The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: "COPA"
+
+# (optional) The identifier of the language of the data in this subtask
+language: "English"
+
+# (optional) A URL pointing to more information on this subtask.
+url: "https://people.ict.usc.edu/~gordon/copa.html"

@@ -1,0 +1,40 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: chunk
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: conll2000
+
+# A short description of this subtask (max. 500 chars).
+description: |
+  Text chunking was the shared task for CoNLL-2000. This data consists of the same partitions of the Wall Street Journal corpus (WSJ) as the widely used data for noun phrase chunking: sections 15-18 as training data (211727 tokens) and section 20 as test data (47377 tokens). The annotation of the data has been derived from the WSJ corpus by a program written by Sabine Buchholz from Tilburg University, The Netherlands.
+
+# (optional) A bibtex citation of the work related to this subtask.
+citation: |
+  @inproceedings{sangIntroductionCoNLL2000Shared2000,
+    title = {Introduction to the {{CoNLL}}-2000 Shared Task Chunking},
+    booktitle = {Fourth Conference on Computational Natural Language Learning, {{CoNLL}} 2000, and the Second Learning Language in Logic Workshop, {{LLL}} 2000, Held in Cooperation with {{ICGI}}-2000, Lisbon, Portugal, September 13-14, 2000},
+    author = {Sang, Erik F. Tjong Kim and Buchholz, Sabine},
+    editor = {Daelemans, Walter and Zajac, R{\'e}mi},
+    year = {2000},
+    pages = {127--132},
+    publisher = {{Association for Computational Linguistics}},
+    bibsource = {dblp computer science bibliography, https://dblp.org},
+    biburl = {https://dblp.org/rec/conf/conll/SangB00.bib},
+    timestamp = {Mon, 16 Sep 2019 17:08:53 +0200}
+  }
+
+# (optional) The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: "CoNLL 2000"
+
+# (optional) The identifier of the language of the data in this subtask
+language: "English"
+
+# (optional) A URL pointing to more information on this subtask.
+url: "https://www.clips.uantwerpen.be/conll2000/chunking/"

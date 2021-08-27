@@ -1,0 +1,39 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: qa
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: wikihop
+
+# A short description of this subtask (max. 500 chars).
+description: |
+  WikiHop is open-domain and based on Wikipedia articles; the goal is to recover Wikidata information by hopping through documents. The example on the right shows the relevant documents leading to the correct answer for the query shown at the bottom. 
+
+# (optional) A bibtex citation of the work related to this subtask.
+citation: |
+  @article{welblConstructingDatasetsMultihop2018,
+    title = {Constructing Datasets for Multi-Hop Reading Comprehension across Documents},
+    author = {Welbl, Johannes and Stenetorp, Pontus and Riedel, Sebastian},
+    year = {2018},
+    journal = {Trans. Assoc. Comput. Linguistics},
+    volume = {6},
+    pages = {287--302},
+    bibsource = {dblp computer science bibliography, https://dblp.org},
+    biburl = {https://dblp.org/rec/journals/tacl/WelblSR18.bib},
+    timestamp = {Wed, 17 Feb 2021 21:55:28 +0100}
+  }
+
+# (optional) The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: "WikiHop"
+
+# (optional) The identifier of the language of the data in this subtask
+language: "English"
+
+# (optional) A URL pointing to more information on this subtask.
+url: "http://qangaroo.cs.ucl.ac.uk/"
