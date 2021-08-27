@@ -8,7 +8,7 @@ task: ner
 
 # The short identifier of this subtask.
 # Example: multinli
-subtask: mit_movie_trivia10k13
+subtask: mit_movie_trivia
 
 # A short description of this subtask (max. 500 chars).
 description: |
