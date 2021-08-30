@@ -1,0 +1,15 @@
+# Adapter-Hub task definition
+# Defines a broader task/ category that is divided into specific subtasks.
+# --------------------
+
+# The short identifier of this task.
+# Example: sentiment
+task: deprel
+
+# The full name of the task that should be displayed e.g. on the website.
+# Example: Sentiment Analysis
+displayname: "Dependency Relation Classification"
+
+# A short description of this task (max. 500 chars).
+description: |
+  Dependency relation classification is a simplified formulation of dependency parsing as a sequence labeling task.

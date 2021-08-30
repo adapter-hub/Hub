@@ -1,0 +1,40 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: pos
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: conll2003
+
+# A short description of this subtask (max. 500 chars).
+description: |
+  POS-tagging using the part-of-speech tags provided by the English subset of the dataset for the CoNLL 2003 shared task for NER.
+
+# (optional) A bibtex citation of the work related to this subtask.
+citation: |
+  @inproceedings{sangIntroductionCoNLL2003Shared2003,
+    title = {Introduction to the {{CoNLL}}-2003 Shared Task: {{Language}}-Independent Named Entity Recognition},
+    booktitle = {Proceedings of the Seventh Conference on Natural Language Learning, {{CoNLL}} 2003, Held in Cooperation with {{HLT}}-{{NAACL}} 2003, Edmonton, Canada, May 31 - June 1, 2003},
+    author = {Sang, Erik F. Tjong Kim and Meulder, Fien De},
+    editor = {Daelemans, Walter and Osborne, Miles},
+    year = {2003},
+    pages = {142--147},
+    publisher = {{Association for Computational Linguistics}},
+    bibsource = {dblp computer science bibliography, https://dblp.org},
+    biburl = {https://dblp.org/rec/conf/conll/SangM03.bib},
+    timestamp = {Mon, 16 Sep 2019 17:08:53 +0200}
+  }
+
+# (optional) The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: "CoNLL 2003"
+
+# (optional) The identifier of the language of the data in this subtask
+language: "English"
+
+# (optional) A URL pointing to more information on this subtask.
+url: "https://www.clips.uantwerpen.be/conll2003/ner/"

@@ -1,0 +1,39 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: qa
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: cq
+
+# A short description of this subtask (max. 500 chars).
+description: |
+  ComplexQuestions is a QA dataset originally created for querying knowledge bases.
+  The questions are obtained from Google web queries and don’t provide supporting context paragraphs inthe original dataset release.
+  We use the CQ version released in MultiQA (Talmor and Berant, 2019) which additionally enriches all questions with retrieved web snippets, converting the task into an extractive QA task.
+
+# (optional) A bibtex citation of the work related to this subtask.
+citation: |
+  @inproceedings{baoConstraintbasedQuestionAnswering2016,
+    title = {Constraint-Based Question Answering with Knowledge Graph},
+    booktitle = {{{COLING}} 2016, 26th International Conference on Computational Linguistics, Proceedings of the Conference: {{Technical}} Papers, December 11-16, 2016, Osaka, Japan},
+    author = {Bao, Junwei and Duan, Nan and Yan, Zhao and Zhou, Ming and Zhao, Tiejun},
+    editor = {Calzolari, Nicoletta and Matsumoto, Yuji and Prasad, Rashmi},
+    year = {2016},
+    pages = {2503--2514},
+    publisher = {{Association for Computational Linguistics}},
+    bibsource = {dblp computer science bibliography, https://dblp.org},
+    biburl = {https://dblp.org/rec/conf/coling/BaoDYZZ16.bib},
+    timestamp = {Wed, 06 May 2020 08:06:19 +0200}
+  }
+
+# (optional) The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: "ComplexQuestions"
+
+# (optional) The identifier of the language of the data in this subtask
+language: "English"
