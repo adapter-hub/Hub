@@ -4,10 +4,10 @@
 
 # The short identifier of this task.
 # Example: sentiment
-task: text-classifcation"
+task: text-classification"
 
 # The full name of the task that should be displayed e.g. on the website.
-displayname: "Text Classifcation"
+displayname: "Text Classification"
 
 # A short description of this task (max. 500 chars).
 description: |
