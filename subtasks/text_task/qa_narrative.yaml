@@ -1,0 +1,35 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: qa
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: narrativeqa
+
+# A short description of this subtask (max. 500 chars).
+description: NarrativeQA is dataset of stories and corresponding questions which are designed to test reading comprehension.
+
+# (optional) A bibtex citation of the work related to this subtask.
+citation: |
+  @article{narrativeqa,
+  author = {Tom\'a\v s Ko\v cisk\'y and Jonathan Schwarz and Phil Blunsom and
+            Chris Dyer and Karl Moritz Hermann and G\'abor Melis and
+            Edward Grefenstette},
+  title = {The {NarrativeQA} Reading Comprehension Challenge},
+  journal = {Transactions of the Association for Computational Linguistics},
+  url = {https://TBD},
+  volume = {TBD},
+  year = {2018},
+  pages = {TBD},
+  }
+
+
+# (optional) The identifier of this subtask on HuggingFace Datasets (https://huggingface.co/datasets) if available.
+hf_datasets_id: narrativeqa
+
+# (optional) The identifier of the language of the data in this subtask
+language: english
