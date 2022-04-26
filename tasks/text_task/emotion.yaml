@@ -1,0 +1,4 @@
+task: emotion
+displayname: Emotion Classification
+description: |
+  Emotion classification is the task of assigning a sequence of text a label that best represents the emotional state of the writer.
