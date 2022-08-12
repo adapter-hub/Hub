@@ -34,7 +34,6 @@ default_version: '1'
 # A list of different versions of this adapter available for download.
 files:
 - version: '1'
-  url: TODO
   sha1: 007cade7ced13ca4cbe2671ae07b273bf6eac522
   sha256: f836575380fb05d1fb691e501751cd83eb333258a241b3983b5459ec87728a65
   url: "https://dl.dropboxusercontent.com/s/t9opqk2m36cnau3/bert-base-multilingual-cased_nli_MultiNLI_adapter_config.json.zip"
