@@ -36,7 +36,7 @@ files:
 - version: '1'
   sha1: 007cade7ced13ca4cbe2671ae07b273bf6eac522
   sha256: f836575380fb05d1fb691e501751cd83eb333258a241b3983b5459ec87728a65
-  url: "https://dl.dropboxusercontent.com/s/t9opqk2m36cnau3/bert-base-multilingual-cased_nli_MultiNLI_adapter_config.json.zip"
+  url: "https://kabir.blob.core.windows.net/adapters/adapters/kabirahuja2431/bert-base-multilingual-cased_nli_MultiNLI_adapter_config.json.zip"
 citation: |
   @inproceedings{pfeiffer20madx,
     title = "{MAD-X}: {A}n {A}dapter-{B}ased {F}ramework for {M}ulti-{T}ask {C}ross-{L}ingual {T}ransfer",
@@ -57,11 +57,11 @@ dependencies:
     # Example: example-org/text_task-sst-bert
 - key: 'en/wiki@ukp'
     # (optional) A short description how this adapter is dependent.
-  description: 'Pfeiffer Adapter trained with Masked Language Modelling on English Wikipedia Articles for 250k steps and a batch size of 64.'
+  description: 'Adapter trained with MLM on English Wikipedia Articles for 250k steps and a batch size of 64.'
 #   - ...
 
 # (optional) A short description of this adapter.
-description: 'Pfeiffer adapter stacked on top of language adapter for the NLI task. Trained on the English MultiNLI data for 10 epochs and a batch size of 64. Prediction head included. Important: Although, dependencies mention en/wiki@ukp, the adapter can be used with other language adapters as well like zh/wiki@ukp, de/wiki@ukp etc.'
+description: 'Pfeiffer adapter stacked on top of language adapter for the NLI task. Trained on the English MultiNLI data for 10 epochs and a batch size of 64.'
 
 # (optional) A contact email of the author(s).
 email: kabirahuja2431@gmail.com
