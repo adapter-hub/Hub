@@ -20,7 +20,6 @@ setup(
         "ruamel.yaml",
         # for check
         "jsonschema",
-        "pyyaml",
     ],
     entry_points={
         "console_scripts": [
