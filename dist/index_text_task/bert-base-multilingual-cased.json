@@ -1,4 +1,14 @@
 {
+    "nli": {
+        "multinli": {
+            "29215f80a2f7d496": {
+                "versions": {
+                    "kabirahuja2431": "adapters/kabirahuja2431/bert-base-multilingual-cased_nli_MultiNLI_adapter_config.json"
+                }
+            },
+            "default": "adapters/kabirahuja2431/bert-base-multilingual-cased_nli_MultiNLI_adapter_config.json"
+        }
+    },
     "wikiann": {
         "ar": {
             "db892fcf700e3f23": {
