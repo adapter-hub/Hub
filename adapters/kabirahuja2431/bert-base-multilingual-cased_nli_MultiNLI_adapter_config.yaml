@@ -29,10 +29,14 @@ config:
   using: pfeiffer
   non_linearity: relu
   reduction_factor: 2.0
-default_version: '1'
+default_version: '2'
 
 # A list of different versions of this adapter available for download.
 files:
+- version: '2'
+  sha1: 77a2f0134cc89a8e56e20c4cb8c0fcb3a01226e6
+  sha256: 2c6594a400c9743149daee24928814d4e6f63d4d1b7ef27dd1325bbdac688aac
+  url: "https://kabir.blob.core.windows.net/adapters/adapters/kabirahuja2431/bert-base-multilingual-cased_nli_multinli_pfeiffer.zip"
 - version: '1'
   sha1: 007cade7ced13ca4cbe2671ae07b273bf6eac522
   sha256: f836575380fb05d1fb691e501751cd83eb333258a241b3983b5459ec87728a65
@@ -61,7 +65,7 @@ dependencies:
 #   - ...
 
 # (optional) A short description of this adapter.
-description: 'Pfeiffer adapter stacked on top of language adapter for the NLI task. Trained on the English MultiNLI data for 10 epochs and a batch size of 64.'
+description: 'Pfeiffer adapter stacked on top of language adapter for the NLI task. Trained on the English MultiNLI data for 5 epochs and a batch size of 64. Version 2 performs better for cross lingual transfer'
 
 # (optional) A contact email of the author(s).
 email: kabirahuja2431@gmail.com
