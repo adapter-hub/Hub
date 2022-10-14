@@ -1,5 +1,6 @@
 
 import os
+import re
 import sys
 
 import yaml
@@ -54,6 +55,13 @@ def _create_names(tasks, label="task"):
     return s
 
 
+def _prep_twitter(handle):
+    handle = re.sub(r"https?://twitter\.com/", "", handle)
+    if not handle.startswith("@"):
+        handle = "@" + handle
+    return handle
+
+
 def create_message(files):
     dicts = []
     for file in files:
@@ -64,7 +72,7 @@ def create_message(files):
     if len(config["twitter"]) < 1:
         return None
     # add "@" to every twitter handle
-    config["twitter"] = " ".join(set(map(lambda s: "@"+s if not s.startswith("@") else s, config["twitter"])))
+    config["twitter"] = " ".join(set(map(lambda s: _prep_twitter(s), config["twitter"])))
     # add new config items
     config["count"] = len(files)
     if "description" in config:
