@@ -34,7 +34,7 @@ default_version: '1'
 # A list of different versions of this adapter available for download.
 files:
 - version: '1'
-  url: https://github.com/yifan-h/Multilingual_Space/raw/main/adapters/xlm-roberta-base_mlki_ts_pfeiffer.zip
+  url: https://huggingface.co/yyyyifan/mlkiadapter/resolve/main/xlm-roberta-base_mlki_ts_pfeiffer.zip
   sha1: b8372ef1ba9ef4ba19290914bcb714b7692dd127
   sha256: 2b0bb5dcd1ec4b3976764b6f8eddeae9fbcd75b86eb5fe8f8d31d76d18c8ac2f
 citation: '@article{hou2022adapters,

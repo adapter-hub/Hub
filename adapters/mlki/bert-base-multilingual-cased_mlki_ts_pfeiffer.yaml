@@ -34,7 +34,7 @@ default_version: '1'
 # A list of different versions of this adapter available for download.
 files:
 - version: '1'
-  url: https://github.com/yifan-h/Multilingual_Space/raw/main/adapters/bert-base-multilingual-cased_mlki_ts_pfeiffer.zip
+  url: https://huggingface.co/yyyyifan/mlkiadapter/resolve/main/bert-base-multilingual-cased_mlki_ts_pfeiffer.zip
   sha1: d59f317fe26c8fe7c20ef21ae0da4287c35cf170
   sha256: ed5526cfb184545cdc39b9e68db4e4e05dbc9a5e4cfc4a8262eebdbc2ea0244c
 citation: '@article{hou2022adapters,
