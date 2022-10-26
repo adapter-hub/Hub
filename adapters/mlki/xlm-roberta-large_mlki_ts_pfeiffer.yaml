@@ -34,7 +34,7 @@ default_version: '1'
 # A list of different versions of this adapter available for download.
 files:
 - version: '1'
-  url: https://huggingface.co/yyyyifan/mlkiadapter/resolve/main/xlm-roberta-large_mlki_tp_pfeiffer.zip
+  url: https://huggingface.co/yyyyifan/mlkiadapter/resolve/main/xlm-roberta-large_mlki_ts_pfeiffer.zip
   sha1: 1dce799960043ad5fce524d3f35b4e5b81aa7e90
   sha256: bb6dff88f9f3434019488072d8c7f55928d79ed4b113099fbedc64d046ce1758
 citation: '@article{hou2022adapters,
