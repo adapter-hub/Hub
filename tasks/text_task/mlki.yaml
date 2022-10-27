@@ -1,0 +1,14 @@
+# Adapter-Hub task definition
+# Defines a broader task/ category that is divided into specific subtasks.
+# --------------------
+
+# The short identifier of this task.
+# Example: sentiment
+task: "mlki"
+
+# The full name of the task that should be displayed e.g. on the website.
+# Example: Sentiment Analysis
+displayname: "Multilingual Knowledge Integration"
+
+# A short description of this task (max. 500 chars).
+description: "Multilingual Knowledge Integration is the task of enhancing the multilingual language model with multilingual knowledge graphs/bases (including cross-lingual entity alignments and factual knowledge triples)"

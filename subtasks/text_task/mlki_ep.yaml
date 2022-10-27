@@ -1,0 +1,30 @@
+# Adapter-Hub subtask definition
+# Defines a specific subtask describing the dataset the corresponding modules where trained on.
+# --------------------
+
+# The short identifier of the task this subtask belongs to.
+# Example: nli
+task: "mlki"
+
+# The short identifier of this subtask.
+# Example: multinli
+subtask: "ep"
+
+# A short description of this subtask (max. 500 chars).
+description: "Enhancing the phrase-level cross-lingual entity alignment in language models, which is suitable for knowledge graph tasks"
+
+# (optional) A bibtex citation of the work related to this subtask.
+citation: |
+  @article{hou2022adapters,
+    title={Adapters for Enhanced Modeling of Multilingual Knowledge and Text},
+    author={Hou, Yifan and Jiao, Wenxiang and Liu, Meizhen and Allen, Carl and Tu, Zhaopeng and Sachan, Mrinmaya},
+    journal={arXiv preprint arXiv:2210.13617},
+    year={2022}
+  }
+
+# (optional) The full name of the subtask that should be displayed e.g. on the website.
+# Example: MultiNLI
+displayname: "MLKI_EP"
+
+# (optional) A URL pointing to more information on this subtask.
+url: "https://github.com/yifan-h/Multilingual_Space"
