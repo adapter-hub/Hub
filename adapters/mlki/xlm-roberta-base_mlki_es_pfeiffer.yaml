@@ -1,0 +1,67 @@
+# Adapter-Hub adapter entry
+# Defines a single adapter entry in Adapter-Hub
+# --------------------
+
+# The type of adapter (one of the options available in `adapter_type`.
+type: text_task
+
+# The string identifier of the task this adapter belongs to.
+task: mlki
+
+# The string identifier of the subtask this adapter belongs to.
+subtask: es
+
+# The model type.
+# Example: bert
+model_type: xlm-roberta
+
+# The string identifier of the pre-trained model (by which it is identified at Huggingface).
+# Example: bert-base-uncased
+model_name: xlm-roberta-base
+
+# The name of the author(s) of this adapter.
+author: Yifan Hou
+
+# Describes the adapter architecture used by this adapter
+config:
+  # The name of the adapter config used by this adapter (a short name available in the `architectures` folder).
+  # Example: pfeiffer
+  using: pfeiffer
+  non_linearity: relu
+  reduction_factor: 16
+default_version: '1'
+
+# A list of different versions of this adapter available for download.
+files:
+- version: '1'
+  url: https://huggingface.co/yyyyifan/mlkiadapter/resolve/main/xlm-roberta-base_mlki_es_pfeiffer.zip
+  sha1: 8a6430897c55c3932ddd5a81625e528c3a03c622
+  sha256: 1289abd9aaaa71cc8d85e2fae8edd8f8160bc9ea93d0d273049cf9b65d76aca7
+citation: '@article{hou2022adapters,
+  title={Adapters for Enhanced Modeling of Multilingual Knowledge and Text},
+  author={Hou, Yifan and Jiao, Wenxiang and Liu, Meizhen and Allen, Carl and Tu, Zhaopeng and Sachan, Mrinmaya},
+  journal={arXiv preprint arXiv:2210.13617},
+  year={2022}
+}'
+
+# (optional) A short description of this adapter.
+description: 'Knowledge adapter set for multilingual knowledge graph integration. This adapter is for cross-lingual entity alignment enhancement (sentence-level). We trained it with alignments from Wikipedia across 84 languages.'
+
+# (optional) A contact email of the author(s).
+email: yifan.hou@inf.ethz.ch
+
+# (optional) A GitHub handle associated with the author(s).
+github: eth-nlped
+
+# (optional) The name of the model class from which this adapter was extracted. This field is mainly intended for adapters with prediction heads.
+# Example: BertModelWithHeads
+model_class: XLMRobertaModel
+
+# (optional) If the adapter has a pre-trained prediction head included.
+prediction_head: false
+
+# (optional) A Twitter handle associated with the author(s).
+twitter: https://twitter.com/yyyyyyyyifan
+
+# (optional) A URL providing more information on this adapter/ the authors/ the organization.
+url: https://yifan-h.github.io/
