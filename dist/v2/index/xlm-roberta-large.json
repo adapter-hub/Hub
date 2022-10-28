@@ -99,6 +99,40 @@
             }
         }
     },
+    "mlki": {
+        "ep": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "mlki": "adapters/mlki/xlm-roberta-large_mlki_ep_pfeiffer.json"
+                }
+            },
+            "default": "adapters/mlki/xlm-roberta-large_mlki_ep_pfeiffer.json"
+        },
+        "es": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "mlki": "adapters/mlki/xlm-roberta-large_mlki_es_pfeiffer.json"
+                }
+            },
+            "default": "adapters/mlki/xlm-roberta-large_mlki_es_pfeiffer.json"
+        },
+        "tp": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "mlki": "adapters/mlki/xlm-roberta-large_mlki_tp_pfeiffer.json"
+                }
+            },
+            "default": "adapters/mlki/xlm-roberta-large_mlki_tp_pfeiffer.json"
+        },
+        "ts": {
+            "9076f36a74755ac4": {
+                "versions": {
+                    "mlki": "adapters/mlki/xlm-roberta-large_mlki_ts_pfeiffer.json"
+                }
+            },
+            "default": "adapters/mlki/xlm-roberta-large_mlki_ts_pfeiffer.json"
+        }
+    },
     "my": {
         "wiki": {
             "default": "adapters/ukp/xlm-roberta-large-my-wiki_pfeiffer.json",

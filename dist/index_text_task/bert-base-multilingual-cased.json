@@ -1,4 +1,38 @@
 {
+    "mlki": {
+        "ep": {
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "mlki": "adapters/mlki/bert-base-multilingual-cased_mlki_ep_pfeiffer.json"
+                }
+            },
+            "default": "adapters/mlki/bert-base-multilingual-cased_mlki_ep_pfeiffer.json"
+        },
+        "es": {
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "mlki": "adapters/mlki/bert-base-multilingual-cased_mlki_es_pfeiffer.json"
+                }
+            },
+            "default": "adapters/mlki/bert-base-multilingual-cased_mlki_es_pfeiffer.json"
+        },
+        "tp": {
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "mlki": "adapters/mlki/bert-base-multilingual-cased_mlki_tp_pfeiffer.json"
+                }
+            },
+            "default": "adapters/mlki/bert-base-multilingual-cased_mlki_tp_pfeiffer.json"
+        },
+        "ts": {
+            "bb1c8efb82510bed": {
+                "versions": {
+                    "mlki": "adapters/mlki/bert-base-multilingual-cased_mlki_ts_pfeiffer.json"
+                }
+            },
+            "default": "adapters/mlki/bert-base-multilingual-cased_mlki_ts_pfeiffer.json"
+        }
+    },
     "nli": {
         "multinli": {
             "29215f80a2f7d496": {
