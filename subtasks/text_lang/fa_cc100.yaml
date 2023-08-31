@@ -1,0 +1,5 @@
+task: fa
+subtask: cc100
+description: Language modeling for the Persian language on the CC-100 corpus.
+url: https://data.statmt.org/cc-100/
+citation: ''
