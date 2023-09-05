@@ -1,0 +1,5 @@
+task: sa
+subtask: cc100
+description: Language modeling for the Sanskrit language on the CC-100 corpus.
+url: https://data.statmt.org/cc-100/
+citation: ''
