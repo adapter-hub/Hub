@@ -1,3 +1,12 @@
+## IMPORTANT NOTE
+
+**Contributing new adapters via this repository is no longer supported.**
+Please upload all new adapters to HuggingFace's Model Hub as described in https://docs.adapterhub.ml/huggingface_hub.html.
+
+This repository will be kept available as an archive of existing contributed adapters.
+
+---
+
 <p align="center">
     <img src="resources/adapter-bert.png" width="100"/>
 </p>
@@ -40,7 +49,7 @@ This repository is divided into the following subfolders:
 
 ## How To Contribute
 
-Refer to [the step-by-step guides in our documentation](https://docs.adapterhub.ml/contributing.html) on how to contribute your adapters to the Hub.
+Refer to [the step-by-step guides in our documentation](https://docs-legacy.adapterhub.ml/hub_contributing.html) on how to contribute your adapters to the Hub.
 
 Our [template files](https://github.com/Adapter-Hub/Hub/tree/master/TEMPLATES) are a good way to get started with any contribution to this repo.
 
@@ -67,7 +76,7 @@ To validate yaml files, run:
 adapter-hub-cli check path/to/adapter.yaml
 ```
 
-Read more about the AdapterHub CLI [in the documentation](https://docs.adapterhub.ml/contributing.html).
+Read more about the AdapterHub CLI [in the documentation](https://docs-legacy.adapterhub.ml/hub_contributing.html).
 
 
 ## Citation
