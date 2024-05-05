@@ -19,6 +19,20 @@ from scripts.utils import REPO_FOLDER, SUBTASK_FOLDER, AVAILABLE_TYPES
 
 OUTPUT_FOLDER = "hf_hub"
 HUB_URL = "https://github.com/Adapter-Hub/Hub/blob/master/"
+# Map from head types to HF labels used for widgets
+MODEL_HEAD_MAP = {
+    "classification": "text-classification",
+    "multilabel_classification": "text-classification",
+    "tagging": "token-classification",
+    "multiple_choice": "multiple-choice",  # no widget ?
+    "question_answering": "question-answering",
+    "dependency_parsing": "dependency-parsing",  # no widget ?
+    "masked_lm": "fill-mask",
+    "causal_lm": "text-generation",
+    "seq2seq_lm": "text2text-generation",
+    "image_classification": "image-classification",
+}
+
 ADAPTER_CARD_TEMPLATE = """
 ---
 tags:
@@ -119,21 +133,25 @@ def create_adapter_card(
     all_tags.add(f"adapterhub:{data['task']}/{data['subtask']}")
 
     all_tags.add(data["model_type"])
+    if head_type in MODEL_HEAD_MAP:
+        all_tags.add(MODEL_HEAD_MAP[head_type])
     tag_string = "\n".join([f"- {tag}" for tag in all_tags])
     if datasets:
         tag_string += "\ndatasets:\n"
         tag_string += "\n".join([f"- {tag}" for tag in datasets])
-    if language := subtask_info.get("language", None):
-        tag_string += f"\nlanguage:\n- {language}"
-    elif data["type"] == "text_lang":
+    # if language := subtask_info.get("language", None):
+    #     tag_string += f"\nlanguage:\n- {language}"
+    if data["type"] == "text_lang":
         lang = data["task"]
         tag_string += f"\nlanguage:\n- {lang}"
     if license:
         tag_string += f'\nlicense: "{license}"'
 
     if head_type is not None:
-        head_info = f" and includes a prediction head for {head_type}"
+        head_type_display = " ".join(head_type.split("_"))
+        head_info = f" and includes a prediction head for {head_type_display}"
     else:
+        head_type_display = None
         head_info = ""
 
     description = data.get(
@@ -177,7 +195,7 @@ def create_adapter_card(
         description=description,
         dataset_name=f"[{dataset_name}]({dataset_url})",
         adapter_config=data["config"]["using"],
-        head_type=head_type or "None",
+        head_type=head_type_display or "None",
         author_name=data["author"],
         author_email=data.get("email", ""),
         author_links=", ".join(author_links),
@@ -227,9 +245,7 @@ def migrate(
             model.save_adapter(version_folder, loaded_name)
 
             if loaded_name in model.heads:
-                head_type = " ".join(
-                    model.heads[loaded_name].config["head_type"].split("_")
-                )
+                head_type = model.heads[loaded_name].config["head_type"]
             else:
                 head_type = None
 
