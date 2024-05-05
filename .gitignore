@@ -5,3 +5,4 @@ env
 *.egg-info
 *.zip
 /.PACK_OUTPUT
+/hf_hub
