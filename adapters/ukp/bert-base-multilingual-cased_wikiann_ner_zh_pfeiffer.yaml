@@ -9,7 +9,7 @@ type: text_task
 task: wikiann
 
 # The string identifier of the subtask this adapter belongs to.
-subtask: zh1
+subtask: zh
 
 # The model type.
 # Example: bert
