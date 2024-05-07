@@ -68,7 +68,7 @@
             },
             "default": "adapters/ukp/bert-base-multilingual-cased_wikiann_ner_ja_pfeiffer.json"
         },
-        "zh1": {
+        "zh": {
             "db892fcf700e3f23": {
                 "versions": {
                     "ukp": "adapters/ukp/bert-base-multilingual-cased_wikiann_ner_zh_pfeiffer.json"

@@ -62,22 +62,17 @@
     },
     "sentiment": {
         "sst-2": {
+            "b1017368d7a97b11": {
+                "versions": {
+                    "ukp": "adapters/ukp/gpt2_sentiment_sst-2_houlsby.json"
+                }
+            },
             "bb1c8efb82510bed": {
                 "versions": {
                     "ukp": "adapters/ukp/gpt2_sentiment_sst-2_pfeiffer.json"
                 }
             },
             "default": "adapters/ukp/gpt2_sentiment_sst-2_pfeiffer.json"
-        }
-    },
-    "sentiment ": {
-        "sst-2": {
-            "b1017368d7a97b11": {
-                "versions": {
-                    "ukp": "adapters/ukp/gpt2_sentiment_sst-2_houlsby.json"
-                }
-            },
-            "default": "adapters/ukp/gpt2_sentiment_sst-2_houlsby.json"
         }
     },
     "sts": {
